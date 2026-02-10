@@ -12,11 +12,11 @@ import BlogDetailPage from "./pages/DetailPage/BlogDetailPage/BlogDetailPage";
 import AreaPhysiotherapyDetailPage from "./pages/DetailPage/AreaPhysiotherapyDetailPage/AreaPhysiotherapyDetailPage";
 import CertifiedTherapists from "./pages/CertifiedTherapists/CertifiedTherapists";
 import ClinicDetailPage from "./pages/DetailPage/ClinicDetailPage/ClinicDetailPage";
-import LocationDetailPage from "./components/SharmaOrthopedi/LocationDetailPage/LocationDetailPage";
-import ServiceDetailPage from "./components/SharmaOrthopedic/ServiceDetailPage/ServiceClinicDetailPage";
-import ServiceClinicDetailPage from "./components/SharmaOrthopedic/ServiceDetailPage/ServiceClinicDetailPage";
+import LocationDetailPage from "./components/SharmaOrthopedic /LocationDetailPage/LocationDetailPage";
+import ServiceDetailPage from "./components/SharmaOrthopedic /ServiceDetailPage/ServiceClinicDetailPage";
+import ServiceClinicDetailPage from "./components/SharmaOrthopedic /ServiceDetailPage/ServiceClinicDetailPage";
 import ParthMedicareServiceDetail from "./pages/DetailPage/ClinicDetailPage/ParthMedicareServiceDetail/ParthMedicareServiceDetail";
-import AshishServiceDetail from "./components/SharmaOrthopedic/ServiceDetailPage/AshishServiceDetail";
+import AshishServiceDetail from "./components/SharmaOrthopedic /ServiceDetailPage/AshishServiceDetail";
 
 // Lazy load components
 const MainPage = lazy(() => import("./pages/MainPage"));
