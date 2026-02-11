@@ -13,12 +13,6 @@ import "aos/dist/aos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-import nursingcare from "../../../assets/parth/1.png";
-import nursinghome from "../../../assets/parth/2.png";
-import bloodsimple from "../../../assets/parth/3.png";
-import bloodsimplehome from "../../../assets/parth/4.png";
-import icu from "../../../assets/parth/5.png";
-import affordable from "../../../assets/parth/6.png";
 
 //sharma
 
@@ -42,6 +36,40 @@ import parkinsons from "../../../assets/sharma/17.png";
 import op from "../../../assets/sharma/18.png";
 import Home from "../../../assets/sharma/19.png";
 import affordablehome from "../../../assets/sharma/20.png";
+
+
+//parth
+
+import nursingcare from "../../../assets/parth/1.png";
+import nursinghome from "../../../assets/parth/2.png";
+import bloodsimple from "../../../assets/parth/3.png";
+import bloodsimplehome from "../../../assets/parth/4.png";
+import icu from "../../../assets/parth/5.png";
+import affordable from "../../../assets/parth/6.png";
+
+
+//Ashish
+import backpain1 from "../../../assets/ashish/1.png";
+import chiropractorImage01 from "../../../assets/ashish/9.png";
+import slipdisc2 from "../../../assets/ashish/8.png";
+import sciatic2 from "../../../assets/ashish/7.png";
+import orthopedic2 from "../../../assets/ashish/6.png";
+import arthritis2 from "../../../assets/ashish/5.png";
+import neck2 from "../../../assets/ashish/4.png";
+import ShoulderPain2 from "../../../assets/ashish/3.png";
+import KneePain2 from "../../../assets/ashish/2.png";
+import cervical2 from "../../../assets/ashish/9.png";
+import Cupping2 from "../../../assets/ashish/9.png";
+import sportsMassageImage2 from "../../../assets/ashish/9.png";
+import pain2 from "../../../assets/ashish/9.png";
+import parkinsons2 from "../../../assets/ashish/9.png";
+import op2 from "../../../assets/ashish/9.png";
+import Home2 from "../../../assets/ashish/9.png";
+import affordablehome2 from "../../../assets/ashish/9.png";
+import lymphatic2 from "../../../assets/ashish/9.png";
+import Physiotherapy2 from "../../../assets/ashish/9.png";
+import Physiotherapy001 from "../../../assets/ashish/9.png";
+
 
 
 
@@ -110,94 +138,96 @@ const clinicsData = {
     Instagram: "https://www.instagram.com/advancedpainphysio/",
     description:
       "Dr. Ashish Sharma, PT is a highly skilled and patient-focused Physiotherapist in Delhi NCR with over 13 years of experience. He specializes in pain management, musculoskeletal rehabilitation, sports injury recovery, and post-operative physiotherapy. Dr. Ashish Sharma follows a holistic and evidence-based approach aimed at restoring mobility, reducing pain, and improving overall quality of life for patients of all age groups. His core expertise includes orthopedic physiotherapy, neurological rehabilitation, spine care, posture correction, and treatment of chronic back pain, neck pain, knee pain, joint stiffness, sciatica, arthritis, and posture-related disorders. Widely trusted in Delhi NCR, he is known for treating back pain and slip disc conditions, cervical and lumbar spondylosis, sports injuries, knee replacement and post-surgery rehabilitation, stroke and neurological conditions, shoulder pain, frozen shoulder, and rotator cuff injuries. Dr. Ashish Sharma integrates advanced physiotherapy techniques such as manual therapy, electrotherapy, dry needling, exercise therapy, and ergonomic correction to ensure long-term recovery. He strongly believes in patient education, preventive care, and personalized treatment planning. Known for his professionalism, ethical approach, compassion, and continuous learning, Dr. Ashish Sharma stays updated with the latest advancements in clinical physiotherapy, rehabilitation sciences, and sports medicine, making his practice one of the most trusted physiotherapy services in Delhi.",
-    // services: [
-    //   {
-    //     name: "Best Chiropractor",
-    //     image: chiropractorImage,
-    //   },
-    //   {
-    //     name: "Best Physiotherapy Center",
-    //     image: Physiotherapy01,
-    //   },
-    //   {
-    //     name: "Best Physiotherapist",
-    //     image: Physiotherapy,
-    //   },
-    //   {
-    //     name: "Best Back Pain Treatment",
-    //     image: backpain,
-    //   },
-    //   {
-    //     name: "Best Lymphatic Massage Therapist",
-    //     image: lymphatic,
-    //   },
-    //   {
-    //     name: "Best Sciatica Pain Treatment",
-    //     image: sciatic,
-    //   },
-    //   {
-    //     name: "Best Slip Disc Treatment",
-    //     image: slipdisc,
-    //   },
-    //   {
-    //     name: "Best Arthritis Treatment",
-    //     image: arthritis,
-    //   },
-    //   {
-    //     name: "Best Knee Pain Treatment",
-    //     image: KneePain,
-    //   },
-    //   {
-    //     name: "Best Cervical Pain Treatment",
-    //     image: cervical,
-    //   },
-    //   {
-    //     name: "Best Shoulder Pain Treatment",
-    //     image: ShoulderPain,
-    //   },
-    //   {
-    //     name: "Best Neck Spasm Treatment",
-    //     image: neck,
-    //   },
-    //   {
-    //     name: "Best Cupping Therapy",
-    //     image: Cupping,
-    //   },
-    //   {
-    //     name: "Best Sports Massage Therapy",
-    //     image: sportsMassageImage,
-    //   },
-    //   {
-    //     name: "Best Pain Relief Treatment",
-    //     image: pain,
-    //   },
-    //   {
-    //     name: "Best Orthopedic Rehab",
-    //     image: orthopedic,
-    //   },
-    //   {
-    //     name: "Best Parkinson's Treatment",
-    //     image: parkinsons,
-    //   },
-    //   {
-    //     name: "Best Post-Op Physiotherapy Treatment",
-    //     image: op,
-    //   },
-    //   {
-    //     name: "Best Home Physiotherapy",
-    //     image: Home,
-    //   },
-    //   {
-    //     name: "Affordable Home Physiotherapy",
-    //     image: affordablehome,
-    //   },
-    // ],
+    services: [
+      {
+        name: "Best Chiropractor",
+        image: chiropractorImage01,
+      },
+      {
+        name: "Best Physiotherapy Center",
+        image: Physiotherapy001,
+      },
+      {
+        name: "Best Physiotherapist",
+        image: Physiotherapy2,
+      },
+      {
+        name: "Best Back Pain Treatment",
+        image: backpain1,
+      },
+      {
+        name: "Best Lymphatic Massage Therapist",
+        image: lymphatic2,
+      },
+      {
+        name: "Best Sciatica Pain Treatment",
+        image: sciatic2,
+      },
+      {
+        name: "Best Slip Disc Treatment",
+        image: slipdisc2,
+      },
+      {
+        name: "Best Arthritis Treatment",
+        image: arthritis2,
+      },
+      {
+        name: "Best Knee Pain Treatment",
+        image: KneePain2,
+      },
+      {
+        name: "Best Cervical Pain Treatment",
+        image: cervical2,
+      },
+      {
+        name: "Best Shoulder Pain Treatment",
+        image: ShoulderPain2,
+      },
+      {
+        name: "Best Neck Spasm Treatment",
+        image: neck2,
+      },
+      {
+        name: "Best Cupping Therapy",
+        image: Cupping2,
+      },
+      {
+        name: "Best Sports Massage Therapy",
+        image: sportsMassageImage2,
+      },
+      {
+        name: "Best Pain Relief Treatment",
+        image: pain2,
+      },
+      {
+        name: "Best Orthopedic Rehab",
+        image: orthopedic2,
+      },
+      {
+        name: "Best Parkinson's Treatment",
+        image: parkinsons2,
+      },
+      {
+        name: "Best Post-Op Physiotherapy Treatment",
+        image: op2,
+      },
+      {
+        name: "Best Home Physiotherapy",
+        image: Home2,
+      },
+      {
+        name: "Affordable Home Physiotherapy",
+        image: affordablehome2,
+      },
+    ],
     gallery: [
       "https://images.unsplash.com/photo-1512678080530-7760d81faba6?w=1200&h=800&fit=crop",
       "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=800&fit=crop",
       "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=800&fit=crop",
     ],
   },
+
+
   "sharma-orthopedic-rehab-centre": {
     id: 2,
     name: "Sharma Orthopedic and Rehab Centre",
@@ -690,7 +720,7 @@ export default function ClinicDetailPage() {
 
       {/* Location Cards - Show for Ashish and Parth only */}
       {(slug === "Ashish-physiotherapy-centre" ||
-        slug === "parth-medicare") && <LocationCards clinicSlug={slug} />}
+        slug === "Ashish-physiotherapy-centre") && <LocationCards clinicSlug={slug} />}
 
       {/* Location Slider - Only show for Sharma Orthopedic */}
       {slug === "sharma-orthopedic-rehab-centre" && <LocationSlider />}

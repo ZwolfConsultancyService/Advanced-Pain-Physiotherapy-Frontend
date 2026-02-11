@@ -444,7 +444,7 @@ export default function ContactPage() {
         </div>
 
         {/* Map Section */}
-        <div className="mt-16" data-aos="fade-up">
+        {/* <div className="mt-16" data-aos="fade-up">
           <div className="bg-white rounded-3xl shadow-2xl p-4 overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.5420266894!2d77.25!3d28.55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDMzJzAwLjAiTiA3N8KwMTUnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
@@ -457,7 +457,21 @@ export default function ContactPage() {
               title="Clinic Location"
             ></iframe>
           </div>
-        </div>
+        </div> */}
+        <div className="mt-16" data-aos="fade-up">
+  <div className="bg-white rounded-3xl shadow-2xl p-4 overflow-hidden">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3861.927430305523!2d77.2539144981114!3d28.546506924945895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAdvanced%20Pain%20Physiotherapy%20Centre%20%7C%20Best%20Physiotherapy%20Centre%20in%20South%20Delhi%20-%20Spine%20%2C%20Sports%20%26%20Chiropractor%20Treatment%2C%20Basement%2C%20Block%2010%2C%20Nehru%20Enclave%20East%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1770793493896!5m2!1sen!2sin" 
+      width="100%" 
+      height="450" 
+      style={{ border: 0, borderRadius: "1.5rem" }} 
+      allowFullScreen="" 
+      loading="lazy" 
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Advanced Pain Physiotherapy Centre - Kalkaji, New Delhi"
+    ></iframe>
+  </div>
+</div>
 
      
       </div>

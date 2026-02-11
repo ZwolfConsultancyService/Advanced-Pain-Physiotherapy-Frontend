@@ -26,6 +26,7 @@ import parkinsons from "../../../assets/sharma/17.png";
 import op from "../../../assets/sharma/18.png";
 import Home from "../../../assets/sharma/19.png";
 import affordablehome from "../../../assets/sharma/20.png";
+
 // Dr. Ashish Sharma clinic template
 const ashishClinicTemplate = {
   name: "Dr. Ashish Sharma",
