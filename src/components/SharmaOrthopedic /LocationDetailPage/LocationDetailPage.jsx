@@ -27,6 +27,29 @@ import op from "../../../assets/sharma/18.png";
 import Home from "../../../assets/sharma/19.png";
 import affordablehome from "../../../assets/sharma/20.png";
 
+
+//Ashish
+import backpain1 from "../../../assets/ashish/1.png";
+import chiropractorImage01 from "../../../assets/ashish/9.png";
+import slipdisc2 from "../../../assets/ashish/8.png";
+import sciatic2 from "../../../assets/ashish/7.png";
+import orthopedic2 from "../../../assets/ashish/6.png";
+import arthritis2 from "../../../assets/ashish/5.png";
+import neck2 from "../../../assets/ashish/4.png";
+import ShoulderPain2 from "../../../assets/ashish/3.png";
+import KneePain2 from "../../../assets/ashish/2.png";
+import cervical2 from "../../../assets/ashish/16.jpeg";
+import Cupping2 from "../../../assets/Therapy/11.png";
+import sportsMassageImage2 from "../../../assets/Specialities/12.png";
+import pain2 from "../../../assets/ashish/13.png";
+import parkinsons2 from "../../../assets/services/18.png";
+import op2 from "../../../assets/ashish/14.png";
+import Home2 from "../../../assets/Specialities/1.png";
+import affordablehome2 from "../../../assets/ashish/15.png";
+import lymphatic2 from "../../../assets/ashish/12.png";
+import Physiotherapy2 from "../../../assets/ashish/10.png";
+import Physiotherapy001 from "../../../assets/ashish/11.png";
+
 // Dr. Ashish Sharma clinic template
 const ashishClinicTemplate = {
   name: "Dr. Ashish Sharma",
@@ -41,108 +64,88 @@ const ashishClinicTemplate = {
     "https://www.google.com/maps/search/?api=1&query=Advanced+Pain+Physiotherapy+Centre+Kalkaji+Delhi",
   image:
     "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=600&fit=crop",
-   services: [
-        {
-          name: "Best Chiropractor",
-          image:
-            chiropractorImage,
-        },
-        {
-          name: "Best Physiotherapy Center",
-          image:
-            "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=300&fit=crop",
-        },
-        {
-          name: "Best Physiotherapist",
-          image:
-            "https://images.unsplash.com/photo-1512678080530-7760d81faba6?w=400&h=300&fit=crop",
-        },
-        {
-          name: "Best Back Pain Treatment",
-          image:
-           backpain,
-        },
-        {
-          name: "Best Lymphatic Drainage Therapy",
-          image:
-            "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400&h=300&fit=crop",
-        },
-        {
-          name: "Best Sciatica Pain Treatment",
-          image:
-           sciatic,
-        },
-        {
-          name: "Best Slip Disc Treatment",
-          image:
-            slipdisc,
-        },
-        {
-          name: "Best Arthritis Treatment",
-          image:
-            arthritis,
-        },
-        {
-          name: "Best Knee Pain Treatment",
-          image:
-            KneePain,
-        },
-        {
-          name: "Best Cervical Pain Treatment",
-          image:
-           cervical,
-        },
-        {
-          name: "Best Shoulder Pain Treatment",
-          image:
-            ShoulderPain,
-        },
-        {
-          name: "Best Neck Spasm Treatment",
-          image:
-            neck,
-        },
-        {
-          name: "Best Cupping Therapy",
-          image:
-           Cupping,
-        },
-        {
-          name: "Best Sports Massage Therapy",
-          image:
-            sportsMassageImage,
-        },
-        {
-          name: "Best Pain Relief Treatment",
-          image:
-            "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
-        },
-        {
-          name: "Best Orthopedic Rehab",
-          image:
-           orthopedic,
-        },
-        {
-          name: "Best Parkinson's Treatment",
-          image:
-            parkinsons,
-        },
-        {
-          name: "Best Post-Op Physiotherapy Treatment",
-          image:
-            "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=400&h=300&fit=crop",
-        },
-        {
-          name: "Best Home Physiotherapy",
-          image:
-            Home,
-        },
-        {
-          name: "Affordable Home Physiotherapy",
-          image:
-            "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop",
-        },
-      ],
+    services: [
+         {
+           name: "Best Chiropractor",
+           image: chiropractorImage01,
+         },
+         {
+           name: "Best Physiotherapy Center",
+           image: Physiotherapy2,
+         },
+         {
+           name: "Best Physiotherapist",
+           image: Physiotherapy001,
+         },
+         {
+           name: "Best Back Pain Treatment",
+           image: backpain1,
+         },
+         {
+           name: "Best Lymphatic Massage Therapist",
+           image: lymphatic2,
+         },
+         {
+           name: "Best Sciatica Pain Treatment",
+           image: sciatic2,
+         },
+         {
+           name: "Best Slip Disc Treatment",
+           image: slipdisc2,
+         },
+         {
+           name: "Best Arthritis Treatment",
+           image: arthritis2,
+         },
+         {
+           name: "Best Knee Pain Treatment",
+           image: KneePain2,
+         },
+         {
+           name: "Best Cervical Pain Treatment",
+           image: cervical2,
+         },
+         {
+           name: "Best Shoulder Pain Treatment",
+           image: ShoulderPain2,
+         },
+         {
+           name: "Best Neck Spasm Treatment",
+           image: neck2,
+         },
+         {
+           name: "Best Cupping Therapy",
+           image: Cupping2,
+         },
+         {
+           name: "Best Sports Massage Therapy",
+           image: sportsMassageImage2,
+         },
+         {
+           name: "Best Pain Relief Treatment",
+           image: pain2,
+         },
+         {
+           name: "Best Orthopedic Rehab",
+           image: orthopedic2,
+         },
+         {
+           name: "Best Parkinson's Treatment",
+           image: parkinsons2,
+         },
+         {
+           name: "Best Post-Op Physiotherapy Treatment",
+           image: op2,
+         },
+         {
+           name: "Best Home Physiotherapy",
+           image: Home2,
+         },
+         {
+           name: "Affordable Home Physiotherapy",
+           image: affordablehome2,
+         },
+       ],
 };
 
 // Sharma Orthopedic clinic template

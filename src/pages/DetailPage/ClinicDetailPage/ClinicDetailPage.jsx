@@ -58,17 +58,18 @@ import arthritis2 from "../../../assets/ashish/5.png";
 import neck2 from "../../../assets/ashish/4.png";
 import ShoulderPain2 from "../../../assets/ashish/3.png";
 import KneePain2 from "../../../assets/ashish/2.png";
-import cervical2 from "../../../assets/ashish/9.png";
-import Cupping2 from "../../../assets/ashish/9.png";
-import sportsMassageImage2 from "../../../assets/ashish/9.png";
-import pain2 from "../../../assets/ashish/9.png";
-import parkinsons2 from "../../../assets/ashish/9.png";
-import op2 from "../../../assets/ashish/9.png";
-import Home2 from "../../../assets/ashish/9.png";
-import affordablehome2 from "../../../assets/ashish/9.png";
-import lymphatic2 from "../../../assets/ashish/9.png";
-import Physiotherapy2 from "../../../assets/ashish/9.png";
-import Physiotherapy001 from "../../../assets/ashish/9.png";
+import cervical2 from "../../../assets/ashish/16.jpeg";
+import Cupping2 from "../../../assets/Therapy/11.png";
+import sportsMassageImage2 from "../../../assets/Specialities/12.png";
+import pain2 from "../../../assets/ashish/13.png";
+import parkinsons2 from "../../../assets/services/18.png";
+import op2 from "../../../assets/ashish/14.png";
+import Home2 from "../../../assets/Specialities/1.png";
+import affordablehome2 from "../../../assets/ashish/15.png";
+import lymphatic2 from "../../../assets/ashish/12.png";
+import Physiotherapy2 from "../../../assets/ashish/10.png";
+
+import Physiotherapy001 from "../../../assets/ashish/11.png";
 
 
 
@@ -145,11 +146,11 @@ const clinicsData = {
       },
       {
         name: "Best Physiotherapy Center",
-        image: Physiotherapy001,
+        image: Physiotherapy2,
       },
       {
         name: "Best Physiotherapist",
-        image: Physiotherapy2,
+        image: Physiotherapy001,
       },
       {
         name: "Best Back Pain Treatment",

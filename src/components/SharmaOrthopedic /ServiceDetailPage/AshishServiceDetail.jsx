@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Logo from "../../../assets/Logo.jpeg";
 
-
 //Ashish
 import backpain1 from "../../../assets/ashish/1.png";
 import chiropractorImage01 from "../../../assets/ashish/9.png";
@@ -15,18 +14,18 @@ import arthritis2 from "../../../assets/ashish/5.png";
 import neck2 from "../../../assets/ashish/4.png";
 import ShoulderPain2 from "../../../assets/ashish/3.png";
 import KneePain2 from "../../../assets/ashish/2.png";
-import cervical2 from "../../../assets/ashish/9.png";
-import Cupping2 from "../../../assets/ashish/9.png";
-import sportsMassageImage2 from "../../../assets/ashish/9.png";
-import pain2 from "../../../assets/ashish/9.png";
-import parkinsons2 from "../../../assets/ashish/9.png";
-import op2 from "../../../assets/ashish/9.png";
-import Home2 from "../../../assets/ashish/9.png";
-import affordablehome2 from "../../../assets/ashish/9.png";
-import lymphatic2 from "../../../assets/ashish/9.png";
-import Physiotherapy2 from "../../../assets/ashish/9.png";
-import Physiotherapy001 from "../../../assets/ashish/9.png";
+import cervical2 from "../../../assets/ashish/16.jpeg";
+import Cupping2 from "../../../assets/Therapy/11.png";
+import sportsMassageImage2 from "../../../assets/Specialities/12.png";
+import pain2 from "../../../assets/ashish/13.png";
+import parkinsons2 from "../../../assets/services/18.png";
+import op2 from "../../../assets/ashish/14.png";
+import Home2 from "../../../assets/Specialities/1.png";
+import affordablehome2 from "../../../assets/ashish/15.png";
+import lymphatic2 from "../../../assets/ashish/12.png";
+import Physiotherapy2 from "../../../assets/ashish/10.png";
 
+import Physiotherapy001 from "../../../assets/ashish/11.png";
 
 // Advanced Pain Theme
 const theme = {
@@ -37,8 +36,6 @@ const theme = {
   navBg: "bg-gradient-to-r from-[#8ab72e] to-[#7aa625]",
   buttonBg: "bg-[#8ab72e] hover:bg-[#7aa625]",
 };
-
-
 
 const serviceDetails = {
   chiropractor: {
@@ -87,8 +84,7 @@ const serviceDetails = {
       "Chronic condition management",
       "Preventive care and wellness programs",
     ],
-    image:
-      Physiotherapy2,
+    image: Physiotherapy2,
     icon: "🏥",
   },
 
@@ -116,8 +112,6 @@ const serviceDetails = {
     icon: "🔙",
   },
 
- 
-
   "lymphatic-massage-therapist": {
     title: "Best Lymphatic Massage Therapist in Delhi",
     description:
@@ -140,8 +134,7 @@ const serviceDetails = {
       "Customized treatment protocols",
       "Long-term lymphatic health support",
     ],
-    image:
-      lymphatic2,
+    image: lymphatic2,
     icon: "👐",
   },
 
@@ -171,7 +164,8 @@ const serviceDetails = {
 
   "slip-disc-treatment": {
     title: "Best Slip Disc Treatment in Delhi",
-    description: "Conservative, non-surgical treatment for herniated and bulging discs with proven success.",
+    description:
+      "Conservative, non-surgical treatment for herniated and bulging discs with proven success.",
     aboutDescription:
       "A slipped disc, also known as a herniated or prolapsed disc, occurs when the soft gel-like center of a spinal disc pushes through a tear in the tough outer layer. This can compress nearby spinal nerves, causing pain, numbness, tingling, and weakness in the arms or legs depending on the location of the affected disc. Our expert team provides effective non-surgical solutions.",
     aboutExtended:
@@ -218,7 +212,8 @@ const serviceDetails = {
 
   "knee-pain-treatment": {
     title: "Best Knee Pain Treatment in Delhi",
-    description: "Expert treatment for all knee conditions and injuries with advanced therapeutic techniques.",
+    description:
+      "Expert treatment for all knee conditions and injuries with advanced therapeutic techniques.",
     aboutDescription:
       "Knee pain is a common complaint affecting people of all ages and activity levels. It can result from various causes including acute injuries (ligament tears, meniscus damage), overuse conditions (runner's knee, tendinitis), arthritis, biomechanical issues, or age-related degeneration. Our comprehensive approach addresses all types of knee pain for lasting relief.",
     aboutExtended:
@@ -265,7 +260,8 @@ const serviceDetails = {
 
   "shoulder-pain-treatment": {
     title: "Best Shoulder Pain Treatment in Delhi",
-    description: "Comprehensive care for shoulder injuries and conditions with expert rehabilitation.",
+    description:
+      "Comprehensive care for shoulder injuries and conditions with expert rehabilitation.",
     aboutDescription:
       "Shoulder pain is a common problem that can significantly limit your ability to work, exercise, and perform daily activities. The shoulder is a complex ball-and-socket joint with extensive range of motion, making it vulnerable to various injuries and conditions including rotator cuff tears, frozen shoulder, impingement syndrome, and arthritis.",
     aboutExtended:
@@ -288,7 +284,8 @@ const serviceDetails = {
 
   "neck-spasm-treatment": {
     title: "Best Neck Spasm Treatment in Delhi",
-    description: "Rapid relief from painful neck muscle spasms and tension with immediate results.",
+    description:
+      "Rapid relief from painful neck muscle spasms and tension with immediate results.",
     aboutDescription:
       "Neck spasms are sudden, involuntary contractions of neck muscles that can cause severe pain and restricted movement. These painful episodes often result from stress, poor posture, prolonged computer use, sudden movements, sleeping in awkward positions, or underlying cervical spine problems. Quick and effective treatment is essential for relief.",
     aboutExtended:
@@ -311,7 +308,8 @@ const serviceDetails = {
 
   "cupping-therapy": {
     title: "Best Cupping Therapy in Delhi",
-    description: "Traditional cupping therapy for pain relief, healing, and improved circulation.",
+    description:
+      "Traditional cupping therapy for pain relief, healing, and improved circulation.",
     aboutDescription:
       "Cupping therapy is an ancient healing technique that uses suction cups placed on the skin to increase blood flow, release muscle tension, and promote healing. This traditional therapy has been used for thousands of years and is now gaining recognition in modern sports medicine and rehabilitation for its effective pain relief and healing properties.",
     aboutExtended:
@@ -334,7 +332,8 @@ const serviceDetails = {
 
   "sports-massage-therapy": {
     title: "Best Sports Massage Therapy in Delhi",
-    description: "Specialized massage for athletes and active individuals to enhance performance and recovery.",
+    description:
+      "Specialized massage for athletes and active individuals to enhance performance and recovery.",
     aboutDescription:
       "Sports massage therapy is a specialized form of massage designed specifically for athletes and physically active individuals. It combines various massage techniques including deep tissue work, compression, friction, and stretching to address the unique needs of those engaged in regular physical activity or sports for optimal performance and recovery.",
     aboutExtended:
@@ -375,8 +374,7 @@ const serviceDetails = {
       "Increased activity levels",
       "Long-term pain relief",
     ],
-    image:
-      pain2,
+    image: pain2,
     icon: "🩹",
   },
 
@@ -448,8 +446,7 @@ const serviceDetails = {
       "Faster return to activities",
       "Improved long-term results",
     ],
-    image:
-     op2,
+    image: op2,
     icon: "🏥",
   },
 
@@ -479,7 +476,8 @@ const serviceDetails = {
 
   "affordable-home-physiotherapy": {
     title: "Affordable Home Physiotherapy in Delhi",
-    description: "Quality home physiotherapy services at affordable rates without compromising on care.",
+    description:
+      "Quality home physiotherapy services at affordable rates without compromising on care.",
     aboutDescription:
       "We believe that everyone deserves access to quality physiotherapy care, regardless of their financial situation. Our affordable home physiotherapy program provides the same expert treatment and professional service at competitive, budget-friendly rates, making professional rehabilitation accessible to all who need it.",
     aboutExtended:
@@ -496,8 +494,7 @@ const serviceDetails = {
       "Senior citizen discounts",
       "Long-term care packages",
     ],
-    image:
-     affordablehome2,
+    image: affordablehome2,
     icon: "💰",
   },
 
@@ -521,14 +518,10 @@ const serviceDetails = {
       "Continuous professional development",
       "Commitment to patient success",
     ],
-    image:
-     Physiotherapy001,
+    image: Physiotherapy001,
     icon: "👨‍⚕️",
   },
 };
-
-
-
 
 export default function AshishServiceDetail() {
   const { serviceSlug } = useParams();
