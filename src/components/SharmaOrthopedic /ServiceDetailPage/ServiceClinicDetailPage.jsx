@@ -4,27 +4,31 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import SharmaLogo from "../../../assets/SharmaLogo.png";
 import Logo from "../../../assets/Logo.jpeg";
-import backpain from "../../../assets/services/1.png";
-import chiropractorImage from '../../../assets/Specialities/2.png'
-import slipdisc from "../../../assets/services/16.png";
-import arthritis from "../../../assets/services/12.png";
-import sciatic from "../../../assets/services/15.png";
-import KneePain from "../../../assets/services/2.png";
-import cervical from "../../../assets/services/17.png";
-import ShoulderPain from "../../../assets/services/3.png";
-import neck from "../../../assets/services/9.png";
-import Cupping from '../../../assets/Therapy/11.png'
-import sportsMassageImage from '../../../assets/Specialities/12.png'
-import orthopedic from "../../../assets/services/13.png";
-import parkinsons from "../../../assets/services/18.png";
-import Home from '../../../assets/Specialities/1.png'
 
-import Physiotherapy from '../../../assets/sharma/2.png'
-import lymphatic from '../../../assets/sharma/3.png'
-import pain from '../../../assets/sharma/4.png'
-import op from '../../../assets/sharma/5.png'
-import affordablehome from '../../../assets/sharma/6.png'
-import Physiotherapy01 from '../../../assets/sharma/1.png'
+
+//sharma
+import chiropractorImage from "../../../assets/sharma/1.png";
+import Physiotherapy01 from "../../../assets/sharma/2.png";
+import Physiotherapy from "../../../assets/sharma/3.png";
+import backpain from "../../../assets/sharma/4.png";
+import lymphatic from "../../../assets/sharma/5.png";
+import sciatic from "../../../assets/sharma/6.png";
+import slipdisc from "../../../assets/sharma/7.png";
+import arthritis from "../../../assets/sharma/8.png";
+import KneePain from "../../../assets/sharma/9.png";
+import cervical from "../../../assets/sharma/10.png";
+import ShoulderPain from "../../../assets/sharma/11.png";
+import neck from "../../../assets/sharma/12.png";
+import Cupping from "../../../assets/sharma/13.png";
+import sportsMassageImage from "../../../assets/sharma/14.png";
+import pain from "../../../assets/sharma/15.png";
+import orthopedic from "../../../assets/sharma/16.png";
+import parkinsons from "../../../assets/sharma/17.png";
+import op from "../../../assets/sharma/18.png";
+import Home from "../../../assets/sharma/19.png";
+import affordablehome from "../../../assets/sharma/20.png";
+
+
 
 
 

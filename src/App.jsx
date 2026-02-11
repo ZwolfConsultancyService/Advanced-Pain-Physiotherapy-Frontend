@@ -122,17 +122,15 @@ const App = () => {
             path="/clinic/:clinicSlug/service/:serviceSlug"
             element={<ServiceClinicDetailPage />}
           />
-          <Route 
-  path="/clinic/Ashish-physiotherapy-centre/service/:serviceSlug" 
-  element={<AshishServiceDetail />} 
-/>
+          <Route
+            path="/clinic/Ashish-physiotherapy-centre/service/:serviceSlug"
+            element={<AshishServiceDetail />}
+          />
           <Route
             path="/clinic/parth-medicare/service/:serviceSlug"
             element={<ParthMedicareServiceDetail />}
           />
         </Routes>
-       
-  
       </Suspense>
     </>
   );
