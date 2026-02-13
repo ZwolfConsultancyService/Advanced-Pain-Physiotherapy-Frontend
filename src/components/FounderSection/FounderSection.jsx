@@ -80,7 +80,7 @@ const FounderSection = () => {
                 </p>
 
                 {/* Contact Info */}
-                <div className="space-y-2">
+                {/* <div className="space-y-2">
                   <div className="flex items-center gap-2 text-white text-opacity-90 text-xs">
                     <Mail className="w-4 h-4 flex-shrink-0" />
                     <span className="break-all">
@@ -95,7 +95,7 @@ const FounderSection = () => {
                     <MapPin className="w-4 h-4 flex-shrink-0" />
                     <span>Kalkaji, Delhi</span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
