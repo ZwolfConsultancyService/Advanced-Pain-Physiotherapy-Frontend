@@ -75,10 +75,7 @@ const PhysiotherapyFeesSection = ({ cityName = "" }) => {
           <div className="py-2" />
         </div>
 
-        {/* Note */}
-        <p className="text-center text-gray-400 text-xs mt-5">
-          * 10% discount on packages &nbsp;·&nbsp; Extended sessions may be charged higher
-        </p>
+       
       </div>
     </section>
   );
