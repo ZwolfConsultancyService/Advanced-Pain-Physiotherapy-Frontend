@@ -2,12 +2,14 @@ import React, { useState } from "react";
 
 const feesData = [
   { service: "Home Care Physiotherapy", price: "₹1000 – ₹1200" },
-  { service: "Chiropractor Treatment", price: "₹2500" },
-  { service: "Sports Massage Therapy", price: "₹2000 – ₹2500" },
+  { service: "Chiropractor Treatment", price: "₹1200" },
+  { service: "Sports Massage Therapy", price:  "₹1800" },
   { service: "Tele-physiotherapy", price: "₹500" },
-  { service: "Physical Therapy", price: "₹1000" },
-  { service: "Advanced Physiotherapy", price: "₹1500" },
-  { service: "Sports Physiotherapy", price: "₹3000 – ₹3500" },
+  { service: "Physical Therapy", price: "₹800" },
+  { service: "Advanced Physiotherapy", price: "₹1200" },
+  { service: "Sports Physiotherapy", price: "₹2000" },
+  { service: "Traditional Physiotherapy", price: "₹800" },
+  { service: "comprehensive Treatment", price: "₹1500" },
 ];
 
 const PhysiotherapyFeesSection = ({ cityName = "" }) => {
