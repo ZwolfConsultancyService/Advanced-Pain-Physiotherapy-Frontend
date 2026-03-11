@@ -13,6 +13,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import TherapistsTeam from "../../../components/TherapistsTeam/TherapistsTeam";
 import FAQSection from "../../../components/FAQSection/FAQSection";
+import { Helmet } from "react-helmet-async";
 
 export default function AboutPage() {
   useEffect(() => {
@@ -62,7 +63,37 @@ export default function AboutPage() {
   ];
 
   return (
+    
     <div className="w-full min-h-screen bg-gradient-to-b from-gray-50 to-white">
+      <Helmet>
+  <title>About Advanced Pain Physiotherapy Centre | Expert Physiotherapists in Delhi NCR</title>
+
+  <meta 
+    name="description" 
+    content="Learn about Advanced Pain Physiotherapy Centre in Delhi NCR. Our experienced physiotherapists provide advanced pain management, rehabilitation and personalized physiotherapy care." 
+  />
+
+  <meta 
+    name="keywords" 
+    content="about physiotherapy clinic delhi, advanced pain physiotherapy centre, physiotherapists delhi ncr, physiotherapy experts delhi, rehabilitation clinic delhi" 
+  />
+
+  <link rel="canonical" href="https://www.advancedpainphysio.com/about" />
+
+  <meta 
+    property="og:title" 
+    content="About Advanced Pain Physiotherapy Centre | Expert Physiotherapists in Delhi NCR" 
+  />
+
+  <meta 
+    property="og:description" 
+    content="Know more about Advanced Pain Physiotherapy Centre, our expert physiotherapists and our mission to provide advanced physiotherapy and rehabilitation services in Delhi NCR." 
+  />
+
+  <meta property="og:url" content="https://www.advancedpainphysio.com/about" />
+  <meta property="og:type" content="website" />
+
+</Helmet>
       {/* Hero Section */}
       <div
         className="w-full bg-gradient-to-r from-[#8ab72e] to-[#7aa625] text-white py-12 sm:py-16 md:py-20"

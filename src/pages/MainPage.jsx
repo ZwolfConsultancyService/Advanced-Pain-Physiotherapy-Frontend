@@ -18,6 +18,7 @@ import ConditionsSection from "../components/ConditionsDataSection/ConditionsSec
 import FounderSection from "../components/FounderSection/FounderSection";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import PhysiotherapyFeesSection from "../components/PhysiotherapyFeesSection/PhysiotherapyFeesSection";
+import { Helmet } from "react-helmet-async";
 //import AppointmentPopup from "../pages/ContactPage/AppointmentPopup/AppointmentPopup"; // ✅ Import popup
 
 const MainPage = () => {
@@ -40,6 +41,33 @@ const MainPage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Advanced Pain Physiotherapy Centre | Best Physiotherapist in Delhi NCR
+        </title>
+        <meta
+          name="description"
+          content="Advanced Pain Physiotherapy Centre offers expert physiotherapy treatment in Delhi NCR. Certified physiotherapists, advanced equipment, home care & tele-rehab services. Book appointment now."
+        />
+        <meta
+          name="keywords"
+          content="physiotherapy centre delhi, best physiotherapist delhi, pain physiotherapy, physiotherapy near me, advanced physiotherapy delhi ncr"
+        />
+        <link rel="canonical" href="https://www.advancedpainphysio.com/" />
+        <meta
+          property="og:title"
+          content="Advanced Pain Physiotherapy Centre | Best Physiotherapist in Delhi NCR"
+        />
+        <meta
+          property="og:description"
+          content="Expert physiotherapy treatment in Delhi NCR. Certified physiotherapists, advanced equipment, home care & tele-rehab services."
+        />
+        <meta
+          property="og:url"
+          content="https://www.advancedpainphysiotherapy.com/"
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       {/* ✅ Popup Component */}
       {/* <AppointmentPopup 
         isOpen={showPopup} 
@@ -231,8 +259,7 @@ const MainPage = () => {
           <FAQSection />
         </section> */}
 
-
- <section
+        <section
           id="city-navigation"
           data-aos="fade-up"
           data-aos-delay="700"
@@ -249,8 +276,6 @@ const MainPage = () => {
         >
           <PhysiotherapyClinics />
         </section>
-
-
 
         {/* <section data-aos="fade-up" data-aos-delay="800" className="mobile-section">
           <BlogSection />

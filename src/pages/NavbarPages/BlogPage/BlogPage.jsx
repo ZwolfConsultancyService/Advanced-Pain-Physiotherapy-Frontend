@@ -1,4 +1,3 @@
-
 // import React, { useState, useEffect } from "react";
 // import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 // import AOS from "aos";
@@ -10,7 +9,6 @@
 // // API Base URL
 // // const API_BASE_URL =
 // //   "https://advanced-pain-physiotherapy-centre-doxc.onrender.com";
-
 
 // const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://advanced-pain-physiotherapy-centre-doxc.onrender.com/api";
 
@@ -316,8 +314,6 @@
 //   );
 // }
 
-
-
 import React, { useState, useEffect } from "react";
 import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 import AOS from "aos";
@@ -325,6 +321,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL ||
@@ -335,9 +332,9 @@ const generateSlug = (title) => {
   return title
     .toLowerCase()
     .trim()
-    .replace(/[^\w\s-]/g, "")   // special chars remove
-    .replace(/\s+/g, "-")        // spaces → hyphens
-    .replace(/-+/g, "-");        // multiple hyphens → single
+    .replace(/[^\w\s-]/g, "") // special chars remove
+    .replace(/\s+/g, "-") // spaces → hyphens
+    .replace(/-+/g, "-"); // multiple hyphens → single
 };
 
 // ==================== MAIN COMPONENT ====================
@@ -416,8 +413,8 @@ export default function BlogPage() {
           blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
           blog.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
           blog.tags.some((tag) =>
-            tag.toLowerCase().includes(searchQuery.toLowerCase())
-          )
+            tag.toLowerCase().includes(searchQuery.toLowerCase()),
+          ),
       );
     }
 
@@ -438,6 +435,42 @@ export default function BlogPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-emerald-50">
+      <Helmet>
+        <title>
+          Physiotherapy Blog | Health & Pain Relief Tips | Advanced Pain
+          Physiotherapy Centre
+        </title>
+
+        <meta
+          name="description"
+          content="Read expert physiotherapy blogs from Advanced Pain Physiotherapy Centre. Get tips on pain relief, injury recovery, rehabilitation exercises and physiotherapy treatments in Delhi NCR."
+        />
+
+        <meta
+          name="keywords"
+          content="physiotherapy blog, pain relief tips, physiotherapy exercises blog, injury recovery tips, rehabilitation exercises, physiotherapy advice delhi ncr"
+        />
+
+        <link rel="canonical" href="https://www.advancedpainphysio.com/blogs" />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta
+          property="og:title"
+          content="Physiotherapy Blog | Health & Pain Relief Tips | Advanced Pain Physiotherapy Centre"
+        />
+
+        <meta
+          property="og:description"
+          content="Explore physiotherapy blogs with expert advice on pain relief, injury recovery, rehabilitation and healthy lifestyle tips."
+        />
+
+        <meta
+          property="og:url"
+          content="https://www.advancedpainphysio.com/blogs"
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       {/* Hero Section */}
       <div
         className="bg-gradient-to-r from-[#8ab72e] to-[#6d9424] text-white py-16 md:py-20 px-4"
@@ -445,7 +478,10 @@ export default function BlogPage() {
       >
         <div
           className="max-w-7xl mx-auto text-center"
-          style={{ fontFamily: "'Zalando Sans Expanded', sans-serif", fontWeight: 200 }}
+          style={{
+            fontFamily: "'Zalando Sans Expanded', sans-serif",
+            fontWeight: 200,
+          }}
         >
           <div className="inline-block bg-white/20 backdrop-blur-sm px-5 py-2 rounded-full text-sm mb-6">
             Health & Wellness Blog
@@ -476,7 +512,10 @@ export default function BlogPage() {
               No articles found matching your criteria.
             </p>
             <button
-              onClick={() => { setSearchQuery(""); setSelectedCategory("All"); }}
+              onClick={() => {
+                setSearchQuery("");
+                setSelectedCategory("All");
+              }}
               className="mt-6 bg-[#8ab72e] text-white px-6 py-3 rounded-lg hover:bg-[#6d9424] transition"
             >
               Clear Filters
@@ -570,7 +609,10 @@ export default function BlogPage() {
 
             {/* Pagination */}
             {totalPages > 1 && (
-              <div className="flex justify-center items-center gap-2 mt-12" data-aos="fade-up">
+              <div
+                className="flex justify-center items-center gap-2 mt-12"
+                data-aos="fade-up"
+              >
                 <button
                   onClick={() => goToPage(currentPage - 1)}
                   disabled={currentPage === 1}

@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Helmet } from "react-helmet-async";
 
 const API_BASE_URL =
   "https://advanced-pain-physiotherapy-centre.onrender.com/api";
@@ -111,6 +112,49 @@ export default function ContactPage() {
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-gray-50 via-white to-emerald-50">
       {/* Hero Section */}
+      <Helmet>
+        <title>
+          Contact Advanced Pain Physiotherapy Centre | Physiotherapy Clinic in
+          Delhi NCR
+        </title>
+
+        <meta
+          name="description"
+          content="Contact Advanced Pain Physiotherapy Centre in Delhi NCR to book physiotherapy treatment or consultation. Get expert pain relief therapy, rehabilitation care and home physiotherapy services."
+        />
+
+        <meta
+          name="keywords"
+          content="contact physiotherapy clinic delhi ncr, physiotherapist contact delhi, book physiotherapy appointment delhi, advanced pain physiotherapy centre contact, physiotherapy clinic delhi contact"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.advancedpainphysio.com/contact"
+        />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta
+          property="og:title"
+          content="Contact Advanced Pain Physiotherapy Centre | Physiotherapy Clinic in Delhi NCR"
+        />
+
+        <meta
+          property="og:description"
+          content="Book an appointment with Advanced Pain Physiotherapy Centre in Delhi NCR. Contact our expert physiotherapists for pain relief treatment and rehabilitation services."
+        />
+
+        <meta
+          property="og:url"
+          content="https://www.advancedpainphysio.com/contact"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.advancedpainphysio.com/images/physiotherapy-clinic-contact.jpg"
+        />
+      </Helmet>
       <div
         className="bg-gradient-to-r from-[#8ab72e] to-[#6d9624] text-white py-20 px-4"
         data-aos="fade-down"
@@ -459,21 +503,19 @@ export default function ContactPage() {
           </div>
         </div> */}
         <div className="mt-16" data-aos="fade-up">
-  <div className="bg-white rounded-3xl shadow-2xl p-4 overflow-hidden">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3861.927430305523!2d77.2539144981114!3d28.546506924945895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAdvanced%20Pain%20Physiotherapy%20Centre%20%7C%20Best%20Physiotherapy%20Centre%20in%20South%20Delhi%20-%20Spine%20%2C%20Sports%20%26%20Chiropractor%20Treatment%2C%20Basement%2C%20Block%2010%2C%20Nehru%20Enclave%20East%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1770793493896!5m2!1sen!2sin" 
-      width="100%" 
-      height="450" 
-      style={{ border: 0, borderRadius: "1.5rem" }} 
-      allowFullScreen="" 
-      loading="lazy" 
-      referrerPolicy="no-referrer-when-downgrade"
-      title="Advanced Pain Physiotherapy Centre - Kalkaji, New Delhi"
-    ></iframe>
-  </div>
-</div>
-
-     
+          <div className="bg-white rounded-3xl shadow-2xl p-4 overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3861.927430305523!2d77.2539144981114!3d28.546506924945895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAdvanced%20Pain%20Physiotherapy%20Centre%20%7C%20Best%20Physiotherapy%20Centre%20in%20South%20Delhi%20-%20Spine%20%2C%20Sports%20%26%20Chiropractor%20Treatment%2C%20Basement%2C%20Block%2010%2C%20Nehru%20Enclave%20East%2C%20Kalkaji%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1770793493896!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style={{ border: 0, borderRadius: "1.5rem" }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Advanced Pain Physiotherapy Centre - Kalkaji, New Delhi"
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
   );

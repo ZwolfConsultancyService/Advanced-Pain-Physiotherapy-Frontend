@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import {
@@ -22,6 +20,7 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { servicesDataSpecialized } from "../../../components/ServiceCard/servicesDataSpecialized";
+import { Helmet } from "react-helmet-async";
 
 // ==================== ICON MAPPING ====================
 const iconMap = {
@@ -91,6 +90,45 @@ export default function ServicesPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-emerald-50">
+      <Helmet>
+        <title>
+          Physiotherapy Services in Delhi NCR | Advanced Pain Physiotherapy
+          Centre
+        </title>
+
+        <meta
+          name="description"
+          content="Explore physiotherapy services at Advanced Pain Physiotherapy Centre in Delhi NCR. We offer pain management, rehabilitation therapy, sports injury treatment and home physiotherapy services."
+        />
+
+        <meta
+          name="keywords"
+          content="physiotherapy services delhi ncr, pain management physiotherapy delhi, sports injury physiotherapy delhi, home physiotherapy services delhi, rehabilitation therapy delhi"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.advancedpainphysio.com/services"
+        />
+
+        <meta name="robots" content="index, follow" />
+
+        <meta
+          property="og:title"
+          content="Physiotherapy Services in Delhi NCR | Advanced Pain Physiotherapy Centre"
+        />
+
+        <meta
+          property="og:description"
+          content="Discover advanced physiotherapy services including pain relief therapy, rehabilitation programs and home physiotherapy care in Delhi NCR."
+        />
+
+        <meta
+          property="og:url"
+          content="https://www.advancedpainphysio.com/services"
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       {/* ================= HERO ================= */}
       <div
         className="bg-gradient-to-r from-[#8ab72e] to-[#6d9424] text-white py-20 px-4"
