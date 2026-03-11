@@ -67,18 +67,15 @@ const FounderSection = () => {
 
               {/* Content Overlay - VISIBLE ON TABLET & DESKTOP (md and above) */}
               <div className="hidden md:block absolute bottom-0 left-0 right-0 p-6 lg:p-8 text-white z-10">
-                <div className="mb-1">
+                {/* <div className="mb-1">
                   <span className="inline-block px-3 py-1 bg-[#8ab72e] rounded-full text-xs font-medium mb-2">
                     Physiotherapist & Entrepreneur
                   </span>
-                </div>
+                </div> */}
                 <h3 className="text-2xl lg:text-3xl font-bold mb-1">
                   Dr. Ashish Sharma
                 </h3>
-                <p className="text-lg text-white text-opacity-90 mb-4">
-                  Founder & CEO
-                </p>
-
+               
                 {/* Contact Info */}
                 {/* <div className="space-y-2">
                   <div className="flex items-center gap-2 text-white text-opacity-90 text-xs">
@@ -103,73 +100,50 @@ const FounderSection = () => {
             <div className="p-5 sm:p-6 md:p-8 lg:p-10 flex flex-col justify-center">
               {/* MOBILE ONLY - Founder Info at top */}
               <div className="md:hidden mb-6 pb-6 border-b border-gray-200">
-                <div className="mb-3">
+                {/* <div className="mb-3">
                   <span className="inline-block px-3 py-1.5 bg-[#8ab72e] rounded-full text-xs font-medium text-white">
                     Physiotherapist & Entrepreneur
                   </span>
-                </div>
-                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-                  Dr. Ashish Sharma
-                </h3>
-                <p className="text-base sm:text-lg text-gray-600 mb-4">
-                  Founder & CEO
-                </p>
-
-                {/* Contact Info - Mobile */}
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2 text-gray-600 text-xs sm:text-sm">
-                    <Mail className="w-4 h-4 text-[#8ab72e] flex-shrink-0" />
-                    <span className="break-all">
-                      advancedpainphysiotherapy@gmail.com
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-2 text-gray-600 text-xs sm:text-sm">
-                    <Phone className="w-4 h-4 text-[#8ab72e] flex-shrink-0" />
-                    <span>+91 9220385419</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-gray-600 text-xs sm:text-sm">
-                    <MapPin className="w-4 h-4 text-[#8ab72e] flex-shrink-0" />
-                    <span>Kalkaji, Delhi</span>
-                  </div>
-                </div>
+                </div> */}
+              
               </div>
 
               {/* About Section */}
               <div className="mb-5 sm:mb-6">
-  <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
-    <div className="w-1 h-5 sm:h-6 bg-[#8ab72e] rounded-full"></div>
-    About Dr. Ashish Sharma
-  </h4>
+                <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                  <div className="w-1 h-5 sm:h-6 bg-[#8ab72e] rounded-full"></div>
+                  About Dr. Ashish Sharma
+                </h4>
 
-  <p className="text-gray-600 leading-relaxed text-sm sm:text-base mb-3 text-justify">
-    Dr. Ashish Sharma,PT is a highly skilled and patient-focused
-    Physiotherapist in Delhi, with extensive experience in pain
-    management, musculoskeletal rehabilitation, sports injury
-    recovery, and post-operative physiotherapy. Known for a
-    holistic and evidence-based approach, Dr. Ashish Sharma is
-    committed to restoring mobility, reducing pain, and improving
-    overall quality of life for patients across all age groups.
-    With specialized expertise in orthopedic physiotherapy,
-    neurological rehabilitation, spine care, posture correction,
-    and physiotherapy for chronic back pain, neck pain, knee pain,
-    and joint stiffness, Dr. Ashish Sharma combines advanced
-    clinical techniques with personalized treatment plans tailored
-    to each patient’s condition and lifestyle. Practicing in Delhi
-    NCR, Dr. Ashish Sharma is widely recognized as a trusted
-    physiotherapist in Delhi for:
-  </p>
+                <p className="text-gray-600 leading-relaxed text-sm sm:text-base mb-3 text-justify">
+                  Dr. Ashish Sharma,PT is a highly skilled and patient-focused
+                  Physiotherapist in Delhi, with extensive experience in pain
+                  management, musculoskeletal rehabilitation, sports injury
+                  recovery, and post-operative physiotherapy. Known for a
+                  holistic and evidence-based approach, Dr. Ashish Sharma is
+                  committed to restoring mobility, reducing pain, and improving
+                  overall quality of life for patients across all age groups.
+                  With specialized expertise in orthopedic physiotherapy,
+                  neurological rehabilitation, spine care, posture correction,
+                  and physiotherapy for chronic back pain, neck pain, knee pain,
+                  and joint stiffness, Dr. Ashish Sharma combines advanced
+                  clinical techniques with personalized treatment plans tailored
+                  to each patient’s condition and lifestyle. Practicing in Delhi
+                  NCR, Dr. Ashish Sharma is widely recognized as a trusted
+                  physiotherapist in Delhi for:
+                </p>
 
-  <ul className="text-gray-600 leading-relaxed text-sm sm:text-base mb-3 list-disc pl-5 space-y-1 text-left">
-    <li>Back pain and slip disc treatment</li>
-    <li>Cervical and lumbar spondylosis</li>
-    <li>Sports injury physiotherapy</li>
-    <li>Knee replacement and post-surgery rehabilitation</li>
-    {/* <li>Stroke and neurological physiotherapy</li>
+                <ul className="text-gray-600 leading-relaxed text-sm sm:text-base mb-3 list-disc pl-5 space-y-1 text-left">
+                  <li>Back pain and slip disc treatment</li>
+                  <li>Cervical and lumbar spondylosis</li>
+                  <li>Sports injury physiotherapy</li>
+                  <li>Knee replacement and post-surgery rehabilitation</li>
+                  {/* <li>Stroke and neurological physiotherapy</li>
     <li>Shoulder pain, frozen shoulder, and rotator cuff injuries</li>
     <li>Sciatica, arthritis, and posture-related disorders</li> */}
-  </ul>
+                </ul>
 
-  {/* <p className="text-gray-600 leading-relaxed text-sm sm:text-base text-justify">
+                {/* <p className="text-gray-600 leading-relaxed text-sm sm:text-base text-justify">
     Dr. Ashish Sharma integrates manual therapy, electrotherapy,
     dry needling, exercise therapy, and ergonomic correction to
     ensure long-term recovery rather than temporary relief. A
@@ -177,7 +151,7 @@ const FounderSection = () => {
     empowers individuals with preventive care strategies,
     corrective exercises, and lifestyle guidance.
   </p> */}
-</div>
+              </div>
 
               {/* <div className="mb-5 sm:mb-6">
                 <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
