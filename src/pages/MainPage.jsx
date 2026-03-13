@@ -19,6 +19,9 @@ import FounderSection from "../components/FounderSection/FounderSection";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import PhysiotherapyFeesSection from "../components/PhysiotherapyFeesSection/PhysiotherapyFeesSection";
 import { Helmet } from "react-helmet-async";
+
+
+
 //import AppointmentPopup from "../pages/ContactPage/AppointmentPopup/AppointmentPopup"; // ✅ Import popup
 
 const MainPage = () => {
