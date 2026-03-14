@@ -263,7 +263,7 @@ const MainPage = () => {
         </section> */}
 
         <section
-          id="city-navigation"
+          
           data-aos="fade-up"
           data-aos-delay="700"
           className="mobile-section"
