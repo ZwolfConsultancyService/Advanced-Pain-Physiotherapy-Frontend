@@ -1180,7 +1180,7 @@ const AreaDetailPage = () => {
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-2 sm:mb-3 leading-tight"
               style={{ fontFamily: "'Zalando Sans Expanded', sans-serif", fontWeight: 200 }}
             >
-              Best {serviceName} Treatment in {cityName}
+              Best {serviceName}  in {cityName}
             </h1>
             <p
               className="text-sm sm:text-base md:text-lg mb-4 sm:mb-6 max-w-2xl leading-relaxed text-white/90"

@@ -85,8 +85,8 @@ export default function AboutSection() {
               centre in Delhi-NCR, providing advanced clinical physiotherapy and
               home-based physiotherapy services with a strong focus on long-term
               pain relief, mobility restoration, and functional recovery. We
-              specialize in treating back pain, neck pain, knee pain, shoulder
-              pain, slip disc, sciatica, sports injuries, post-surgical
+              specialize in treating Back Pain Treatment, neck pain, knee pain,
+              shoulder pain, slip disc, sciatica, sports injuries, post-surgical
               rehabilitation, stroke rehabilitation, neurological conditions,
               arthritis, posture correction, and chronic pain management using
               evidence-based physiotherapy protocols. Our services include

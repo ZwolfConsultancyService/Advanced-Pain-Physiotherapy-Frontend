@@ -28,36 +28,7 @@ export default function PhysiotherapyClinics() {
       Instagram:
         "https://www.instagram.com/advancedphysio19?igsh=c2hpdzkyN21zZ2U=",
     },
-    {
-      id: 2,
-      slug: "sharma-orthopedic-rehab-centre",
-      name: "Sharma Orthopedic and Rehab Centre",
-      rating: 4.9,
-      specialty: "Specialized Spine & Back Pain Treatment",
-      address:
-        "G 243 40 Feet Road, Near Aggarwal Medical Store, Badarpur, New Delhi 110044.",
-      mapLink:
-        "https://www.google.com/maps/search/?api=1&query=Sharma+Orthopedic+Rehab+Center+G+241+40+Feet+Road+Badarpur+Delhi",
-      phone: "9220385419",
-      hours: "8am To 10pm",
-      image: Sharma,
-      facebook: "https://www.facebook.com/profile.php?id=61584935369686",
-      Instagram: "https://www.instagram.com/sharma_ortho/",
-    },
-    {
-      id: 3,
-      slug: "parth-medicare",
-      name: "PARTH MEDICARE",
-      rating: 4.8,
-      specialty: "Athletes Recovery & Performance Center",
-      address: "10/16, Block 10 Nehru Enclave East, Kalkaji 110019",
-      phone: "8076206304",
-      hours: "7am To 9pm",
-      image:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=600&fit=crop",
-      facebook: "#",
-      Instagram: "#",
-    },
+  
   ];
 
   // Auto-slide functionality
@@ -121,45 +92,9 @@ export default function PhysiotherapyClinics() {
           }}
         >
           {/* Navigation Arrows */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
-            aria-label="Previous clinic"
-          >
-            <svg
-              className="w-6 h-6 text-gray-800"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15 19l-7-7 7-7"
-              />
-            </svg>
-          </button>
+        
 
-          <button
-            onClick={nextSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
-            aria-label="Next clinic"
-          >
-            <svg
-              className="w-6 h-6 text-gray-800"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </button>
+       
 
           <div className="grid md:grid-cols-2 gap-0">
             {/* Left Side - Image with ultra smooth transition */}
@@ -335,21 +270,7 @@ export default function PhysiotherapyClinics() {
           </div>
         </div>
 
-        {/* Carousel Dots */}
-        <div className="flex justify-center gap-3 mt-8">
-          {clinics.map((clinic, index) => (
-            <button
-              key={clinic.id}
-              onClick={() => goToSlide(index)}
-              className={`h-3 rounded-full transition-all duration-500 ${
-                activeSlide === index
-                  ? "bg-[#8ab72e] w-8 shadow-lg"
-                  : "bg-gray-300 hover:bg-[#8ab72e] w-3"
-              }`}
-              aria-label={`Go to clinic ${index + 1}`}
-            />
-          ))}
-        </div>
+       
       </div>
     </div>
   );
