@@ -44,6 +44,186 @@ import Comfortable from '../../assets/Specialities/14.png'
 
 export const servicesDataSpecialized = [
   {
+  id: 2,
+  title: "Chiropractor",
+  slug: "chiropractor",
+  category: "Spine & Joint Care",
+  image: chiropractorImage,
+  description:
+    "Chiropractic care focuses on diagnosing and treating spine and joint-related problems using manual adjustments to reduce pain, improve alignment, and restore mobility.",
+  sections: [
+    {
+      title: "Overview",
+      content:
+        "Conditions Treated by a Chiropractor:\n\n" +
+        "• Back pain and neck pain\n" +
+        "• Spine misalignment and posture issues\n" +
+        "• Slip disc and sciatica\n" +
+        "• Shoulder, hip, and joint stiffness\n\n" +
+        "Why Chiropractic Care:\n\n" +
+        "• Non-surgical and drug-free treatment\n" +
+        "• Improves spinal alignment\n" +
+        "• Enhances mobility and flexibility",
+    },
+    {
+      title: "Treatment",
+      content:
+        "Our Chiropractic Approach:\n\n" +
+        "• Detailed spine and posture assessment\n" +
+        "• Gentle spinal and joint adjustments\n" +
+        "• Muscle relaxation techniques\n" +
+        "• Posture correction and lifestyle guidance\n" +
+        "• Combined physiotherapy exercises for stability",
+    },
+  ],
+  benefits: [
+    "Relieves back and neck pain",
+    "Improves spinal alignment",
+    "Enhances posture and flexibility",
+    "Reduces nerve compression",
+    "Promotes long-term spine health",
+  ],
+  customTreatmentText:
+    "At Advanced Pain Physiotherapy Centre, our chiropractic treatments focus on restoring spinal balance, reducing pain, and improving overall body function through safe and effective manual techniques.",
+},
+ {
+  id: 1,
+  title: "Home Physiotherapist",
+  slug: "home-physiotherapist",
+  category: "Convenience Care",
+  image:
+    Home,
+  description:
+    "Home physiotherapy provides professional physiotherapy treatment at your doorstep for pain relief, rehabilitation, and improved mobility. At Advanced Pain Physiotherapy Centre, we offer personalized one-on-one care in the comfort of your home for safe and effective recovery.",
+  sections: [
+    {
+      title: "Overview",
+      content:
+        "Conditions We Treat at Home:\n\n" +
+        "• Back pain, neck pain, and joint pain\n" +
+        "• Post-surgical rehabilitation\n" +
+        "• Neurological conditions and paralysis care\n" +
+        "• Sports injuries and muscle weakness\n" +
+        "• Arthritis and age-related mobility issues\n\n" +
+        "Why Choose Home Physiotherapy:\n\n" +
+        "• Comfortable treatment in your own home\n" +
+        "• One-on-one personalized physiotherapy care\n" +
+        "• Reduced travel stress and risk of injury\n" +
+        "• Family involvement in recovery process",
+    },
+    {
+      title: "Treatment",
+      content:
+        "Our Physiotherapy Approach:\n\n" +
+        "• Detailed assessment of pain, movement, and strength\n" +
+        "• Manual therapy and pain-relief techniques\n" +
+        "• Therapeutic and strengthening exercises\n" +
+        "• Mobility and balance training\n" +
+        "• Posture correction and ergonomic guidance\n" +
+        "• Customized home rehabilitation program",
+    },
+  ],
+  benefits: [
+    "Convenient physiotherapy treatment at home",
+    "Personalized one-on-one care",
+    "Effective pain relief and faster recovery",
+    "Improved mobility, strength, and balance",
+    "Safe and comfortable rehabilitation",
+  ],
+  customTreatmentText:
+    "At Advanced Pain Physiotherapy Centre, our home physiotherapy program is designed to deliver expert care at your doorstep, focusing on pain relief, functional recovery, and long-term mobility through personalized and safe treatment plans.",
+},
+{
+  id: 3,
+  title: "Physiotherapy Clinic",
+  slug: "physiotherapy-clinic",
+  category: "Rehabilitation Care",
+  image: physiotherapyClinicImage,
+  description:
+    "A complete physiotherapy clinic offering advanced pain management, rehabilitation, and mobility improvement under expert supervision.",
+  sections: [
+    {
+      title: "Overview",
+      content:
+        "Conditions Treated at Our Clinic:\n\n" +
+        "• Back pain, neck pain, and joint pain\n" +
+        "• Post-surgery rehabilitation\n" +
+        "• Sports injuries\n" +
+        "• Neurological and orthopedic conditions\n\n" +
+        "Why Choose Our Clinic:\n\n" +
+        "• Experienced physiotherapists\n" +
+        "• Advanced equipment and modalities\n" +
+        "• Personalized treatment plans",
+    },
+    {
+      title: "Treatment",
+      content:
+        "Our Clinic-Based Treatment Includes:\n\n" +
+        "• Detailed physical assessment\n" +
+        "• Manual therapy and mobilization\n" +
+        "• Electrotherapy and pain-relief modalities\n" +
+        "• Strengthening and flexibility exercises\n" +
+        "• Posture and movement correction",
+    },
+  ],
+  benefits: [
+    "Accurate diagnosis and treatment",
+    "Effective pain relief",
+    "Faster recovery and rehabilitation",
+    "Improved strength and mobility",
+    "Long-term functional improvement",
+  ],
+  customTreatmentText:
+    "At Advanced Pain Physiotherapy Centre, our clinic-based physiotherapy services provide comprehensive care using modern techniques to help patients recover safely and effectively.",
+},
+ {
+  id: 16,
+  title: "Home Physiotherapy after Paralysis",
+  slug: "home-physiotherapy-after-paralysis",
+  category: "Home Physiotherapy",
+  image: Paralysis,
+  description:
+    "Home physiotherapy after paralysis provides specialized in-home rehabilitation to improve mobility, strengthen muscles, and support functional independence. Patients receive guided exercises, caregiver education, and personalized therapy for optimal recovery and quality of life.",
+  sections: [
+    {
+      title: "Overview",
+      content:
+        "Common Causes of Paralysis:\n\n" +
+        "• Stroke\n" +
+        "• Spinal cord injury\n" +
+        "• Neurological disorders\n" +
+        "• Traumatic injuries\n" +
+        "• Post-surgical complications\n\n" +
+        "Conditions We Treat:\n\n" +
+        "• Hemiplegia (partial paralysis on one side)\n" +
+        "• Quadriplegia (paralysis of all four limbs)\n" +
+        "• Paraplegia (paralysis of lower limbs)\n" +
+        "• Muscle weakness and atrophy\n" +
+        "• Loss of coordination and balance"
+    },
+    {
+      title: "Treatment",
+      content:
+        "Our treatment approach includes:\n\n" +
+        "• Personalized in-home rehabilitation exercises\n" +
+        "• Manual therapy and mobilization techniques\n" +
+        "• Functional training for daily activities\n" +
+        "• Guidance for caregivers on safe support\n" +
+        "• Continuous monitoring and progress assessment"
+    }
+  ],
+  benefits: [
+    "Improves mobility and strength",
+    "Supports functional independence",
+    "Enhances coordination and balance",
+    "Prevents complications",
+    "Promotes overall recovery"
+  ],
+  customTreatmentText:
+    "At Advanced Pain Physiotherapy Centre, our in-home physiotherapy program for paralysis patients provides safe, guided rehabilitation to restore function, strength, and confidence in movement."
+},
+,
+  {
     id: 33,
     title: "Spinal Adjustment",
     slug: "spinal",
@@ -330,98 +510,8 @@ export const servicesDataSpecialized = [
 
 
 
- {
-  id: 1,
-  title: "Home Physiotherapist",
-  slug: "home-physiotherapist",
-  category: "Convenience Care",
-  image:
-    Home,
-  description:
-    "Home physiotherapy provides professional physiotherapy treatment at your doorstep for pain relief, rehabilitation, and improved mobility. At Advanced Pain Physiotherapy Centre, we offer personalized one-on-one care in the comfort of your home for safe and effective recovery.",
-  sections: [
-    {
-      title: "Overview",
-      content:
-        "Conditions We Treat at Home:\n\n" +
-        "• Back pain, neck pain, and joint pain\n" +
-        "• Post-surgical rehabilitation\n" +
-        "• Neurological conditions and paralysis care\n" +
-        "• Sports injuries and muscle weakness\n" +
-        "• Arthritis and age-related mobility issues\n\n" +
-        "Why Choose Home Physiotherapy:\n\n" +
-        "• Comfortable treatment in your own home\n" +
-        "• One-on-one personalized physiotherapy care\n" +
-        "• Reduced travel stress and risk of injury\n" +
-        "• Family involvement in recovery process",
-    },
-    {
-      title: "Treatment",
-      content:
-        "Our Physiotherapy Approach:\n\n" +
-        "• Detailed assessment of pain, movement, and strength\n" +
-        "• Manual therapy and pain-relief techniques\n" +
-        "• Therapeutic and strengthening exercises\n" +
-        "• Mobility and balance training\n" +
-        "• Posture correction and ergonomic guidance\n" +
-        "• Customized home rehabilitation program",
-    },
-  ],
-  benefits: [
-    "Convenient physiotherapy treatment at home",
-    "Personalized one-on-one care",
-    "Effective pain relief and faster recovery",
-    "Improved mobility, strength, and balance",
-    "Safe and comfortable rehabilitation",
-  ],
-  customTreatmentText:
-    "At Advanced Pain Physiotherapy Centre, our home physiotherapy program is designed to deliver expert care at your doorstep, focusing on pain relief, functional recovery, and long-term mobility through personalized and safe treatment plans.",
-}
-,
 
-{
-  id: 2,
-  title: "Chiropractor",
-  slug: "chiropractor",
-  category: "Spine & Joint Care",
-  image: chiropractorImage,
-  description:
-    "Chiropractic care focuses on diagnosing and treating spine and joint-related problems using manual adjustments to reduce pain, improve alignment, and restore mobility.",
-  sections: [
-    {
-      title: "Overview",
-      content:
-        "Conditions Treated by a Chiropractor:\n\n" +
-        "• Back pain and neck pain\n" +
-        "• Spine misalignment and posture issues\n" +
-        "• Slip disc and sciatica\n" +
-        "• Shoulder, hip, and joint stiffness\n\n" +
-        "Why Chiropractic Care:\n\n" +
-        "• Non-surgical and drug-free treatment\n" +
-        "• Improves spinal alignment\n" +
-        "• Enhances mobility and flexibility",
-    },
-    {
-      title: "Treatment",
-      content:
-        "Our Chiropractic Approach:\n\n" +
-        "• Detailed spine and posture assessment\n" +
-        "• Gentle spinal and joint adjustments\n" +
-        "• Muscle relaxation techniques\n" +
-        "• Posture correction and lifestyle guidance\n" +
-        "• Combined physiotherapy exercises for stability",
-    },
-  ],
-  benefits: [
-    "Relieves back and neck pain",
-    "Improves spinal alignment",
-    "Enhances posture and flexibility",
-    "Reduces nerve compression",
-    "Promotes long-term spine health",
-  ],
-  customTreatmentText:
-    "At Advanced Pain Physiotherapy Centre, our chiropractic treatments focus on restoring spinal balance, reducing pain, and improving overall body function through safe and effective manual techniques.",
-}
+
 ,
 {
   id: 4,
@@ -510,50 +600,7 @@ export const servicesDataSpecialized = [
   customTreatmentText:
     "At Advanced Pain Physiotherapy Centre, our sports physiotherapy programs are designed to help athletes recover quickly, perform better, and stay injury-free.",
 }
-,
-{
-  id: 3,
-  title: "Physiotherapy Clinic",
-  slug: "physiotherapy-clinic",
-  category: "Rehabilitation Care",
-  image: physiotherapyClinicImage,
-  description:
-    "A complete physiotherapy clinic offering advanced pain management, rehabilitation, and mobility improvement under expert supervision.",
-  sections: [
-    {
-      title: "Overview",
-      content:
-        "Conditions Treated at Our Clinic:\n\n" +
-        "• Back pain, neck pain, and joint pain\n" +
-        "• Post-surgery rehabilitation\n" +
-        "• Sports injuries\n" +
-        "• Neurological and orthopedic conditions\n\n" +
-        "Why Choose Our Clinic:\n\n" +
-        "• Experienced physiotherapists\n" +
-        "• Advanced equipment and modalities\n" +
-        "• Personalized treatment plans",
-    },
-    {
-      title: "Treatment",
-      content:
-        "Our Clinic-Based Treatment Includes:\n\n" +
-        "• Detailed physical assessment\n" +
-        "• Manual therapy and mobilization\n" +
-        "• Electrotherapy and pain-relief modalities\n" +
-        "• Strengthening and flexibility exercises\n" +
-        "• Posture and movement correction",
-    },
-  ],
-  benefits: [
-    "Accurate diagnosis and treatment",
-    "Effective pain relief",
-    "Faster recovery and rehabilitation",
-    "Improved strength and mobility",
-    "Long-term functional improvement",
-  ],
-  customTreatmentText:
-    "At Advanced Pain Physiotherapy Centre, our clinic-based physiotherapy services provide comprehensive care using modern techniques to help patients recover safely and effectively.",
-}
+
 ,
 {
   id: 4,
@@ -1555,52 +1602,7 @@ export const servicesDataSpecialized = [
   //   ],
   // },
 
- {
-  id: 16,
-  title: "Home Physiotherapy after Paralysis",
-  slug: "home-physiotherapy-after-paralysis",
-  category: "Home Physiotherapy",
-  image: Paralysis,
-  description:
-    "Home physiotherapy after paralysis provides specialized in-home rehabilitation to improve mobility, strengthen muscles, and support functional independence. Patients receive guided exercises, caregiver education, and personalized therapy for optimal recovery and quality of life.",
-  sections: [
-    {
-      title: "Overview",
-      content:
-        "Common Causes of Paralysis:\n\n" +
-        "• Stroke\n" +
-        "• Spinal cord injury\n" +
-        "• Neurological disorders\n" +
-        "• Traumatic injuries\n" +
-        "• Post-surgical complications\n\n" +
-        "Conditions We Treat:\n\n" +
-        "• Hemiplegia (partial paralysis on one side)\n" +
-        "• Quadriplegia (paralysis of all four limbs)\n" +
-        "• Paraplegia (paralysis of lower limbs)\n" +
-        "• Muscle weakness and atrophy\n" +
-        "• Loss of coordination and balance"
-    },
-    {
-      title: "Treatment",
-      content:
-        "Our treatment approach includes:\n\n" +
-        "• Personalized in-home rehabilitation exercises\n" +
-        "• Manual therapy and mobilization techniques\n" +
-        "• Functional training for daily activities\n" +
-        "• Guidance for caregivers on safe support\n" +
-        "• Continuous monitoring and progress assessment"
-    }
-  ],
-  benefits: [
-    "Improves mobility and strength",
-    "Supports functional independence",
-    "Enhances coordination and balance",
-    "Prevents complications",
-    "Promotes overall recovery"
-  ],
-  customTreatmentText:
-    "At Advanced Pain Physiotherapy Centre, our in-home physiotherapy program for paralysis patients provides safe, guided rehabilitation to restore function, strength, and confidence in movement."
-},
+
 {
   id: 17,
   title: "Home Physiotherapy after Knee Replacement Surgery",
