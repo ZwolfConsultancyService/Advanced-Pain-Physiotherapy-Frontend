@@ -321,7 +321,7 @@ export default function ServicesPage() {
   );
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
-  const [visibleCount, setVisibleCount] = useState(3);
+  const [visibleCount, setVisibleCount] = useState(6);
 
   useEffect(() => {
     AOS.init({
@@ -350,7 +350,7 @@ export default function ServicesPage() {
     }
 
     setFilteredServices(filtered);
-    setVisibleCount(3);
+    setVisibleCount(6);
   }, [selectedCategory, searchQuery, services]);
 
   const currentServices = filteredServices.slice(0, visibleCount);
@@ -485,7 +485,7 @@ export default function ServicesPage() {
             {visibleCount < filteredServices.length && (
               <div className="flex justify-center mt-12">
                 <button
-                  onClick={() => setVisibleCount((prev) => prev + 3)}
+                  onClick={() => setVisibleCount((prev) => prev + 6)}
                   className="bg-[#8ab72e] text-white px-8 py-3 rounded-xl hover:bg-[#6d9424] transition shadow-lg flex items-center gap-2"
                 >
                   View More
