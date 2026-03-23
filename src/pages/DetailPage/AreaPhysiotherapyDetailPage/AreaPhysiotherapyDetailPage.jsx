@@ -652,8 +652,6 @@
 
 // export default AreaPhysiotherapyDetailPage;
 
-
-
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -669,7 +667,10 @@ import { citiesData } from "../../../data/citiesData.js";
 
 const allServicesData = [...servicesData, ...servicesDataSpecialized, ...therapyData];
 
-// ✅ URL builders — NEW format: area-city (area pehle, city baad mein)
+// ✅ Safe citiesData — filter out undefined/null entries
+const safeCitiesData = (citiesData || []).filter((c) => c && c.slug);
+
+// ✅ URL builders
 export function buildAreaUrl(citySlug, areaSlug, serviceSlug) {
   const areaSlugified = areaSlug.toLowerCase().replace(/\s+/g, "-");
   if (!serviceSlug) return `/physiotherapy-in-${areaSlugified}-${citySlug}`;
@@ -683,7 +684,6 @@ export function buildCityServiceUrl(citySlug, serviceSlug) {
 
 // ============================================================
 // Props: citySlug, areaSlug, serviceSlug  (from SmartRouter in App.jsx)
-// key={fullSlug} passed from SmartRouter → full remount on URL change
 // ============================================================
 const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
   const navigate = useNavigate();
@@ -693,13 +693,15 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
   const [isPaused, setIsPaused] = useState(false);
   const scrollContainerRef = useRef(null);
 
+  // ── Data resolution ──────────────────────────────────────────────────────────
   const currentService = useMemo(() => {
     if (!serviceSlug) return allServicesData[0];
 
-    let found = allServicesData.find((s) => s.slug === serviceSlug);
+    let found = allServicesData.find((s) => s && s.slug === serviceSlug);
     if (found) return { ...found, type: "service" };
 
-    found = conditionsData.find((condition) => {
+    found = (conditionsData || []).find((condition) => {
+      if (!condition) return false;
       if (condition.slug) return condition.slug === serviceSlug;
       if (condition.name) {
         const slug = condition.name.toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, "");
@@ -724,67 +726,230 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
   }, [serviceSlug]);
 
   const currentCityData = useMemo(
-    () => citiesData.find((city) => city.slug === citySlug),
+    () => safeCitiesData.find((city) => city.slug === citySlug) || { areas: [] },
     [citySlug]
   );
 
   const cityName = currentCityData?.name || "Delhi";
 
-  const areaName = useMemo(
-    () =>
-      areaSlug
-        ? areaSlug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")
-        : currentCityData?.areas[0] || "Sector 18",
-    [areaSlug, currentCityData]
-  );
+  const areaName = useMemo(() => {
+    if (areaSlug) {
+      return areaSlug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    }
+    return currentCityData?.areas?.[0] || "Sector 18";
+  }, [areaSlug, currentCityData]);
 
   const serviceName =
     location.state?.serviceName || currentService?.title || "Physiotherapy Treatment";
 
-  // ── SEO helpers ──────────────────────────────────────────────────────────────
+  const safeAreas = currentCityData?.areas || [];
+
+  // ── SEO ──────────────────────────────────────────────────────────────────────
+
+  const BRAND = "Advanced Pain Physiotherapy";
+  const SITE_URL = "https://www.advancedpainphysiotherapy.com";
+  const DOCTOR = "Dr. Deepanshu Gupta (BPT, MPT)";
+  const PHONE = "+91-9220385419";
+
   const pageTitle = serviceSlug
-    ? `Best ${serviceName} in ${areaName}, ${cityName} | Advanced Pain Physiotherapy`
-    : `Best Physiotherapy Centre in ${areaName}, ${cityName} | Advanced Pain Physiotherapy`;
+    ? `Best ${serviceName} in ${areaName}, ${cityName} | ${BRAND}`
+    : `Best Physiotherapy Centre in ${areaName}, ${cityName} | ${BRAND}`;
 
   const pageDescription = serviceSlug
-    ? `Looking for the best ${serviceName.toLowerCase()} treatment in ${areaName}, ${cityName}? Advanced Pain Physiotherapy Centre provides expert, certified physiotherapy care near you. Book your appointment today!`
-    : `Find the best physiotherapy services in ${areaName}, ${cityName}. Advanced Pain Physiotherapy Centre offers expert pain management, home care & tele-rehab by certified physiotherapists. Book now!`;
+    ? `Get expert ${serviceName} in ${areaName}, ${cityName} by ${DOCTOR} at ${BRAND}. Certified physiotherapists, advanced treatment techniques & same-day appointments available. Book now: ${PHONE}`
+    : `Find the best physiotherapy services in ${areaName}, ${cityName} at ${BRAND}. Expert pain management, home visits & tele-rehab by ${DOCTOR}. Call ${PHONE} to book your appointment today!`;
+
+  // ✅ Rich, location-specific keywords
+  const pageKeywords = serviceSlug
+    ? [
+        `${serviceName.toLowerCase()} in ${areaName}`,
+        `${serviceName.toLowerCase()} ${areaName} ${cityName}`,
+        `best ${serviceName.toLowerCase()} ${areaName}`,
+        `${serviceName.toLowerCase()} near me ${areaName}`,
+        `physiotherapy ${areaName} ${cityName}`,
+        `physiotherapist near me ${areaName}`,
+        `best physiotherapist ${areaName} ${cityName}`,
+        `pain management ${areaName}`,
+        `${serviceName.toLowerCase()} specialist ${cityName}`,
+        `physiotherapy clinic ${areaName}`,
+        `home physiotherapy ${areaName}`,
+        `${BRAND.toLowerCase()} ${areaName}`,
+      ].join(", ")
+    : [
+        `physiotherapy in ${areaName}`,
+        `physiotherapist near me ${areaName}`,
+        `best physiotherapy ${areaName} ${cityName}`,
+        `physiotherapy centre ${areaName}`,
+        `pain management ${areaName}`,
+        `home physiotherapy ${areaName}`,
+        `physiotherapy clinic ${areaName} ${cityName}`,
+        `back pain treatment ${areaName}`,
+        `knee pain physiotherapy ${areaName}`,
+        `sports injury treatment ${areaName}`,
+        `neuro physiotherapy ${areaName}`,
+        `${BRAND.toLowerCase()} ${areaName}`,
+      ].join(", ");
 
   const canonicalUrl = serviceSlug
-    ? `https://www.advancedpainphysiotherapy.com/${serviceSlug}-treatment-in-${areaSlug}-${citySlug}`
-    : `https://www.advancedpainphysiotherapy.com/physiotherapy-in-${areaSlug}-${citySlug}`;
+    ? `${SITE_URL}/${serviceSlug}-treatment-in-${areaSlug}-${citySlug}`
+    : `${SITE_URL}/physiotherapy-in-${areaSlug}-${citySlug}`;
 
   const ogImage =
     currentService?.image ||
     "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=630&fit=crop";
 
+  // ✅ Full Schema.org structured data
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: `Advanced Pain Physiotherapy Centre – ${areaName}, ${cityName}`,
+    name: `${BRAND} – ${areaName}, ${cityName}`,
     description: pageDescription,
     url: canonicalUrl,
     image: ogImage,
+    logo: `${SITE_URL}/logo.png`,
+    telephone: PHONE,
+    priceRange: "₹₹",
+    currenciesAccepted: "INR",
+    paymentAccepted: "Cash, Credit Card, UPI",
+    openingHours: "Mo-Sa 09:00-20:00",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "E-36, First Floor, Kalkaji",
+      addressLocality: "New Delhi",
+      addressRegion: "Delhi",
+      postalCode: "110019",
+      addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "28.5494",
+      longitude: "77.2601",
+    },
     areaServed: [
       { "@type": "City", name: cityName },
-      { "@type": "Place", name: areaName },
+      { "@type": "Place", name: `${areaName}, ${cityName}` },
     ],
     medicalSpecialty: "Physiotherapy",
+    founder: {
+      "@type": "Person",
+      name: DOCTOR,
+      jobTitle: "Senior Physiotherapist",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: PHONE,
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: ["Hindi", "English"],
+    },
+    sameAs: [
+      "https://www.facebook.com/advancedpainphysiotherapy",
+      "https://www.instagram.com/advancedpainphysiotherapy",
+    ],
     availableService: serviceSlug
-      ? [{ "@type": "MedicalProcedure", name: serviceName }]
+      ? [
+          {
+            "@type": "MedicalProcedure",
+            name: serviceName,
+            description: currentService?.description || `${serviceName} treatment in ${areaName}`,
+            procedureType: "PhysicalExam",
+          },
+        ]
       : [
           { "@type": "MedicalProcedure", name: "Physiotherapy Treatment" },
           { "@type": "MedicalProcedure", name: "Home Physiotherapy" },
           { "@type": "MedicalProcedure", name: "Tele Rehabilitation" },
+          { "@type": "MedicalProcedure", name: "Sports Injury Rehabilitation" },
+          { "@type": "MedicalProcedure", name: "Neurological Physiotherapy" },
         ],
-    telephone: "+91-9220385419",
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: "+91-9220385419",
-      contactType: "customer service",
-      url: "https://www.advancedpainphysiotherapy.com/contact",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "320",
+      bestRating: "5",
+      worstRating: "1",
     },
   };
+
+  // ✅ BreadcrumbList structured data
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: `Physiotherapy in ${cityName}`,
+        item: `${SITE_URL}/physiotherapy-in-${citySlug}`,
+      },
+      ...(serviceSlug
+        ? [
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: `${serviceName} in ${cityName}`,
+              item: `${SITE_URL}/${serviceSlug}-treatment-in-${citySlug}`,
+            },
+            {
+              "@type": "ListItem",
+              position: 4,
+              name: `${serviceName} in ${areaName}`,
+              item: canonicalUrl,
+            },
+          ]
+        : [
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: `Physiotherapy in ${areaName}`,
+              item: canonicalUrl,
+            },
+          ]),
+    ],
+  };
+
+  // ✅ FAQPage structured data
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: serviceSlug
+          ? `Where can I get the best ${serviceName} in ${areaName}?`
+          : `Where is the best physiotherapy centre in ${areaName}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: serviceSlug
+            ? `${BRAND} provides the best ${serviceName} in ${areaName}, ${cityName}. Our certified physiotherapist ${DOCTOR} offers advanced treatment techniques. Call ${PHONE} to book your appointment.`
+            : `${BRAND} is one of the best physiotherapy centres in ${areaName}, ${cityName}, with expert care from ${DOCTOR}. Call ${PHONE} to book.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `Does Advanced Pain Physiotherapy offer home visits in ${areaName}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Yes, ${BRAND} provides home physiotherapy visits in ${areaName}, ${cityName}. Our certified physiotherapists come to your doorstep for convenient treatment. Call ${PHONE} to schedule.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `How do I book a physiotherapy appointment in ${areaName}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `You can book a physiotherapy appointment in ${areaName} by calling ${PHONE} or visiting our website at ${SITE_URL}. Same-day appointments are often available.`,
+        },
+      },
+    ],
+  };
+
   // ─────────────────────────────────────────────────────────────────────────────
 
   useEffect(() => {
@@ -796,7 +961,7 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
 
   // Auto-scroll
   useEffect(() => {
-    if (isLoading) return;
+    if (isLoading || safeAreas.length === 0) return;
     const container = scrollContainerRef.current;
     if (!container) return;
 
@@ -814,9 +979,8 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
 
     animationId = requestAnimationFrame(smoothScroll);
     return () => { if (animationId) cancelAnimationFrame(animationId); };
-  }, [isPaused, isLoading]);
+  }, [isPaused, isLoading, safeAreas.length]);
 
-  // ✅ Area click — uses new buildAreaUrl (area-city format)
   const handleAreaClick = (area) => {
     const url = buildAreaUrl(citySlug, area, serviceSlug);
     navigate(url, { state: { cityName, areaName: area, serviceName } });
@@ -838,20 +1002,17 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
 
       {/* ── React Helmet (SEO) ─────────────────────────────────────────────────── */}
       <Helmet>
-        {/* Primary */}
+        {/* ✅ Primary meta */}
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
-        <meta
-          name="keywords"
-          content={
-            serviceSlug
-              ? `${serviceName} in ${areaName}, ${serviceName.toLowerCase()} ${cityName}, physiotherapy ${areaName}, best physiotherapist ${areaName} ${cityName}`
-              : `physiotherapy in ${areaName}, physiotherapist near me ${areaName}, best physiotherapy ${areaName} ${cityName}, pain management ${areaName}`
-          }
-        />
+        <meta name="keywords" content={pageKeywords} />
         <link rel="canonical" href={canonicalUrl} />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="author" content={DOCTOR} />
+        <meta name="geo.region" content="IN-DL" />
+        <meta name="geo.placename" content={`${areaName}, ${cityName}`} />
 
-        {/* Open Graph */}
+        {/* ✅ Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
@@ -859,22 +1020,30 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
         <meta property="og:image" content={ogImage} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={`Physiotherapy in ${areaName}, ${cityName}`} />
-        <meta property="og:site_name" content="Advanced Pain Physiotherapy" />
+        <meta property="og:image:alt" content={`${serviceSlug ? serviceName : "Physiotherapy"} in ${areaName}, ${cityName}`} />
+        <meta property="og:site_name" content={BRAND} />
         <meta property="og:locale" content="en_IN" />
 
-        {/* Twitter Card */}
+        {/* ✅ Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content={ogImage} />
+        <meta name="twitter:image:alt" content={`${serviceSlug ? serviceName : "Physiotherapy"} in ${areaName}, ${cityName}`} />
 
-        {/* Robots */}
-        <meta name="robots" content="index, follow" />
-
-        {/* Schema.org Structured Data */}
+        {/* ✅ Schema: MedicalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
+        </script>
+
+        {/* ✅ Schema: BreadcrumbList */}
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
+        </script>
+
+        {/* ✅ Schema: FAQPage */}
+        <script type="application/ld+json">
+          {JSON.stringify(faqData)}
         </script>
       </Helmet>
       {/* ───────────────────────────────────────────────────────────────────────── */}
@@ -889,45 +1058,71 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
         <div className="absolute inset-0 bg-gradient-to-br from-[#8ab72e]/90 to-[#6d9424]/90"></div>
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
           <div className="w-full max-w-5xl">
-            {/* Breadcrumb */}
-            <div className="hidden sm:flex items-center gap-2 text-white/80 text-xs md:text-sm mb-4 md:mb-5">
+            {/* Breadcrumb — visible + SEO friendly */}
+            <nav aria-label="breadcrumb" className="hidden sm:flex items-center gap-2 text-white/80 text-xs md:text-sm mb-4 md:mb-5">
               <span
-                className="cursor-pointer hover:text-white"
-                onClick={() => navigate(buildCityServiceUrl(citySlug, serviceSlug))}
+                className="cursor-pointer hover:text-white hover:underline"
+                onClick={() => navigate("/")}
+              >
+                Home
+              </span>
+              <ChevronLeft className="w-3 h-3 md:w-4 md:h-4 rotate-180" />
+              <span
+                className="cursor-pointer hover:text-white hover:underline"
+                onClick={() => navigate(buildCityServiceUrl(citySlug, null))}
               >
                 {cityName}
               </span>
+              {serviceSlug && (
+                <>
+                  <ChevronLeft className="w-3 h-3 md:w-4 md:h-4 rotate-180" />
+                  <span
+                    className="cursor-pointer hover:text-white hover:underline"
+                    onClick={() => navigate(buildCityServiceUrl(citySlug, serviceSlug))}
+                  >
+                    {serviceName}
+                  </span>
+                </>
+              )}
               <ChevronLeft className="w-3 h-3 md:w-4 md:h-4 rotate-180" />
-              <span className="text-white">{areaName}</span>
-            </div>
+              <span className="text-white font-medium">{areaName}</span>
+            </nav>
 
+            {/* ✅ H1 — keyword-rich, location-specific */}
             <h1
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mb-3 sm:mb-4 font-light leading-tight"
               style={{ fontFamily: "'Zalando Sans Expanded', sans-serif", fontWeight: 200 }}
             >
               {serviceSlug
-                ? `Best ${serviceName} In ${areaName}`
-                : `Best Physiotherapy Centre In ${areaName}`}
+                ? `Best ${serviceName} in ${areaName}, ${cityName}`
+                : `Best Physiotherapy Centre in ${areaName}, ${cityName}`}
             </h1>
 
             <p className="hidden sm:block text-white/90 text-sm md:text-base lg:text-lg mb-6 md:mb-8 max-w-3xl leading-relaxed">
               {serviceSlug
-                ? `Best ${serviceName.toLowerCase()} treatment by certified physiotherapists in ${areaName}, ${cityName}.`
-                : `Best physiotherapy services in ${areaName}, ${cityName} by certified experts.`}
+                ? `Expert ${serviceName.toLowerCase()} by certified physiotherapists in ${areaName}, ${cityName}. Advanced treatment techniques, same-day appointments & home visits available.`
+                : `Expert physiotherapy services in ${areaName}, ${cityName} by certified professionals. Pain management, rehabilitation, home visits & tele-rehab available near you.`}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 md:gap-4">
-              <button className="group px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-white text-[#8ab72e] rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 text-sm md:text-base">
+              <button
+                className="group px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-white text-[#8ab72e] rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 text-sm md:text-base"
+                aria-label="Request a callback from our physiotherapist"
+              >
                 <Calendar className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
                 <span>Request Callback</span>
                 <svg className="w-4 h-4 transition-transform group-hover:translate-x-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </button>
-              <button className="px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-white text-[#8ab72e] rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 text-sm md:text-base">
+              <a
+                href={`tel:${PHONE.replace(/-/g, "")}`}
+                className="px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-white text-[#8ab72e] rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 text-sm md:text-base"
+                aria-label={`Call us at ${PHONE}`}
+              >
                 <Phone className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
-                <span>+91-9220385419</span>
-              </button>
+                <span>{PHONE}</span>
+              </a>
             </div>
           </div>
         </div>
@@ -938,24 +1133,44 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-8 sm:mb-10 md:mb-12">
+              {/* ✅ H2 — keyword-rich */}
               <h2 className="text-2xl sm:text-3xl md:text-4xl text-gray-800 mb-3 sm:mb-4 font-light">
-                Why Choose Us in <span className="text-[#8ab72e]">{areaName}</span>
+                Why Choose Us for{" "}
+                <span className="text-[#8ab72e]">
+                  {serviceSlug ? serviceName : "Physiotherapy"}
+                </span>{" "}
+                in {areaName}
               </h2>
-              <h6 className="text-gray-600 text-base sm:text-lg">
-                Expert physiotherapy care right in your neighborhood
-              </h6>
+              <p className="text-gray-600 text-base sm:text-lg">
+                Expert physiotherapy care right in your neighborhood in {areaName}, {cityName}
+              </p>
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-7 md:gap-8">
               {[
-                { icon: <MapPin className="w-7 h-7 sm:w-8 sm:h-8 text-white" />, title: "Convenient Location", desc: `Easy access in ${areaName}` },
-                { icon: <Star className="w-7 h-7 sm:w-8 sm:h-8 text-white" />, title: "Expert Therapists", desc: "Certified professionals" },
-                { icon: <Calendar className="w-7 h-7 sm:w-8 sm:h-8 text-white" />, title: "Flexible Timings", desc: "Book appointments easily" },
+                {
+                  icon: <MapPin className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
+                  title: `Convenient Location in ${areaName}`,
+                  desc: `Easy access for patients in ${areaName} & nearby areas`,
+                },
+                {
+                  icon: <Star className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
+                  title: "BPT/MPT Certified Therapists",
+                  desc: "Expert care by qualified physiotherapists",
+                },
+                {
+                  icon: <Calendar className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
+                  title: "Same-Day Appointments",
+                  desc: "Flexible timings, home visits available",
+                },
               ].map((item, i) => (
-                <div key={i} className={`text-center p-5 sm:p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow ${i === 2 ? "sm:col-span-2 md:col-span-1" : ""}`}>
+                <div
+                  key={i}
+                  className={`text-center p-5 sm:p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow ${i === 2 ? "sm:col-span-2 md:col-span-1" : ""}`}
+                >
                   <div className="w-14 h-14 sm:w-16 sm:h-16 bg-[#8ab72e] rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
                     {item.icon}
                   </div>
-                  <h3 className="text-lg sm:text-xl text-gray-800 mb-2">{item.title}</h3>
+                  <h3 className="text-lg sm:text-xl text-gray-800 mb-2 font-semibold">{item.title}</h3>
                   <p className="text-gray-600 text-sm sm:text-base">{item.desc}</p>
                 </div>
               ))}
@@ -974,27 +1189,34 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
                   className="text-2xl sm:text-3xl md:text-4xl text-gray-800 mb-2 sm:mb-3"
                   style={{ fontFamily: "'Zalando Sans Expanded', sans-serif", fontWeight: 200 }}
                 >
-                  Best <span className="text-[#8ab72e] font-medium">{serviceName}</span> Treatment
+                  Best <span className="text-[#8ab72e] font-medium">{serviceName}</span> in {areaName}
                 </h2>
-                <h6 className="text-gray-600 text-sm sm:text-base md:text-lg">
-                  Comprehensive care and expert treatment in {areaName}
-                </h6>
+                <p className="text-gray-600 text-sm sm:text-base md:text-lg">
+                  Comprehensive {serviceName.toLowerCase()} care by certified experts in {areaName}, {cityName}
+                </p>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-center">
                 <div className="relative group">
                   <div className="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-xl">
                     <img
                       src={currentService.image}
-                      alt={`${serviceName} treatment in ${areaName}`}
+                      alt={`${serviceName} treatment in ${areaName}, ${cityName}`}
                       className="w-full h-[250px] sm:h-[350px] md:h-[400px] lg:h-[450px] object-cover transform group-hover:scale-105 transition-transform duration-700"
+                      loading="lazy"
+                      width="600"
+                      height="450"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
                   </div>
                 </div>
                 <div className="space-y-4">
                   <div className="bg-white p-4 sm:p-6 rounded-xl border-l-4 border-[#8ab72e] shadow-md">
-                    <h3 className="text-lg sm:text-xl md:text-2xl text-gray-800 mb-2 sm:mb-3 font-semibold">Treatment Overview</h3>
-                    <p className="text-gray-700 leading-relaxed text-sm sm:text-base">{currentService.description}</p>
+                    <h3 className="text-lg sm:text-xl md:text-2xl text-gray-800 mb-2 sm:mb-3 font-semibold">
+                      {serviceName} Treatment in {areaName}
+                    </h3>
+                    <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                      {currentService.description}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1007,36 +1229,37 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
       <TherapyExpertiseSection cityName={areaName} />
       <ConditionsSection cityName={areaName} className="mt-14" />
 
-      {/* Areas Slider */}
-      <div className="bg-gradient-to-b from-white to-gray-50 py-12 sm:py-14 md:py-16 border-t border-gray-100">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="text-center mb-8 sm:mb-10 md:mb-12">
-            <h2
-              className="text-2xl sm:text-3xl md:text-4xl text-gray-800 mb-3 sm:mb-4 font-light"
-              style={{ fontFamily: "'Zalando Sans Expanded', sans-serif", fontWeight: 200 }}
-            >
-              Explore Other Areas in {cityName}
-            </h2>
-            <h6 className="text-gray-600 text-base sm:text-lg max-w-3xl mx-auto">
-              Find top physiotherapists in different areas
-            </h6>
-          </div>
-          <div className="relative max-w-7xl mx-auto">
-            <div className="absolute left-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none"></div>
-            <div className="absolute right-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none"></div>
-            <div className="overflow-hidden">
-              <div
-                ref={scrollContainerRef}
-                className="flex gap-3 sm:gap-4 py-4"
-                onMouseEnter={() => setIsPaused(true)}
-                onMouseLeave={() => setIsPaused(false)}
-                style={{ display: "flex", overflow: "hidden", whiteSpace: "nowrap", cursor: "grab", userSelect: "none" }}
+      {/* Areas Slider — only render if areas exist */}
+      {safeAreas.length > 0 && (
+        <div className="bg-gradient-to-b from-white to-gray-50 py-12 sm:py-14 md:py-16 border-t border-gray-100">
+          <div className="container mx-auto px-4 sm:px-6">
+            <div className="text-center mb-8 sm:mb-10 md:mb-12">
+              <h2
+                className="text-2xl sm:text-3xl md:text-4xl text-gray-800 mb-3 sm:mb-4 font-light"
+                style={{ fontFamily: "'Zalando Sans Expanded', sans-serif", fontWeight: 200 }}
               >
-                {currentCityData &&
-                  [...currentCityData.areas, ...currentCityData.areas, ...currentCityData.areas].map((area, index) => (
+                {serviceSlug ? serviceName : "Physiotherapy"} in Other Areas of {cityName}
+              </h2>
+              <p className="text-gray-600 text-base sm:text-lg max-w-3xl mx-auto">
+                Find top physiotherapists near you across {cityName}
+              </p>
+            </div>
+            <div className="relative max-w-7xl mx-auto">
+              <div className="absolute left-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none"></div>
+              <div className="absolute right-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none"></div>
+              <div className="overflow-hidden">
+                <div
+                  ref={scrollContainerRef}
+                  className="flex gap-3 sm:gap-4 py-4"
+                  onMouseEnter={() => setIsPaused(true)}
+                  onMouseLeave={() => setIsPaused(false)}
+                  style={{ overflow: "hidden", whiteSpace: "nowrap", cursor: "grab", userSelect: "none" }}
+                >
+                  {[...safeAreas, ...safeAreas, ...safeAreas].map((area, index) => (
                     <button
                       key={`area-${index}`}
                       onClick={() => handleAreaClick(area)}
+                      aria-label={`${serviceSlug ? serviceName : "Physiotherapy"} in ${area}, ${cityName}`}
                       className="group flex-shrink-0 bg-white hover:bg-gradient-to-r hover:from-[#8ab72e] hover:to-[#6d9424] border-2 border-gray-200 hover:border-[#8ab72e] rounded-full px-4 sm:px-6 py-2.5 sm:py-3 transition-all duration-300 hover:scale-110 flex items-center gap-2 sm:gap-3 shadow-md hover:shadow-2xl"
                       style={{ display: "inline-flex" }}
                     >
@@ -1051,11 +1274,12 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
                       </div>
                     </button>
                   ))}
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       <style>{`
         *::-webkit-scrollbar { display: none; }
