@@ -14,6 +14,7 @@ import "aos/dist/aos.css";
 import TherapistsTeam from "../../../components/TherapistsTeam/TherapistsTeam";
 import FAQSection from "../../../components/FAQSection/FAQSection";
 import { Helmet } from "react-helmet-async";
+import TestimonialsSection from "../../../components/TestimonialsSection/TestimonialsSection";
 
 export default function AboutPage() {
   useEffect(() => {
@@ -425,6 +426,8 @@ export default function AboutPage() {
             </button>
           </a>
         </div>
+{/* 
+        <TestimonialsSection /> */}
       </div>
     </div>
   );
