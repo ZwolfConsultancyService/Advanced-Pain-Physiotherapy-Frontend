@@ -2273,6 +2273,36 @@ const badarpur_faridabadLocations = {
       "NIT Faridabad",
     ],
   },
+  pehladpur: {
+  name: "Pehladpur",
+  title: "Best Physiotherapist Near Me In Pehladpur",
+  parentLocation: "Badarpur",
+  clinics: [sharmaClinicTemplate],
+  nearbyAreas: [
+    "Badarpur",
+    "Molarband",
+    "Jaitpur",
+    "Tughlakabad",
+    "Sarita Vihar",
+    "Jasola",
+    "Meethapur",
+    "Tajpur Pahadi",
+  ],
+},
+"tajpur-pahadi": {
+  name: "Tajpur Pahadi",
+  title: "Best Physiotherapist Near Me In Tajpur Pahadi",
+  parentLocation: "Badarpur",
+  clinics: [sharmaClinicTemplate],
+  nearbyAreas: ["Badarpur", "Molarband", "Pehladpur", "Jaitpur", "Meethapur"],
+},
+"railway-colony": {
+  name: "Railway Colony",
+  title: "Best Physiotherapist Near Me In Railway Colony",
+  parentLocation: "Badarpur",
+  clinics: [sharmaClinicTemplate],
+  nearbyAreas: ["Badarpur", "Jaitpur", "Sarita Vihar", "Molarband", "Meethapur"],
+},
 
   "sarai-khwaja": {
     name: "Sarai Khwaja",
