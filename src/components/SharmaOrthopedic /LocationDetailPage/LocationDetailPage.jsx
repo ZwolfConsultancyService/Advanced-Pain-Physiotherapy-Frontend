@@ -74,7 +74,7 @@ const ashishClinicTemplate = {
            image: Physiotherapy2,
          },
          {
-           name: "Best Physiotherapist",
+           name: "Best Physiotherapy",
            image: Physiotherapy001,
          },
          {
@@ -174,7 +174,7 @@ const sharmaClinicTemplate = {
           image: Physiotherapy01,
         },
         {
-          name: "Best Physiotherapist",
+          name: "Best Physiotherapy",
           image: Physiotherapy,
         },
         {
@@ -253,7 +253,7 @@ const southDelhiLocations = {
   // Kalkaji and surrounding areas
   "golf-links": {
     name: "Golf Links",
-    title: "Best Physiotherapist Near Me In Golf Links",
+    title: "Best Physiotherapy Near Me In Golf Links",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Khan Market",
@@ -270,7 +270,7 @@ const southDelhiLocations = {
 
   "jor-bagh": {
     name: "Jor Bagh",
-    title: "Best Physiotherapist Near Me In Jor Bagh",
+    title: "Best Physiotherapy Near Me In Jor Bagh",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Golf Links",
@@ -287,7 +287,7 @@ const southDelhiLocations = {
 
   "nizamuddin-east": {
     name: "Nizamuddin East",
-    title: "Best Physiotherapist Near Me In Nizamuddin East",
+    title: "Best Physiotherapy Near Me In Nizamuddin East",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Nizamuddin West",
@@ -304,7 +304,7 @@ const southDelhiLocations = {
 
   "nizamuddin-west": {
     name: "Nizamuddin West",
-    title: "Best Physiotherapist Near Me In Nizamuddin West",
+    title: "Best Physiotherapy Near Me In Nizamuddin West",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Nizamuddin East",
@@ -320,7 +320,7 @@ const southDelhiLocations = {
 
   kalkaji: {
     name: "Kalkaji",
-    title: "Best Physiotherapist Near Me In Kalkaji",
+    title: "Best Physiotherapy Near Me In Kalkaji",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Nehru Enclave",
@@ -336,7 +336,7 @@ const southDelhiLocations = {
   },
   "nehru-enclave": {
     name: "Nehru Enclave",
-    title: "Best Physiotherapist Near Me In Nehru Enclave",
+    title: "Best Physiotherapy Near Me In Nehru Enclave",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -352,7 +352,7 @@ const southDelhiLocations = {
 
   "kalkaji-dda-flats": {
     name: "Kalkaji DDA Flats",
-    title: "Best Physiotherapist Near Me In Kalkaji DDA Flats",
+    title: "Best Physiotherapy Near Me In Kalkaji DDA Flats",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -369,7 +369,7 @@ const southDelhiLocations = {
 
   "greater-kailash": {
     name: "Greater Kailash",
-    title: "Best Physiotherapist Near Me In Greater Kailash",
+    title: "Best Physiotherapy Near Me In Greater Kailash",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -384,7 +384,7 @@ const southDelhiLocations = {
   },
   "cr-park": {
     name: "CR Park",
-    title: "Best Physiotherapist Near Me In CR Park (Chittaranjan Park)",
+    title: "Best Physiotherapy Near Me In CR Park (Chittaranjan Park)",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -399,7 +399,7 @@ const southDelhiLocations = {
   },
   "east-of-kailash": {
     name: "East of Kailash",
-    title: "Best Physiotherapist Near Me In East of Kailash",
+    title: "Best Physiotherapy Near Me In East of Kailash",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -414,7 +414,7 @@ const southDelhiLocations = {
   },
   "south-extension": {
     name: "South Extension",
-    title: "Best Physiotherapist Near Me In South Extension",
+    title: "Best Physiotherapy Near Me In South Extension",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Greater Kailash",
@@ -429,7 +429,7 @@ const southDelhiLocations = {
   },
   "lajpat-nagar": {
     name: "Lajpat Nagar",
-    title: "Best Physiotherapist Near Me In Lajpat Nagar",
+    title: "Best Physiotherapy Near Me In Lajpat Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "South Extension",
@@ -444,7 +444,7 @@ const southDelhiLocations = {
   },
   "defence-colony": {
     name: "Defence Colony",
-    title: "Best Physiotherapist Near Me In Defence Colony",
+    title: "Best Physiotherapy Near Me In Defence Colony",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Lajpat Nagar",
@@ -459,7 +459,7 @@ const southDelhiLocations = {
   },
   "green-park": {
     name: "Green Park",
-    title: "Best Physiotherapist Near Me In Green Park",
+    title: "Best Physiotherapy Near Me In Green Park",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Hauz Khas",
@@ -474,7 +474,7 @@ const southDelhiLocations = {
   },
   "hauz-khas": {
     name: "Hauz Khas",
-    title: "Best Physiotherapist Near Me In Hauz Khas",
+    title: "Best Physiotherapy Near Me In Hauz Khas",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Green Park",
@@ -489,7 +489,7 @@ const southDelhiLocations = {
   },
   saket: {
     name: "Saket",
-    title: "Best Physiotherapist Near Me In Saket",
+    title: "Best Physiotherapy Near Me In Saket",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Malviya Nagar",
@@ -504,7 +504,7 @@ const southDelhiLocations = {
   },
   "malviya-nagar": {
     name: "Malviya Nagar",
-    title: "Best Physiotherapist Near Me In Malviya Nagar",
+    title: "Best Physiotherapy Near Me In Malviya Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Saket",
@@ -519,7 +519,7 @@ const southDelhiLocations = {
   },
   "nehru-place": {
     name: "Nehru Place",
-    title: "Best Physiotherapist Near Me In Nehru Place",
+    title: "Best Physiotherapy Near Me In Nehru Place",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -534,7 +534,7 @@ const southDelhiLocations = {
   },
   okhla: {
     name: "Okhla",
-    title: "Best Physiotherapist Near Me In Okhla",
+    title: "Best Physiotherapy Near Me In Okhla",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -549,7 +549,7 @@ const southDelhiLocations = {
   },
   "new-friends-colony": {
     name: "New Friends Colony",
-    title: "Best Physiotherapist Near Me In New Friends Colony",
+    title: "Best Physiotherapy Near Me In New Friends Colony",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Okhla",
@@ -564,7 +564,7 @@ const southDelhiLocations = {
   },
   moolchand: {
     name: "Moolchand",
-    title: "Best Physiotherapist Near Me In Moolchand",
+    title: "Best Physiotherapy Near Me In Moolchand",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kailash Colony",
@@ -580,7 +580,7 @@ const southDelhiLocations = {
 
   "kailash-colony": {
     name: "Kailash Colony",
-    title: "Best Physiotherapist Near Me In Kailash Colony",
+    title: "Best Physiotherapy Near Me In Kailash Colony",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Moolchand",
@@ -595,7 +595,7 @@ const southDelhiLocations = {
 
   alaknanda: {
     name: "Alaknanda",
-    title: "Best Physiotherapist Near Me In Alaknanda",
+    title: "Best Physiotherapy Near Me In Alaknanda",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -610,7 +610,7 @@ const southDelhiLocations = {
 
   "panchsheel-Park": {
     name: "Panchsheel Park",
-    title: "Best Physiotherapist Near Me In Panchsheel Park",
+    title: "Best Physiotherapy Near Me In Panchsheel Park",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Malviya Nagar",
@@ -625,7 +625,7 @@ const southDelhiLocations = {
 
   "safdarjung-enclave": {
     name: "Safdarjung Enclave",
-    title: "Best Physiotherapist Near Me In Safdarjung Enclave",
+    title: "Best Physiotherapy Near Me In Safdarjung Enclave",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Green Park",
@@ -640,7 +640,7 @@ const southDelhiLocations = {
 
   "andrews-ganj": {
     name: "Andrews Ganj",
-    title: "Best Physiotherapist Near Me In Andrews Ganj",
+    title: "Best Physiotherapy Near Me In Andrews Ganj",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "South Extension",
@@ -655,7 +655,7 @@ const southDelhiLocations = {
 
   "govind-puri": {
     name: "Govind Puri",
-    title: "Best Physiotherapist Near Me In Govind Puri",
+    title: "Best Physiotherapy Near Me In Govind Puri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -670,7 +670,7 @@ const southDelhiLocations = {
 
   "maharani-bagh": {
     name: "Maharani Bagh",
-    title: "Best Physiotherapist Near Me In Maharani Bagh",
+    title: "Best Physiotherapy Near Me In Maharani Bagh",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "New Friends Colony",
@@ -685,7 +685,7 @@ const southDelhiLocations = {
 
   jangpura: {
     name: "Jangpura",
-    title: "Best Physiotherapist Near Me In Jangpura",
+    title: "Best Physiotherapy Near Me In Jangpura",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Bhogal",
@@ -699,7 +699,7 @@ const southDelhiLocations = {
 
   "siri-fort": {
     name: "Siri Fort",
-    title: "Best Physiotherapist Near Me In Siri Fort",
+    title: "Best Physiotherapy Near Me In Siri Fort",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Hauz Khas",
@@ -712,7 +712,7 @@ const southDelhiLocations = {
 
   "moti-bagh": {
     name: "Moti Bagh",
-    title: "Best Physiotherapist Near Me In Moti Bagh",
+    title: "Best Physiotherapy Near Me In Moti Bagh",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Chanakyapuri",
@@ -725,7 +725,7 @@ const southDelhiLocations = {
 
   "niti-bagh": {
     name: "Niti Bagh",
-    title: "Best Physiotherapist Near Me In Niti Bagh",
+    title: "Best Physiotherapy Near Me In Niti Bagh",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Gulmohar Park",
@@ -738,7 +738,7 @@ const southDelhiLocations = {
 
   "sadiq-nagar": {
     name: "Sadiq Nagar",
-    title: "Best Physiotherapist Near Me In Sadiq Nagar",
+    title: "Best Physiotherapy Near Me In Sadiq Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Ansari Nagar",
@@ -751,7 +751,7 @@ const southDelhiLocations = {
 
   aiims: {
     name: "AIIMS",
-    title: "Best Physiotherapist Near Me In AIIMS",
+    title: "Best Physiotherapy Near Me In AIIMS",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Ansari Nagar",
@@ -764,7 +764,7 @@ const southDelhiLocations = {
 
   "ansari-nagar": {
     name: "Ansari Nagar",
-    title: "Best Physiotherapist Near Me In Ansari Nagar",
+    title: "Best Physiotherapy Near Me In Ansari Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "AIIMS",
@@ -776,7 +776,7 @@ const southDelhiLocations = {
   },
   sda: {
     name: "SDA",
-    title: "Best Physiotherapist Near Me In SDA",
+    title: "Best Physiotherapy Near Me In SDA",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Hauz Khas",
@@ -789,14 +789,14 @@ const southDelhiLocations = {
 
   "ring-road": {
     name: "Ring Road",
-    title: "Best Physiotherapist Near Me Near Ring Road",
+    title: "Best Physiotherapy Near Me Near Ring Road",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["AIIMS", "South Extension", "Lajpat Nagar", "Ashram", "INA"],
   },
 
   "jasola-apollo": {
     name: "Jasola Apollo",
-    title: "Best Physiotherapist Near Me In Jasola Apollo",
+    title: "Best Physiotherapy Near Me In Jasola Apollo",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Apollo Hospital",
@@ -809,7 +809,7 @@ const southDelhiLocations = {
 
   "katwaria-sarai": {
     name: "Katwaria Sarai",
-    title: "Best Physiotherapist Near Me In Katwaria Sarai",
+    title: "Best Physiotherapy Near Me In Katwaria Sarai",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "IIT Delhi",
@@ -822,7 +822,7 @@ const southDelhiLocations = {
 
   chanakyapuri: {
     name: "Chanakyapuri",
-    title: "Best Physiotherapist Near Me In Chanakyapuri",
+    title: "Best Physiotherapy Near Me In Chanakyapuri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Moti Bagh",
@@ -835,7 +835,7 @@ const southDelhiLocations = {
 
   "jln-stadium": {
     name: "JLN Stadium",
-    title: "Best Physiotherapist Near Me Near JLN Stadium",
+    title: "Best Physiotherapy Near Me Near JLN Stadium",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "India Gate",
@@ -848,7 +848,7 @@ const southDelhiLocations = {
 
   "kidwai-nagar": {
     name: "Kidwai Nagar",
-    title: "Best Physiotherapist Near Me In Kidwai Nagar",
+    title: "Best Physiotherapy Near Me In Kidwai Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "AIIMS",
@@ -861,7 +861,7 @@ const southDelhiLocations = {
 
   "dakshin-puri": {
     name: "Dakshin Puri",
-    title: "Best Physiotherapist Near Me In Dakshin Puri",
+    title: "Best Physiotherapy Near Me In Dakshin Puri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Ambedkar Nagar",
@@ -873,14 +873,14 @@ const southDelhiLocations = {
   },
   "mahipal-pur": {
     name: "Mahipal Pur",
-    title: "Best Physiotherapist Near Me In Mahipal Pur",
+    title: "Best Physiotherapy Near Me In Mahipal Pur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Vasant Kunj", "Dhaula Kuan", "Aerocity", "Munirka", "Palam"],
   },
 
   "vasant-kunj": {
     name: "Vasant Kunj",
-    title: "Best Physiotherapist Near Me In Vasant Kunj",
+    title: "Best Physiotherapy Near Me In Vasant Kunj",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Mehrauli",
@@ -893,7 +893,7 @@ const southDelhiLocations = {
 
   "fatehpur-beri": {
     name: "Fatehpur Beri",
-    title: "Best Physiotherapist Near Me In Fatehpur Beri",
+    title: "Best Physiotherapy Near Me In Fatehpur Beri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Chhatarpur",
@@ -906,7 +906,7 @@ const southDelhiLocations = {
 
   mehrauli: {
     name: "Mehrauli",
-    title: "Best Physiotherapist Near Me In Mehrauli",
+    title: "Best Physiotherapy Near Me In Mehrauli",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Saket",
@@ -919,7 +919,7 @@ const southDelhiLocations = {
 
   "sarojini-nagar": {
     name: "Sarojini Nagar",
-    title: "Best Physiotherapist Near Me In Sarojini Nagar",
+    title: "Best Physiotherapy Near Me In Sarojini Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Safdarjung Enclave",
@@ -932,7 +932,7 @@ const southDelhiLocations = {
 
   "yusuf-sarai": {
     name: "Yusuf Sarai",
-    title: "Best Physiotherapist Near Me In Yusuf Sarai",
+    title: "Best Physiotherapy Near Me In Yusuf Sarai",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Green Park",
@@ -945,14 +945,14 @@ const southDelhiLocations = {
 
   "aurobindo-marg": {
     name: "Aurobindo Marg",
-    title: "Best Physiotherapist Near Me Near Aurobindo Marg",
+    title: "Best Physiotherapy Near Me Near Aurobindo Marg",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Green Park", "Hauz Khas", "Saket", "AIIMS", "Mehrauli"],
   },
 
   "sheikh-sarai": {
     name: "Sheikh Sarai",
-    title: "Best Physiotherapist Near Me In Sheikh Sarai",
+    title: "Best Physiotherapy Near Me In Sheikh Sarai",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Panchsheel Park",
@@ -965,7 +965,7 @@ const southDelhiLocations = {
 
   "neb-sarai": {
     name: "Neb Sarai",
-    title: "Best Physiotherapist Near Me In Neb Sarai",
+    title: "Best Physiotherapy Near Me In Neb Sarai",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Saket",
@@ -978,7 +978,7 @@ const southDelhiLocations = {
 
   "ignou-road": {
     name: "IGNOU Road",
-    title: "Best Physiotherapist Near Me Near IGNOU Road",
+    title: "Best Physiotherapy Near Me Near IGNOU Road",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Neb Sarai",
@@ -991,7 +991,7 @@ const southDelhiLocations = {
 
   "delhi-haat": {
     name: "Delhi Haat",
-    title: "Best Physiotherapist Near Me Near Delhi Haat",
+    title: "Best Physiotherapy Near Me Near Delhi Haat",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "INA",
@@ -1003,7 +1003,7 @@ const southDelhiLocations = {
   },
   devli: {
     name: "Devli",
-    title: "Best Physiotherapist Near Me In Devli",
+    title: "Best Physiotherapy Near Me In Devli",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Khanpur",
@@ -1016,7 +1016,7 @@ const southDelhiLocations = {
 
   tigri: {
     name: "Tigri",
-    title: "Best Physiotherapist Near Me In Tigri",
+    title: "Best Physiotherapy Near Me In Tigri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Dakshin Puri",
@@ -1029,7 +1029,7 @@ const southDelhiLocations = {
 
   khanpur: {
     name: "Khanpur",
-    title: "Best Physiotherapist Near Me In Khanpur",
+    title: "Best Physiotherapy Near Me In Khanpur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Devli",
@@ -1042,7 +1042,7 @@ const southDelhiLocations = {
 
   madangiri: {
     name: "Madangiri",
-    title: "Best Physiotherapist Near Me In Madangiri",
+    title: "Best Physiotherapy Near Me In Madangiri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Tigri",
@@ -1055,7 +1055,7 @@ const southDelhiLocations = {
 
   "sant-nagar": {
     name: "Sant Nagar",
-    title: "Best Physiotherapist Near Me In Sant Nagar",
+    title: "Best Physiotherapy Near Me In Sant Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Burari",
@@ -1068,7 +1068,7 @@ const southDelhiLocations = {
 
   "sainik-farm": {
     name: "Sainik Farm",
-    title: "Best Physiotherapist Near Me In Sainik Farm",
+    title: "Best Physiotherapy Near Me In Sainik Farm",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Neb Sarai",
@@ -1081,7 +1081,7 @@ const southDelhiLocations = {
 
   ashram: {
     name: "Ashram",
-    title: "Best Physiotherapist Near Me In Ashram",
+    title: "Best Physiotherapy Near Me In Ashram",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Maharani Bagh",
@@ -1094,7 +1094,7 @@ const southDelhiLocations = {
 
   "lutyens-delhi": {
     name: "Lutyens Delhi",
-    title: "Best Physiotherapist Near Me In Lutyens Delhi",
+    title: "Best Physiotherapy Near Me In Lutyens Delhi",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "India Gate",
@@ -1107,7 +1107,7 @@ const southDelhiLocations = {
 
   humayunpur: {
     name: "Humayunpur",
-    title: "Best Physiotherapist Near Me In Humayunpur",
+    title: "Best Physiotherapy Near Me In Humayunpur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Safdarjung Enclave",
@@ -1120,7 +1120,7 @@ const southDelhiLocations = {
 
   "shahpur-jaat": {
     name: "Shahpur Jaat",
-    title: "Best Physiotherapist Near Me In Shahpur Jaat",
+    title: "Best Physiotherapy Near Me In Shahpur Jaat",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Hauz Khas",
@@ -1133,14 +1133,14 @@ const southDelhiLocations = {
 
   "sangam-vihar": {
     name: "Sangam Vihar",
-    title: "Best Physiotherapist Near Me In Sangam Vihar",
+    title: "Best Physiotherapy Near Me In Sangam Vihar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Khanpur", "Devli", "Tigri", "Sainik Farm", "Neb Sarai"],
   },
 
   "chirag-delhi": {
     name: "Chirag Delhi",
-    title: "Best Physiotherapist Near Me In Chirag Delhi",
+    title: "Best Physiotherapy Near Me In Chirag Delhi",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Panchsheel Park",
@@ -1152,7 +1152,7 @@ const southDelhiLocations = {
   },
   "kalkaji-block-b": {
     name: "Kalkaji Block B",
-    title: "Best Physiotherapist Near Me In Kalkaji Block B",
+    title: "Best Physiotherapy Near Me In Kalkaji Block B",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -1165,7 +1165,7 @@ const southDelhiLocations = {
 
   "kalkaji-block-a": {
     name: "Kalkaji Block A",
-    title: "Best Physiotherapist Near Me In Kalkaji Block A",
+    title: "Best Physiotherapy Near Me In Kalkaji Block A",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block B",
@@ -1177,7 +1177,7 @@ const southDelhiLocations = {
 
   "kalkaji-block-e": {
     name: "Kalkaji Block E",
-    title: "Best Physiotherapist Near Me In Kalkaji Block E",
+    title: "Best Physiotherapy Near Me In Kalkaji Block E",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block C",
@@ -1189,7 +1189,7 @@ const southDelhiLocations = {
 
   "kalkaji-block-c": {
     name: "Kalkaji Block C",
-    title: "Best Physiotherapist Near Me In Kalkaji Block C",
+    title: "Best Physiotherapy Near Me In Kalkaji Block C",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block A",
@@ -1201,7 +1201,7 @@ const southDelhiLocations = {
 
   "kalkaji-block-g": {
     name: "Kalkaji Block G",
-    title: "Best Physiotherapist Near Me In Kalkaji Block G",
+    title: "Best Physiotherapy Near Me In Kalkaji Block G",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block H",
@@ -1213,14 +1213,14 @@ const southDelhiLocations = {
 
   "kalkaji-block-h": {
     name: "Kalkaji Block H",
-    title: "Best Physiotherapist Near Me In Kalkaji Block H",
+    title: "Best Physiotherapy Near Me In Kalkaji Block H",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Block G", "Kalkaji Block I", "Alaknanda", "CR Park"],
   },
 
   "kalkaji-block-i": {
     name: "Kalkaji Block I",
-    title: "Best Physiotherapist Near Me In Kalkaji Block I",
+    title: "Best Physiotherapy Near Me In Kalkaji Block I",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block H",
@@ -1232,7 +1232,7 @@ const southDelhiLocations = {
 
   "kalkaji-block-d": {
     name: "Kalkaji Block D",
-    title: "Best Physiotherapist Near Me In Kalkaji Block D",
+    title: "Best Physiotherapy Near Me In Kalkaji Block D",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block C",
@@ -1244,14 +1244,14 @@ const southDelhiLocations = {
 
   "kalkaji-block-l": {
     name: "Kalkaji Block L",
-    title: "Best Physiotherapist Near Me In Kalkaji Block L",
+    title: "Best Physiotherapy Near Me In Kalkaji Block L",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Block M", "Govind Puri", "Alaknanda", "CR Park"],
   },
 
   "kalkaji-block-m": {
     name: "Kalkaji Block M",
-    title: "Best Physiotherapist Near Me In Kalkaji Block M",
+    title: "Best Physiotherapy Near Me In Kalkaji Block M",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block L",
@@ -1263,49 +1263,49 @@ const southDelhiLocations = {
 
   "kalkaji-block-cc": {
     name: "Kalkaji Block CC",
-    title: "Best Physiotherapist Near Me In Kalkaji Block CC",
+    title: "Best Physiotherapy Near Me In Kalkaji Block CC",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Extension", "Govind Puri", "CR Park", "Nehru Place"],
   },
 
   "kalkaji-block-r": {
     name: "Kalkaji Block R",
-    title: "Best Physiotherapist Near Me In Kalkaji Block R",
+    title: "Best Physiotherapy Near Me In Kalkaji Block R",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Extension", "Alaknanda", "Govind Puri", "CR Park"],
   },
 
   "kalkaji-block-16": {
     name: "Kalkaji Block 16",
-    title: "Best Physiotherapist Near Me In Kalkaji Block 16",
+    title: "Best Physiotherapy Near Me In Kalkaji Block 16",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Extension", "Govind Puri", "CR Park", "Alaknanda"],
   },
 
   "kalkaji-block-14": {
     name: "Kalkaji Block 14",
-    title: "Best Physiotherapist Near Me In Kalkaji Block 14",
+    title: "Best Physiotherapy Near Me In Kalkaji Block 14",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Extension", "Nehru Place", "CR Park", "Govind Puri"],
   },
 
   "kalkaji-block-17": {
     name: "Kalkaji Block 17",
-    title: "Best Physiotherapist Near Me In Kalkaji Block 17",
+    title: "Best Physiotherapy Near Me In Kalkaji Block 17",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Extension", "Alaknanda", "CR Park", "Govind Puri"],
   },
 
   "kalkaji-block-19": {
     name: "Kalkaji Block 19",
-    title: "Best Physiotherapist Near Me In Kalkaji Block 19",
+    title: "Best Physiotherapy Near Me In Kalkaji Block 19",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Kalkaji Extension", "Govind Puri", "Alaknanda", "CR Park"],
   },
 
   "kalkaji-extension": {
     name: "Kalkaji Extension",
-    title: "Best Physiotherapist Near Me In Kalkaji Extension",
+    title: "Best Physiotherapy Near Me In Kalkaji Extension",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji Block CC",
@@ -1318,7 +1318,7 @@ const southDelhiLocations = {
   },
   "-giri-nagar": {
     name: "Giri Nagar",
-    title: "Best Physiotherapist Near Me In Giri Nagar",
+    title: "Best Physiotherapy Near Me In Giri Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -1331,7 +1331,7 @@ const southDelhiLocations = {
 
   "shyam-nagar": {
     name: "Shyam Nagar",
-    title: "Best Physiotherapist Near Me In Shyam Nagar",
+    title: "Best Physiotherapy Near Me In Shyam Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Tilak Nagar",
@@ -1344,14 +1344,14 @@ const southDelhiLocations = {
 
   vinobhapuri: {
     name: "Vinobhapuri",
-    title: "Best Physiotherapist Near Me In Vinobhapuri",
+    title: "Best Physiotherapy Near Me In Vinobhapuri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Lajpat Nagar", "Moolchand", "Ashram", "Jangpura", "Bhogal"],
   },
 
   "south-extension-i": {
     name: "South Extension I",
-    title: "Best Physiotherapist Near Me In South Extension I",
+    title: "Best Physiotherapy Near Me In South Extension I",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "South Extension II",
@@ -1364,7 +1364,7 @@ const southDelhiLocations = {
 
   "south-extension-ii": {
     name: "South Extension II",
-    title: "Best Physiotherapist Near Me In South Extension II",
+    title: "Best Physiotherapy Near Me In South Extension II",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "South Extension I",
@@ -1376,7 +1376,7 @@ const southDelhiLocations = {
   },
   "greater-kailash-i": {
     name: "Greater Kailash I",
-    title: "Best Physiotherapist Near Me In Greater Kailash I",
+    title: "Best Physiotherapy Near Me In Greater Kailash I",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kailash Colony",
@@ -1389,69 +1389,69 @@ const southDelhiLocations = {
 
   "greater-kailash-i-block-a": {
     name: "Greater Kailash I Block A",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block A",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block A",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "Kailash Colony", "CR Park"],
   },
 
   "greater-kailash-i-block-b": {
     name: "Greater Kailash I Block B",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block B",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block B",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "Nehru Place", "East of Kailash"],
   },
 
   "greater-kailash-i-block-c": {
     name: "Greater Kailash I Block C",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block C",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block C",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "CR Park", "Kailash Colony"],
   },
 
   "greater-kailash-i-block-e": {
     name: "Greater Kailash I Block E",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block E",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block E",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "Nehru Place", "CR Park"],
   },
 
   "greater-kailash-i-block-m": {
     name: "Greater Kailash I Block M",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block M",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block M",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "East of Kailash", "Kailash Colony"],
   },
 
   "greater-kailash-i-block-n": {
     name: "Greater Kailash I Block N",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block N",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block N",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "CR Park", "Alaknanda"],
   },
 
   "greater-kailash-i-block-r": {
     name: "Greater Kailash I Block R",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block R",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block R",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "Nehru Place", "East of Kailash"],
   },
 
   "greater-kailash-i-block-s": {
     name: "Greater Kailash I Block S",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block S",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block S",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "CR Park", "Kailash Colony"],
   },
 
   "greater-kailash-i-block-w": {
     name: "Greater Kailash I Block W",
-    title: "Best Physiotherapist Near Me In Greater Kailash I Block W",
+    title: "Best Physiotherapy Near Me In Greater Kailash I Block W",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash I", "East of Kailash", "Nehru Place"],
   },
   "greater-kailash-ii": {
     name: "Greater Kailash II",
-    title: "Best Physiotherapist Near Me In Greater Kailash II",
+    title: "Best Physiotherapy Near Me In Greater Kailash II",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Greater Kailash I",
@@ -1464,97 +1464,97 @@ const southDelhiLocations = {
 
   "greater-kailash-enclave": {
     name: "Greater Kailash Enclave",
-    title: "Best Physiotherapist Near Me In Greater Kailash Enclave",
+    title: "Best Physiotherapy Near Me In Greater Kailash Enclave",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Greater Kailash II", "Alaknanda", "CR Park", "Kalkaji"],
   },
   "cr-park-block-a": {
     name: "CR Park Block A",
-    title: "Best Physiotherapist Near Me In CR Park Block A",
+    title: "Best Physiotherapy Near Me In CR Park Block A",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block B", "Greater Kailash I", "Alaknanda"],
   },
 
   "cr-park-block-b": {
     name: "CR Park Block B",
-    title: "Best Physiotherapist Near Me In CR Park Block B",
+    title: "Best Physiotherapy Near Me In CR Park Block B",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block A", "CR Park Block C", "Greater Kailash I"],
   },
 
   "cr-park-block-c": {
     name: "CR Park Block C",
-    title: "Best Physiotherapist Near Me In CR Park Block C",
+    title: "Best Physiotherapy Near Me In CR Park Block C",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block B", "CR Park Block D", "Alaknanda"],
   },
 
   "cr-park-block-d": {
     name: "CR Park Block D",
-    title: "Best Physiotherapist Near Me In CR Park Block D",
+    title: "Best Physiotherapy Near Me In CR Park Block D",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block C", "CR Park Block E", "Greater Kailash II"],
   },
 
   "cr-park-block-e": {
     name: "CR Park Block E",
-    title: "Best Physiotherapist Near Me In CR Park Block E",
+    title: "Best Physiotherapy Near Me In CR Park Block E",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block D", "CR Park Block F", "Alaknanda"],
   },
 
   "cr-park-block-f": {
     name: "CR Park Block F",
-    title: "Best Physiotherapist Near Me In CR Park Block F",
+    title: "Best Physiotherapy Near Me In CR Park Block F",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block E", "CR Park Block G", "Greater Kailash II"],
   },
 
   "cr-park-block-g": {
     name: "CR Park Block G",
-    title: "Best Physiotherapist Near Me In CR Park Block G",
+    title: "Best Physiotherapy Near Me In CR Park Block G",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block F", "CR Park Block H", "Alaknanda"],
   },
 
   "cr-park-block-h": {
     name: "CR Park Block H",
-    title: "Best Physiotherapist Near Me In CR Park Block H",
+    title: "Best Physiotherapy Near Me In CR Park Block H",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block G", "CR Park Block I", "Greater Kailash II"],
   },
 
   "cr-park-block-i": {
     name: "CR Park Block I",
-    title: "Best Physiotherapist Near Me In CR Park Block I",
+    title: "Best Physiotherapy Near Me In CR Park Block I",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block H", "CR Park Block J", "Alaknanda"],
   },
 
   "cr-park-block-j": {
     name: "CR Park Block J",
-    title: "Best Physiotherapist Near Me In CR Park Block J",
+    title: "Best Physiotherapy Near Me In CR Park Block J",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block I", "CR Park Block K", "Greater Kailash II"],
   },
 
   "cr-park-block-k": {
     name: "CR Park Block K",
-    title: "Best Physiotherapist Near Me In CR Park Block K",
+    title: "Best Physiotherapy Near Me In CR Park Block K",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block J", "CR Park Pocket K-1", "Alaknanda"],
   },
 
   "cr-park-block-pocket-k-1": {
     name: "CR Park Block Pocket K-1",
-    title: "Best Physiotherapist Near Me In CR Park Block Pocket K-1",
+    title: "Best Physiotherapy Near Me In CR Park Block Pocket K-1",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Block K", "CR Park Pocket 40", "Alaknanda"],
   },
 
   "cr-park-block-pocket-40": {
     name: "CR Park Block Pocket 40",
-    title: "Best Physiotherapist Near Me In CR Park Block Pocket 40",
+    title: "Best Physiotherapy Near Me In CR Park Block Pocket 40",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "CR Park Pocket K-1",
@@ -1565,14 +1565,14 @@ const southDelhiLocations = {
 
   "cr-park-block-pocket-52": {
     name: "CR Park Block Pocket 52",
-    title: "Best Physiotherapist Near Me In CR Park Block Pocket 52",
+    title: "Best Physiotherapy Near Me In CR Park Block Pocket 52",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Pocket 40", "CR Park Pocket M", "Alaknanda"],
   },
 
   "cr-park-block-pocket-m": {
     name: "CR Park Block Pocket M",
-    title: "Best Physiotherapist Near Me In CR Park Block Pocket M",
+    title: "Best Physiotherapy Near Me In CR Park Block Pocket M",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "CR Park Pocket 52",
@@ -1583,13 +1583,13 @@ const southDelhiLocations = {
 
   "cr-park-block-pocket-n": {
     name: "CR Park Block Pocket N",
-    title: "Best Physiotherapist Near Me In CR Park Block Pocket N",
+    title: "Best Physiotherapy Near Me In CR Park Block Pocket N",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["CR Park Pocket M", "Alaknanda", "Greater Kailash II"],
   },
   "harkesh-nagar": {
     name: "Harkesh Nagar",
-    title: "Best Physiotherapist Near Me In Harkesh Nagar",
+    title: "Best Physiotherapy Near Me In Harkesh Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Okhla",
@@ -1601,7 +1601,7 @@ const southDelhiLocations = {
   },
   "west-land-avenue": {
     name: "West Land Avenue",
-    title: "Best Physiotherapist Near Me In West Land Avenue",
+    title: "Best Physiotherapy Near Me In West Land Avenue",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Chirag Delhi",
@@ -1614,7 +1614,7 @@ const southDelhiLocations = {
 
   "adhi-chini": {
     name: "Adhi Chini",
-    title: "Best Physiotherapist Near Me In Adhi Chini",
+    title: "Best Physiotherapy Near Me In Adhi Chini",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Malviya Nagar",
@@ -1627,7 +1627,7 @@ const southDelhiLocations = {
 
   "okhla-phase-i": {
     name: "Okhla Phase I",
-    title: "Best Physiotherapist Near Me In Okhla Phase I",
+    title: "Best Physiotherapy Near Me In Okhla Phase I",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Okhla Phase II",
@@ -1640,7 +1640,7 @@ const southDelhiLocations = {
 
   "okhla-phase-ii": {
     name: "Okhla Phase II",
-    title: "Best Physiotherapist Near Me In Okhla Phase II",
+    title: "Best Physiotherapy Near Me In Okhla Phase II",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Okhla Phase I",
@@ -1653,7 +1653,7 @@ const southDelhiLocations = {
 
   "new-friends-colony-east": {
     name: "New Friends Colony East",
-    title: "Best Physiotherapist Near Me In New Friends Colony East",
+    title: "Best Physiotherapy Near Me In New Friends Colony East",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Ashram",
@@ -1666,14 +1666,14 @@ const southDelhiLocations = {
 
   "new-friends-colony-west": {
     name: "New Friends Colony West",
-    title: "Best Physiotherapist Near Me In New Friends Colony West",
+    title: "Best Physiotherapy Near Me In New Friends Colony West",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Ashram", "Bhogal", "Jangpura", "Maharani Bagh", "Okhla"],
   },
 
   "hauz-khas-enclave": {
     name: "Hauz Khas Enclave",
-    title: "Best Physiotherapist Near Me In Hauz Khas Enclave",
+    title: "Best Physiotherapy Near Me In Hauz Khas Enclave",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Hauz Khas",
@@ -1686,7 +1686,7 @@ const southDelhiLocations = {
 
   "deer-park": {
     name: "Deer Park",
-    title: "Best Physiotherapist Near Me Near Deer Park",
+    title: "Best Physiotherapy Near Me Near Deer Park",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Hauz Khas",
@@ -1699,7 +1699,7 @@ const southDelhiLocations = {
 
   "gulmohar-park": {
     name: "Gulmohar Park",
-    title: "Best Physiotherapist Near Me In Gulmohar Park",
+    title: "Best Physiotherapy Near Me In Gulmohar Park",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Hauz Khas",
@@ -1712,7 +1712,7 @@ const southDelhiLocations = {
 
   "gautam-nagar": {
     name: "Gautam Nagar",
-    title: "Best Physiotherapist Near Me In Gautam Nagar",
+    title: "Best Physiotherapy Near Me In Gautam Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "AIIMS",
@@ -1725,7 +1725,7 @@ const southDelhiLocations = {
 
   rohini: {
     name: "Rohini",
-    title: "Best Physiotherapist Near Me In Rohini",
+    title: "Best Physiotherapy Near Me In Rohini",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Pitampura",
@@ -1738,13 +1738,13 @@ const southDelhiLocations = {
 
   kharera: {
     name: "Kharera",
-    title: "Best Physiotherapist Near Me In Kharera",
+    title: "Best Physiotherapy Near Me In Kharera",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Najafgarh", "Dwarka", "Jharoda Kalan", "Chhawla", "Dhansa"],
   },
   "masjid-moth": {
     name: "Masjid Moth",
-    title: "Best Physiotherapist Near Me In Masjid Moth",
+    title: "Best Physiotherapy Near Me In Masjid Moth",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Greater Kailash",
@@ -1757,7 +1757,7 @@ const southDelhiLocations = {
 
   "shahoorpur-extension": {
     name: "Shahoorpur Extension",
-    title: "Best Physiotherapist Near Me In Shahoorpur Extension",
+    title: "Best Physiotherapy Near Me In Shahoorpur Extension",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Preet Vihar",
@@ -1770,7 +1770,7 @@ const southDelhiLocations = {
 
   kotla: {
     name: "Kotla",
-    title: "Best Physiotherapist Near Me In Kotla",
+    title: "Best Physiotherapy Near Me In Kotla",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Ashram",
@@ -1783,7 +1783,7 @@ const southDelhiLocations = {
 
   "preet-vihar": {
     name: "Preet Vihar",
-    title: "Best Physiotherapist Near Me In Preet Vihar",
+    title: "Best Physiotherapy Near Me In Preet Vihar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Shahoorpur Extension",
@@ -1796,7 +1796,7 @@ const southDelhiLocations = {
 
   "dera-mandi": {
     name: "Dera Mandi",
-    title: "Best Physiotherapist Near Me In Dera Mandi",
+    title: "Best Physiotherapy Near Me In Dera Mandi",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Jama Masjid",
@@ -1809,21 +1809,21 @@ const southDelhiLocations = {
 
   jamroodpur: {
     name: "Jamroodpur",
-    title: "Best Physiotherapist Near Me In Jamroodpur",
+    title: "Best Physiotherapy Near Me In Jamroodpur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Bhogal", "Kotla", "Ashram", "JLN Stadium", "CR Park"],
   },
 
   bhogal: {
     name: "Bhogal",
-    title: "Best Physiotherapist Near Me In Bhogal",
+    title: "Best Physiotherapy Near Me In Bhogal",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Ashram", "JLN Stadium", "Jamroodpur", "Dera Mandi", "Kotla"],
   },
 
   "tughlakbad-railway-colony": {
     name: "Tughlakbad Railway Colony",
-    title: "Best Physiotherapist Near Me In Tughlakbad Railway Colony",
+    title: "Best Physiotherapy Near Me In Tughlakbad Railway Colony",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Okhla Phase I",
@@ -1836,7 +1836,7 @@ const southDelhiLocations = {
 
   "pul-pehladpur": {
     name: "Pul Pehladpur",
-    title: "Best Physiotherapist Near Me In Pul Pehladpur",
+    title: "Best Physiotherapy Near Me In Pul Pehladpur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Tughlakbad Railway Colony",
@@ -1849,7 +1849,7 @@ const southDelhiLocations = {
 
   "sewa-nagar": {
     name: "Sewa Nagar",
-    title: "Best Physiotherapist Near Me In Sewa Nagar",
+    title: "Best Physiotherapy Near Me In Sewa Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Tughlakbad Railway Colony",
@@ -1862,14 +1862,14 @@ const southDelhiLocations = {
 
   "pragati-maidan": {
     name: "Pragati Maidan",
-    title: "Best Physiotherapist Near Me Near Pragati Maidan",
+    title: "Best Physiotherapy Near Me Near Pragati Maidan",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["JLN Stadium", "Bhogal", "Kotla", "India Gate", "Ashram"],
   },
 
   "durga-vihar": {
     name: "Durga Vihar",
-    title: "Best Physiotherapist Near Me In Durga Vihar",
+    title: "Best Physiotherapy Near Me In Durga Vihar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Preet Vihar",
@@ -1881,7 +1881,7 @@ const southDelhiLocations = {
   },
   "sat-beri": {
     name: "Sat Beri",
-    title: "Best Physiotherapist Near Me In Sat Beri",
+    title: "Best Physiotherapy Near Me In Sat Beri",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Fatehpur Beri",
@@ -1894,7 +1894,7 @@ const southDelhiLocations = {
 
   sahoarpur: {
     name: "Sahoarpur",
-    title: "Best Physiotherapist Near Me In Sahoarpur",
+    title: "Best Physiotherapy Near Me In Sahoarpur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Preet Vihar",
@@ -1907,21 +1907,21 @@ const southDelhiLocations = {
 
   jonapur: {
     name: "Jonapur",
-    title: "Best Physiotherapist Near Me In Jonapur",
+    title: "Best Physiotherapy Near Me In Jonapur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Devli", "Tigri", "Khanpur", "Sangam Vihar", "Pul Pehladpur"],
   },
 
   "aya-nagar": {
     name: "Aya Nagar",
-    title: "Best Physiotherapist Near Me In Aya Nagar",
+    title: "Best Physiotherapy Near Me In Aya Nagar",
     clinics: [ashishClinicTemplate],
     nearbyAreas: ["Sat Beri", "Chhatarpur", "Vasant Kunj", "Mehrauli", "Devli"],
   },
 
   sultanpur: {
     name: "Sultanpur",
-    title: "Best Physiotherapist Near Me In Sultanpur",
+    title: "Best Physiotherapy Near Me In Sultanpur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Vasant Kunj",
@@ -1934,7 +1934,7 @@ const southDelhiLocations = {
 
   "ladha-sarai": {
     name: "Ladha Sarai",
-    title: "Best Physiotherapist Near Me In Ladha Sarai",
+    title: "Best Physiotherapy Near Me In Ladha Sarai",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Mehrauli",
@@ -1947,7 +1947,7 @@ const southDelhiLocations = {
 
   gadaipur: {
     name: "Gadaipur",
-    title: "Best Physiotherapist Near Me In Gadaipur",
+    title: "Best Physiotherapy Near Me In Gadaipur",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Kalkaji",
@@ -1960,7 +1960,7 @@ const southDelhiLocations = {
 
   khirki: {
     name: "Khirki",
-    title: "Best Physiotherapist Near Me In Khirki",
+    title: "Best Physiotherapy Near Me In Khirki",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "Malviya Nagar",
@@ -1973,7 +1973,7 @@ const southDelhiLocations = {
 
   "connaught-place": {
     name: "Connaught Place",
-    title: "Best Physiotherapist Near Me In Connaught Place",
+    title: "Best Physiotherapy Near Me In Connaught Place",
     clinics: [ashishClinicTemplate],
     nearbyAreas: [
       "India Gate",
@@ -1990,7 +1990,7 @@ const southDelhiLocations = {
 //   // Main locations
 //   badarpur: {
 //     name: "Badarpur",
-//     title: "Best Physiotherapist Centre In Badarpur",
+//     title: "Best Physiotherapy Centre In Badarpur",
 //     clinics: [sharmaClinicTemplate],
 //     nearbyAreas: [
 //       "Jaitpur",
@@ -2006,7 +2006,7 @@ const southDelhiLocations = {
 //   },
 //   faridabad: {
 //     name: "Faridabad",
-//     title: "Best Physiotherapist  In Faridabad",
+//     title: "Best Physiotherapy  In Faridabad",
 //     clinics: [sharmaClinicTemplate],
 //     nearbyAreas: [
 //       "Sector 15 Faridabad",
@@ -2024,7 +2024,7 @@ const southDelhiLocations = {
 //   // Badarpur sub-areas
 //   jaitpur: {
 //     name: "Jaitpur",
-//     title: "Best Physiotherapist Near Me In Jaitpur",
+//     title: "Best Physiotherapy Near Me In Jaitpur",
 //     parentLocation: "Badarpur",
 //     clinics: [sharmaClinicTemplate],
 //     nearbyAreas: [
@@ -2037,14 +2037,14 @@ const southDelhiLocations = {
 //   },
 //   tughlakabad: {
 //     name: "Tughlakabad",
-//     title: "Best Physiotherapist Near Me In Tughlakabad",
+//     title: "Best Physiotherapy Near Me In Tughlakabad",
 //     parentLocation: "Badarpur",
 //     clinics: [sharmaClinicTemplate],
 //     nearbyAreas: ["Badarpur", "Jaitpur", "Molarband", "Jasola", "Meethapur"],
 //   },
 //   molarband: {
 //     name: "Molarband",
-//     title: "Best Physiotherapist Near Me In Molarband",
+//     title: "Best Physiotherapy Near Me In Molarband",
 //     parentLocation: "Badarpur",
 //     clinics: [sharmaClinicTemplate],
 //     nearbyAreas: [
@@ -2057,7 +2057,7 @@ const southDelhiLocations = {
 //   },
 //   "sarita-vihar": {
 //     name: "Sarita Vihar",
-//     title: "Best Physiotherapist Near Me In Sarita Vihar",
+//     title: "Best Physiotherapy Near Me In Sarita Vihar",
 //     parentLocation: "Badarpur",
 //     clinics: [sharmaClinicTemplate],
 //     nearbyAreas: [
@@ -2075,7 +2075,7 @@ const badarpur_faridabadLocations = {
   // Main locations
   badarpur: {
     name: "Badarpur",
-    title: "Best Physiotherapist Centre In Badarpur",
+    title: "Best Physiotherapy Centre In Badarpur",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
       "Jaitpur",
@@ -2091,7 +2091,7 @@ const badarpur_faridabadLocations = {
   },
   faridabad: {
     name: "Faridabad",
-    title: "Best Physiotherapist In Faridabad",
+    title: "Best Physiotherapy In Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
       "Sector 15 Faridabad",
@@ -2109,7 +2109,7 @@ const badarpur_faridabadLocations = {
   // Badarpur sub-areas (existing - no change)
   jaitpur: {
     name: "Jaitpur",
-    title: "Best Physiotherapist Near Me In Jaitpur",
+    title: "Best Physiotherapy Near Me In Jaitpur",
     parentLocation: "Badarpur",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2122,14 +2122,14 @@ const badarpur_faridabadLocations = {
   },
   tughlakabad: {
     name: "Tughlakabad",
-    title: "Best Physiotherapist Near Me In Tughlakabad",
+    title: "Best Physiotherapy Near Me In Tughlakabad",
     parentLocation: "Badarpur",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: ["Badarpur", "Jaitpur", "Molarband", "Jasola", "Meethapur"],
   },
   molarband: {
     name: "Molarband",
-    title: "Best Physiotherapist Near Me In Molarband",
+    title: "Best Physiotherapy Near Me In Molarband",
     parentLocation: "Badarpur",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2142,7 +2142,7 @@ const badarpur_faridabadLocations = {
   },
   "sarita-vihar": {
     name: "Sarita Vihar",
-    title: "Best Physiotherapist Near Me In Sarita Vihar",
+    title: "Best Physiotherapy Near Me In Sarita Vihar",
     parentLocation: "Badarpur",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2157,7 +2157,7 @@ const badarpur_faridabadLocations = {
   // ✅ FARIDABAD SUB-LOCATIONS - YEH SAB NAYE LOCATIONS HAIN
   "sector-15-faridabad": {
     name: "Sector 15 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 15 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 15 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2174,7 +2174,7 @@ const badarpur_faridabadLocations = {
 
   "sector-16-faridabad": {
     name: "Sector 16 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 16 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 16 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2191,7 +2191,7 @@ const badarpur_faridabadLocations = {
 
   "sector-21-faridabad": {
     name: "Sector 21 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 21 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 21 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2208,7 +2208,7 @@ const badarpur_faridabadLocations = {
 
   "nit-faridabad": {
     name: "NIT Faridabad",
-    title: "Best Physiotherapist Near Me In NIT Faridabad",
+    title: "Best Physiotherapy Near Me In NIT Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2225,7 +2225,7 @@ const badarpur_faridabadLocations = {
 
   "old-faridabad": {
     name: "Old Faridabad",
-    title: "Best Physiotherapist Near Me In Old Faridabad",
+    title: "Best Physiotherapy Near Me In Old Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2242,7 +2242,7 @@ const badarpur_faridabadLocations = {
 
   neharpar: {
     name: "Neharpar",
-    title: "Best Physiotherapist Near Me In Neharpar",
+    title: "Best Physiotherapy Near Me In Neharpar",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2259,7 +2259,7 @@ const badarpur_faridabadLocations = {
 
   "sector-37-faridabad": {
     name: "Sector 37 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 37 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 37 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2275,7 +2275,7 @@ const badarpur_faridabadLocations = {
   },
   pehladpur: {
   name: "Pehladpur",
-  title: "Best Physiotherapist Near Me In Pehladpur",
+  title: "Best Physiotherapy Near Me In Pehladpur",
   parentLocation: "Badarpur",
   clinics: [sharmaClinicTemplate],
   nearbyAreas: [
@@ -2291,14 +2291,14 @@ const badarpur_faridabadLocations = {
 },
 "tajpur-pahadi": {
   name: "Tajpur Pahadi",
-  title: "Best Physiotherapist Near Me In Tajpur Pahadi",
+  title: "Best Physiotherapy Near Me In Tajpur Pahadi",
   parentLocation: "Badarpur",
   clinics: [sharmaClinicTemplate],
   nearbyAreas: ["Badarpur", "Molarband", "Pehladpur", "Jaitpur", "Meethapur"],
 },
 "railway-colony": {
   name: "Railway Colony",
-  title: "Best Physiotherapist Near Me In Railway Colony",
+  title: "Best Physiotherapy Near Me In Railway Colony",
   parentLocation: "Badarpur",
   clinics: [sharmaClinicTemplate],
   nearbyAreas: ["Badarpur", "Jaitpur", "Sarita Vihar", "Molarband", "Meethapur"],
@@ -2306,7 +2306,7 @@ const badarpur_faridabadLocations = {
 
   "sarai-khwaja": {
     name: "Sarai Khwaja",
-    title: "Best Physiotherapist Near Me In Sarai Khwaja",
+    title: "Best Physiotherapy Near Me In Sarai Khwaja",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2323,7 +2323,7 @@ const badarpur_faridabadLocations = {
 
   "ashoka-enclave": {
     name: "Ashoka Enclave",
-    title: "Best Physiotherapist Near Me In Ashoka Enclave",
+    title: "Best Physiotherapy Near Me In Ashoka Enclave",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2341,7 +2341,7 @@ const badarpur_faridabadLocations = {
   // Additional popular Faridabad sectors
   "sector-12-faridabad": {
     name: "Sector 12 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 12 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 12 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2358,7 +2358,7 @@ const badarpur_faridabadLocations = {
 
   "sector-28-faridabad": {
     name: "Sector 28 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 28 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 28 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2375,7 +2375,7 @@ const badarpur_faridabadLocations = {
 
   ajronda: {
     name: "Ajronda",
-    title: "Best Physiotherapist Near Me In Ajronda",
+    title: "Best Physiotherapy Near Me In Ajronda",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2392,7 +2392,7 @@ const badarpur_faridabadLocations = {
 
   ballabgarh: {
     name: "Ballabgarh",
-    title: "Best Physiotherapist Near Me In Ballabgarh",
+    title: "Best Physiotherapy Near Me In Ballabgarh",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2409,7 +2409,7 @@ const badarpur_faridabadLocations = {
 
   "greater-faridabad": {
     name: "Greater Faridabad",
-    title: "Best Physiotherapist Near Me In Greater Faridabad",
+    title: "Best Physiotherapy Near Me In Greater Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2427,7 +2427,7 @@ const badarpur_faridabadLocations = {
   // Additional sectors for complete coverage
   "sector-11-faridabad": {
     name: "Sector 11 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 11 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 11 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2444,7 +2444,7 @@ const badarpur_faridabadLocations = {
 
   "sector-14-faridabad": {
     name: "Sector 14 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 14 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 14 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2461,7 +2461,7 @@ const badarpur_faridabadLocations = {
 
   "sector-17-faridabad": {
     name: "Sector 17 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 17 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 17 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2478,7 +2478,7 @@ const badarpur_faridabadLocations = {
 
   "sector-22-faridabad": {
     name: "Sector 22 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 22 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 22 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2495,7 +2495,7 @@ const badarpur_faridabadLocations = {
 
   "sector-27-faridabad": {
     name: "Sector 27 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 27 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 27 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
@@ -2512,7 +2512,7 @@ const badarpur_faridabadLocations = {
 
   "sector-31-faridabad": {
     name: "Sector 31 Faridabad",
-    title: "Best Physiotherapist Near Me In Sector 31 Faridabad",
+    title: "Best Physiotherapy Near Me In Sector 31 Faridabad",
     parentLocation: "Faridabad",
     clinics: [sharmaClinicTemplate],
     nearbyAreas: [
