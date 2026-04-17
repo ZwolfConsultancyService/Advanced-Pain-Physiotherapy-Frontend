@@ -1310,7 +1310,14 @@
 //   );
 // };
 
+
 // export default AreaDetailPage;
+
+
+
+
+
+
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { useParams, useNavigate, useLocation, Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -2013,6 +2020,7 @@ const AreaDetailPage = () => {
                 </div>
               </div>
             </div>
+            
           </div>
         )}
 
