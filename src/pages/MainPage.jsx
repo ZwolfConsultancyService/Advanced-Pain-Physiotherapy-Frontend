@@ -19,6 +19,7 @@ import FounderSection from "../components/FounderSection/FounderSection";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import PhysiotherapyFeesSection from "../components/PhysiotherapyFeesSection/PhysiotherapyFeesSection";
 import { Helmet } from "react-helmet-async";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 
 
@@ -271,14 +272,24 @@ const MainPage = () => {
           <PhysiotherapyFeesSection />
         </section>
 
+
         <section
+          
+          data-aos="fade-up"
+          data-aos-delay="700"
+          className="mobile-section"
+        >
+          <Testimonials />
+        </section>
+
+        {/* <section
           id="city-navigation"
           data-aos="fade-up"
           data-aos-delay="700"
           className="mobile-section"
         >
           <PhysiotherapyClinics />
-        </section>
+        </section> */}
 
         {/* <section data-aos="fade-up" data-aos-delay="800" className="mobile-section">
           <BlogSection />

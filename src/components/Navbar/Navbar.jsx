@@ -16,29 +16,29 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [mobileServiceOpen, setMobileServiceOpen] = useState(false);
-  const [locationDropdownOpen, setLocationDropdownOpen] = useState(false);
-  const [mobileLocationOpen, setMobileLocationOpen] = useState(false);
+  // const [locationDropdownOpen, setLocationDropdownOpen] = useState(false);
+  // const [mobileLocationOpen, setMobileLocationOpen] = useState(false);
   const dropdownTimeoutRef = useRef(null);
-  const locationTimeoutRef = useRef(null);
+  // const locationTimeoutRef = useRef(null);
   const navigate = useNavigate();
 
-  const locations = [
-    {
-      name: "Sharma Orthopedic and Rehab Centre",
-      slug: "sharma-orthopedic-rehab-centre",
-      address: "New Delhi",
-    },
-    {
-      name: "Parth Medicare",
-      slug: "parth-medicare",
-      address: "New Delhi",
-    },
-  ];
+  // const locations = [
+  //   {
+  //     name: "Sharma Orthopedic and Rehab Centre",
+  //     slug: "sharma-orthopedic-rehab-centre",
+  //     address: "New Delhi",
+  //   },
+  //   {
+  //     name: "Parth Medicare",
+  //     slug: "parth-medicare",
+  //     address: "New Delhi",
+  //   },
+  // ];
 
   useEffect(() => {
     return () => {
       if (dropdownTimeoutRef.current) clearTimeout(dropdownTimeoutRef.current);
-      if (locationTimeoutRef.current) clearTimeout(locationTimeoutRef.current);
+      // if (locationTimeoutRef.current) clearTimeout(locationTimeoutRef.current);
     };
   }, []);
 
@@ -141,19 +141,19 @@ export default function Navbar() {
   };
 
   // Location dropdown handlers
-  const handleLocationMouseEnter = () => {
-    if (locationTimeoutRef.current) clearTimeout(locationTimeoutRef.current);
-    setLocationDropdownOpen(true);
-  };
-  const handleLocationMouseLeave = () => {
-    locationTimeoutRef.current = setTimeout(() => setLocationDropdownOpen(false), 200);
-  };
-  const handleLocationDropdownEnter = () => {
-    if (locationTimeoutRef.current) clearTimeout(locationTimeoutRef.current);
-  };
-  const handleLocationDropdownLeave = () => {
-    locationTimeoutRef.current = setTimeout(() => setLocationDropdownOpen(false), 200);
-  };
+  // const handleLocationMouseEnter = () => {
+  //   if (locationTimeoutRef.current) clearTimeout(locationTimeoutRef.current);
+  //   setLocationDropdownOpen(true);
+  // };
+  // const handleLocationMouseLeave = () => {
+  //   locationTimeoutRef.current = setTimeout(() => setLocationDropdownOpen(false), 200);
+  // };
+  // const handleLocationDropdownEnter = () => {
+  //   if (locationTimeoutRef.current) clearTimeout(locationTimeoutRef.current);
+  // };
+  // const handleLocationDropdownLeave = () => {
+  //   locationTimeoutRef.current = setTimeout(() => setLocationDropdownOpen(false), 200);
+  // };
 
   return (
     <div className="w-full" style={{ fontFamily: "'Gantari', sans-serif", fontWeight: 400 }}>
@@ -232,7 +232,7 @@ export default function Navbar() {
                 </Link>
               ))}
 
-              {/* ── Location Dropdown (Desktop) ── */}
+              {/* ── Location Dropdown (Desktop) ──
               <div
                 className="relative"
                 onMouseEnter={handleLocationMouseEnter}
@@ -255,7 +255,6 @@ export default function Navbar() {
                     onMouseEnter={handleLocationDropdownEnter}
                     onMouseLeave={handleLocationDropdownLeave}
                   >
-                    {/* dropdown arrow tip */}
                     <div className="absolute -top-2 right-6 w-4 h-4 bg-white border-l border-t border-gray-100 rotate-45" />
 
                     <p className="text-[10px] font-600 tracking-widest text-gray-400 uppercase px-4 pb-2 pt-1">
@@ -283,6 +282,7 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
+              */}
 
               <Link to="/contact" className="bg-[#8ab72e] text-white px-4 xl:px-6 py-2 xl:py-2.5 rounded-full hover:bg-[#7aa625] transition shadow-md hover:shadow-lg text-sm xl:text-base whitespace-nowrap">
                 Book Appointment
@@ -329,7 +329,7 @@ export default function Navbar() {
                 )}
               </div>
 
-              {/* ── Mobile Location Dropdown ── */}
+              {/* ── Mobile Location Dropdown ──
               <div className="border-t border-gray-100 pt-2 mt-2">
                 <button onClick={() => setMobileLocationOpen(!mobileLocationOpen)} className="w-full flex items-center justify-between text-gray-700 hover:text-[#8ab72e] hover:bg-emerald-50 transition py-2 sm:py-3 px-3 sm:px-4 rounded-lg text-sm">
                   <span>Location</span>
@@ -351,6 +351,7 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
+              */}
 
               <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="block mt-3 rounded-full bg-[#8ab72e] px-4 sm:px-6 py-2.5 sm:py-3 text-center text-white shadow-md transition hover:bg-[#7aa625] text-sm">
                 Book Appointment
