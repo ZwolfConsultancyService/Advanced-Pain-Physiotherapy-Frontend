@@ -1,7 +1,15 @@
+
+
+
+
+
+
+
 // import React, { Suspense, lazy } from "react";
 // import { Routes, Route, Navigate, useParams } from "react-router-dom";
 // import Layout from "./Layout/Layout";
 // import ScrollToTop from "./lib/ScrollToTop/ScrollToTop";
+
 // import PhysiotherapyDetailPage from "./pages/DetailPage/PhysiotherapyDetailPage";
 // import AreaDetailPage from "./pages/DetailPage/AreaDetailPage/AreaDetailPage";
 // import CityOverviewPage from "./pages/CityOverviewPage/CityOverviewPage";
@@ -12,12 +20,15 @@
 // import AreaPhysiotherapyDetailPage from "./pages/DetailPage/AreaPhysiotherapyDetailPage/AreaPhysiotherapyDetailPage";
 // import CertifiedTherapists from "./pages/CertifiedTherapists/CertifiedTherapists";
 // import ClinicDetailPage from "./pages/DetailPage/ClinicDetailPage/ClinicDetailPage";
-// import LocationDetailPage from "./components/SharmaOrthopedic /LocationDetailPage/LocationDetailPage";
+
+//  import LocationDetailPage from "./components/SharmaOrthopedic /LocationDetailPage/LocationDetailPage";
 // import ServiceClinicDetailPage from "./components/SharmaOrthopedic /ServiceDetailPage/ServiceClinicDetailPage";
-// import ParthMedicareServiceDetail from "./pages/DetailPage/ClinicDetailPage/ParthMedicareServiceDetail/ParthMedicareServiceDetail";
 // import AshishServiceDetail from "./components/SharmaOrthopedic /ServiceDetailPage/AshishServiceDetail";
+// import ParthMedicareServiceDetail from "./pages/DetailPage/ClinicDetailPage/ParthMedicareServiceDetail/ParthMedicareServiceDetail";
+
 // import { citiesData } from "./data/citiesData";
 
+// // Lazy pages
 // const MainPage = lazy(() => import("./pages/MainPage"));
 // const ContactPage = lazy(() => import("./pages/ContactPage/ContactPage"));
 // const TermsAndConditions = lazy(() => import("./pages/TermsAndConditions/TermsAndConditions"));
@@ -26,214 +37,122 @@
 // const ServicesPage = lazy(() => import("./pages/NavbarPages/ServicesPage/ServicesPage"));
 // const BlogPage = lazy(() => import("./pages/NavbarPages/BlogPage/BlogPage"));
 
-// // ============================================================
-// // ✅ OLD ROUTES → REDIRECT (updated to new area-city format)
-// // ============================================================
-// const RedirectCityAreaService = () => {
-//   const { citySlug, areaSlug, serviceSlug } = useParams();
-//   // Old: /city/delhi/area/janakpuri/knee-pain  →  New: /knee-pain-treatment-in-janakpuri-delhi
-//   return <Navigate to={`/${serviceSlug}-treatment-in-${areaSlug}-${citySlug}`} replace />;
-// };
-// const RedirectCityArea = () => {
-//   const { citySlug, areaSlug } = useParams();
-//   // Old: /city/delhi/area/janakpuri  →  New: /physiotherapy-in-janakpuri-delhi
-//   return <Navigate to={`/physiotherapy-in-${areaSlug}-${citySlug}`} replace />;
-// };
-// const RedirectCityService = () => {
-//   const { citySlug, serviceSlug } = useParams();
-//   return <Navigate to={`/${serviceSlug}-treatment-in-${citySlug}`} replace />;
-// };
-// const RedirectCity = () => {
-//   const { citySlug } = useParams();
-//   return <Navigate to={`/physiotherapy-in-${citySlug}`} replace />;
-// };
+// // =========================
+// // 🔴 NOT FOUND
+// // =========================
+// const NotFound = () => (
+//   <div style={{ padding: "100px", textAlign: "center" }}>
+//     <h1>404 - Page Not Found</h1>
+//   </div>
+// );
 
-// // ✅ OLD /physiotherapists/:citySlug → NEW /physiotherapy-centre-in-:citySlug
-// const RedirectPhysiotherapists = () => {
-//   const { citySlug } = useParams();
-//   return <Navigate to={`/physiotherapy-centre-in-${citySlug}`} replace />;
-// };
-
-// // ============================================================
-// // ✅ SMART ROUTER COMPONENT
-// //
-// // NEW URL format:  area PEHLE, city BAAD MEIN
-// //
-// // URL Examples:
-// //   /physiotherapy-in-kaushambi-ghaziabad       → AreaPhysiotherapyDetailPage
-// //   /knee-pain-treatment-in-janakpuri-delhi      → AreaPhysiotherapyDetailPage
-// //   /knee-pain-treatment-in-delhi                → AreaDetailPage
-// //   /physiotherapy-in-delhi                      → CityOverviewPage
-// //   /physiotherapy-centre-in-ghaziabad           → PhysiotherapistsNearYou
-// // ============================================================
-
-// const NotFound = () => {
-//   return (
-//     <div style={{ padding: "100px", textAlign: "center" }}>
-//       <h1>404 - Page Not Found</h1>
-//     </div>
-//   );
-// };
-
+// // =========================
+// // 🔧 HELPER
+// // =========================
 // const toSlug = (str) =>
 //   str
 //     .toLowerCase()
 //     .replace(/[^a-z0-9\s-]/g, "")
 //     .replace(/\s+/g, "-");
-// // const SmartRouter = () => {
-// //   const { fullSlug } = useParams();
 
-// //   // ✅ Check: physiotherapy-centre-in-{city}
-// //   const centrePrefix = "physiotherapy-centre-in-";
-// //   if (fullSlug.startsWith(centrePrefix)) {
-// //     const citySlug = fullSlug.slice(centrePrefix.length);
-// //     return <PhysiotherapistsNearYou citySlug={citySlug} />;
-// //   }
+// // =========================
+// // 🔁 REDIRECTS
+// // =========================
+// const RedirectCityAreaService = () => {
+//   const { citySlug, areaSlug, serviceSlug } = useParams();
+//   return <Navigate to={`/${serviceSlug}-treatment-in-${areaSlug}-${citySlug}`} replace />;
+// };
 
-// //   // Parse fullSlug
-// //   const inIndex = fullSlug.lastIndexOf("-in-");
+// const RedirectCityArea = () => {
+//   const { citySlug, areaSlug } = useParams();
+//   return <Navigate to={`/physiotherapy-in-${areaSlug}-${citySlug}`} replace />;
+// };
 
-// //   if (inIndex === -1) {
-// //     return <AreaDetailPage />;
-// //   }
+// const RedirectCityService = () => {
+//   const { citySlug, serviceSlug } = useParams();
+//   return <Navigate to={`/${serviceSlug}-treatment-in-${citySlug}`} replace />;
+// };
 
-// //   const afterIn = fullSlug.slice(inIndex + 4); // e.g. "kaushambi-ghaziabad"
-// //   const beforeIn = fullSlug.slice(0, inIndex); // e.g. "physiotherapy" or "knee-pain"
+// const RedirectCity = () => {
+//   const { citySlug } = useParams();
+//   return <Navigate to={`/physiotherapy-in-${citySlug}`} replace />;
+// };
 
-// //   // City slugs — sorted longest first to avoid partial matches
-// //   const knownCities = citiesData
-// //     .map((c) => c.slug)
-// //     .filter(Boolean)
-// //     .sort((a, b) => b.length - a.length);
+// const RedirectPhysiotherapists = () => {
+//   const { citySlug } = useParams();
+//   return <Navigate to={`/physiotherapy-centre-in-${citySlug}`} replace />;
+// };
 
-// //   let citySlug = null;
-// //   let areaSlug = null;
-
-// //   // ✅ NEW FORMAT: {area}-{city}  → city is at the END
-// //   for (const city of knownCities) {
-// //     if (afterIn === city) {
-// //       // Only city, no area → e.g. "physiotherapy-in-delhi"
-// //       citySlug = city;
-// //       areaSlug = null;
-// //       break;
-// //     } else if (afterIn.endsWith("-" + city)) {
-// //       // area-city → e.g. "kaushambi-ghaziabad"
-// //       citySlug = city;
-// //       areaSlug = afterIn.slice(0, afterIn.length - city.length - 1); // extract "kaushambi"
-// //       break;
-// //     }
-// //   }
-
-// //   if (!citySlug) {
-// //     citySlug = afterIn;
-// //     areaSlug = null;
-// //   }
-
-// //   const serviceSlug =
-// //     beforeIn === "physiotherapy"
-// //       ? null
-// //       : beforeIn.endsWith("-treatment")
-// //       ? beforeIn.slice(0, -"-treatment".length)
-// //       : beforeIn;
-
-// //   // ✅ City only → CityOverviewPage
-// //   if (!serviceSlug && !areaSlug) {
-// //     return <CityOverviewPage citySlug={citySlug} />;
-// //   }
-
-// //   // ✅ Has area → AreaPhysiotherapyDetailPage
-// //   if (areaSlug) {
-// //     return (
-// //       <AreaPhysiotherapyDetailPage
-// //         key={fullSlug}
-// //         citySlug={citySlug}
-// //         areaSlug={areaSlug}
-// //         serviceSlug={serviceSlug}
-// //       />
-// //     );
-// //   }
-
-// //   // ✅ Service + City only → AreaDetailPage
-// //   return <AreaDetailPage />;
-// // };
-
-// // ============================================================
+// // =========================
+// // 🧠 SMART ROUTER
+// // =========================
 // const SmartRouter = () => {
 //   const { fullSlug } = useParams();
 
-//   const knownCities = citiesData
-//     .map((c) => c.slug)
-//     .filter(Boolean)
-//     .sort((a, b) => b.length - a.length);
+//   const knownCities = citiesData.map((c) => c.slug.toLowerCase());
 
 //   // ✅ physiotherapy-centre-in-city
 //   const centrePrefix = "physiotherapy-centre-in-";
 //   if (fullSlug.startsWith(centrePrefix)) {
-//     const citySlug = fullSlug.replace(centrePrefix, "");
+//     const citySlug = fullSlug.replace(centrePrefix, "").toLowerCase();
 
-//     if (!knownCities.includes(citySlug)) {
-//       return <NotFound />;
-//     }
+//     if (!knownCities.includes(citySlug)) return <NotFound />;
 
 //     return <PhysiotherapistsNearYou citySlug={citySlug} />;
 //   }
 
 //   const inIndex = fullSlug.lastIndexOf("-in-");
-
-//   // ❌ invalid slug
-//   if (inIndex === -1) {
-//     return <NotFound />;
-//   }
+//   if (inIndex === -1) return <NotFound />;
 
 //   const beforeIn = fullSlug.slice(0, inIndex);
-//   const afterIn = fullSlug.slice(inIndex + 4);
+//   const afterIn = fullSlug.slice(inIndex + 4).toLowerCase();
 
 //   let citySlug = null;
 //   let areaSlug = null;
 
-// for (const city of knownCities) {
+//   // ✅ detect city & area
+//   for (const city of knownCities) {
+//     // city-first
+//     if (afterIn.startsWith(city + "-")) {
+//       citySlug = city;
+//       areaSlug = afterIn.slice(city.length + 1);
+//       break;
+//     }
 
-//   // ✅ case 2: city at start (FIRST CHECK)
-//   if (afterIn.startsWith(city + "-")) {
-//     citySlug = city;
-//     areaSlug = afterIn.slice(city.length + 1);
-//     break;
+//     // area-first
+//     if (afterIn.endsWith("-" + city)) {
+//       citySlug = city;
+//       areaSlug = afterIn.slice(0, afterIn.length - city.length - 1);
+//       break;
+//     }
+
+//     // only city
+//     if (afterIn === city) {
+//       citySlug = city;
+//       break;
+//     }
 //   }
 
-//   // ✅ case 1: city at end
-//   if (afterIn.endsWith("-" + city)) {
-//     citySlug = city;
-//     areaSlug = afterIn.slice(0, afterIn.length - city.length - 1);
-//     break;
-//   }
-
-//   // ✅ only city
-//   if (afterIn === city) {
-//     citySlug = city;
-//     areaSlug = null;
-//     break;
-//   }
-// }
-
-//   // ❌ INVALID CITY → 404 (MAIN FIX)
-//   // if (!citySlug) {
-//   //   return <NotFound />;
-//   // }
-
+//   // ❌ invalid city
 //   if (!citySlug || !knownCities.includes(citySlug)) {
-//   return <NotFound />;
-// }
+//     return <NotFound />;
+//   }
 
-// // ✅ area validation
-// const cityData = citiesData.find((c) => c.slug === citySlug);
+//   // ✅ area validation
+//   const cityData = citiesData.find((c) => c.slug === citySlug);
 
-// const validAreaSlugs =
-//   cityData?.areas.map((area) => toSlug(area)) || [];
+//   const validAreaSlugs =
+//     cityData?.areas.map((area) => toSlug(area)) || [];
 
-// if (areaSlug && !validAreaSlugs.includes(areaSlug)) {
-//   return <NotFound />;
-// }
+//   if (areaSlug) {
+//     const cleanArea = toSlug(areaSlug);
+//     if (!validAreaSlugs.includes(cleanArea)) {
+//       return <NotFound />;
+//     }
+//     areaSlug = cleanArea;
+//   }
 
+//   // ✅ service
 //   const serviceSlug =
 //     beforeIn === "physiotherapy"
 //       ? null
@@ -241,12 +160,12 @@
 //       ? beforeIn.replace("-treatment", "")
 //       : beforeIn;
 
-//   // ✅ city only
+//   // city page
 //   if (!serviceSlug && !areaSlug) {
 //     return <CityOverviewPage citySlug={citySlug} />;
 //   }
 
-//   // ✅ area + city
+//   // area page
 //   if (areaSlug) {
 //     return (
 //       <AreaPhysiotherapyDetailPage
@@ -258,14 +177,17 @@
 //     );
 //   }
 
-//   // ✅ service + city
 //   return <AreaDetailPage />;
 // };
+
+// // =========================
+// // 🚀 APP
+// // =========================
 // const App = () => {
 //   return (
 //     <>
 //       <ScrollToTop />
-//       <Suspense>
+//       <Suspense fallback={<div>Loading...</div>}>
 //         <Routes>
 //           <Route element={<Layout />}>
 //             <Route path="/" element={<MainPage />} />
@@ -287,16 +209,13 @@
 //             <Route path="/blog/:slug" element={<BlogDetailPage />} />
 //             <Route path="/therapists" element={<CertifiedTherapists />} />
 
-//             {/* ✅ OLD /physiotherapists/:citySlug → redirect to new SEO URL */}
 //             <Route path="/physiotherapists/:citySlug" element={<RedirectPhysiotherapists />} />
 
-//             {/* Old city/area routes → redirect to new format */}
 //             <Route path="/city/:citySlug/area/:areaSlug/:serviceSlug" element={<RedirectCityAreaService />} />
 //             <Route path="/city/:citySlug/area/:areaSlug" element={<RedirectCityArea />} />
 //             <Route path="/city/:citySlug/:serviceSlug" element={<RedirectCityService />} />
 //             <Route path="/city/:citySlug" element={<RedirectCity />} />
 
-//             {/* ✅ SINGLE CATCH-ALL — SmartRouter decides which component */}
 //             <Route path="/:fullSlug" element={<SmartRouter />} />
 //           </Route>
 
@@ -316,8 +235,10 @@
 // export default App;
 
 
+
+
 import React, { Suspense, lazy } from "react";
-import { Routes, Route, Navigate, useParams } from "react-router-dom";
+import { Routes, Route, Navigate, useParams, useLocation } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import ScrollToTop from "./lib/ScrollToTop/ScrollToTop";
 
@@ -332,7 +253,7 @@ import AreaPhysiotherapyDetailPage from "./pages/DetailPage/AreaPhysiotherapyDet
 import CertifiedTherapists from "./pages/CertifiedTherapists/CertifiedTherapists";
 import ClinicDetailPage from "./pages/DetailPage/ClinicDetailPage/ClinicDetailPage";
 
- import LocationDetailPage from "./components/SharmaOrthopedic /LocationDetailPage/LocationDetailPage";
+import LocationDetailPage from "./components/SharmaOrthopedic /LocationDetailPage/LocationDetailPage";
 import ServiceClinicDetailPage from "./components/SharmaOrthopedic /ServiceDetailPage/ServiceClinicDetailPage";
 import AshishServiceDetail from "./components/SharmaOrthopedic /ServiceDetailPage/AshishServiceDetail";
 import ParthMedicareServiceDetail from "./pages/DetailPage/ClinicDetailPage/ParthMedicareServiceDetail/ParthMedicareServiceDetail";
@@ -399,6 +320,7 @@ const RedirectPhysiotherapists = () => {
 // =========================
 const SmartRouter = () => {
   const { fullSlug } = useParams();
+  const location = useLocation();
 
   const knownCities = citiesData.map((c) => c.slug.toLowerCase());
 
@@ -406,9 +328,7 @@ const SmartRouter = () => {
   const centrePrefix = "physiotherapy-centre-in-";
   if (fullSlug.startsWith(centrePrefix)) {
     const citySlug = fullSlug.replace(centrePrefix, "").toLowerCase();
-
     if (!knownCities.includes(citySlug)) return <NotFound />;
-
     return <PhysiotherapistsNearYou citySlug={citySlug} />;
   }
 
@@ -421,39 +341,59 @@ const SmartRouter = () => {
   let citySlug = null;
   let areaSlug = null;
 
-  // ✅ detect city & area
+  // ✅ City detect karo URL se
   for (const city of knownCities) {
-    // city-first
-    if (afterIn.startsWith(city + "-")) {
+    if (afterIn === city) {
+      citySlug = city;
+      areaSlug = null;
+      break;
+    } else if (afterIn.startsWith(city + "-")) {
       citySlug = city;
       areaSlug = afterIn.slice(city.length + 1);
       break;
-    }
-
-    // area-first
-    if (afterIn.endsWith("-" + city)) {
+    } else if (afterIn.endsWith("-" + city)) {
       citySlug = city;
       areaSlug = afterIn.slice(0, afterIn.length - city.length - 1);
       break;
     }
+  }
 
-    // only city
-    if (afterIn === city) {
-      citySlug = city;
-      break;
+  // ✅ FIX: Agar city URL mein nahi mili —
+  // state se city lo (area button click se aata hai)
+  if (!citySlug) {
+    const stateCity = location.state?.citySlug;
+
+    if (stateCity && knownCities.includes(stateCity)) {
+      citySlug = stateCity;
+      areaSlug = afterIn; // poora afterIn area hai
+    } else {
+      // ✅ FIX: Agar state mein bhi city nahi —
+      // afterIn ko saari cities ke areas mein dhundho
+      let foundCity = null;
+      let foundArea = null;
+
+      for (const cityData of citiesData) {
+        const validAreas = (cityData.areas || []).map((a) => toSlug(a));
+        if (validAreas.includes(toSlug(afterIn))) {
+          foundCity = cityData.slug;
+          foundArea = toSlug(afterIn);
+          break;
+        }
+      }
+
+      if (foundCity) {
+        citySlug = foundCity;
+        areaSlug = foundArea;
+      } else {
+        // Koi bhi city/area match nahi mila
+        return <NotFound />;
+      }
     }
   }
 
-  // ❌ invalid city
-  if (!citySlug || !knownCities.includes(citySlug)) {
-    return <NotFound />;
-  }
-
-  // ✅ area validation
+  // ✅ City valid hai — ab area validate karo (agar hai toh)
   const cityData = citiesData.find((c) => c.slug === citySlug);
-
-  const validAreaSlugs =
-    cityData?.areas.map((area) => toSlug(area)) || [];
+  const validAreaSlugs = (cityData?.areas || []).map((area) => toSlug(area));
 
   if (areaSlug) {
     const cleanArea = toSlug(areaSlug);
@@ -463,7 +403,7 @@ const SmartRouter = () => {
     areaSlug = cleanArea;
   }
 
-  // ✅ service
+  // ✅ Service slug nikalo
   const serviceSlug =
     beforeIn === "physiotherapy"
       ? null
@@ -471,12 +411,12 @@ const SmartRouter = () => {
       ? beforeIn.replace("-treatment", "")
       : beforeIn;
 
-  // city page
+  // City only page
   if (!serviceSlug && !areaSlug) {
     return <CityOverviewPage citySlug={citySlug} />;
   }
 
-  // area page
+  // Area page (with or without service)
   if (areaSlug) {
     return (
       <AreaPhysiotherapyDetailPage
@@ -488,6 +428,7 @@ const SmartRouter = () => {
     );
   }
 
+  // City + Service page
   return <AreaDetailPage />;
 };
 
@@ -544,3 +485,4 @@ const App = () => {
 };
 
 export default App;
+

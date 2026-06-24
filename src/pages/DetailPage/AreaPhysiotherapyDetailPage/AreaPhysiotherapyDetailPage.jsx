@@ -1,9 +1,10 @@
 
 
+
 // import React, { useState, useEffect, useRef, useMemo } from "react";
 // import { useNavigate, useLocation } from "react-router-dom";
 // import { Helmet } from "react-helmet-async";
-// import { Star, Phone, Calendar, MapPin, ChevronLeft } from "lucide-react";
+// import { Star, Phone, Calendar, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
 // import ServicesSlider from "../../../components/ServiceCard/ServicesSlider";
 // import TherapyExpertiseSection from "../../../components/TherapyExpertise/TherapyExpertiseSection";
 // import ConditionsSection from "../../../components/ConditionsDataSection/ConditionsSection";
@@ -39,6 +40,7 @@
 
 //   const [isLoading, setIsLoading] = useState(true);
 //   const [isPaused, setIsPaused] = useState(false);
+//   const [sliderIndex, setSliderIndex] = useState(0);
 //   const scrollContainerRef = useRef(null);
 
 //   // ── Data resolution ──────────────────────────────────────────────────────────
@@ -334,6 +336,40 @@
 //     navigate(url, { state: { cityName, areaName: area, serviceName } });
 //   };
 
+//   // // Left/Right button handlers for areas slider
+//   // const handleSliderLeft = () => {
+//   //   setSliderIndex((prev) => Math.max(0, prev - 1));
+//   //   setIsPaused(true);
+//   // };
+
+//   // const handleSliderRight = () => {
+//   //   setSliderIndex((prev) => Math.min(safeAreas.length - 1, prev + 1));
+//   //   setIsPaused(true);
+//   // };
+//   const handleSliderLeft = () => {
+//   const container = scrollContainerRef.current;
+//   if (!container) return;
+
+//   setIsPaused(true);
+
+//   container.scrollBy({
+//     left: -300, // 👈 kitna scroll karna hai (adjust kar sakte ho)
+//     behavior: "smooth",
+//   });
+// };
+
+// const handleSliderRight = () => {
+//   const container = scrollContainerRef.current;
+//   if (!container) return;
+
+//   setIsPaused(true);
+
+//   container.scrollBy({
+//     left: 300, // 👈 right side scroll
+//     behavior: "smooth",
+//   });
+// };
+
 //   if (isLoading) {
 //     return (
 //       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -593,8 +629,31 @@
 //               </p>
 //             </div>
 //             <div className="relative max-w-7xl mx-auto">
+//               {/* Left fade */}
 //               <div className="absolute left-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none"></div>
+//               {/* Right fade */}
 //               <div className="absolute right-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none"></div>
+
+//               {/* LEFT BUTTON */}
+//               <button
+//                 onClick={handleSliderLeft}
+//                 disabled={sliderIndex === 0}
+//                 aria-label="Scroll areas left"
+//                 className="absolute -left-4 sm:-left-5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#8ab72e] hover:bg-[#6d9424] text-white flex items-center justify-center shadow-lg transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed hover:scale-110"
+//               >
+//                 <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+//               </button>
+
+//               {/* RIGHT BUTTON */}
+//               <button
+//                 onClick={handleSliderRight}
+//                 disabled={sliderIndex >= safeAreas.length - 1}
+//                 aria-label="Scroll areas right"
+//                 className="absolute -right-4 sm:-right-5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#8ab72e] hover:bg-[#6d9424] text-white flex items-center justify-center shadow-lg transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed hover:scale-110"
+//               >
+//                 <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
+//               </button>
+
 //               <div className="overflow-hidden">
 //                 <div
 //                   ref={scrollContainerRef}
@@ -640,6 +699,9 @@
 // export default AreaPhysiotherapyDetailPage;
 
 
+
+
+
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -655,14 +717,13 @@ import { citiesData } from "../../../data/citiesData.js";
 
 const allServicesData = [...servicesData, ...servicesDataSpecialized, ...therapyData];
 
-// ✅ Safe citiesData — filter out undefined/null entries
 const safeCitiesData = (citiesData || []).filter((c) => c && c.slug);
 
-// ✅ URL builders
+// ✅ FIX: City URL mein nahi — sirf area slug
 export function buildAreaUrl(citySlug, areaSlug, serviceSlug) {
   const areaSlugified = areaSlug.toLowerCase().replace(/\s+/g, "-");
-  if (!serviceSlug) return `/physiotherapy-in-${areaSlugified}-${citySlug}`;
-  return `/${serviceSlug}-treatment-in-${areaSlugified}-${citySlug}`;
+  if (!serviceSlug) return `/physiotherapy-in-${areaSlugified}`;
+  return `/${serviceSlug}-treatment-in-${areaSlugified}`;
 }
 
 export function buildCityServiceUrl(citySlug, serviceSlug) {
@@ -670,9 +731,6 @@ export function buildCityServiceUrl(citySlug, serviceSlug) {
   return `/${serviceSlug}-treatment-in-${citySlug}`;
 }
 
-// ============================================================
-// Props: citySlug, areaSlug, serviceSlug  (from SmartRouter in App.jsx)
-// ============================================================
 const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -682,7 +740,6 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
   const [sliderIndex, setSliderIndex] = useState(0);
   const scrollContainerRef = useRef(null);
 
-  // ── Data resolution ──────────────────────────────────────────────────────────
   const currentService = useMemo(() => {
     if (!serviceSlug) return allServicesData[0];
 
@@ -733,8 +790,6 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
 
   const safeAreas = currentCityData?.areas || [];
 
-  // ── SEO ──────────────────────────────────────────────────────────────────────
-
   const BRAND = "Advanced Pain Physiotherapy";
   const SITE_URL = "https://www.advancedpainphysiotherapy.com";
   const DOCTOR = "Dr. Deepanshu Gupta (BPT, MPT)";
@@ -748,7 +803,6 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
     ? `Get expert ${serviceName} in ${areaName}, ${cityName} by ${DOCTOR} at ${BRAND}. Certified physiotherapists, advanced treatment techniques & same-day appointments available. Book now: ${PHONE}`
     : `Find the best physiotherapy services in ${areaName}, ${cityName} at ${BRAND}. Expert pain management, home visits & tele-rehab by ${DOCTOR}. Call ${PHONE} to book your appointment today!`;
 
-  // ✅ Rich, location-specific keywords
   const pageKeywords = serviceSlug
     ? [
         `${serviceName.toLowerCase()} in ${areaName}`,
@@ -779,15 +833,15 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
         `${BRAND.toLowerCase()} ${areaName}`,
       ].join(", ");
 
+  // ✅ FIX: Canonical URL mein bhi city nahi
   const canonicalUrl = serviceSlug
-    ? `${SITE_URL}/${serviceSlug}-treatment-in-${areaSlug}-${citySlug}`
-    : `${SITE_URL}/physiotherapy-in-${areaSlug}-${citySlug}`;
+    ? `${SITE_URL}/${serviceSlug}-treatment-in-${areaSlug}`
+    : `${SITE_URL}/physiotherapy-in-${areaSlug}`;
 
   const ogImage =
     currentService?.image ||
     "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=630&fit=crop";
 
-  // ✅ Full Schema.org structured data
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
@@ -860,17 +914,11 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
     },
   };
 
-  // ✅ BreadcrumbList structured data
   const breadcrumbData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE_URL,
-      },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       {
         "@type": "ListItem",
         position: 2,
@@ -903,7 +951,6 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
     ],
   };
 
-  // ✅ FAQPage structured data
   const faqData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -925,7 +972,7 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
         name: `Does Advanced Pain Physiotherapy offer home visits in ${areaName}?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `Yes, ${BRAND} provides home physiotherapy visits in ${areaName}, ${cityName}. Our certified physiotherapists come to your doorstep for convenient treatment. Call ${PHONE} to schedule.`,
+          text: `Yes, ${BRAND} provides home physiotherapy visits in ${areaName}, ${cityName}. Our certified physiotherapists come to your doorstep. Call ${PHONE} to schedule.`,
         },
       },
       {
@@ -933,13 +980,11 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
         name: `How do I book a physiotherapy appointment in ${areaName}?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `You can book a physiotherapy appointment in ${areaName} by calling ${PHONE} or visiting our website at ${SITE_URL}. Same-day appointments are often available.`,
+          text: `You can book a physiotherapy appointment in ${areaName} by calling ${PHONE} or visiting ${SITE_URL}. Same-day appointments are often available.`,
         },
       },
     ],
   };
-
-  // ─────────────────────────────────────────────────────────────────────────────
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -948,7 +993,6 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
-  // Auto-scroll
   useEffect(() => {
     if (isLoading || safeAreas.length === 0) return;
     const container = scrollContainerRef.current;
@@ -970,44 +1014,32 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
     return () => { if (animationId) cancelAnimationFrame(animationId); };
   }, [isPaused, isLoading, safeAreas.length]);
 
+  // ✅ FIX: handleAreaClick mein citySlug state mein pass karo
   const handleAreaClick = (area) => {
     const url = buildAreaUrl(citySlug, area, serviceSlug);
-    navigate(url, { state: { cityName, areaName: area, serviceName } });
+    navigate(url, {
+      state: {
+        cityName,
+        citySlug,
+        areaName: area,
+        serviceName,
+      },
+    });
   };
 
-  // // Left/Right button handlers for areas slider
-  // const handleSliderLeft = () => {
-  //   setSliderIndex((prev) => Math.max(0, prev - 1));
-  //   setIsPaused(true);
-  // };
-
-  // const handleSliderRight = () => {
-  //   setSliderIndex((prev) => Math.min(safeAreas.length - 1, prev + 1));
-  //   setIsPaused(true);
-  // };
   const handleSliderLeft = () => {
-  const container = scrollContainerRef.current;
-  if (!container) return;
+    const container = scrollContainerRef.current;
+    if (!container) return;
+    setIsPaused(true);
+    container.scrollBy({ left: -300, behavior: "smooth" });
+  };
 
-  setIsPaused(true);
-
-  container.scrollBy({
-    left: -300, // 👈 kitna scroll karna hai (adjust kar sakte ho)
-    behavior: "smooth",
-  });
-};
-
-const handleSliderRight = () => {
-  const container = scrollContainerRef.current;
-  if (!container) return;
-
-  setIsPaused(true);
-
-  container.scrollBy({
-    left: 300, // 👈 right side scroll
-    behavior: "smooth",
-  });
-};
+  const handleSliderRight = () => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+    setIsPaused(true);
+    container.scrollBy({ left: 300, behavior: "smooth" });
+  };
 
   if (isLoading) {
     return (
@@ -1023,9 +1055,7 @@ const handleSliderRight = () => {
   return (
     <div className="min-h-screen bg-gray-50" style={{ fontFamily: "'Gantari', sans-serif", fontWeight: 400 }}>
 
-      {/* ── React Helmet (SEO) ─────────────────────────────────────────────────── */}
       <Helmet>
-        {/* ✅ Primary meta */}
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
         <meta name="keywords" content={pageKeywords} />
@@ -1034,8 +1064,6 @@ const handleSliderRight = () => {
         <meta name="author" content={DOCTOR} />
         <meta name="geo.region" content="IN-DL" />
         <meta name="geo.placename" content={`${areaName}, ${cityName}`} />
-
-        {/* ✅ Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
@@ -1046,30 +1074,15 @@ const handleSliderRight = () => {
         <meta property="og:image:alt" content={`${serviceSlug ? serviceName : "Physiotherapy"} in ${areaName}, ${cityName}`} />
         <meta property="og:site_name" content={BRAND} />
         <meta property="og:locale" content="en_IN" />
-
-        {/* ✅ Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content={ogImage} />
         <meta name="twitter:image:alt" content={`${serviceSlug ? serviceName : "Physiotherapy"} in ${areaName}, ${cityName}`} />
-
-        {/* ✅ Schema: MedicalBusiness */}
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
-
-        {/* ✅ Schema: BreadcrumbList */}
-        <script type="application/ld+json">
-          {JSON.stringify(breadcrumbData)}
-        </script>
-
-        {/* ✅ Schema: FAQPage */}
-        <script type="application/ld+json">
-          {JSON.stringify(faqData)}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbData)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqData)}</script>
       </Helmet>
-      {/* ───────────────────────────────────────────────────────────────────────── */}
 
       {/* Hero Section */}
       <div
@@ -1081,37 +1094,20 @@ const handleSliderRight = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-[#8ab72e]/90 to-[#6d9424]/90"></div>
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
           <div className="w-full max-w-5xl">
-            {/* Breadcrumb — visible + SEO friendly */}
             <nav aria-label="breadcrumb" className="hidden sm:flex items-center gap-2 text-white/80 text-xs md:text-sm mb-4 md:mb-5">
-              <span
-                className="cursor-pointer hover:text-white hover:underline"
-                onClick={() => navigate("/")}
-              >
-                Home
-              </span>
+              <span className="cursor-pointer hover:text-white hover:underline" onClick={() => navigate("/")}>Home</span>
               <ChevronLeft className="w-3 h-3 md:w-4 md:h-4 rotate-180" />
-              <span
-                className="cursor-pointer hover:text-white hover:underline"
-                onClick={() => navigate(buildCityServiceUrl(citySlug, null))}
-              >
-                {cityName}
-              </span>
+              <span className="cursor-pointer hover:text-white hover:underline" onClick={() => navigate(buildCityServiceUrl(citySlug, null))}>{cityName}</span>
               {serviceSlug && (
                 <>
                   <ChevronLeft className="w-3 h-3 md:w-4 md:h-4 rotate-180" />
-                  <span
-                    className="cursor-pointer hover:text-white hover:underline"
-                    onClick={() => navigate(buildCityServiceUrl(citySlug, serviceSlug))}
-                  >
-                    {serviceName}
-                  </span>
+                  <span className="cursor-pointer hover:text-white hover:underline" onClick={() => navigate(buildCityServiceUrl(citySlug, serviceSlug))}>{serviceName}</span>
                 </>
               )}
               <ChevronLeft className="w-3 h-3 md:w-4 md:h-4 rotate-180" />
               <span className="text-white font-medium">{areaName}</span>
             </nav>
 
-            {/* ✅ H1 — keyword-rich, location-specific */}
             <h1
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mb-3 sm:mb-4 font-light leading-tight"
               style={{ fontFamily: "'Zalando Sans Expanded', sans-serif", fontWeight: 200 }}
@@ -1156,12 +1152,9 @@ const handleSliderRight = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-8 sm:mb-10 md:mb-12">
-              {/* ✅ H2 — keyword-rich */}
               <h2 className="text-2xl sm:text-3xl md:text-4xl text-gray-800 mb-3 sm:mb-4 font-light">
                 Why Choose Us for{" "}
-                <span className="text-[#8ab72e]">
-                  {serviceSlug ? serviceName : "Physiotherapy"}
-                </span>{" "}
+                <span className="text-[#8ab72e]">{serviceSlug ? serviceName : "Physiotherapy"}</span>{" "}
                 in {areaName}
               </h2>
               <p className="text-gray-600 text-base sm:text-lg">
@@ -1252,7 +1245,7 @@ const handleSliderRight = () => {
       <TherapyExpertiseSection cityName={areaName} />
       <ConditionsSection cityName={areaName} className="mt-14" />
 
-      {/* Areas Slider — only render if areas exist */}
+      {/* Areas Slider */}
       {safeAreas.length > 0 && (
         <div className="bg-gradient-to-b from-white to-gray-50 py-12 sm:py-14 md:py-16 border-t border-gray-100">
           <div className="container mx-auto px-4 sm:px-6">
@@ -1268,27 +1261,21 @@ const handleSliderRight = () => {
               </p>
             </div>
             <div className="relative max-w-7xl mx-auto">
-              {/* Left fade */}
               <div className="absolute left-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none"></div>
-              {/* Right fade */}
               <div className="absolute right-0 top-0 bottom-0 w-10 sm:w-20 bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none"></div>
 
-              {/* LEFT BUTTON */}
               <button
                 onClick={handleSliderLeft}
-                disabled={sliderIndex === 0}
                 aria-label="Scroll areas left"
-                className="absolute -left-4 sm:-left-5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#8ab72e] hover:bg-[#6d9424] text-white flex items-center justify-center shadow-lg transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed hover:scale-110"
+                className="absolute -left-4 sm:-left-5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#8ab72e] hover:bg-[#6d9424] text-white flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110"
               >
                 <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
 
-              {/* RIGHT BUTTON */}
               <button
                 onClick={handleSliderRight}
-                disabled={sliderIndex >= safeAreas.length - 1}
                 aria-label="Scroll areas right"
-                className="absolute -right-4 sm:-right-5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#8ab72e] hover:bg-[#6d9424] text-white flex items-center justify-center shadow-lg transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed hover:scale-110"
+                className="absolute -right-4 sm:-right-5 top-1/2 -translate-y-1/2 z-20 w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#8ab72e] hover:bg-[#6d9424] text-white flex items-center justify-center shadow-lg transition-all duration-200 hover:scale-110"
               >
                 <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
