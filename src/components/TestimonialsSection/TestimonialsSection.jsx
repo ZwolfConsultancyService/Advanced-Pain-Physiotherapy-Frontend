@@ -34,12 +34,22 @@ export default function TestimonialsSection() {
 
       if (!res.ok) throw new Error(`Server error: ${res.status}`);
 
-      const data = await res.json();
+      // Safely read the body as text first, since res.json() throws
+      // "Unexpected end of JSON input" if the body is empty or not valid JSON.
+      const raw = await res.text();
+
+      let data;
+      try {
+        data = raw ? JSON.parse(raw) : {};
+      } catch (parseErr) {
+        console.error("Invalid JSON response:", raw);
+        throw new Error("Server returned an invalid response.");
+      }
 
       const reviews = Array.isArray(data.reviews) ? data.reviews : [];
 
       if (reviews.length === 0) {
-        setError("Abhi koi review available nahi hai.");
+        setError("No reviews available right now.");
         setTestimonials([]);
         return;
       }
@@ -57,7 +67,7 @@ export default function TestimonialsSection() {
       setCurrentIndex(0);
     } catch (err) {
       console.error("Error fetching reviews:", err);
-      setError("Reviews load nahi ho sake. Please baad mein try karein.");
+      setError("Couldn't load reviews. Please try again later.");
     } finally {
       setLoading(false);
     }
@@ -147,7 +157,7 @@ export default function TestimonialsSection() {
                 onClick={fetchTestimonials}
                 className="px-6 py-2 bg-[#8ab72e] text-white rounded-full hover:bg-[#7aa526] transition"
               >
-                Dobara Try Karein
+                Try Again
               </button>
             </div>
           )}
