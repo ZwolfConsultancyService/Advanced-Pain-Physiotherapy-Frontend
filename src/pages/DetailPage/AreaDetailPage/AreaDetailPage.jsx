@@ -1463,7 +1463,7 @@ const allServicesData = [
 
 const BRAND = "Advanced Pain Physiotherapy";
 const SITE_URL = "https://www.advancedpainphysiotherapy.com";
-const DOCTOR = "Dr. Deepanshu Gupta (BPT, MPT)";
+const DOCTOR = "Dr.Ashish Sharma";
 const PHONE = "+91-9220385419";
 const PHONE_CLEAN = "+919220385419";
 const OG_FALLBACK = "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=630&fit=crop";

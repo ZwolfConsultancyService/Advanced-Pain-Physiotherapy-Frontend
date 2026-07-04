@@ -719,7 +719,7 @@ const AreaPhysiotherapyDetailPage = ({ citySlug, areaSlug, serviceSlug }) => {
 
   const BRAND = "Advanced Pain Physiotherapy";
   const SITE_URL = "https://www.advancedpainphysiotherapy.com";
-  const DOCTOR = "Dr. Deepanshu Gupta (BPT, MPT)";
+  const DOCTOR = "Dr.Ashish Sharma";
   const PHONE = "+91-9220385419";
 
   const pageTitle = serviceSlug
