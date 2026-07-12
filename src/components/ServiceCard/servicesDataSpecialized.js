@@ -139,8 +139,8 @@ export const servicesDataSpecialized = [
   slug: "physiotherapy-clinic",
   category: "Rehabilitation Care",
   image: physiotherapyClinicImage,
-  description:
-    "A complete physiotherapy clinic offering advanced pain management, rehabilitation, and mobility improvement under expert supervision.",
+ description:
+  "Advanced Pain Physiotherapy Centre is a complete physiotherapy clinic led by Dr. Ashish Sharma, offering expert pain management, post-surgery rehabilitation, and mobility improvement under close medical supervision. With years of hands-on clinical experience, Dr. Ashish Sharma and his team of qualified physiotherapists design personalized treatment plans for every patient, using advanced equipment, manual therapy techniques, and evidence-based rehabilitation methods. From chronic back and joint pain to sports injuries and neurological conditions, our clinic focuses on identifying the root cause of pain rather than offering temporary relief, helping patients recover faster, move better, and regain long-term strength and independence.",
   sections: [
     {
       title: "Overview",
@@ -151,9 +151,9 @@ export const servicesDataSpecialized = [
         "• Sports injuries\n" +
         "• Neurological and orthopedic conditions\n\n" +
         "Why Choose Our Clinic:\n\n" +
-        "• Experienced physiotherapists\n" +
+        "• Experienced physiotherapists led by Dr. Ashish Sharma\n" +
         "• Advanced equipment and modalities\n" +
-        "• Personalized treatment plans",
+        "• Personalized treatment plans built around each patient's condition",
     },
     {
       title: "Treatment",
@@ -165,6 +165,18 @@ export const servicesDataSpecialized = [
         "• Strengthening and flexibility exercises\n" +
         "• Posture and movement correction",
     },
+    {
+      title: "Why It Matters",
+      content:
+        "Untreated pain rarely stays the same. A sore lower back left unaddressed can change how you walk, which then strains your knees or hips. Physiotherapy treats the underlying cause, not just the pain signal, which is why patients get longer-lasting relief compared to medication alone.\n\n" +
+        "Who Needs This Service:\n\n" +
+        "• Chronic back, neck, or joint pain that hasn't improved with rest\n" +
+        "• Post-surgery patients needing structured rehabilitation\n" +
+        "• Athletes recovering from sports injuries\n" +
+        "• People with neurological conditions like stroke recovery\n" +
+        "• Desk workers with posture-related pain\n" +
+        "• Older adults maintaining mobility and balance",
+    },
   ],
   benefits: [
     "Accurate diagnosis and treatment",
@@ -173,9 +185,116 @@ export const servicesDataSpecialized = [
     "Improved strength and mobility",
     "Long-term functional improvement",
   ],
+  process: [
+    {
+      step: "Detailed Physical Assessment",
+      description:
+        "Every treatment plan starts with a thorough evaluation of posture, movement, muscle strength, and pain triggers.",
+    },
+    {
+      step: "Manual Therapy and Mobilization",
+      description:
+        "Hands-on techniques release tight muscles, improve joint mobility, and reduce pain in affected areas.",
+    },
+    {
+      step: "Electrotherapy and Pain-Relief Modalities",
+      description:
+        "Clinical modalities reduce inflammation and manage pain, supporting the body's natural healing process.",
+    },
+    {
+      step: "Strengthening and Flexibility Exercises",
+      description:
+        "Targeted exercises rebuild strength and restore flexibility once pain is under control.",
+    },
+    {
+      step: "Posture and Movement Correction",
+      description:
+        "Correcting movement habits and posture issues helps prevent the problem from returning.",
+    },
+  ],
+  faqs: [
+    {
+      question: "How do I know if I need physiotherapy or just rest?",
+      answer:
+        "If pain persists beyond two to three weeks, limits daily activities, or keeps returning after rest, it's a good sign to get a professional assessment.",
+    },
+    {
+      question: "Is physiotherapy painful?",
+      answer:
+        "Some manual therapy techniques may cause mild, temporary discomfort, but treatment is adjusted to your comfort level throughout.",
+    },
+    {
+      question: "How many sessions will I need?",
+      answer:
+        "This depends on your condition and how your body responds. Your physiotherapist will give you a realistic timeline after the first assessment.",
+    },
+    {
+      question: "Can physiotherapy help after surgery?",
+      answer:
+        "Yes. Post-surgery rehabilitation helps restore strength, flexibility, and function safely, reducing the risk of complications.",
+    },
+    {
+      question: "Do I need a doctor's referral to visit your clinic?",
+      answer:
+        "No referral is required, though sharing previous medical reports or surgeon's notes helps with more accurate treatment planning.",
+    },
+    {
+      question: "Will I need to do exercises at home too?",
+      answer:
+        "In most cases, yes. Home exercises support clinic treatment and speed up recovery.",
+    },
+  ],
+  doctor: {
+    name: "Dr. Ashish Sharma",
+    role: "Lead Physiotherapist",
+  },
+  clinicName: "Advanced Pain Physiotherapy Centre",
   customTreatmentText:
-    "At Advanced Pain Physiotherapy Centre, our clinic-based physiotherapy services provide comprehensive care using modern techniques to help patients recover safely and effectively.",
+    "At Advanced Pain Physiotherapy Centre, our clinic-based physiotherapy services, led by Dr. Ashish Sharma, provide comprehensive care using modern techniques to help patients recover safely and effectively.",
 },
+// {
+//   id: 3,
+//   title: "Physiotherapy Clinic",
+//   slug: "physiotherapy-clinic",
+//   category: "Rehabilitation Care",
+//   image: physiotherapyClinicImage,
+//   description:
+//     "A complete physiotherapy clinic offering advanced pain management, rehabilitation, and mobility improvement under expert supervision.",
+//   sections: [
+//     {
+//       title: "Overview",
+//       content:
+//         "Conditions Treated at Our Clinic:\n\n" +
+//         "• Back pain, neck pain, and joint pain\n" +
+//         "• Post-surgery rehabilitation\n" +
+//         "• Sports injuries\n" +
+//         "• Neurological and orthopedic conditions\n\n" +
+//         "Why Choose Our Clinic:\n\n" +
+//         "• Experienced physiotherapists\n" +
+//         "• Advanced equipment and modalities\n" +
+//         "• Personalized treatment plans",
+//     },
+//     {
+//       title: "Treatment",
+//       content:
+//         "Our Clinic-Based Treatment Includes:\n\n" +
+//         "• Detailed physical assessment\n" +
+//         "• Manual therapy and mobilization\n" +
+//         "• Electrotherapy and pain-relief modalities\n" +
+//         "• Strengthening and flexibility exercises\n" +
+//         "• Posture and movement correction",
+//     },
+//   ],
+//   benefits: [
+//     "Accurate diagnosis and treatment",
+//     "Effective pain relief",
+//     "Faster recovery and rehabilitation",
+//     "Improved strength and mobility",
+//     "Long-term functional improvement",
+//   ],
+//   customTreatmentText:
+//     "At Advanced Pain Physiotherapy Centre, our clinic-based physiotherapy services provide comprehensive care using modern techniques to help patients recover safely and effectively.",
+// },
  {
   id: 16,
   title: "Home Physiotherapy after Paralysis",
@@ -894,290 +1013,6 @@ export const servicesDataSpecialized = [
 
 
 
-
-  // {
-  //   id: 2,
-  //   slug: "physiotherapy-clinic",
-  //   title: "Physiotherapy Clinic",
-  //   category: "Clinical Care",
-  //   description:
-  //     "State-of-the-art clinic facility with advanced equipment and expert therapists for comprehensive rehabilitation services.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
-  //   features: ["Advanced equipment", "Expert team"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Advanced Pain Physiotherapy Centre in Nehru Enclave, Kalkaji, South Delhi offers a state-of-the-art clinic facility with cutting-edge therapeutic equipment and a team of experienced physiotherapists led by Dr. Ashish Sharma. Our modern clinic provides a professional, hygienic, and welcoming environment where patients receive comprehensive assessment and evidence-based treatment. We specialize in treating musculoskeletal, neurological, sports, orthopedic, and chronic pain conditions with the latest rehabilitation technologies including electrotherapy units, ultrasound therapy machines, laser therapy devices, traction units, therapeutic exercise equipment, and functional assessment tools.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need professional physiotherapy clinic services in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, visit Advanced Pain Physiotherapy Centre. Contact Dr. Ashish Sharma for comprehensive treatment including post-operative rehabilitation, sports injury management, chronic pain relief, arthritis treatment, spinal conditions, joint replacements, geriatric care, pediatric physiotherapy, women's health services, and preventive wellness programs with personalized care plans, modern equipment, and proven treatment protocols.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 3,
-  //   slug: "tele-physiotherapist",
-  //   title: "Tele Physiotherapist",
-  //   category: "Virtual Care",
-  //   description:
-  //     "Remote physiotherapy consultations via video call for accessible expert guidance from anywhere at your convenience.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=400&fit=crop",
-  //   features: ["Video consultations", "Remote guidance"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Tele-Physiotherapy brings professional rehabilitation services directly to your screen through secure video consultations. Our licensed physiotherapists provide remote assessment, personalized treatment guidance, exercise demonstrations, and ongoing care from the comfort of your home. This service is ideal for follow-up sessions, chronic pain management, posture assessments, ergonomic evaluations, exercise program guidance, and consultations when travel is difficult. Using advanced virtual assessment techniques, we analyze your movement patterns, provide real-time corrections, create customized home programs, and ensure continuous care whether you're in Delhi or anywhere across India.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need virtual physiotherapy consultations from anywhere in India or abroad, contact Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for Tele-Physiotherapy services. We provide online treatment for chronic back and neck pain, post-injury rehabilitation, postural correction, workplace ergonomics, exercise program guidance, arthritis management, follow-up care, and wellness programs. Simply book an appointment via phone or WhatsApp, receive a secure video link, and connect from any smartphone, tablet, or computer with internet. Sessions include detailed assessment, exercise demonstrations, personalized home programs, and ongoing support.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 4,
-  //   slug: "sports-physiotherapist",
-  //   title: "Sports Physiotherapist",
-  //   category: "Athletic Performance",
-  //   description:
-  //     "Specialized treatment for athletes and sports injuries with performance enhancement and injury prevention strategies.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
-  //   features: ["Injury prevention", "Performance optimization"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Sports Physiotherapy specializes in treating athletic injuries and optimizing performance for athletes of all levels from weekend warriors to professional competitors. Our sports physiotherapists provide expert care for sprains, strains, ligament tears (ACL, MCL), tendonitis, muscle tears, stress fractures, runner's knee, tennis elbow, rotator cuff injuries, ankle injuries, and overuse injuries. Beyond injury treatment, we offer biomechanical analysis, strength and conditioning programs, flexibility training, sport-specific rehabilitation, return-to-sport testing, movement screening, and injury prevention strategies using manual therapy, therapeutic exercises, dry needling, laser therapy, and taping techniques.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need sports physiotherapy in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Dr. Ashish Sharma – Best Sports Physiotherapist at Advanced Pain Physiotherapy Centre. We provide specialized treatment for all sports injuries, performance enhancement programs, return-to-sport protocols, biomechanical assessments, and injury prevention strategies. Most athletes see significant improvement within 4-12 weeks depending on injury severity. We use evidence-based protocols combining manual therapy, functional training, advanced modalities, and sport-specific exercises to get you back to peak performance safely and quickly.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   slug: "ortho-physiotherapist",
-  //   title: "Ortho Physiotherapist",
-  //   category: "Orthopedic Care",
-  //   description:
-  //     "Expert treatment for bone, joint, and muscle conditions with specialized orthopedic rehabilitation techniques.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop",
-  //   features: ["Joint rehabilitation", "Fracture recovery"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Orthopedic Physiotherapy focuses on treating musculoskeletal conditions affecting bones, joints, ligaments, tendons, and muscles. Our specialists use advanced techniques to restore function, reduce pain, and improve mobility following injuries, surgeries, or degenerative conditions. We manage fractures and post-fracture rehabilitation, joint replacements (hip, knee, shoulder), arthritis, rotator cuff injuries, meniscus tears, cartilage damage, tendon repairs, ligament reconstructions, spinal conditions, and various orthopedic surgical recoveries. Treatment employs manual therapy, therapeutic exercises, joint mobilization, muscle strengthening, balance training, gait training, electrotherapy, and functional rehabilitation customized to your specific condition.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need orthopedic physiotherapy in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Dr. Ashish Sharma – Best Ortho Physiotherapist at Advanced Pain Physiotherapy Centre. We provide expert post-surgical rehabilitation for joint replacements, ACL reconstruction, rotator cuff repair, spinal surgery, fracture recovery, and all orthopedic procedures. Recovery timelines vary: simple fractures heal in 6-8 weeks, major joint replacements require 3-6 months, and ACL reconstruction needs 6-9 months before return to sports. We coordinate with orthopedic surgeons following evidence-based protocols to ensure optimal recovery.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 6,
-  //   slug: "neuro-physiotherapist",
-  //   title: "Neuro Physiotherapist",
-  //   category: "Neurological",
-  //   description:
-  //     "Specialized therapy for stroke, paralysis, and neurological conditions with proven recovery methods and personalized care.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop",
-  //   features: ["Motor skill recovery", "Balance training"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Neuro Physiotherapy is a specialized program designed to help individuals recover from neurological conditions such as stroke, traumatic brain injury, spinal cord injury, Parkinson's disease, multiple sclerosis, cerebral palsy, Guillain-Barré syndrome, peripheral neuropathy, Bell's palsy, and other nervous system disorders. Our expert team uses cutting-edge techniques to restore motor control and coordination, enhance balance and gait, increase independence in daily activities, improve cognitive function, reduce spasticity and pain, and provide comprehensive support throughout recovery. We utilize task-specific training, functional electrical stimulation, constraint-induced movement therapy, balance exercises, gait training with assistive devices, and cognitive rehabilitation.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need neuro physiotherapy in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Dr. Ashish Sharma – Best Neuro Physiotherapist at Advanced Pain Physiotherapy Centre. We provide specialized treatment for stroke recovery, paralysis, brain injury, spinal cord injury, Parkinson's disease, multiple sclerosis, and all neurological conditions. Neurological recovery is gradual and requires patience and consistent therapy. Many patients see noticeable improvements within the first 3-6 months of intensive rehabilitation. We provide ongoing support, family education, and adjust treatment strategies to maximize your recovery potential and improve quality of life.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 7,
-  //   slug: "ergonomics-specialist",
-  //   title: "Ergonomics Specialist",
-  //   category: "Workplace Health",
-  //   description:
-  //     "Workplace assessment and optimization to prevent repetitive strain injuries and improve work comfort and productivity.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-  //   features: ["Workstation setup", "Injury prevention"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Ergonomics Specialist services evaluate your workspace and work habits to identify risk factors for musculoskeletal disorders and optimize comfort. We provide comprehensive assessments of desk setup, chair positioning, monitor height, keyboard and mouse placement, lighting, and work practices to prevent neck and shoulder pain, lower back pain, carpal tunnel syndrome, repetitive strain injuries, eye strain, headaches, and general workplace discomfort. Our solutions include personalized workstation modifications, equipment recommendations, posture correction strategies, break schedules, stretching and strengthening exercises, education on proper work techniques, and ongoing support for both individual workers and corporate wellness programs.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need ergonomic assessment and workplace optimization in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Dr. Ashish Sharma – Ergonomics Specialist at Advanced Pain Physiotherapy Centre. We provide comprehensive workplace assessments for offices, remote workers, and corporate clients to reduce pain, prevent work-related injuries, improve productivity, decrease absenteeism, and enhance overall wellbeing. Our evaluation includes analyzing your current setup, observing work patterns, measuring ergonomic factors, providing detailed recommendations, demonstrating proper adjustments, and offering follow-up consultations to maintain healthy work habits and create a comfortable, efficient work environment.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 8,
-  //   slug: "womens-health-therapist",
-  //   title: "Women's Health Therapist",
-  //   category: "Women's Wellness",
-  //   description:
-  //     "Specialized care for pregnancy, postpartum recovery, pelvic floor dysfunction, and women-specific health conditions.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&h=400&fit=crop",
-  //   features: ["Pelvic floor therapy", "Prenatal care"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Women's Health Physiotherapy provides compassionate, evidence-based care for conditions unique to women in a private, supportive environment. We address pelvic floor dysfunction, urinary and fecal incontinence, pelvic organ prolapse, pelvic pain, pregnancy-related musculoskeletal pain, postpartum recovery issues, diastasis recti, pre and post-cesarean care, painful intercourse, and menopausal symptoms. Our pregnancy care includes managing back and pelvic pain, preparing for labor, pelvic floor strengthening, safe exercise guidance, and postpartum rehabilitation including core restoration. We offer comprehensive pelvic floor assessment, personalized exercise programs, biofeedback training, manual therapy, and education on bladder and bowel health.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need women's health physiotherapy in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Advanced Pain Physiotherapy Centre for specialized care. We provide treatment for pelvic floor dysfunction, pregnancy-related pain, postpartum recovery, diastasis recti, incontinence, pelvic pain, and pre/post-cesarean rehabilitation. All treatments are conducted in complete privacy with female therapists available. We use gentle, effective techniques tailored to your comfort level and specific needs. Most patients notice improvement within 6-12 weeks. We provide ongoing support throughout your journey to optimal pelvic health with compassionate, professional care.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 9,
-  //   slug: "pediatric-physiotherapist",
-  //   title: "Pediatric Physiotherapist",
-  //   category: "Child Development",
-  //   description:
-  //     "Specialized therapy for children's developmental delays, injuries, and movement disorders with play-based approaches.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&h=400&fit=crop",
-  //   features: ["Developmental support", "Play-based therapy"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Pediatric Physiotherapy specializes in treating infants, children, and adolescents with developmental, neurological, or orthopedic conditions using play-based, child-friendly approaches. We help children reach developmental milestones and achieve optimal physical function. We treat developmental delays, cerebral palsy, muscular dystrophy, spina bifida, Down syndrome, torticollis, plagiocephaly, sports injuries in children, post-surgical rehabilitation, coordination disorders, toe walking, growing pains, and juvenile arthritis. Treatment is fun and engaging, incorporating games, toys, and activities children enjoy. We assess and support age-appropriate milestones including rolling, sitting, crawling, walking, running, jumping, balance, coordination, and fine motor skills with individualized programs.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need pediatric physiotherapy in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for specialized child development care. We provide treatment for developmental delays, cerebral palsy, neurological conditions, orthopedic issues, and sports injuries in children. Parents and caregivers are integral to success - we provide thorough education, demonstrate exercises, offer home programs, and maintain open communication. Most children attend sessions 1-3 times weekly, with duration and frequency adjusted based on individual needs and progress. Early intervention is crucial for optimal development.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 10,
-  //   slug: "geriatric-physiotherapist",
-  //   title: "Geriatric Physiotherapist",
-  //   category: "Senior Care",
-  //   description:
-  //     "Compassionate care for elderly patients focusing on mobility, balance, fall prevention, and maintaining independence.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&h=400&fit=crop",
-  //   features: ["Fall prevention", "Mobility enhancement"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Geriatric Physiotherapy provides age-appropriate rehabilitation and wellness services for older adults, focusing on maintaining independence, improving quality of life, managing chronic conditions, and helping seniors stay active in their communities. We address arthritis management, osteoporosis, balance disorders, fall risk, post-hip or knee replacement, stroke recovery, Parkinson's disease, general weakness and deconditioning, chronic pain, and mobility limitations. Our comprehensive fall prevention programs include balance assessment, strength training, gait analysis, home safety evaluation, assistive device prescription and training, and education on fall risk factors. We emphasize functional exercises supporting daily activities like walking, climbing stairs, getting in and out of chairs, and maintaining personal care independence.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need geriatric physiotherapy in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for specialized senior care. We provide treatment for arthritis, osteoporosis, balance disorders, fall prevention, post-surgical rehabilitation, stroke recovery, Parkinson's disease, chronic pain, and mobility issues. We understand the unique needs of older adults and provide patient, respectful care at an appropriate pace. Treatment can be provided at home or in clinic based on preference and mobility. We work closely with family members and healthcare providers to help seniors live safely and independently as long as possible.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 11,
-  //   slug: "sports-massage-therapist",
-  //   title: "Sports Massage Therapist",
-  //   category: "Recovery & Performance",
-  //   description:
-  //     "Therapeutic massage for athletes focusing on injury prevention, recovery enhancement, and performance optimization.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&h=400&fit=crop",
-  //   features: ["Muscle recovery", "Performance boost"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Sports Massage Therapy is a specialized form of therapeutic massage designed for athletes and active individuals to enhance performance, prevent injuries, aid recovery, and treat sports-related muscle tension and pain. Benefits include improved blood circulation and oxygen delivery to muscles, reduced muscle tension and soreness, enhanced flexibility and range of motion, accelerated recovery between training sessions, injury prevention, improved performance, and mental clarity. We offer pre-event massage to prepare muscles, post-event massage to aid recovery, maintenance massage during training periods, and rehabilitation massage for specific injuries. Techniques include deep tissue massage, trigger point therapy, myofascial release, Swedish massage, stretching, compression, and percussion techniques.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need sports massage therapy in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Advanced Pain Physiotherapy Centre for specialized athletic massage services. We provide pre-event, post-event, maintenance, and rehabilitation massage customized to your sport, training schedule, and specific needs. Maintenance massage is typically recommended weekly or bi-weekly for serious athletes. Pre-event massage is best scheduled 2-3 days before competition, while post-event massage can be done immediately after or within 24-48 hours. Sessions typically last 30-90 minutes depending on your needs and time constraints for optimal recovery and performance enhancement.",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 12,
-  //   slug: "pre-post-surgery-rehabilitation",
-  //   title: "Pre and Post Surgery Rehabilitation",
-  //   category: "Surgical Recovery",
-  //   description:
-  //     "Comprehensive rehabilitation programs to prepare for surgery and optimize recovery with evidence-based protocols.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=600&h=400&fit=crop",
-  //   features: ["Pre-hab programs", "Fast recovery"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Pre and Post Surgery Rehabilitation provides comprehensive programs to prepare your body for surgery and optimize recovery. Pre-surgery physiotherapy (prehab) improves muscle strength and cardiovascular fitness, enhances range of motion, reduces post-operative pain, accelerates recovery timeline, reduces complication risks, improves confidence and mental readiness, and establishes exercise habits that continue after surgery. Research shows patients who engage in prehab experience better surgical outcomes, faster recovery, and fewer complications. Post-operative programs follow evidence-based protocols specific to your surgery type, coordinating with your surgeon to ensure appropriate timing and progression, focusing on pain management, restoring range of motion, rebuilding strength, improving function, and safe return to activities.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need pre and post surgery rehabilitation in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We provide rehabilitation for joint replacements (hip, knee, shoulder), ACL reconstruction, rotator cuff repair, spinal surgery, meniscus repair, fracture fixation, tendon repairs, arthroscopic procedures, and other orthopedic and general surgical procedures. Recovery timelines vary by surgery type and individual factors. We provide realistic expectations and work with you at every stage from immediate post-operative care through return to full function with regular progress monitoring.",
-  //     },
-  //   ],
-  // },
-
-
-
-
-
-
-
-  // {
-  //   id: 13,
-  //   slug: "chiropractor",
-  //   title: "Chiropractor",
-  //   category: "Spinal Health",
-  //   description:
-  //     "Spinal adjustments and manipulations to restore proper alignment, reduce pain, and improve nervous system function.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&h=400&fit=crop",
-  //   features: ["Spinal adjustments", "Alignment correction"],
-  //   sections: [
-  //     {
-  //       title: "Overview",
-  //       content:
-  //         "Chiropractic Care focuses on diagnosing and treating neuromuscular disorders through manual adjustment and manipulation of the spine. Our licensed chiropractors use hands-on techniques to improve spinal alignment, reduce pain, and enhance overall physical function and wellness. We address back pain, neck pain, headaches and migraines, sciatica, herniated discs, joint pain, sports injuries, whiplash, postural problems, muscle strains, and general musculoskeletal complaints. Treatment techniques include spinal manipulation (adjustments), mobilization, soft tissue therapy, therapeutic exercises, postural advice, lifestyle counseling, and ergonomic recommendations. Your first visit includes comprehensive history taking, physical examination, postural and spinal assessment, and if appropriate, adjustment treatment.",
-  //     },
-  //     {
-  //       title: "Treatment",
-  //       content:
-  //         "If you need chiropractic care in Delhi, Nehru Enclave, Kalkaji, South Delhi, Greater Kailash, Defence Colony, Lajpat Nagar, Saket, and nearby locations, contact Advanced Pain Physiotherapy Centre for professional spinal adjustment services. We provide treatment for back pain, neck pain, headaches, sciatica, herniated discs, joint pain, sports injuries, and postural problems. You may hear popping or cracking sounds during adjustments - this is normal and simply gas bubbles releasing from joints. Most patients feel immediate relief, though some may experience mild soreness initially. Initial care may involve more frequent visits (2-3 times per week) to address acute issues, decreasing as you improve. Treatment plans are individualized based on your specific condition.",
-  //     },
-  //   ],
-  // },
  {
   id: 14,
   title: "Personalized Therapy",

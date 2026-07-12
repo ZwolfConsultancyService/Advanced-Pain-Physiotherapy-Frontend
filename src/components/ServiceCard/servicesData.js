@@ -1,3145 +1,4 @@
 
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of knee function and stability\n" +
-//           "• Strengthening and flexibility exercises\n" +
-//           "• Manual therapy to restore joint mobility\n" +
-//           "• Pain-relief modalities such as TENS and heat therapy\n" +
-//           "• Functional and activity-specific training",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces knee pain and swelling",
-//       "Restores mobility",
-//       "Strengthens surrounding muscles",
-//       "Supports safe daily and sports activity",
-//       "Prevents recurrence and enhances function",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide tailored meniscus injury rehabilitation to restore knee function, mobility, and strength. Our programs focus on safe and effective recovery.",
-//   },
-
-//   // 8. Patella Mobilization Therapy
-//   {
-//     id: 71,
-//     title: "Patella Mobilization Therapy",
-//     slug: "patella-mobilization",
-//     category: "Knee Conditions",
-//     image: patellaMobilization,
-//     description:
-//       "Patella mobilization therapy addresses knee pain and stiffness caused by restricted patellar movement. Physiotherapy focuses on improving patellar tracking, flexibility, and strength. At Advanced Pain Physiotherapy Centre, we provide manual therapy, exercises, and pain-relief techniques to restore normal knee function.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Symptoms Addressed:\n\n" +
-//           "• Knee pain around the kneecap\n" +
-//           "• Stiffness or reduced range of motion\n" +
-//           "• Difficulty climbing stairs or squatting\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Improve patellar movement and tracking\n" +
-//           "• Reduce pain and stiffness\n" +
-//           "• Strengthen quadriceps and surrounding muscles\n" +
-//           "• Restore normal knee function",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of patellar alignment and mobility\n" +
-//           "• Manual mobilization techniques\n" +
-//           "• Strengthening exercises for quadriceps and hip muscles\n" +
-//           "• Stretching and flexibility exercises\n" +
-//           "• Pain-relief modalities as required",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces knee pain and stiffness",
-//       "Improves patellar tracking and mobility",
-//       "Strengthens quadriceps and supporting muscles",
-//       "Restores functional knee movement",
-//       "Enhances overall mobility and activity",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide specialized patella mobilization therapy to relieve pain, improve tracking, and restore knee function. Our personalized programs support safe daily activity and sports performance.",
-//   },
-
-//   // 9. Shoulder Ligament Sports Massage
-//   {
-//     id: 72,
-//     title: "Shoulder Ligament Sports Massage",
-//     slug: "shoulder-ligament-sports-massage",
-//     category: "Shoulder Conditions",
-//     image: shoulderLigamentMassage,
-//     description:
-//       "Shoulder ligament injuries can cause pain, stiffness, and reduced mobility. Sports massage helps relieve pain, improve circulation, and enhance ligament recovery. At Advanced Pain Physiotherapy Centre, we provide targeted massage therapy combined with exercises to restore shoulder function and strength.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Symptoms Addressed:\n\n" +
-//           "• Shoulder Pain Treatment and stiffness\n" +
-//           "• Reduced range of motion\n" +
-//           "• Weakness in shoulder muscles\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Relieve pain and inflammation\n" +
-//           "• Improve ligament and joint flexibility\n" +
-//           "• Restore shoulder strength and mobility\n" +
-//           "• Prevent recurrence",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of shoulder ligament and muscle function\n" +
-//           "• Sports massage targeting affected ligaments and muscles\n" +
-//           "• Strengthening and flexibility exercises\n" +
-//           "• Pain-relief modalities as needed\n" +
-//           "• Guidance for safe movement and activity",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces Shoulder Pain Treatment and stiffness",
-//       "Improves ligament flexibility and mobility",
-//       "Strengthens shoulder muscles",
-//       "Enhances functional shoulder movement",
-//       "Supports safe return to sports and daily activity",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide specialized sports massage and rehabilitation for shoulder ligament injuries, focusing on pain relief, mobility, and strength restoration.",
-//   },
-
-//   // 10. Performance Enhancing Treatment
-//   {
-//     id: 73,
-//     title: "Performance Enhancing Treatment",
-//     slug: "performance-enhancing",
-//     category: "Sports Physiotherapy",
-//     image: performanceEnhancing,
-//     description:
-//       "Performance enhancing treatment in physiotherapy helps athletes optimize strength, flexibility, and endurance while preventing injuries. At Advanced Pain Physiotherapy Centre, we provide targeted exercises, manual therapy, and recovery techniques to improve athletic performance and overall fitness.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Benefits of Performance Enhancing Physiotherapy:\n\n" +
-//           "• Improves strength, flexibility, and endurance\n" +
-//           "• Reduces risk of sports injuries\n" +
-//           "• Enhances agility and coordination\n" +
-//           "• Supports faster recovery\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Optimize overall physical performance\n" +
-//           "• Strengthen specific muscle groups\n" +
-//           "• Enhance movement efficiency",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of body mechanics and muscle function\n" +
-//           "• Targeted strength and conditioning exercises\n" +
-//           "• Flexibility and mobility training\n" +
-//           "• Recovery strategies including massage and electrotherapy\n" +
-//           "• Injury prevention guidance and functional training",
-//       },
-//     ],
-//     benefits: [
-//       "Improves athletic performance",
-//       "Enhances strength, flexibility, and endurance",
-//       "Reduces risk of sports injuries",
-//       "Supports faster recovery and mobility",
-//       "Optimizes overall physical efficiency",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide personalized performance enhancing programs to boost strength, flexibility, and endurance while preventing injuries, helping athletes achieve their full potential.",
-//   },
-
-//   // 11. Sprain Ligament Treatment
-//   {
-//     id: 74,
-//     title: "Sprain Ligament Treatment",
-//     slug: "sprain-ligament",
-//     category: "Joint Conditions",
-//     image: sprainLigament,
-//     description:
-//       "Ligament sprains occur due to overstretching or tearing, causing pain, swelling, and limited mobility. Physiotherapy focuses on reducing inflammation, restoring strength, and improving joint stability. At Advanced Pain Physiotherapy Centre, we provide exercises, manual therapy, and pain-relief modalities for safe recovery.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Symptoms of Ligament Sprains:\n\n" +
-//           "• Pain, swelling, and tenderness\n" +
-//           "• Reduced range of motion\n" +
-//           "• Joint instability\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Reduce pain and inflammation\n" +
-//           "• Restore joint stability and mobility\n" +
-//           "• Strengthen surrounding muscles\n" +
-//           "• Prevent recurrence",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of the affected ligament and joint\n" +
-//           "• Targeted strengthening and stretching exercises\n" +
-//           "• Manual therapy to improve mobility\n" +
-//           "• Pain-relief modalities such as TENS, ice, and heat therapy\n" +
-//           "• Education on safe activity and prevention",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces pain and swelling",
-//       "Restores joint stability and mobility",
-//       "Strengthens surrounding muscles",
-//       "Prevents recurrence",
-//       "Enhances daily and sports function",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide specialized care for ligament sprains to restore strength, stability, and mobility. Our programs focus on safe and effective recovery.",
-//   },
-
-//   // 12. Strain Injury Rehabilitation
-//   {
-//     id: 75,
-//     title: "Strain Injury Rehabilitation",
-//     slug: "strain-injury",
-//     category: "Muscle Conditions",
-//     image: strainInjury,
-//     description:
-//       "Muscle strains occur due to overstretching or overuse, causing pain and reduced function. Physiotherapy focuses on relieving pain, restoring flexibility, and strengthening muscles. At Advanced Pain Physiotherapy Centre, we provide exercises, manual therapy, and recovery techniques to restore full function.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Symptoms of Muscle Strains:\n\n" +
-//           "• Pain, tenderness, and swelling\n" +
-//           "• Muscle weakness\n" +
-//           "• Reduced mobility and function\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Relieve pain and inflammation\n" +
-//           "• Restore muscle strength and flexibility\n" +
-//           "• Improve functional movement\n" +
-//           "• Prevent recurrence",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of the injured muscle\n" +
-//           "• Targeted stretching and strengthening exercises\n" +
-//           "• Manual therapy to improve muscle function\n" +
-//           "• Pain-relief modalities such as heat, ice, and TENS\n" +
-//           "• Guidance on safe activity and recovery",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces pain and inflammation",
-//       "Restores muscle strength and flexibility",
-//       "Improves functional movement",
-//       "Prevents recurrence",
-//       "Enhances overall physical performance",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide personalized rehabilitation for muscle strains to restore strength, flexibility, and function safely and effectively.",
-//   },
-
-//   // 13. Muscle Spasm Treatment
-//   {
-//     id: 76,
-//     title: "Muscle Spasm Treatment",
-//     slug: "muscle-spasm",
-//     category: "Muscle Conditions",
-//     image: muscleSpasm,
-//     description:
-//       "Muscle spasms are sudden involuntary contractions causing pain and stiffness. Physiotherapy focuses on relieving spasms, improving flexibility, and restoring function. At Advanced Pain Physiotherapy Centre, we provide manual therapy, stretching, and targeted exercises to relax muscles and restore mobility.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Symptoms of Muscle Spasms:\n\n" +
-//           "• Sudden pain and tightness\n" +
-//           "• Restricted movement\n" +
-//           "• Muscle fatigue\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Relieve muscle spasms and pain\n" +
-//           "• Improve flexibility and mobility\n" +
-//           "• Strengthen surrounding muscles\n" +
-//           "• Prevent recurrence",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of muscle tension and function\n" +
-//           "• Stretching and relaxation exercises\n" +
-//           "• Manual therapy to relieve tightness\n" +
-//           "• Pain-relief modalities such as heat and electrotherapy\n" +
-//           "• Guidance for posture, activity, and ergonomics",
-//       },
-//     ],
-//     benefits: [
-//       "Relieves muscle spasms and pain",
-//       "Improves flexibility and mobility",
-//       "Strengthens surrounding muscles",
-//       "Prevents recurrence",
-//       "Enhances daily function",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide specialized treatment for muscle spasms to relieve pain, restore flexibility, and improve overall muscle function safely.",
-//   },
-
-//   // 14. Muscle Stiffness Treatment
-//   {
-//     id: 77,
-//     title: "Muscle Stiffness Treatment",
-//     slug: "muscle-stiffness",
-//     category: "Muscle Conditions",
-//     image: muscleStiffness,
-//     description:
-//       "Muscle stiffness leads to restricted movement and discomfort. Physiotherapy focuses on improving flexibility, reducing tension, and restoring normal function. At Advanced Pain Physiotherapy Centre, we provide stretching exercises, manual therapy, and strengthening programs to relieve stiffness and enhance mobility.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Symptoms of Muscle Stiffness:\n\n" +
-//           "• Tightness and discomfort\n" +
-//           "• Reduced range of motion\n" +
-//           "• Difficulty performing daily activities\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Relieve muscle tension and stiffness\n" +
-//           "• Improve flexibility and mobility\n" +
-//           "• Strengthen muscles\n" +
-//           "• Enhance functional performance",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Assessment of muscle function and flexibility\n" +
-//           "• Stretching and strengthening exercises\n" +
-//           "• Manual therapy for tension release\n" +
-//           "• Pain-relief modalities such as heat and electrotherapy\n" +
-//           "• Posture and activity guidance",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces muscle stiffness and discomfort",
-//       "Improves flexibility and mobility",
-//       "Strengthens muscles",
-//       "Enhances daily functional performance",
-//       "Prevents recurrence and supports long-term mobility",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide personalized treatment for muscle stiffness to restore flexibility, strength, and function. Our goal is safe and effective relief for daily life and activity.",
-//   },
-
-//   {
-//     id: 69,
-//     title: "After Accident Pain Treatment",
-//     slug: "after-accident-pain",
-//     category: "Pain Conditions",
-//     image: afteraccident,
-//     description:
-//       "After accident pain treatment focuses on reducing pain, inflammation, and promoting healing of affected muscles and joints. Physiotherapy includes gentle stretching and strengthening exercises to restore movement and function. Therapies like ice, heat, ultrasound, and electrical stimulation help relieve pain and swelling. Manual therapy helps improve joint mobility and reduce muscle stiffness. Proper exercise guidance and gradual activity resumption help prevent long-term complications.",
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Physiotherapy in after-accident pain treatment focuses on reducing pain, inflammation, and restoring mobility. It includes gentle stretching and strengthening exercises to help regain normal function. Therapies like ice, heat, ultrasound, and electrical stimulation aid in pain relief and healing. Manual therapy helps improve joint movement and reduce muscle stiffness. Regular physiotherapy and guided exercises help prevent long-term complications and promote recovery.",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr.Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//       },
-//     ],
-//     customTreatmentText:
-//       "If you are looking for the Best Orthopedic Treatment for Joint Pain, Knee Pain, Hip Pain, Back Pain, Sports Injuries, Fractures, Arthritis, Post-Surgical Rehabilitation, or Mobility Issues in Delhi-NCR, then visit Advanced Pain Physiotherapy Center in Nehru Enclave, Kalkaji, South Delhi. We focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life. With compassionate care and proven results, we stand as a trusted orthopedic rehabilitation center and a place of healing and hope for countless patients.",
-//   },
-
-//   {
-//     id: 50,
-//     title: "Back Pain",
-//     slug: "back-pain",
-//     category: "Pain Conditions",
-//     image: backpain,
-//     description:
-//       "Back pain is one of the most common health problems affecting people of all ages and lifestyles. It can result from poor posture, prolonged sitting, weak core muscles, slipped discs, or injury. Untreated back pain can lead to chronic discomfort, limited mobility, and difficulty performing daily activities. Physiotherapy focuses on treating the root cause, relieving pain, restoring movement, and preventing recurrence. At Advanced Pain Physiotherapy Centre, we use manual therapy, targeted exercises, posture correction, and pain-relief techniques to provide safe and lasting results. Patients regain strength, flexibility, and confidence in movement.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Causes of Back Pain:\n\n" +
-//           "• Poor posture and prolonged sitting\n" +
-//           "• Muscle weakness or imbalance\n" +
-//           "• Herniated or slipped discs\n" +
-//           "• Sciatica and nerve compression\n" +
-//           "• Sports injuries and accidents\n\n" +
-//           "Conditions We Treat:\n\n" +
-//           "• Lower back pain (lumbar pain)\n" +
-//           "• Upper and mid-back pain\n" +
-//           "• Chronic back pain\n" +
-//           "• Sciatica and nerve-related discomfort\n" +
-//           "• Postural and work-related back pain",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Comprehensive physical assessment to identify the root cause of pain\n" +
-//           "• Manual therapy and spinal mobilization to improve movement and reduce stiffness\n" +
-//           "• Core and back strengthening exercises to support the spine\n" +
-//           "• Posture correction guidance\n" +
-//           "• Pain-relief modalities such as TENS, heat therapy, and other electrotherapy techniques\n" +
-//           "• Education and prevention exercises to avoid future episodes and maintain long-term spine health",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces acute and chronic pain",
-//       " Improves flexibility and spine mobility",
-//       "Strengthens back muscles and core stability",
-//       "Prevents recurrence",
-//       "Enhances quality of life",
-//     ],
-//     customTreatmentText:
-//       "Our centre provides personalized treatment plans tailored to each patient’s specific condition. With advanced physiotherapy techniques, expert guidance, and modern equipment, we ensure effective pain relief, improved mobility, and prevention of future episodes. Our holistic approach focuses on both recovery and long-term spine health.",
-//   },
-
-//   {
-//     id: 78,
-//     title: "Muscle Pain Treatment",
-//     slug: "muscles-pain",
-//     category: "Muscle Conditions",
-//     image: musclePain,
-//     description:
-//       "Muscle pain can result from overuse, injury, strain, or underlying medical conditions. It leads to discomfort, stiffness, and limited mobility. Physiotherapy focuses on relieving pain, restoring strength and flexibility, and improving functional movement. At Advanced Pain Physiotherapy Centre, we provide targeted exercises, manual therapy, and pain-relief modalities to ensure safe and effective recovery.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Common Causes of Muscle Pain:\n\n" +
-//           "• Muscle strain or overuse\n" +
-//           "• Sports or work-related injuries\n" +
-//           "• Poor posture or ergonomics\n" +
-//           "• Muscle fatigue or spasms\n\n" +
-//           "Physiotherapy Goals:\n\n" +
-//           "• Relieve pain and stiffness\n" +
-//           "• Improve muscle flexibility and strength\n" +
-//           "• Restore normal movement and function\n" +
-//           "• Prevent recurrence of pain",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Comprehensive assessment of muscle function and pain\n" +
-//           "• Targeted stretching and strengthening exercises\n" +
-//           "• Manual therapy to reduce tightness and improve circulation\n" +
-//           "• Pain-relief modalities such as TENS, heat, or electrotherapy\n" +
-//           "• Posture correction and activity modification guidance\n" +
-//           "• Personalized rehabilitation plan for long-term recovery",
-//       },
-//     ],
-//     benefits: [
-//       "Reduces acute and chronic muscle pain",
-//       "Improves flexibility and muscle strength",
-//       "Enhances functional movement and daily activity",
-//       "Prevents recurrence of muscle pain",
-//       "Supports overall physical well-being",
-//     ],
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, we provide personalized care for muscle pain with evidence-based physiotherapy techniques. Our approach focuses on pain relief, restoring function, and long-term muscle health for safe daily activity.",
-//   },
-
-//   // 1. Lymphatic Massage after Liposuction
-//   {
-//     id: 79,
-//     title: "Lymphatic Massage after Liposuction",
-//     slug: "lymphatic-massage-after-liposuction",
-//     category: "Post-Surgery Care",
-//     image: lymphaticLipo, // your imported image variable
-//     description:
-//       "Lymphatic massage after liposuction helps reduce swelling, improve blood circulation, and promote faster recovery. Physiotherapy focuses on gentle techniques that stimulate lymph flow, reduce fluid retention, and enhance healing. At Advanced Pain Physiotherapy Centre, we provide personalized care to ensure safe, effective, and comfortable post-surgical recovery.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Post-liposuction recovery can involve swelling, fluid retention, and discomfort. Lymphatic massage helps by:\n\n" +
-//           "• Reducing swelling and fluid accumulation\n" +
-//           "• Improving lymphatic and blood circulation\n" +
-//           "• Supporting tissue healing and recovery\n" +
-//           "• Relieving post-surgical discomfort\n" +
-//           "• Enhancing overall mobility and comfort\n\n" +
-//           "Regular lymphatic massage under physiotherapy guidance ensures a safer and faster recovery after liposuction.",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Gentle lymphatic drainage massage targeting treated areas\n" +
-//           "• Guidance on wearing compression garments and safe movement\n" +
-//           "• Personalized post-operative rehabilitation plan\n" +
-//           "• Education on safe exercises and daily activity adjustments\n" +
-//           "• Continuous monitoring to ensure optimal healing and comfort",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces post-surgical swelling and bruising",
-//       "Improves lymphatic and blood circulation",
-//       "Promotes faster tissue healing",
-//       "Enhances mobility and comfort",
-//       "Supports overall recovery and well-being",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-liposuction lymphatic massage program provides gentle, effective, and safe recovery care. We focus on reducing discomfort, improving healing, and helping patients regain confidence in their mobility and appearance.",
-//   },
-
-//   // 2. Lymphatic Massage after Tummy Tuck
-//   {
-//     id: 80,
-//     title: "Lymphatic Massage after Tummy Tuck",
-//     slug: "lymphatic-massage-after-tummy-tuck",
-//     category: "Post-Surgery Care",
-//     image: lymphaticTummyTuck,
-//     description:
-//       "Lymphatic massage after tummy tuck reduces swelling, aids scar healing, and accelerates recovery. At Advanced Pain Physiotherapy Centre, we provide gentle massage, mobility guidance, and expert post-surgery care for optimal results.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Tummy tuck surgery can cause swelling and fluid accumulation. Lymphatic massage helps:\n\n" +
-//           "• Reduce post-surgical swelling and discomfort\n" +
-//           "• Improve lymphatic drainage and circulation\n" +
-//           "• Promote tissue and scar healing\n" +
-//           "• Enhance mobility and comfort\n" +
-//           "• Support overall recovery",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Gentle lymphatic drainage techniques for the abdominal area\n" +
-//           "• Guidance on compression garments and posture\n" +
-//           "• Personalized post-operative recovery plan\n" +
-//           "• Education on safe exercises and mobility",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces swelling and discomfort",
-//       "Promotes faster healing and scar management",
-//       "Improves lymphatic circulation",
-//       "Enhances mobility and comfort",
-//       "Supports optimal recovery results",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-tummy tuck lymphatic massage program ensures safe, effective recovery with reduced swelling and improved healing outcomes.",
-//   },
-
-//   // 3. Lymphatic Massage after Gynaecomastia
-//   {
-//     id: 81,
-//     title: "Lymphatic Massage after Gynaecomastia",
-//     slug: "lymphatic-massage-after-gynaecomastia",
-//     category: "Post-Surgery Care",
-//     image: lymphaticGynaecomastia,
-//     description:
-//       "Post-gynaecomastia lymphatic massage helps reduce swelling, improve circulation, and accelerate chest healing. At Advanced Pain Physiotherapy Centre, we provide gentle, targeted massage therapy to enhance recovery and patient comfort.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Gynaecomastia surgery can cause fluid retention, swelling, and discomfort. Lymphatic massage helps:\n\n" +
-//           "• Reduce swelling and bruising\n" +
-//           "• Improve lymphatic drainage and circulation\n" +
-//           "• Promote tissue healing\n" +
-//           "• Enhance comfort and mobility\n" +
-//           "• Support overall recovery",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Targeted lymphatic drainage massage for the chest area\n" +
-//           "• Guidance on compression garments and mobility\n" +
-//           "• Personalized post-operative care plan\n" +
-//           "• Education on safe recovery exercises",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces post-surgical swelling and discomfort",
-//       "Improves circulation and tissue healing",
-//       "Enhances mobility and comfort",
-//       "Supports optimal chest recovery",
-//       "Accelerates overall post-surgery healing",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-gynaecomastia lymphatic massage program ensures safe recovery, reduces swelling, and improves comfort and surgical outcomes.",
-//   },
-
-//   // 4. Lymphatic Massage after Fat Grafting
-//   {
-//     id: 82,
-//     title: "Lymphatic Massage after Fat Grafting",
-//     slug: "lymphatic-massage-after-fat-grafting",
-//     category: "Post-Surgery Care",
-//     image: lymphaticFatGrafting,
-//     description:
-//       "Lymphatic massage after fat grafting helps reduce swelling, improve circulation, and support tissue healing. At Advanced Pain Physiotherapy Centre, gentle massage techniques and recovery guidance ensure optimal surgical outcomes.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Fat grafting procedures can cause swelling and fluid accumulation. Lymphatic massage helps:\n\n" +
-//           "• Reduce swelling and discomfort\n" +
-//           "• Improve lymphatic drainage and circulation\n" +
-//           "• Promote tissue healing and fat retention\n" +
-//           "• Enhance recovery speed\n" +
-//           "• Improve mobility and comfort",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Gentle lymphatic drainage massage for grafted areas\n" +
-//           "• Guidance on post-operative care and compression garments\n" +
-//           "• Personalized recovery plan\n" +
-//           "• Education on safe movements and exercises",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces swelling and discomfort",
-//       "Supports tissue healing and fat retention",
-//       "Enhances mobility and comfort",
-//       "Promotes faster recovery",
-//       "Improves overall surgical results",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-fat grafting lymphatic massage program helps patients recover efficiently, reduce swelling, and achieve optimal surgical outcomes.",
-//   },
-
-//   // 5. Lymphatic Massage after BBL
-//   {
-//     id: 83,
-//     title: "Lymphatic Massage after BBL",
-//     slug: "lymphatic-massage-after-bbl",
-//     category: "Post-Surgery Care",
-//     image: lymphaticBBL,
-//     description:
-//       "Post-BBL lymphatic massage helps reduce swelling, improve circulation, and maintain surgical results. At Advanced Pain Physiotherapy Centre, expert massage therapy supports safe and effective recovery.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "BBL surgery can cause swelling, fluid retention, and discomfort. Lymphatic massage helps:\n\n" +
-//           "• Reduce post-surgical swelling\n" +
-//           "• Improve lymphatic and blood circulation\n" +
-//           "• Promote tissue healing\n" +
-//           "• Enhance comfort and mobility\n" +
-//           "• Support long-term cosmetic results",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Gentle lymphatic drainage massage for the buttocks\n" +
-//           "• Guidance on compression garments and positioning\n" +
-//           "• Personalized post-operative care plan\n" +
-//           "• Education on safe mobility and exercises",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces swelling and discomfort",
-//       "Promotes faster tissue healing",
-//       "Enhances mobility and comfort",
-//       "Supports long-term cosmetic results",
-//       "Improves circulation and recovery",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-BBL lymphatic massage program accelerates recovery, reduces swelling, and ensures safe and effective healing.",
-//   },
-
-//   // 6. Lymphatic Massage after Mummy Makeover
-//   {
-//     id: 84,
-//     title: "Lymphatic Massage after Mummy Makeover",
-//     slug: "lymphatic-massage-after-mummy-makeover",
-//     category: "Post-Surgery Care",
-//     image: lymphaticMummy,
-//     description:
-//       "After a mummy makeover, lymphatic massage reduces swelling, promotes healing, and enhances recovery. At Advanced Pain Physiotherapy Centre, gentle massage and post-operative guidance ensure safe and effective results.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Mummy makeover procedures involve multiple areas and can cause swelling and discomfort. Lymphatic massage helps:\n\n" +
-//           "• Reduce swelling and bruising\n" +
-//           "• Improve lymphatic drainage and circulation\n" +
-//           "• Promote faster tissue healing\n" +
-//           "• Enhance comfort and mobility\n" +
-//           "• Support overall recovery",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Gentle lymphatic drainage massage for all treated areas\n" +
-//           "• Guidance on compression garments and positioning\n" +
-//           "• Personalized recovery plan\n" +
-//           "• Education on safe exercises and mobility",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces swelling and discomfort",
-//       "Enhances healing across multiple surgical sites",
-//       "Improves lymphatic and blood circulation",
-//       "Supports mobility and comfort",
-//       "Optimizes overall recovery",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-mummy makeover lymphatic massage program ensures safe, effective recovery, reduces swelling, and promotes healing across all treated areas.",
-//   },
-
-//   // 7. Lymphatic Massage after Arm's Liposuction
-//   {
-//     id: 85,
-//     title: "Lymphatic Massage after Arm's Liposuction",
-//     slug: "lymphatic-massage-after-arm-liposuction",
-//     category: "Post-Surgery Care",
-//     image: lymphaticArm,
-//     description:
-//       "After arm liposuction, lymphatic massage reduces swelling, improves circulation, and accelerates recovery. At Advanced Pain Physiotherapy Centre, we provide expert post-surgery care for safe healing.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Arm liposuction can cause swelling and discomfort. Lymphatic massage helps:\n\n" +
-//           "• Reduce post-surgical swelling\n" +
-//           "• Improve lymphatic and blood circulation\n" +
-//           "• Promote faster tissue healing\n" +
-//           "• Enhance mobility and comfort\n" +
-//           "• Support optimal cosmetic results",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Gentle lymphatic drainage massage for the arms\n" +
-//           "• Guidance on compression garments and post-surgery mobility\n" +
-//           "• Personalized recovery plan\n" +
-//           "• Education on safe exercises and mobility",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces swelling and discomfort",
-//       "Promotes faster tissue healing",
-//       "Enhances mobility and comfort",
-//       "Supports cosmetic results",
-//       "Improves circulation and recovery",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-arm liposuction lymphatic massage program ensures safe recovery, reduces swelling, and promotes optimal results and comfort.",
-//   },
-
-//   // 8. Lymphatic Massage after Thigh Liposuction
-//   {
-//     id: 86,
-//     title: "Lymphatic Massage after Thigh Liposuction",
-//     slug: "lymphatic-massage-after-thigh-liposuction",
-//     category: "Post-Surgery Care",
-//     image: lymphaticThigh,
-//     description:
-//       "After thigh liposuction, lymphatic massage reduces swelling, improves circulation, and accelerates recovery. At Advanced Pain Physiotherapy Centre, we provide gentle, targeted massage therapy for safe healing and comfort.",
-
-//     sections: [
-//       {
-//         title: "Overview",
-//         content:
-//           "Thigh liposuction can cause swelling, fluid retention, and discomfort. Lymphatic massage helps:\n\n" +
-//           "• Reduce swelling and bruising\n" +
-//           "• Improve lymphatic and blood circulation\n" +
-//           "• Promote faster tissue healing\n" +
-//           "• Enhance mobility and comfort\n" +
-//           "• Support optimal surgical results",
-//       },
-//       {
-//         title: "Treatment",
-//         content:
-//           "Our Physiotherapy Approach:\n\n" +
-//           "• Gentle lymphatic drainage massage for the thighs\n" +
-//           "• Guidance on compression garments and post-operative mobility\n" +
-//           "• Personalized recovery plan\n" +
-//           "• Education on safe exercises",
-//       },
-//     ],
-
-//     benefits: [
-//       "Reduces swelling and discomfort",
-//       "Promotes faster tissue healing",
-//       "Enhances mobility and comfort",
-//       "Supports cosmetic results",
-//       "Improves circulation and recovery",
-//     ],
-
-//     customTreatmentText:
-//       "At Advanced Pain Physiotherapy Centre, our post-thigh liposuction lymphatic massage program ensures safe recovery, reduces swelling, and supports optimal results and comfort.",
-//   },
-
-//   // {
-//   //   id: 2,
-//   //   title: "Vertigo",
-//   //   slug: "vertigo",
-//   //   category: "Neurological",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/cf/62/e8/cf62e861a843ebd7384fb09cd666d1ac.jpg",
-//   //   description:
-//   //     "Vertigo is a spinning sensation that affects balance and orientation.",
-//   //   benefits: [
-//   //     "Reduces dizziness and spinning sensations",
-//   //     "Improves balance and coordination",
-//   //     "Prevents falls and injuries",
-//   //     "Restores vestibular function",
-//   //     "Enhances confidence in daily activities",
-//   //     "Reduces frequency of vertigo episodes",
-//   //   ],
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for vertigo involves specialized treatments such as vestibular rehabilitation exercises, balance and coordination training, and canalith repositioning techniques to address dizziness and improve inner ear function. Postural control exercises and eye–head coordination movements are also used to enhance stability and reduce symptoms.Additional techniques like gaze stabilization, habituation exercises, and relaxation therapy help decrease the frequency and intensity of vertigo episodes while improving balance and confidence during daily activities.The goal of physiotherapy is to reduce dizziness, improve balance and coordination, prevent falls, and restore normal movement by retraining the vestibular system and promoting better postural control.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from vertigo, dizziness, or balance disorders, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are experiencing Vertigo, dizziness, or balance disorders in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave, Kalkaji, South-Delhi for the Best Vertigo Treatment and effective relief.",
-//   // },
-//   // {
-//   //   id: 3,
-//   //   title: "Achilles Tendon Rupture",
-//   //   slug: "achilles-tendon-rupture",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/ba/ca/0b/baca0b8bb28abe475cd6a4b0eb525c20.jpg",
-//   //   description:
-//   //     "A tear of the Achilles tendon connecting calf muscles to the heel.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Achilles tendon rupture involves various treatments, including manual therapy (soft tissue massage, gentle mobilization), exercise therapy (strengthening calf muscles, improving flexibility, and stability exercises), balance and gait training, and education on safe movement techniques. Techniques like eccentric strengthening, tendon loading exercises, and proprioceptive training can also be used to improve circulation, restore tendon elasticity, and prevent stiffness.The goal is to reduce pain, restore strength, improve ankle mobility, and prevent future injuries by retraining the tendon, strengthening surrounding muscles, and promoting proper movement mechanics.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from an Achilles tendon rupture, heel pain, or difficulty walking, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 6,
-//   //   title: "Chondromalacia Patella",
-//   //   slug: "chondromalacia-patella",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/11/17/49/11174909b1c59bd940411f03d2095e77.jpg",
-//   //   description: "Softening and degeneration of cartilage under the kneecap.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Chondromalacia Patella includes strengthening the quadriceps, improving knee alignment, and pain management to restore knee function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from chondromalacia patella, knee pain, pain while climbing stairs, or discomfort during movement, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 7,
-//   //   title: "Knee Bursitis",
-//   //   slug: "knee-bursitis",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/d8/75/52/d875520cbe8e62139523559fd5f98c02.jpg",
-//   //   description:
-//   //     "Inflammation of the fluid-filled sacs (bursae) in the knee joint.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Knee Bursitis focuses on reducing inflammation, improving knee flexibility, strengthening surrounding muscles, and preventing recurrence.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from knee bursitis, knee swelling, pain, or difficulty in movement, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 8,
-//   //   title: "Ankle Sprain",
-//   //   slug: "ankle-sprain",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/ba/ca/0b/baca0b8bb28abe475cd6a4b0eb525c20.jpg",
-//   //   description: "Stretching or tearing of ligaments in the ankle.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Ankle Sprain includes pain management, strengthening exercises, balance training, and gradual return to activity to restore normal ankle function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from an ankle sprain, ankle pain, swelling, or instability, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 9,
-//   //   title: "Cerebral Palsy",
-//   //   slug: "cerebral-palsy",
-//   //   category: "Neurological",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/73/60/04/736004393da83097cc2609cc138cd9d2.jpg",
-//   //   description: "A group of disorders affecting movement and muscle tone.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Cerebral Palsy focuses on improving muscle strength, coordination, posture, and mobility through targeted exercises and adaptive techniques.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from cerebral palsy, muscle stiffness, poor coordination, or movement difficulties, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 10,
-//   //   title: "Sciatica",
-//   //   slug: "sciatica",
-//   //   category: "Spine Conditions",
-//   //   image: sciatic,
-//   //   description: "Pain radiating along the sciatic nerve from back to leg.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Sciatica includes nerve gliding exercises, core strengthening, posture correction, and pain relief techniques to reduce nerve compression and improve function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from sciatica, lower back pain radiating to the leg, numbness, or tingling, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 11,
-//   //   title: "Parkinson's Disease",
-//   //   slug: "parkinsons",
-//   //   category: "Neurological",
-//   //   image: parkinsons,
-//   //   description: "A progressive nervous system disorder affecting movement.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Parkinson's Disease involves exercises to improve balance, gait training, flexibility, and muscle strength to enhance mobility and reduce fall risk.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Parkinson's disease, movement difficulties, muscle stiffness, or balance issues, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 12,
-//   //   title: "Tennis Elbow",
-//   //   slug: "tennis-elbow",
-//   //   category: "Elbow Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/fe/6e/ea/fe6eea89200113ab11d5ae0665ce9224.jpg",
-//   //   description: "Overuse injury of forearm extensor muscles.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Tennis Elbow includes strengthening and stretching exercises, ergonomic advice, and pain management techniques to restore elbow function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from tennis elbow, elbow pain, weakness, or discomfort during gripping, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 13,
-//   //   title: "Baastrup Syndrome",
-//   //   slug: "baastrup-syndrome",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/45/35/b2/4535b2a166ae2c0ca36bd9ad6806622e.jpg",
-//   //   description:
-//   //     "Also known as 'kissing spine', occurs when vertebrae touch each other.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Baastrup Syndrome includes postural correction, spinal mobilization, and strengthening exercises to relieve pain and improve spinal alignment.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Baastrup syndrome, lower back pain, spinal discomfort, or restricted movement, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 15,
-//   //   title: "Cervical Myelopathy",
-//   //   slug: "cervical-myelopathy",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/b7/c3/59/b7c359faef175bd915b18547b7a7f4d2.jpg",
-//   //   description: "Compression of the spinal cord in the neck region.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Cervical Myelopathy focuses on improving neck mobility, strengthening supporting muscles, and enhancing neurological function to reduce symptoms like numbness, weakness, and balance issues.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from cervical myelopathy, neck pain, weakness, numbness, or coordination problems, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 16,
-//   //   title: "Rotator Cuff Injury",
-//   //   slug: "rotator-cuff-injury",
-//   //   category: "Shoulder Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/09/a7/4d/09a74d3e524351616e6bc2e99b5c31a3.jpg",
-//   //   description: "Tear or strain of the shoulder rotator cuff muscles.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Rotator Cuff Injury includes strengthening exercises, range-of-motion therapy, and manual therapy to restore shoulder function, reduce pain, and prevent future injuries.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from a rotator cuff injury, Shoulder Pain Treatment, weakness, or limited range of motion, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 17,
-//   //   title: "Scoliosis",
-//   //   slug: "scoliosis",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/cc/04/84/cc04840e97e1e49f813761037f40087c.jpg",
-//   //   description: "Abnormal sideways curvature of the spine.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Scoliosis focuses on posture correction, spinal stabilization exercises, and improving flexibility to reduce pain and prevent progression of curvature.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from scoliosis, spinal curvature, back pain, or postural imbalance, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 18,
-//   //   title: "Bell's Palsy (Facial Palsy)",
-//   //   slug: "bells-palsy",
-//   //   category: "Neurological",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/cd/dd/fe/cdddfeda24d90fbc5588ee2bca118bc3.jpg",
-//   //   description: "Sudden weakness or paralysis of facial muscles.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Bell's Palsy involves facial exercises, muscle strengthening, and neuromuscular re-education to restore normal facial function and expressions.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Bell's palsy (facial palsy), facial weakness, drooping, or difficulty with facial movements, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 19,
-//   //   title: "Dementia",
-//   //   slug: "dementia",
-//   //   category: "Neurological",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/57/5d/2c/575d2c0d709d011d9f16695e74d5312f.jpg",
-//   //   description: "Progressive cognitive decline affecting daily function.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Dementia focuses on maintaining mobility, balance, and functional independence, as well as reducing the risk of falls and promoting overall physical and cognitive health.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from dementia, mobility issues, muscle stiffness, or functional decline, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 20,
-//   //   title: "Plantar Fasciitis",
-//   //   slug: "plantar-fasciitis",
-//   //   category: "Foot Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/d6/be/a0/d6bea085fe779425324f93fd5ff136e0.jpg",
-//   //   description: "Inflammation of the plantar fascia causing heel pain.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Plantar Fasciitis includes stretching exercises, foot and calf strengthening, gait correction, pain relief techniques, and use of orthotics to reduce strain on the plantar fascia.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from plantar fasciitis, heel pain, foot stiffness, or pain while walking, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 21,
-//   //   title: "Spinal Stenosis",
-//   //   slug: "spinal-stenosis",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3b/14/bf/3b14bfc465448b85da610bea4f60ba5a.jpg",
-//   //   description: "Narrowing of spinal canal causing nerve compression.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Spinal Stenosis focuses on posture correction, spinal mobility exercises, core strengthening, balance training, and pain relief techniques to reduce nerve compression symptoms.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from spinal stenosis, back pain, numbness, or weakness, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 22,
-//   //   title: "Rheumatoid Arthritis",
-//   //   slug: "rheumatoid-arthritis",
-//   //   category: "Joint Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/07/34/63/0734635735aefccff55cd35bc3855cd1.jpg",
-//   //   description: "Autoimmune condition causing joint inflammation.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Rheumatoid Arthritis includes joint mobilization, pain relief techniques, strengthening exercises, flexibility training, and functional rehabilitation to improve daily activities.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from rheumatoid arthritis, joint pain, swelling, or stiffness, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 23,
-//   //   title: "Tailbone Pain (Coccydynia)",
-//   //   slug: "tailbone-pain",
-//   //   category: "Pain Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/47/62/a4/4762a430ec642a623bddef5b843b6ca0.jpg",
-//   //   description: "Pain in or around the coccyx (tailbone).",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Tailbone Pain (Coccydynia) focuses on relieving pain, improving pelvic and lower back mobility, strengthening surrounding muscles, and correcting sitting posture.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from tailbone pain (coccydynia), pain while sitting, or lower back discomfort, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 24,
-//   //   title: "Myasthenia Gravis",
-//   //   slug: "myasthenia-gravis",
-//   //   category: "Neurological",
-//   //   image: myasthenia,
-//   //   description: "Autoimmune disorder causing muscle weakness.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Myasthenia Gravis focuses on gentle strengthening, respiratory exercises, energy conservation techniques, and improving daily function while managing fatigue.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you have Myasthenia Gravis and are facing muscle weakness or fatigue in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for tailored neuromuscular rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 25,
-//   //   title: "Herniated Disc (Slipped Disc)",
-//   //   slug: "herniated-disc",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/c7/cd/49/c7cd49f49ee50e25d5bda4584d05e2fe.jpg",
-//   //   description: "Protrusion of disc material pressing on spinal nerves.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Herniated Disc focuses on pain management, core strengthening, postural correction, spinal mobility, and functional rehabilitation to prevent recurrence.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from a herniated disc, back pain, numbness, or leg weakness, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 26,
-//   //   title: "Diabetic Neuropathy",
-//   //   slug: "diabetic-neuropathy",
-//   //   category: "Nerve Conditions",
-//   //   image: diabetic,
-//   //   description: "Nerve damage caused by prolonged high blood sugar.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Diabetic Neuropathy includes balance and gait training, strengthening exercises, pain management, and prevention of foot ulcers through proper guidance.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from diabetic neuropathy, numbness, tingling, or foot pain, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 27,
-//   //   title: "Degenerative Disc Disease",
-//   //   slug: "degenerative-disc-disease",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/e8/2e/99/e82e99bd8385d1441ad195540000890b.jpg",
-//   //   description: "Age-related wear and tear of spinal discs.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Degenerative Disc Disease focuses on posture correction, spinal mobility, and strengthening exercises.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from degenerative disc disease, back pain, or stiffness, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 28,
-//   //   title: "Distal Muscular Dystrophy",
-//   //   slug: "distal-muscular-dystrophy",
-//   //   category: "Neurological",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/1b/6e/5b/1b6e5b5fad0628f8bd7a663bab161723.jpg",
-//   //   description:
-//   //     "Group of genetic disorders causing progressive muscle weakness.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Distal Muscular Dystrophy focuses on maintaining muscle strength, improving flexibility, preventing contractures, enhancing functional mobility, and promoting independence.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from distal muscular dystrophy, muscle weakness, or mobility difficulties, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for specialized neuromuscular physiotherapy and long-term care.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 29,
-//   //   title: "Stroke (Cerebrovascular Accident)",
-//   //   slug: "stroke",
-//   //   category: "Neurological",
-//   //   image: stroke,
-//   //   description:
-//   //     "A condition caused by interruption of blood supply to the brain.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Stroke focuses on improving mobility, strength, balance, coordination, and restoring functional independence through neurorehabilitation.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are recovering from a stroke and experiencing weakness, paralysis, or balance problems, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for expert stroke rehabilitation and recovery.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 30,
-//   //   title: "Hamstring Strain",
-//   //   slug: "hamstring-strain",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/76/c1/0d/76c10db0b682f7bb735bfe15bf9357b6.jpg",
-//   //   description:
-//   //     "Tear or strain of hamstring muscles at the back of the thigh.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Hamstring Strain includes pain management, flexibility exercises, muscle strengthening, and gradual return to sports or daily activities.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from a hamstring strain, thigh pain, or difficulty walking, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective physiotherapy treatment and complete recovery.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 31,
-//   //   title: "Fibromyalgia Syndrome",
-//   //   slug: "fibromyalgia-syndrome",
-//   //   category: "Pain Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/a6/37/15/a63715ea583b87848fb2a11c00078bcd.jpg",
-//   //   description: "Chronic condition causing widespread musculoskeletal pain.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Fibromyalgia includes gentle stretching, low-impact aerobic exercises, posture correction, pain management techniques, and relaxation strategies to reduce pain and improve daily function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from fibromyalgia syndrome, chronic body pain, or fatigue, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for personalized physiotherapy care and long-term pain relief.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 32,
-//   //   title: "Shoulder Dislocation",
-//   //   slug: "shoulder-dislocation",
-//   //   category: "Shoulder Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/9f/29/54/9f295450c435b219c7bebef8d7fcc106.jpg",
-//   //   description: "Displacement of the humerus from the shoulder socket.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Shoulder Dislocation focuses on pain relief, restoring shoulder stability, strengthening rotator cuff muscles, and improving range of motion to prevent recurrence.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from shoulder dislocation, Shoulder Pain Treatment, or instability, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for expert shoulder rehabilitation and stability restoration.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 33,
-//   //   title: "Wrist Fracture",
-//   //   slug: "wrist-fracture",
-//   //   category: "Orthopedic Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/33/36/ad/3336ad07d63f851d707b78b05ba9d819.jpg",
-//   //   description: "Break in one or more bones of the wrist.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Wrist Fracture includes pain management, restoring wrist mobility, strengthening hand and forearm muscles, and functional rehabilitation.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are recovering from a wrist fracture and experiencing pain, swelling, or restricted movement, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective wrist rehabilitation and recovery.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 34,
-//   //   title: "Hip Labral Tear",
-//   //   slug: "hip-labral-tear",
-//   //   category: "Hip Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/43/37/06/4337069ab4b575034f4520c5468e747d.jpg",
-//   //   description: "Tear in the cartilage rim of the hip socket.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Hip Labral Tear focuses on improving hip stability, strengthening surrounding muscles, restoring hip mobility, and reducing pain through targeted therapy.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from a hip labral tear, hip pain, or stiffness, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for expert hip rehabilitation and mobility improvement.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 35,
-//   //   title: "Hip Osteoarthritis",
-//   //   slug: "hip-osteoarthritis",
-//   //   category: "Hip Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/65/f6/b4/65f6b41a7acf7d8ebb7bd114ee13cd17.jpg",
-//   //   description: "Degenerative joint disease of the hip.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Hip Osteoarthritis focuses on strengthening hip muscles, improving joint mobility, balance training, and pain relief to enhance walking ability.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from hip osteoarthritis, hip pain, or difficulty walking, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for targeted physiotherapy and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 36,
-//   //   title: "Medial Collateral Ligament Injury",
-//   //   slug: "mcl-injury",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/29/f7/5b/29f75b0d65209851234b9635e7c98559.jpg",
-//   //   description: "Sprain or tear of the MCL on the inner knee.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for MCL Injury includes pain management, knee strengthening exercises, range of motion training, balance exercises, and gradual return to daily or sports activities.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from a medial collateral ligament injury, knee pain, swelling, or instability, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective knee ligament rehabilitation and long-term recovery.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 37,
-//   //   title: "Posterior Cruciate Ligament Injury",
-//   //   slug: "pcl-injury",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/86/98/79/869879a756c55ea5b0f37b0e8b346631.jpg",
-//   //   description: "Tear or sprain of the PCL in the knee.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for PCL Injury focuses on reducing pain and swelling, strengthening knee muscles, improving joint stability, and restoring functional movement.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from a posterior cruciate ligament injury, knee pain, or instability, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for structured knee rehabilitation and safe recovery.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 38,
-//   //   title: "Varicose Veins",
-//   //   slug: "varicose-veins",
-//   //   category: "Circulatory Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description: "Enlarged, twisted veins typically affecting the legs.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Varicose Veins includes circulation-improving exercises, leg elevation techniques, lifestyle guidance, and strengthening of lower limb muscles to reduce discomfort.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from varicose veins, leg pain, swelling, or heaviness, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for specialized physiotherapy to improve circulation and comfort.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 39,
-//   //   title: "Knee Fracture",
-//   //   slug: "knee-fracture",
-//   //   category: "Orthopedic Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3d/41/b1/3d41b1784ccca4cc037f4369127bd205.jpg",
-//   //   description: "Break in one of the bones around the knee joint.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Knee Fracture focuses on pain relief, restoring knee mobility, muscle strengthening, gait training, and gradual return to weight-bearing activities.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are recovering from a knee fracture and experiencing pain, swelling, or difficulty walking, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for effective knee rehabilitation and functional recovery.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 40,
-//   //   title: "Flat Foot",
-//   //   slug: "flat-foot",
-//   //   category: "Foot Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/72/e9/d0/72e9d0998ec84aed36d32c2f247b0148.jpg",
-//   //   description:
-//   //     "Collapse of the foot arch causing the entire sole to touch the ground.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Flat Foot includes arch strengthening exercises, stretching, gait correction, and foot mobility training to improve walking comfort.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from flat foot, foot pain, or difficulty walking, consult Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre for specialized foot physiotherapy and long-lasting relief.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 41,
-//   //   title: "Ankle Fracture",
-//   //   slug: "ankle-fracture",
-//   //   category: "Orthopedic Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/1e/49/3f/1e493fc0f357a4df4c59da9cd4bc4599.jpg",
-//   //   description: "Break in one or more ankle bones.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Ankle Fracture involves pain management, restoration of mobility, strengthening exercises, gait training, and balance rehabilitation. Techniques like range of motion exercises, manual therapy, and progressive weight-bearing are applied to restore function safely.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are recovering from an Ankle Fracture and experiencing pain, swelling, or difficulty walking  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for structured ankle fracture rehabilitation and functional recovery.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 42,
-//   //   title: "Ankle Dislocation",
-//   //   slug: "ankle-dislocation",
-//   //   category: "Orthopedic Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/f1/81/e1/f181e11f870968c6b82983fb27b5229c.jpg",
-//   //   description: "Displacement of ankle bones from normal position.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Ankle Dislocation focuses on restoring joint mobility, strengthening surrounding muscles, proprioception training, balance exercises, and gradual return to weight-bearing activities.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you have suffered an Ankle Dislocation and are experiencing pain or swelling in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 43,
-//   //   title: "Knee Osteoarthritis",
-//   //   slug: "knee-osteoarthritis",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/eb/23/31/eb23316c7a79f63074d43eddfefd9e04.jpg",
-//   //   description: "Degenerative wear and tear of knee cartilage.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Knee Osteoarthritis includes strengthening exercises, range of motion activities, balance and gait training, and pain management to reduce stiffness and improve mobility.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Knee Osteoarthritis or difficulty walking in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 44,
-//   //   title: "Golfer's Elbow",
-//   //   slug: "golfers-elbow",
-//   //   category: "Elbow Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/85/5b/d0/855bd017ab9f57a908596717b54b14ed.jpg",
-//   //   description: "Inflammation of tendons on the inner elbow.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Golfer's Elbow focuses on pain relief, stretching, strengthening of forearm muscles, and gradual return to activity.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Golfer's Elbow or gripping pain in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 45,
-//   //   title: "Spondylolisthesis",
-//   //   slug: "spondylolisthesis",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/ed/1e/ca/ed1ecaa6fb98602bc2ba4f7805e1bce3.jpg",
-//   //   description: "Forward slippage of one vertebra over another.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Spondylolisthesis includes core stabilization, posture correction, flexibility exercises, and strengthening to improve spinal stability.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Spondylolisthesis or lower back pain in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 46,
-//   //   title: "Ankylosing Spondylitis",
-//   //   slug: "ankylosing-spondylitis",
-//   //   category: "Spine Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/01/13/c1/0113c188bb7fc3a2a7df24dfbd201da6.jpg",
-//   //   description: "Inflammatory arthritis affecting the spine.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Ankylosing Spondylitis includes posture correction, spinal mobility exercises, breathing exercises, and pain relief techniques.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Ankylosing Spondylitis or spinal stiffness in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 47,
-//   //   title: "Spinal Cord Injury",
-//   //   slug: "spinal-cord-injury",
-//   //   category: "Neurological",
-//   //   image: SpinalCord,
-//   //   description: "Damage to spinal cord causing loss of function.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Spinal Cord Injury includes mobility training, strengthening, posture correction, and functional rehabilitation.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are living with Spinal Cord Injury in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 48,
-//   //   title: "Transverse Myelitis",
-//   //   slug: "transverse-myelitis",
-//   //   category: "Neurological",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/49/8c/8e/498c8eff0c72eb63b7ec2dd678b6987d.jpg",
-//   //   description: "Inflammation of the spinal cord.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Transverse Myelitis focuses on neuro-rehabilitation, mobility training, balance exercises, and strength restoration.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Transverse Myelitis in contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 49,
-//   //   title: "Knee Pain",
-//   //   slug: "knee-pain",
-//   //   category: "Pain Conditions",
-//   //   image: KneePain,
-//   //   description:
-//   //     "Knee pain treatment focuses on reducing pain, improving mobility, and strengthening the muscles around the knee. Physiotherapy exercises help increase flexibility and support the joint. Pain-relief modalities like ice therapy, heat therapy, and ultrasound reduce inflammation. Manual therapy improves joint movement and reduces stiffness. Regular exercise and proper posture help prevent future knee pain.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for knee pain treatment aims to reduce pain, swelling, and stiffness. It includes strengthening and stretching exercises to support and stabilize the knee joint. Treatments like ice therapy, heat therapy, ultrasound, and electrical stimulation help relieve pain and inflammation. Manual therapy improves joint mobility and flexibility. Proper exercise guidance helps prevent the recurrence of knee pain. Physiotherapy for Knee Pain involves strengthening, flexibility training, manual therapy, and gait correction to reduce pain and improve function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life. If you are suffering from Knee Pain contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi.",
-//   //     },
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for the Best Orthopedic Treatment for Joint Pain, Knee Pain, Hip Pain, Back Pain, Sports Injuries, Fractures, Arthritis, Post-Surgical Rehabilitation, or Mobility Issues in Delhi-NCR, then visit Advanced Pain Physiotherapy Center in Nehru Enclave, Kalkaji, South Delhi. We focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life. With compassionate care and proven results, we stand as a trusted orthopedic rehabilitation center and a place of healing and hope for countless patients.",
-//   // },
-
-//   // {
-//   //   id: 50,
-//   //   title: "Back Pain",
-//   //   slug: "back-pain",
-//   //   category: "Pain Conditions",
-//   //   image: backpain,
-//   //   description:
-//   //     "Back pain is one of the most common health problems affecting people of all ages and lifestyles. It can result from poor posture, prolonged sitting, weak core muscles, slipped discs, or injury. Untreated back pain can lead to chronic discomfort, limited mobility, and difficulty performing daily activities. Physiotherapy focuses on treating the root cause, relieving pain, restoring movement, and preventing recurrence. At Advanced Pain Physiotherapy Centre, we use manual therapy, targeted exercises, posture correction, and pain-relief techniques to provide safe and lasting results. Patients regain strength, flexibility, and confidence in movement.",
-
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Common Causes of Back Pain:\n\n" +
-//   //         "• Poor posture and prolonged sitting\n" +
-//   //         "• Muscle weakness or imbalance\n" +
-//   //         "• Herniated or slipped discs\n" +
-//   //         "• Sciatica and nerve compression\n" +
-//   //         "• Sports injuries and accidents\n\n" +
-//   //         "Conditions We Treat:\n\n" +
-//   //         "• Lower back pain (lumbar pain)\n" +
-//   //         "• Upper and mid-back pain\n" +
-//   //         "• Chronic back pain\n" +
-//   //         "• Sciatica and nerve-related discomfort\n" +
-//   //         "• Postural and work-related back pain",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Our Physiotherapy Approach:\n\n" +
-//   //         "• Comprehensive physical assessment to identify the root cause of pain\n" +
-//   //         "• Manual therapy and spinal mobilization to improve movement and reduce stiffness\n" +
-//   //         "• Core and back strengthening exercises to support the spine\n" +
-//   //         "• Posture correction guidance\n" +
-//   //         "• Pain-relief modalities such as TENS, heat therapy, and other electrotherapy techniques\n" +
-//   //         "• Education and prevention exercises to avoid future episodes and maintain long-term spine health",
-//   //     },
-//   //   ],
-//   //   benefits: [
-//   //     "Reduces acute and chronic pain",
-//   //     " Improves flexibility and spine mobility",
-//   //     "Strengthens back muscles and core stability",
-//   //     "Prevents recurrence",
-//   //     "Enhances quality of life",
-//   //   ],
-//   //   customTreatmentText:
-//   //     "Our centre provides personalized treatment plans tailored to each patient’s specific condition. With advanced physiotherapy techniques, expert guidance, and modern equipment, we ensure effective pain relief, improved mobility, and prevention of future episodes. Our holistic approach focuses on both recovery and long-term spine health.",
-//   // },
-
-//   // {
-//   //   id: 52,
-//   //   title: "Joint Pain",
-//   //   slug: "joint-pain",
-//   //   category: "Pain Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/a3/9c/bc/a39cbc65a64f62853b9aaed00f6eb57a.jpg",
-//   //   description: "Pain affecting one or multiple joints in the body.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Joint Pain involves manual therapy (massage, joint mobilization), strengthening exercises, flexibility and range of motion training, and posture correction. Additional techniques like heat therapy, cold therapy, and targeted exercise programs are used to reduce inflammation, relieve pain, improve joint mobility, and enhance overall function. The goal is to restore joint movement, decrease discomfort, and prevent future joint problems.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Joint Pain, stiffness, or reduced mobility then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective joint pain management, physiotherapy, and improved joint function.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 54,
-//   //   title: "Muscle Stiffness",
-//   //   slug: "muscle-stiffness",
-//   //   category: "Symptoms",
-//   //   image: muscleStiffnessAdjustment,
-//   //   description: "Tightness and reduced flexibility in muscles.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Muscle Stiffness involves manual therapy (massage, soft tissue release), stretching exercises, range-of-motion training, and strengthening routines. Techniques like heat therapy, ultrasound, and mobilization may also be used to relax tight muscles, improve blood circulation, and restore flexibility. The goal is to reduce stiffness, improve mobility, and prevent future muscular discomfort.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Muscle Stiffness, tightness, or limited movement  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized physiotherapy, pain relief, and improved muscle flexibility.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 55,
-//   //   title: "Loss of Balance",
-//   //   slug: "loss-of-balance",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/25/4e/6a/254e6a750eac4c71e27f1ada6b75f453.jpg",
-//   //   description: "Difficulty maintaining stability and coordination.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Loss of Balance involves vestibular rehabilitation, balance training, coordination exercises, and gait re-education. Techniques include posture correction, strength and flexibility exercises, and functional mobility training. The aim is to improve stability, prevent falls, and restore confidence in daily activities.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are experiencing loss of balance, dizziness, or unsteady walking  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized balance rehabilitation, fall prevention, and improved mobility.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 56,
-//   //   title: "Inflammation",
-//   //   slug: "inflammation",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/e9/3c/8a/e93c8ac657d3b035e4f3ea098c8fe1d4.jpg",
-//   //   description: "Swelling and pain response in tissues.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Inflammation focuses on reducing pain and swelling, restoring mobility, and preventing tissue damage. Treatments include manual therapy, ice or heat therapy, gentle stretching, strengthening exercises, and postural correction. The goal is to relieve discomfort, improve function, and prevent recurrence of inflammatory episodes.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are experiencing inflammation, swelling, or pain in joints or muscles then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective physiotherapy, pain relief, and improved mobility.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 57,
-//   //   title: "Numbness and Tingling",
-//   //   slug: "numbness-tingling",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/44/e9/d0/44e9d037d00164be4b32a328cc75f06b.jpg",
-//   //   description: "Loss of sensation or pins and needles feeling.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Numbness and Tingling involves various treatments, including nerve mobilization, strengthening exercises, posture correction, and balance training. Techniques like neuromuscular re-education, stretching, and targeted rehabilitation exercises can also be used to improve nerve function, restore sensation, and reduce discomfort. The goal is to alleviate numbness, enhance nerve health, improve muscle control, and prevent further complications through structured and personalized physiotherapy programs.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are experiencing Numbness, Tingling, or reduced sensation in your limbs then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized physiotherapy, nerve rehabilitation, and improved functional movement.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 58,
-//   //   title: "Headache",
-//   //   slug: "headache",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/1a/5b/8d/1a5b8dd400afc13028f78e59559b1004.jpg",
-//   //   description: "Pain in the head or neck region.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Headache involves various treatments, including manual therapy, posture correction, neck and shoulder strengthening, and stress-relieving exercises. Techniques like trigger point release, cervical mobilization, and relaxation techniques can also be used to reduce muscle tension, improve blood flow, and relieve headache symptoms. The goal is to reduce pain, improve posture, prevent recurrent headaches, and enhance overall well-being through targeted physiotherapy and lifestyle guidance.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Headaches, migraines, or tension-related head pain then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective headache management, pain relief, and improved quality of life.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 59,
-//   //   title: "Shortness of Breath",
-//   //   slug: "shortness-of-breath",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/f8/55/75/f855756c61ae120d95fad65898b569a4.jpg",
-//   //   description: "Difficulty breathing or feeling of breathlessness.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Shortness of Breath involves various treatments, including breathing exercises, respiratory muscle training, posture correction, and aerobic conditioning. Techniques like diaphragmatic breathing, incentive spirometry, and chest expansion exercises can also be used to improve lung capacity, oxygenation, and overall endurance. The goal is to reduce breathlessness, enhance respiratory efficiency, improve stamina, and support better daily functioning through structured and personalized physiotherapy programs.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are experiencing Shortness of Breath, difficulty breathing, or reduced stamina then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized respiratory physiotherapy, improved lung function, and enhanced endurance.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 60,
-//   //   title: "Sprains and Strains",
-//   //   slug: "sprains-strains",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/6c/2c/8e/6c2c8e2919c3863e2df9c07cf30ec167.jpg",
-//   //   description: "Injury to ligaments (sprains) or muscles/tendons (strains).",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Sprains and Strains involves various treatments, including manual therapy, stretching, strengthening exercises, balance and stability training, and functional movement retraining. Techniques like soft tissue massage, joint mobilization, and progressive resistance exercises can also be used to reduce pain, restore flexibility, and improve muscle and joint function. The goal is to relieve pain, restore range of motion, strengthen muscles, prevent re-injury, and promote safe return to daily activities or sports.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Sprains and Strains, muscle or ligament injuries, or limited mobility then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective rehabilitation, pain relief, and faster recovery.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 62,
-//   //   title: "Crepitus (Cracking Joints)",
-//   //   slug: "crepitus",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/1a/f9/8c/1af98c2bd0f56f0a75d526337472b995.jpg",
-//   //   description: "Crackling or popping sounds in joints.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Crepitus (Cracking Joints) involves various treatments, including joint mobilization, strengthening exercises, flexibility training, and posture correction. Techniques like soft tissue massage, range-of-motion exercises, and targeted stabilization can also be used to reduce joint noise, improve mobility, and enhance joint function. The goal is to improve joint stability, reduce discomfort, enhance range of motion, and prevent further joint issues through structured exercises and proper movement techniques.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are experiencing Crepitus (Cracking Joints), joint discomfort, or reduced mobility then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized physiotherapy, joint stabilization, and improved joint function.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 63,
-//   //   title: "Tremors",
-//   //   slug: "tremors",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/d9/68/58/d96858eae9fb503f95cb6b0513b297d8.jpg",
-//   //   description: "Involuntary rhythmic shaking movements.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Tremors involves various treatments, including balance and coordination training, muscle strengthening, and functional movement exercises. Techniques like fine motor control exercises, posture correction, and neuromuscular re-education can also be used to reduce involuntary shaking, improve muscle control, and enhance daily function. The goal is to minimize tremor severity, improve coordination, increase strength, and enhance overall functional independence through targeted exercises and personalized physiotherapy programs.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are experiencing Tremors, involuntary shaking, or difficulty with coordination  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized physiotherapy, neuromuscular training, and improved control of tremors.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 64,
-//   //   title: "Muscle Spasm",
-//   //   slug: "muscle-spasm",
-//   //   category: "Symptoms",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/e5/e5/56/e5e556c941790d4bc230eb4d84aab74e.jpg",
-//   //   description: "Sudden involuntary muscle contraction.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Muscle Spasm involves various treatments, including manual therapy (massage, trigger point release, gentle mobilization), exercise therapy (stretching, strengthening, and stabilization exercises), posture correction, and education on proper movement. Techniques like deep tissue release, heat therapy, and electrical stimulation can also be used to relax tight muscles, improve blood circulation, and reduce pain. The goal is to relieve muscle tension, restore normal movement, improve flexibility, and prevent future muscle spasms by strengthening surrounding muscles, enhancing posture, and promoting proper body mechanics.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Muscle Spasms, tight or painful muscles, or restricted movement  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective muscle spasm treatment, pain relief, and improved flexibility.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 69,
-//   //   title: "After Accident Pain",
-//   //   slug: "after-accident-pain",
-//   //   category: "Pain Conditions",
-//   //   image: afteraccident,
-//   //   description:
-//   //     "After accident pain treatment focuses on reducing pain, inflammation, and promoting healing of affected muscles and joints. Physiotherapy includes gentle stretching and strengthening exercises to restore movement and function. Therapies like ice, heat, ultrasound, and electrical stimulation help relieve pain and swelling. Manual therapy helps improve joint mobility and reduce muscle stiffness. Proper exercise guidance and gradual activity resumption help prevent long-term complications.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy in after-accident pain treatment focuses on reducing pain, inflammation, and restoring mobility. It includes gentle stretching and strengthening exercises to help regain normal function. Therapies like ice, heat, ultrasound, and electrical stimulation aid in pain relief and healing. Manual therapy helps improve joint movement and reduce muscle stiffness. Regular physiotherapy and guided exercises help prevent long-term complications and promote recovery.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr.Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for the Best Orthopedic Treatment for Joint Pain, Knee Pain, Hip Pain, Back Pain, Sports Injuries, Fractures, Arthritis, Post-Surgical Rehabilitation, or Mobility Issues in Delhi-NCR, then visit Advanced Pain Physiotherapy Center in Nehru Enclave, Kalkaji, South Delhi. We focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life. With compassionate care and proven results, we stand as a trusted orthopedic rehabilitation center and a place of healing and hope for countless patients.",
-//   // },
-
-//   // {
-//   //   id: 70,
-//   //   title: "Alzheimer's",
-//   //   slug: "alzheimers",
-//   //   category: "Neurological",
-//   //   image: alzheimers,
-//   //   description:
-//   //     "Progressive brain disorder affecting memory and cognitive function.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Alzheimer's focuses on maintaining physical function, balance, mobility, and independence. Exercises include gait training, strength building, and fall prevention strategies.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you or your loved one is living with Alzheimer's and experiencing mobility issues then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized neurological rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 71,
-//   //   title: "Paralysis",
-//   //   slug: "paralysis",
-//   //   category: "Neurological",
-//   //   image: paralysis,
-//   //   description: "Loss of muscle function in part of the body.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Paralysis includes mobility training, muscle strengthening, functional exercises, assistive device training, and neuromuscular re-education to maximize independence and quality of life.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you or your loved one is living with Paralysis then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert neuro-rehabilitation and mobility restoration.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 72,
-//   //   title: "Epilepsy",
-//   //   slug: "epilepsy",
-//   //   category: "Neurological",
-//   //   image: epilepsy,
-//   //   description: "Neurological disorder causing recurrent seizures.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Epilepsy focuses on improving physical fitness, balance, coordination, and safety during daily activities. Exercises are tailored to individual needs and seizure patterns.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are living with Epilepsy and need physiotherapy support then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized neurological care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 73,
-//   //   title: "Meningitis",
-//   //   slug: "meningitis",
-//   //   category: "Neurological",
-//   //   image: meningitis,
-//   //   description:
-//   //     "Inflammation of protective membranes covering brain and spinal cord.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy after Meningitis focuses on recovery of muscle strength, coordination, balance, and functional abilities affected by the infection and its complications.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are recovering from Meningitis and experiencing physical limitations then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for comprehensive rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 74,
-//   //   title: "Encephalitis",
-//   //   slug: "encephalitis",
-//   //   category: "Neurological",
-//   //   image: encephalitis,
-//   //   description: "Inflammation of the brain tissue.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Encephalitis recovery includes mobility training, strengthening exercises, balance and coordination therapy, and functional rehabilitation to restore independence.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are recovering from Encephalitis and facing physical challenges then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized neuro-rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 75,
-//   //   title: "Slip Disc Pain",
-//   //   slug: "slip-disc-pain",
-//   //   category: "Spine Conditions",
-//   //   image: slipdisc,
-//   //   description: "Pain caused by herniated or slipped intervertebral disc.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Slip Disc includes pain management, core strengthening, spinal mobilization, posture correction, and exercises to reduce nerve compression and improve spinal health.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Slip Disc Pain or back/leg pain then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective spine rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 76,
-//   //   title: "Cervical Spondylitis",
-//   //   slug: "cervical-spondylitis",
-//   //   category: "Spine Conditions",
-//   //   image: cervical,
-//   //   description: "Age-related wear and tear affecting cervical spine.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Cervical Spondylitis includes neck exercises, posture correction, manual therapy, traction, and pain management to improve neck mobility and reduce discomfort.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Cervical Spondylitis, neck pain, or stiffness then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert cervical spine care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 77,
-//   //   title: "Student Elbow",
-//   //   slug: "student-elbow",
-//   //   category: "Elbow Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/85/5b/d0/855bd017ab9f57a908596717b54b14ed.jpg",
-//   //   description: "Overuse injury affecting students and desk workers.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Student Elbow includes ergonomic advice, stretching, strengthening exercises, manual therapy, and pain management to address repetitive strain injuries.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are experiencing Student Elbow pain or discomfort then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective elbow rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 78,
-//   //   title: "Ligament Injury",
-//   //   slug: "ligament-injury",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/6c/2c/8e/6c2c8e2919c3863e2df9c07cf30ec167.jpg",
-//   //   description: "Tear or sprain of ligaments supporting joints.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Ligament Injury includes pain management, bracing, strengthening exercises, proprioception training, and gradual return to activity to restore joint stability.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Ligament Injury or joint instability then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for comprehensive ligament rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 79,
-//   //   title: "ACL Injury",
-//   //   slug: "acl-injury",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/29/f7/5b/29f75b0d65209851234b9635e7c98559.jpg",
-//   //   description: "Anterior Cruciate Ligament tear or sprain in the knee.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for ACL Injury focuses on reducing swelling, restoring range of motion, strengthening quadriceps and hamstrings, proprioception training, and sport-specific exercises for safe return to activity.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from ACL Injury or knee instability then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert ACL rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 80,
-//   //   title: "Meniscus Injury",
-//   //   slug: "meniscus-injury",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/eb/23/31/eb23316c7a79f63074d43eddfefd9e04.jpg",
-//   //   description: "Tear in the cartilage cushioning the knee joint.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy for Meniscus Injury includes pain management, range of motion exercises, strengthening, proprioception training, and functional rehabilitation to restore knee function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Meniscus Injury or knee pain then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized meniscus rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 81,
-//   //   title: "Patella Mobilization",
-//   //   slug: "patella-mobilization",
-//   //   category: "Knee Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/11/17/49/11174909b1c59bd940411f03d2095e77.jpg",
-//   //   description: "Therapy for improving kneecap movement and tracking.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Physiotherapy with Patella Mobilization includes manual techniques to improve patellar tracking, strengthen quadriceps, and address biomechanical issues causing knee pain.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Patella Mobilization Therapy for knee issues then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert knee therapy.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 82,
-//   //   title: "Shoulder Ligament Sports Massage",
-//   //   slug: "shoulder-ligament-sports-massage",
-//   //   category: "Shoulder Conditions",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/09/a7/4d/09a74d3e524351616e6bc2e99b5c31a3.jpg",
-//   //   description: "Sports massage therapy for shoulder ligament injuries.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Shoulder Ligament Sports Massage includes deep tissue massage, mobilization techniques, and therapeutic exercises to promote healing, reduce pain, and restore shoulder function after sports injuries.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Shoulder Ligament Sports Massage then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized sports massage therapy.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 83,
-//   //   title: "Performance Enhancing Treatment",
-//   //   slug: "performance-enhancing-treatment",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/76/c1/0d/76c10db0b682f7bb735bfe15bf9357b6.jpg",
-//   //   description:
-//   //     "Specialized training to enhance athletic performance and prevent injuries.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Performance Enhancing Treatment includes sport-specific exercises, strength and conditioning programs, flexibility training, injury prevention strategies, and biomechanical analysis. The goal is to optimize athletic performance, reduce injury risk, and improve overall physical capabilities.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Performance Enhancing Treatment for sports or fitness then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized sports performance training.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 84,
-//   //   title: "Sprain Ligament Treatment",
-//   //   slug: "sprain-ligament-treatment",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/6c/2c/8e/6c2c8e2919c3863e2df9c07cf30ec167.jpg",
-//   //   description: "Treatment for ligament sprains and injuries.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Sprain Ligament Treatment includes RICE protocol, manual therapy, strengthening exercises, proprioception training, and gradual return to activity. Techniques help restore ligament stability, reduce pain, and prevent re-injury.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are suffering from Sprain Ligament injuries or joint instability then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective ligament sprain rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 85,
-//   //   title: "Strain Injury Rehabilitation",
-//   //   slug: "strain-injury-rehabilitation",
-//   //   category: "Sports Injury",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/76/c1/0d/76c10db0b682f7bb735bfe15bf9357b6.jpg",
-//   //   description: "Rehabilitation for muscle and tendon strain injuries.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Strain Injury Rehabilitation focuses on pain relief, gentle stretching, progressive strengthening, and functional exercises. Treatments include soft tissue therapy, gradual loading exercises, and return-to-activity protocols.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you are recovering from Strain Injury or muscle pain then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized strain rehabilitation.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 86,
-//   //   title: "Lymphatic Massage after Liposuction",
-//   //   slug: "lymphatic-massage-after-liposuction",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after liposuction helps reduce swelling, bruising, and fluid retention in the treated areas. It promotes proper lymphatic drainage, supporting faster healing and improved skin contour. This gentle massage also enhances blood circulation and reduces discomfort.Regular sessions aid in smoother recovery and better post-surgery results. Physiotherapy in lymphatic massage after liposuction helps reduce swelling and promote faster healing. It involves gentle, targeted massage techniques to stimulate lymphatic drainage and improve circulation. Physiotherapy also aids in minimizing bruising and discomfort. Regular sessions support smoother recovery and enhance the overall surgical outcome.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosis (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post-Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manag symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   benefits: [
-//   //     "Reduced pain and inflammation",
-//   //     "Improved range of motion and flexibility",
-//   //     "Increased strength and stability",
-//   //     "Prevention of further injury",
-//   //     "Enhanced blood circulation and nutrient exchange to spinal structures",
-//   //     "Early return to work and sports activities",
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji ,South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 87,
-//   //   title: "Lymphatic Massage after Tummy Tuck",
-//   //   slug: "lymphatic-massage-after-tummy-tuck",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after a tummy tuck helps reduce swelling, fluid buildup, and bruising in the abdominal area. It promotes proper lymphatic drainage, supporting faster healing and improved skin contour. This gentle massage also enhances blood circulation and reduces post-surgery discomfort. Regular sessions aid in a smoother recovery and better overall results. Physiotherapy in lymphatic massage after a tummy tuck helps reduce swelling and promote faster recovery. It uses gentle, specialized techniques to stimulate lymphatic drainage and improve blood circulation. Physiotherapy also minimizes bruising and discomfort in the treated area. Regular sessions support smoother healing and enhance the overall surgical outcome.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosis (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post- Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction:",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   benefits: [
-//   //     "Reduced pain and inflammation",
-//   //     "Improved range of motion and flexibility",
-//   //     "Increased strength and stability",
-//   //     "Prevention of further injury",
-//   //     "Enhanced blood circulation and nutrient exchange to spinal structures",
-//   //     "Early return to work and sports activities",
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji ,South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 88,
-//   //   title: "Lymphatic Massage after Gynaecomastia",
-//   //   slug: "lymphatic-massage-after-gynaecomastia",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after gynecomastia surgery helps reduce swelling, fluid retention, and bruising in the chest area. It promotes proper lymphatic drainage, supporting faster healing and improved chest contour. This gentle massage also enhances blood circulation and eases post-surgery discomfort. Regular sessions contribute to a smoother recovery and better overal results. Physiotherapy in lymphatic massage after gynecomastia surgery helps reduce swelling and promote faster healing. It involves gentle, targeted techniques to stimulate lymphatic drainage and improve blood circulation. Physiotherapy also minimizes bruising and relieves discomfort in the chest area. Regular sessions support smoother recovery and enhance the overall surgical outcome",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosis (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post- Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction:",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   benefits: [
-//   //     "Reduced pain and inflammation",
-//   //     "Improved range of motion and flexibility",
-//   //     "Increased strength and stability",
-//   //     "Prevention of further injury",
-//   //     "Enhanced blood circulation and nutrient exchange to spinal structures",
-//   //     "Early return to work and sports activities",
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR the Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji , South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 89,
-//   //   title: "Lymphatic Massage after Fat Grafting",
-//   //   slug: "lymphatic-massage-after-fat-grafting",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after fat grafting helps reduce swelling, fluid retention, and bruising in the treated areas. It promotes proper lymphatic drainage, supporting faster healing and better fat integration. This gentle massage also improves blood circulation and reduces post-procedure discomfort. Regular sessions aid in achieving smoother recovery and optimal results.Physiotherapy in lymphatic massage after fat grafting helps reduce swelling and promote faster healing. It involves gentle, targeted techniques to stimulate lymphatic drainage and enhance blood circulation. Physiotherapy also minimizes bruising and discomfort in the treated areas. Regular sessions support smoother recovery and help achieve optimal results.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosi (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post- Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction:",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   benefits: [
-//   //     "Reduced pain and inflammation",
-//   //     "Improved range of motion and flexibility",
-//   //     "Increased strength and stability",
-//   //     "Prevention of further injury",
-//   //     "Enhanced blood circulation and nutrient exchange to spinal structures",
-//   //     "Early return to work and sports activities",
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji , South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 90,
-//   //   title: "Lymphatic Massage after BBL",
-//   //   slug: "lymphatic-massage-after-bbl",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after a BBL (Brazilian Butt Lift) helps reduce swelling, fluid retention, and bruising in the treated areas. It promotes proper lymphatic drainage, supporting faster healing and better contouring of the buttocks. This gentle massage also improves blood circulation and alleviates post-surgery discomfort. Regular sessions aid in achieving smoother recovery and optimal surgical results. Physiotherapy in lymphatic massage after BBL helps reduce swelling and promote faster healing of the treated areas. It uses gentle, targeted techniques to stimulate lymphatic drainage and improve blood circulation. Physiotherapy also minimizes bruising and relieves post-surgery discomfort. Regular sessions support smoother recovery and help achieve optimal contouring results.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosis (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post- Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction:",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   benefits: [
-//   //     "Reduced pain and inflammation",
-//   //     "Improved range of motion and flexibility",
-//   //     "Increased strength and stability",
-//   //     "Prevention of further injury",
-//   //     "Enhanced blood circulation and nutrient exchange to spinal structures",
-//   //     "Early return to work and sports activities",
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji , South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 91,
-//   //   title: "Lymphatic Massage after Mummy Makeover",
-//   //   slug: "lymphatic-massage-after-mummy-makeover",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after a mummy makeover helps reduce swelling, fluid retention, and bruising across multiple treated areas. It promotes proper lymphatic drainage, supporting faster healing and improved overall body contour. This gentle massage also enhances blood circulation and eases post-surgery discomfort. Regular sessions contribute to a smoother recovery and better surgical outcomes.Physiotherapy in lymphatic massage after a mummy makeover helps reduce swelling and accelerate healing in the treated areas. It involves gentle, targeted techniques to stimulate lymphatic drainage and improve blood circulation. Physiotherapy also helps minimize bruising and discomfort. Regular sessions support smoother recovery and enhance overall surgical results.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosis (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post- Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction:",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   benefits: [
-//   //     "Reduced pain and inflammation",
-//   //     "Improved range of motion and flexibility",
-//   //     "Increased strength and stability",
-//   //     "Prevention of further injury",
-//   //     "Enhanced blood circulation and nutrient exchange to spinal structures",
-//   //     "Early return to work and sports activities",
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji ,South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 92,
-//   //   title: "Lymphatic Massage after Arm Liposuction",
-//   //   slug: "lymphatic-massage-after-arm-liposuction",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after arm liposuction helps reduce swelling, fluid buildup, and bruising in the treated area. It promotes proper lymphatic drainage, supporting faster healing and smoother skin contour. This gentle massage also improves blood circulation and alleviates post-surgery discomfort. Regular sessions aid in achieving optimal recovery and better overall results. Physiotherapy in lymphatic massage after arm liposuction helps reduce swelling and promote faster healing. It involves gentle, targeted techniques to stimulate lymphatic drainage and improve blood circulation in the arms. Physiotherapy also minimizes bruising and eases post-surgery discomfort. Regular sessions support smoother recovery and help achieve optimal contouring results.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosis (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post- Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction:",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji ,South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 93,
-//   //   title: "Lymphatic Massage after Thigh Liposuction",
-//   //   slug: "lymphatic-massage-after-thigh-liposuction",
-//   //   category: "Lymphatic Massage",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3c/f9/ec/3cf9ec2be582090d84a06f3a53570bff.jpg",
-//   //   description:
-//   //     "Lymphatic massage after thigh liposuction helps reduce swelling, fluid retention, and bruising in the treated areas. It promotes proper lymphatic drainage, supporting faster healing and smoother thigh contours. This gentle massage also enhances blood circulation and relieves post-surgery discomfort. Regular sessions aid in achieving a more comfortable recovery and optimal results.Physiotherapy in lymphatic massage after thigh liposuction helps reduce swelling and promote faster healing. It uses gentle, targeted techniques to stimulate lymphatic drainage and improve blood circulation in the thighs. Physiotherapy also minimizes bruising and alleviates post-surgery discomfort. Regular sessions support smoother recovery and help achieve optimal contouring results.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Lymphatic massages can be very beneficial in aiding and speeding up recovery following liposuction as well as after several other types of cosmetic surgeries. They help to transfer the fluid by gently pushing it back into the lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage after lipo, inflammation can progress to fibrosis (permanent tissue hardening) or seroma (swelling) (pocket of serum). Dr. Ashish Sharma is the Best Massage Therapist for Post- Liposuction Recovery. He has 10 years of experience with powerful healing touch treating Liposuction, Tummy Tuck, VASER liposuction, Gynecomastia and other cosmetic surgery.",
-//   //       keyPointsHeading: "Benefits of Lymphatic Drainage After Liposuction:",
-//   //       keyPoints: [
-//   //         "Reduced Swelling and Inflammation",
-//   //         "Enhanced Healing and Tissue Regeneration",
-//   //         "Prevention of Hematomas and Seromas",
-//   //         "Alleviation of Pain and Discomfort",
-//   //         "Improved Skin Appearance and Texture",
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "Dr. Ashish Sharma assesses your specific condition and tailored and individual treatments plan includes methods like stretching, Core Strengthening, Mobilization along with advanced FDA approved Electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Tapping Therapy, Dry-Needling, IFT, TENS, heat/cold therapy to reduce the inflammation and reduce the pain. Dr. Ashish also emphasized for posture correction to manage symptoms and prevent recurrence. Dr. Ashish also designs exercises to strengthen weak muscles (especially core muscles) and improve flexibility and range of motion in the back. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre focus on accurate diagnosis, personalized care, and evidence-based treatment to ensure long-term relief and faster recovery. Our goal is not just pain relief, but restoring strength, movement, and confidence in daily life.",
-//   //     },
-//   //   ],
-//   //   customTreatmentText:
-//   //     "If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR then Visit Dr. Ashish Sharma At Advanced Pain Physiotherapy Centre Nehru Enclave , Kalakji ,South-Delhi is the Best option for providing you the Best Treatment after liposuction",
-//   // },
-
-//   // {
-//   //   id: 94,
-//   //   title: "Spinal Adjustment",
-//   //   slug: "spinal-adjustment",
-//   //   category: "Chiropractic",
-//   //   image: spinalAdjustment,
-//   //   description:
-//   //     "Chiropractic spinal manipulation for alignment and pain relief.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Spinal Adjustment involves manual manipulation techniques to correct vertebral alignment, reduce nerve compression, improve mobility, and relieve pain. Chiropractic adjustments restore proper spinal function and enhance overall health.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Spinal Adjustment or chiropractic care  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert spinal manipulation therapy.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 95,
-//   //   title: "Shoulder Adjustment",
-//   //   slug: "shoulder-adjustment",
-//   //   category: "Chiropractic",
-//   //   image: shoulderAdjustment,
-//   //   description: "Chiropractic manipulation for shoulder joint alignment.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Shoulder Adjustment uses manual techniques to improve shoulder joint alignment, reduce pain, restore range of motion, and enhance function. Chiropractic care addresses shoulder restrictions and improves mobility.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Shoulder Adjustment therapy  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for professional shoulder chiropractic care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 96,
-//   //   title: "Neck Adjustment",
-//   //   slug: "neck-adjustment",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/2a/09/1d/2a091d27444f3a0991ddf183cf7526b5.jpg",
-//   //   description: "Cervical spine manipulation for neck pain and stiffness.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Neck Adjustment involves gentle cervical manipulation to improve neck alignment, reduce pain, restore mobility, and relieve muscle tension. Chiropractic techniques address neck stiffness and headaches.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Neck Adjustment or cervical chiropractic care  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert neck manipulation therapy.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 97,
-//   //   title: "Elbow Adjustment",
-//   //   slug: "elbow-adjustment",
-//   //   category: "Chiropractic",
-//   //   image: elbowAdjustment,
-//   //   description: "Chiropractic manipulation for elbow joint alignment.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Elbow Adjustment uses manual techniques to improve elbow joint alignment, reduce pain, restore mobility, and enhance function. Chiropractic care addresses elbow restrictions and improves range of motion.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Elbow Adjustment therapy  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for professional elbow chiropractic care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 98,
-//   //   title: "Hip Adjustment",
-//   //   slug: "hip-adjustment",
-//   //   category: "Chiropractic",
-//   //   image: hipAdjustment,
-//   //   description:
-//   //     "Chiropractic manipulation for hip joint alignment and mobility.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Hip Adjustment involves manual manipulation to improve hip alignment, reduce pain, restore mobility, and enhance function. Chiropractic techniques address hip restrictions and improve walking comfort.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Hip Adjustment or chiropractic care then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert hip manipulation therapy.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 99,
-//   //   title: "Tail Bone Adjustment",
-//   //   slug: "tail-bone-adjustment",
-//   //   category: "Chiropractic",
-//   //   image: tailboneAdjustment,
-//   //   description: "Specialized coccyx manipulation for tailbone pain relief.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Tail Bone Adjustment uses gentle techniques to realign the coccyx, reduce pain, improve sitting comfort, and restore proper pelvic function. Specialized chiropractic care addresses tailbone injuries and chronic pain.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Tail Bone Adjustment therapy  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized coccyx chiropractic care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 100,
-//   //   title: "Wrist and Ankle Adjustment",
-//   //   slug: "wrist-and-ankle-adjustment",
-//   //   category: "Chiropractic",
-//   //   image: wristandankleAdjustment,
-//   //   description: "Chiropractic manipulation for wrist and ankle joints.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Wrist and Ankle Adjustment involves manual techniques to improve joint alignment, reduce pain, restore mobility, and enhance function. Chiropractic care addresses restrictions in extremity joints.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Wrist and Ankle Adjustment therapy then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert extremity chiropractic care.",
-//   //     },
-//   //   ],
-//   // },
-
-//   // {
-//   //   id: 101,
-//   //   title: "Muscle Stiffness Adjustment",
-//   //   slug: "muscle-stiffness-adjustment",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/a0/b9/e0/a0b9e0c5c9eac3f9f4156e8404c8fc61.jpg",
-//   //   description: "Chiropractic and manual therapy for muscle tightness.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Muscle Stiffness Adjustment combines chiropractic manipulation with soft tissue therapy to reduce muscle tension, improve flexibility, and restore normal movement patterns. Comprehensive treatment addresses muscular restrictions.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Muscle Stiffness Adjustment therapy then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for professional muscle stiffness treatment.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 102,
-//   //   title: "Soft Tissue Adjustment",
-//   //   slug: "soft-tissue-adjustment",
-//   //   category: "Chiropractic",
-//   //   image: softTissueAdjustment,
-//   //   description: "Manual therapy for muscles, tendons, and ligaments.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Soft Tissue Adjustment uses specialized techniques including myofascial release, trigger point therapy, and deep tissue massage to address soft tissue restrictions, reduce pain, and improve function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Soft Tissue Adjustment therapy  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert soft tissue manipulation.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 103,
-//   //   title: "Spine Alignment Therapy",
-//   //   slug: "spine-alignment-therapy",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/3b/14/bf/3b14bfc465448b85da610bea4f60ba5a.jpg",
-//   //   description: "Comprehensive spinal alignment and postural correction.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Spine Alignment Therapy includes assessment, manipulation, exercises, and postural training to restore proper spinal curves, improve alignment, reduce pain, and enhance overall spinal health.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Spine Alignment Therapy  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for comprehensive spinal alignment care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 104,
-//   //   title: "Back Pain Chiropractic Care",
-//   //   slug: "back-pain-chiropractic-care",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/e8/2c/94/e82c94e396b877fe28f1e8d5d694d4e1.jpg",
-//   //   description: "Specialized chiropractic treatment for back pain relief.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Back Pain Chiropractic Care combines spinal manipulation, soft tissue therapy, exercises, and lifestyle advice to address acute and chronic back pain, improve function, and prevent recurrence.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Back Pain Chiropractic Care  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert back pain treatment.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 105,
-//   //   title: "Neck Pain Adjustment",
-//   //   slug: "neck-pain-adjustment",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/2a/09/1d/2a091d27444f3a0991ddf183cf7526b5.jpg",
-//   //   description: "Chiropractic manipulation for cervical pain relief.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Neck Pain Adjustment uses gentle cervical manipulation, mobilization, and therapeutic exercises to reduce neck pain, improve mobility, address headaches, and restore normal neck function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Neck Pain Adjustment therapy then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for professional neck pain chiropractic care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 106,
-//   //   title: "Sciatica Pain Relief",
-//   //   slug: "sciatica-pain-relief",
-//   //   category: "Chiropractic",
-//   //   image: sciatic,
-//   //   description: "Chiropractic treatment for sciatic nerve pain.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Sciatica Pain Relief includes spinal adjustments, nerve mobilization, decompression therapy, and exercises to reduce sciatic nerve compression, relieve leg pain, and restore normal function.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Sciatica Pain Relief through chiropractic care  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for effective sciatica treatment.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 107,
-//   //   title: "Posture Correction Therapy",
-//   //   slug: "posture-correction-therapy",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/cc/04/84/cc04840e97e1e49f813761037f40087c.jpg",
-//   //   description: "Comprehensive postural assessment and correction program.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Posture Correction Therapy includes assessment, manual therapy, strengthening exercises, ergonomic advice, and habit modification to improve posture, reduce pain, and prevent future problems.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Posture Correction Therapy then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for comprehensive posture improvement.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 108,
-//   //   title: "Joint Mobilization Treatment",
-//   //   slug: "joint-mobilization-treatment",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/a3/9c/bc/a39cbc65a64f62853b9aaed00f6eb57a.jpg",
-//   //   description: "Manual therapy for improving joint mobility and function.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Joint Mobilization Treatment uses gentle, controlled movements to restore joint mobility, reduce stiffness, improve range of motion, and decrease pain. Techniques address restrictions in various joints.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Joint Mobilization Treatment  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for expert joint mobilization therapy.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 109,
-//   //   title: "Slip Disc Chiropractic Care",
-//   //   slug: "slip-disc-chiropractic-care",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/c7/cd/49/c7cd49f49ee50e25d5bda4584d05e2fe.jpg",
-//   //   description: "Specialized chiropractic treatment for herniated discs.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Slip Disc Chiropractic Care includes gentle spinal manipulation, decompression therapy, core strengthening, and pain management to reduce disc pressure, relieve nerve compression, and promote healing.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Slip Disc Chiropractic Care  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized disc treatment.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 110,
-//   //   title: "Sports Injury Chiropractic Treatment",
-//   //   slug: "sports-injury-chiropractic-treatment",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/6c/2c/8e/6c2c8e2919c3863e2df9c07cf30ec167.jpg",
-//   //   description: "Chiropractic care for sports-related injuries.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Sports Injury Chiropractic Treatment combines manipulation, soft tissue therapy, rehabilitation exercises, and performance optimization to treat sports injuries, speed recovery, and prevent re-injury.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Sports Injury Chiropractic Treatment  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for specialized sports chiropractic care.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 111,
-//   //   title: "Chronic Pain Management",
-//   //   slug: "chronic-pain-management",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/1200x/a6/37/15/a63715ea583b87848fb2a11c00078bcd.jpg",
-//   //   description: "Comprehensive chiropractic approach to chronic pain.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Chronic Pain Management includes regular adjustments, soft tissue therapy, exercises, lifestyle modifications, and pain education to reduce chronic pain, improve function, and enhance quality of life.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Chronic Pain Management through chiropractic care  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for comprehensive pain management.",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   id: 112,
-//   //   title: "Corrective Chiropractic Exercises",
-//   //   slug: "corrective-chiropractic-exercises",
-//   //   category: "Chiropractic",
-//   //   image:
-//   //     "https://i.pinimg.com/736x/cc/04/84/cc04840e97e1e49f813761037f40087c.jpg",
-//   //   description: "Therapeutic exercises for spinal and postural correction.",
-//   //   sections: [
-//   //     {
-//   //       title: "Overview",
-//   //       content:
-//   //         "Corrective Chiropractic Exercises include personalized exercise programs focusing on strengthening, stretching, and stabilization to correct imbalances, improve posture, and maintain chiropractic treatment benefits.",
-//   //     },
-//   //     {
-//   //       title: "Treatment",
-//   //       content:
-//   //         "If you need Corrective Chiropractic Exercises  then contact Dr. Ashish Sharma – Best Physiotherapist at Advanced Pain Physiotherapy Centre, Nehru Enclave, Kalkaji, South Delhi, for personalized corrective exercise programs.",
-//   //     },
-//   //   ],
-//   // },
-// ];
-
-
 
 // servicesData.js - All services with SEO merged
 import backpain from "../../assets/services/1.png";
@@ -3169,14 +28,7 @@ import meningitis from "../../assets/services/24.png";
 import SpinalCord from "../../assets/services/25.png";
 import diabetic from "../../assets/services/26.png";
 import encephalitis from "../../assets/services/27.png";
-import spinalAdjustment from "../../assets/services/28.png";
-import shoulderAdjustment from "../../assets/services/29.png";
-import elbowAdjustment from "../../assets/services/30.png";
-import hipAdjustment from "../../assets/services/31.png";
-import tailboneAdjustment from "../../assets/services/32.png";
-import wristandankleAdjustment from "../../assets/services/33.png";
-import muscleStiffnessAdjustment from "../../assets/services/34.png";
-import softTissueAdjustment from "../../assets/services/35.png";
+
 import golfersElbow from "../../assets/services/36.png";
 import studentElbow from "../../assets/services/37.png";
 import ligamentInjury from "../../assets/services/38.png";
@@ -3247,990 +99,2458 @@ const LOCATION = "Kalkaji, South Delhi";
 export const servicesData = [
 
   // ── 1. BACK PAIN ────────────────────────────────────────────────────────────
-  {
-    id: 1,
-    title: "Back Pain Treatment",
-    slug: "back-pain",
-    category: "Pain Conditions",
-    image: backpain,
-    seo: {
-      title: `Back Pain Treatment in Delhi | ${BRAND}`,
-      description: `Get expert Back Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat lower back pain, chronic back pain, sciatica, slipped disc & postural pain. ✅ BPT/MPT certified ✅ Same-day appointments ✅ ${LOCATION}. Book now!`,
-      keywords: "back pain treatment in delhi, lower back pain physiotherapy delhi, chronic back pain treatment kalkaji, back pain specialist south delhi, physiotherapy for back pain delhi, sciatica back pain treatment delhi, slipped disc physiotherapy delhi, back pain home visit delhi, best back pain physiotherapist delhi, lumbar pain treatment kalkaji",
-      canonical: `${BASE_URL}/services/back-pain`,
-    },
-    description: "Back pain is one of the most common health problems affecting people of all ages and lifestyles. It can result from poor posture, prolonged sitting, weak core muscles, slipped discs, or injury. Untreated back pain can lead to chronic discomfort, limited mobility, and difficulty performing daily activities. Physiotherapy focuses on treating the root cause, relieving pain, restoring movement, and preventing recurrence.",
-    sections: [
-      { title: "Overview", content: "Common Causes of Back Pain:\n\n• Poor posture and prolonged sitting\n• Muscle weakness or imbalance\n• Herniated or slipped discs\n• Sciatica and nerve compression\n• Sports injuries and accidents\n\nConditions We Treat:\n\n• Lower back pain (lumbar pain)\n• Upper and mid-back pain\n• Chronic back pain\n• Sciatica and nerve-related discomfort\n• Postural and work-related back pain" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive physical assessment to identify the root cause of pain\n• Manual therapy and spinal mobilization to improve movement and reduce stiffness\n• Core and back strengthening exercises to support the spine\n• Posture correction guidance\n• Pain-relief modalities such as TENS, heat therapy, and other electrotherapy techniques\n• Education and prevention exercises to avoid future episodes" },
-    ],
-    benefits: ["Reduces acute and chronic pain", "Improves flexibility and spine mobility", "Strengthens back muscles and core stability", "Prevents recurrence", "Enhances quality of life"],
-    customTreatmentText: "Our centre provides personalized treatment plans tailored to each patient's specific condition. With advanced physiotherapy techniques, expert guidance, and modern equipment, we ensure effective pain relief, improved mobility, and prevention of future episodes.",
+ // ── 1. BACK PAIN ─────────────────────────────────────────────────────────────
+{
+  id: 1,
+  title: "Back Pain Treatment",
+  slug: "back-pain",
+  category: "Pain Conditions",
+  image: backpain,
+  seo: {
+    title: "Back Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Get expert Back Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat lower back pain, chronic back pain, sciatica, slipped disc & postural pain. ✅ BPT/MPT certified ✅ Same-day appointments ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "back pain treatment in delhi, lower back pain physiotherapy delhi, chronic back pain treatment kalkaji, back pain specialist south delhi, physiotherapy for back pain delhi, sciatica back pain treatment delhi, slipped disc physiotherapy delhi, back pain home visit delhi, best back pain physiotherapist delhi, lumbar pain treatment kalkaji",
+    canonical: "https://advancepainphysiotherapy.com/services/back-pain",
   },
+  hero: {
+    heading: "Back Pain Treatment",
+    subheading: "Expert physiotherapy for lower back pain, sciatica, slipped disc, and chronic back pain by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre, Kalkaji, South Delhi.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Back pain is one of the most common health problems affecting people of all ages and lifestyles, and it rarely appears out of nowhere. In most cases, it builds up quietly over months or years — a desk job with poor sitting posture, a core that has gradually weakened from inactivity, or a disc that has been under repeated strain finally reaches a tipping point. At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma and his team see this pattern often: patients who managed a dull ache for a long time until it started interfering with sleep, work, or simple movements like bending to tie a shoe. Back pain can stem from poor posture, prolonged sitting, weak core muscles, herniated or slipped discs, sciatica, or a sudden injury during sports or daily activity. Left untreated, it tends to get worse rather than better — the muscles around the spine weaken further from disuse, nearby joints compensate and develop their own pain, and what started as an occasional twinge can become a chronic condition that limits your independence. The good news is that most back pain responds very well to the right physiotherapy approach, because it treats the actual mechanical cause instead of only numbing the symptom. Our treatment focuses on identifying exactly why your back hurts, relieving the immediate pain, restoring normal movement, and then building the strength and habits needed to stop it from coming back.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Back Pain:\n\n• Poor posture and prolonged sitting\n• Muscle weakness or imbalance\n• Herniated or slipped discs\n• Sciatica and nerve compression\n• Sports injuries and accidents\n\nConditions We Treat:\n\n• Lower back pain (lumbar pain)\n• Upper and mid-back pain\n• Chronic back pain\n• Sciatica and nerve-related discomfort\n• Postural and work-related back pain" },
+    { title: "Why It Matters", content: "Back pain rarely stays mild for long. A software professional who ignores stiffness from long desk hours often ends up avoiding stairs within months. A homemaker with untreated sciatica may lose the ability to sit on the floor for daily tasks.\n\nLeft untreated, muscles around the spine weaken further, posture compensations create new pain points in the hips or neck, and a manageable ache can turn into a condition that limits independence. Early, correct treatment prevents this spiral." },
+    { title: "Who Needs This", content: "• Desk workers and IT professionals with stiffness from prolonged sitting\n• Homemakers with recurring pain from lifting, bending, or floor-sitting\n• Elderly patients managing spinal degeneration or disc issues\n• Athletes recovering from a back injury or muscle strain\n• New mothers with postpartum back pain\n• Patients diagnosed with sciatica or a slipped disc\n• Anyone with chronic back pain that hasn't improved with rest alone" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive physical assessment to identify the root cause of pain\n• Manual therapy and spinal mobilization to improve movement and reduce stiffness\n• Core and back strengthening exercises to support the spine\n• Posture correction guidance\n• Pain-relief modalities such as TENS, heat therapy, and other electrotherapy techniques\n• Education and prevention exercises to avoid future episodes" },
+    { title: "Our Process", content: "1. Detailed Assessment — Understanding your pain history, triggers, and daily activity levels\n2. Physical Examination — Checking posture, spine mobility, muscle strength, and nerve response\n3. Personalised Treatment Plan — Built around your specific condition\n4. Hands-On Treatment — Manual therapy, spinal mobilisation, and electrotherapy as needed\n5. Strengthening and Correction — Core exercises and posture correction as pain reduces\n6. Prevention Guidance — Daily habits and exercises to prevent recurrence" },
+  ],
+  benefits: ["Reduces acute and chronic pain", "Improves flexibility and spine mobility", "Strengthens back muscles and core stability", "Prevents recurrence", "Enhances quality of life"],
+  whyChooseUs: [
+    "Led by Dr. Ashish Sharma, an experienced physiotherapist with a strong track record in treating back conditions",
+    "BPT/MPT certified physiotherapists with experience across a wide range of back conditions",
+    "Assessment-led treatment plans, not generic protocols",
+    "Same-day appointments for patients in acute pain",
+    "Home visit options for patients who find travel difficult",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "How do I know if my back pain needs physiotherapy or just rest?", answer: "If your pain lasts more than 3–4 days, keeps recurring, limits your movement, or comes with numbness or tingling in your leg, it's best to get it assessed. Rest alone rarely fixes the underlying cause." },
+    { question: "Is physiotherapy effective for a slipped disc?", answer: "Yes, in many cases. Physiotherapy can relieve pressure on the affected disc, reduce nerve irritation, and strengthen supporting muscles. Many patients avoid surgery with a consistent programme, though severity varies case to case." },
+    { question: "How many sessions will I need to see improvement?", answer: "This depends on the cause and severity of your pain. Mild postural back pain may improve in a few sessions, while chronic or disc-related pain typically needs a longer, structured programme." },
+    { question: "Do you offer home visits for back pain treatment?", answer: "Yes, Dr. Ashish Sharma's team offers home visit options for patients who find it difficult to travel due to pain, mobility issues, or age." },
+    { question: "Can physiotherapy help with sciatica pain that runs down my leg?", answer: "Yes. Sciatica is usually caused by nerve compression in the lower back, and manual therapy, nerve mobilisation, and targeted exercises are commonly used to relieve this." },
+    { question: "Will I need to stop working or exercising during treatment?", answer: "Usually not. Most patients continue their normal routine alongside treatment, with some temporary modifications to avoid aggravating movements." },
+    { question: "Is back pain treatment safe for elderly patients?", answer: "Yes. Treatment is adjusted based on age, bone health, and existing conditions, using gentler manual techniques and appropriately paced exercise progressions." },
+    { question: "What causes recurring lower back pain even after rest?", answer: "Recurring pain is often a sign of an underlying issue, like muscle weakness, poor posture, or joint stiffness, that hasn't been addressed. Physiotherapy targets the cause so pain doesn't keep returning." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma and his team provide personalized treatment plans tailored to each patient's specific condition. With advanced physiotherapy techniques, expert guidance, and modern equipment, we ensure effective pain relief, improved mobility, and prevention of future episodes.",
+  cta: {
+    heading: "Don't let back pain decide what you can and can't do.",
+    subtext: "Book a physiotherapy assessment with Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre today — same-day appointments available in Kalkaji, South Delhi.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing lower back pain patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Manual therapy session for chronic back pain treatment in Kalkaji",
+    "Core strengthening exercise for back pain relief at Advanced Pain Physiotherapy Centre",
+    "Home visit physiotherapy for elderly back pain patient in South Delhi",
+  ],
+},
 
-  // ── 2. SHOULDER PAIN ─────────────────────────────────────────────────────────
-  {
-    id: 2,
-    title: "Shoulder Pain Treatment",
-    slug: "shoulder-pain",
-    category: "Pain Conditions",
-    image: ShoulderPain,
-    seo: {
-      title: `Shoulder Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Shoulder Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat rotator cuff injuries, frozen shoulder, tendonitis, bursitis & sports shoulder injuries. ✅ Certified therapists ✅ ${LOCATION}. Book now!`,
-      keywords: "shoulder pain treatment in delhi, frozen shoulder treatment delhi, rotator cuff injury physiotherapy delhi, shoulder pain specialist kalkaji south delhi, tendonitis shoulder treatment delhi, shoulder physiotherapy home visit delhi, best shoulder pain doctor delhi, bursitis shoulder treatment delhi, shoulder pain relief kalkaji, physiotherapy for shoulder pain delhi",
-      canonical: `${BASE_URL}/services/shoulder-pain`,
-    },
-    description: "Shoulder pain is a common musculoskeletal condition that affects daily activities such as lifting, reaching, and sleeping. It can be caused by poor posture, rotator cuff injuries, frozen shoulder, tendonitis, arthritis, or sports-related strain. Physiotherapy helps relieve pain, restore movement, strengthen shoulder muscles, and prevent future injuries.",
-    sections: [
-      { title: "Overview", content: "Common Causes of Shoulder Pain:\n\n• Poor posture and prolonged sitting\n• Rotator cuff injuries or muscle strain\n• Frozen shoulder (adhesive capsulitis)\n• Tendonitis and bursitis\n• Arthritis and age-related degeneration\n• Sports injuries and repetitive movements\n\nConditions We Treat:\n\n• Shoulder stiffness and restricted movement\n• Rotator cuff injuries\n• Frozen shoulder\n• Tendonitis and bursitis\n• Post-injury and post-surgical shoulder pain" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed physical assessment to identify the root cause\n• Manual therapy and joint mobilization\n• Stretching exercises to reduce stiffness\n• Strengthening exercises for shoulder and surrounding muscles\n• Pain-relief modalities such as TENS, ultrasound, heat/cold therapy, LASER therapy, and shockwave therapy\n• Preventive exercises to avoid recurrence" },
-    ],
-    benefits: ["Relieves acute and chronic shoulder pain", "Improves shoulder mobility and flexibility", "Strengthens shoulder and upper-body muscles", "Reduces stiffness and inflammation", "Prevents recurrence and improves daily function"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we offer customized shoulder pain treatment plans based on each patient's condition and lifestyle.",
+// ── 2. SHOULDER PAIN ─────────────────────────────────────────────────────────
+{
+  id: 2,
+  title: "Shoulder Pain Treatment",
+  slug: "shoulder-pain",
+  category: "Pain Conditions",
+  image: ShoulderPain,
+  seo: {
+    title: "Shoulder Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Shoulder Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat rotator cuff injuries, frozen shoulder, tendonitis, bursitis & sports shoulder injuries. ✅ Certified therapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "shoulder pain treatment in delhi, frozen shoulder treatment delhi, rotator cuff injury physiotherapy delhi, shoulder pain specialist kalkaji south delhi, tendonitis shoulder treatment delhi, shoulder physiotherapy home visit delhi, best shoulder pain doctor delhi, bursitis shoulder treatment delhi, shoulder pain relief kalkaji, physiotherapy for shoulder pain delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/shoulder-pain",
   },
+  hero: {
+    heading: "Shoulder Pain Treatment",
+    subheading: "Physiotherapy for frozen shoulder, rotator cuff injuries, tendonitis, and sports-related shoulder pain by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Shoulder pain is a common musculoskeletal condition that quietly affects some of the most basic things you do every day — reaching into a cupboard, changing clothes, or even sleeping comfortably on one side. At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma regularly sees patients who initially brushed off shoulder discomfort as a minor strain, only to find it gradually restrict their range of motion over weeks or months. Shoulder pain can be caused by poor posture built up from years of desk work, rotator cuff injuries from sports or repetitive lifting, frozen shoulder (a condition where the joint capsule stiffens and severely limits movement), tendonitis, bursitis, arthritis, or a direct injury like a fall or dislocation. Because the shoulder is one of the most mobile joints in the body, it relies heavily on the surrounding muscles and tendons for stability, which means an injury in one area often creates compensatory strain elsewhere if left unaddressed. Our physiotherapy approach focuses on accurately identifying whether your pain originates from the joint, a tendon, or a muscle imbalance, then combines manual therapy, targeted exercises, and modern pain-relief techniques to relieve pain, restore full movement, rebuild strength, and reduce the chance of the problem returning.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Shoulder Pain:\n\n• Poor posture and prolonged sitting\n• Rotator cuff injuries or muscle strain\n• Frozen shoulder (adhesive capsulitis)\n• Tendonitis and bursitis\n• Arthritis and age-related degeneration\n• Sports injuries and repetitive movements\n\nConditions We Treat:\n\n• Shoulder stiffness and restricted movement\n• Rotator cuff injuries\n• Frozen shoulder\n• Tendonitis and bursitis\n• Post-injury and post-surgical shoulder pain" },
+    { title: "Why It Matters", content: "Shoulder pain often gets dismissed as a temporary strain until it starts interfering with sleep or simple tasks like reaching for a shelf. A frozen shoulder left untreated can take months longer to resolve, and rotator cuff injuries can worsen with continued use without correction.\n\nAddressing shoulder pain early prevents compensatory movement patterns that put strain on the neck and upper back, and helps avoid the progressive stiffness seen in conditions like adhesive capsulitis." },
+    { title: "Who Needs This", content: "• Desk workers with rounded-shoulder posture and chronic stiffness\n• Athletes and gym-goers with rotator cuff strain or overuse injuries\n• Patients diagnosed with frozen shoulder or adhesive capsulitis\n• People recovering from a shoulder dislocation or fracture\n• Middle-aged and older adults with shoulder arthritis\n• Anyone with pain that limits reaching, lifting, or sleeping on one side" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed physical assessment to identify the root cause\n• Manual therapy and joint mobilization\n• Stretching exercises to reduce stiffness\n• Strengthening exercises for shoulder and surrounding muscles\n• Pain-relief modalities such as TENS, ultrasound, heat/cold therapy, LASER therapy, and shockwave therapy\n• Preventive exercises to avoid recurrence" },
+    { title: "Our Process", content: "1. Assessment — Reviewing pain history, range of motion, and daily movement limitations\n2. Diagnosis-Led Planning — Identifying whether pain is joint, muscle, or tendon related\n3. Manual Therapy — Joint mobilisation to restore range of motion\n4. Progressive Strengthening — Rebuilding shoulder and scapular stability\n5. Modality Support — TENS, ultrasound, or shockwave therapy where appropriate\n6. Home Exercise Guidance — Practical exercises to maintain progress between sessions" },
+  ],
+  benefits: ["Relieves acute and chronic shoulder pain", "Improves shoulder mobility and flexibility", "Strengthens shoulder and upper-body muscles", "Reduces stiffness and inflammation", "Prevents recurrence and improves daily function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma brings focused experience in treating frozen shoulder and rotator cuff conditions",
+    "Access to advanced modalities like LASER and shockwave therapy",
+    "Individualised strengthening plans, not generic shoulder exercises",
+    "Home visit availability for patients with severe restricted movement",
+    "Clear communication on expected recovery timelines",
+    "Kalkaji, South Delhi location with flexible scheduling",
+  ],
+  faqs: [
+    { question: "How long does frozen shoulder take to heal with physiotherapy?", answer: "Frozen shoulder typically progresses through stages and recovery can take a few months to over a year without treatment. Structured physiotherapy usually shortens this timeline and helps restore range of motion faster than leaving it untreated." },
+    { question: "Can physiotherapy help a rotator cuff tear without surgery?", answer: "Partial rotator cuff tears often respond well to physiotherapy, which strengthens surrounding muscles to compensate and reduce strain on the injured tendon. Full tears may need a surgical opinion, which Dr. Ashish Sharma can guide you toward if needed." },
+    { question: "Why does my shoulder hurt more at night?", answer: "Night pain is common with rotator cuff issues and bursitis because lying down changes pressure on the shoulder joint. Your physiotherapist can suggest sleeping positions and exercises to reduce this." },
+    { question: "Is it normal for shoulder pain to spread to the arm?", answer: "Yes, shoulder pain can radiate down the arm, especially with rotator cuff or nerve-related issues. A proper assessment helps distinguish this from neck-related nerve pain." },
+    { question: "Do you treat sports-related shoulder injuries?", answer: "Yes, we regularly treat shoulder injuries from gym training, swimming, cricket, and other sports, with rehabilitation plans designed to get you back to your sport safely." },
+    { question: "How soon can I start physiotherapy after a shoulder injury?", answer: "In most cases, early physiotherapy (once acute swelling settles) helps prevent stiffness and speeds up recovery. Your physiotherapist will advise the right time to begin based on your specific injury." },
+    { question: "Will exercises alone fix my shoulder pain?", answer: "Exercises are important, but they work best combined with manual therapy to address joint stiffness and correct movement patterns. A combined approach usually gives faster, more lasting results." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma offers customized shoulder pain treatment plans based on each patient's condition and lifestyle.",
+  cta: {
+    heading: "Stiff, painful shoulder holding you back?",
+    subtext: "Get an accurate diagnosis from Dr. Ashish Sharma and a treatment plan built for your specific shoulder condition — book your assessment today.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma treating frozen shoulder patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Shoulder mobilisation therapy session for rotator cuff injury in Kalkaji",
+    "Shoulder strengthening exercise guided by physiotherapist",
+    "Shockwave therapy for shoulder tendonitis treatment in South Delhi",
+  ],
+},
 
-  // ── 3. KNEE PAIN ─────────────────────────────────────────────────────────────
-  {
-    id: 3,
-    title: "Knee Pain Treatment",
-    slug: "knee-pain",
-    category: "Pain Conditions",
-    image: KneePain,
-    seo: {
-      title: `Knee Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Knee Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat osteoarthritis, ACL injuries, meniscus tears, runner's knee & post-surgical knee pain. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "knee pain treatment in delhi, knee pain physiotherapy kalkaji, osteoarthritis knee treatment delhi, acl injury rehabilitation delhi, meniscus tear treatment delhi, knee pain specialist south delhi, knee physiotherapy home visit delhi, best knee pain doctor delhi, runner's knee treatment delhi, knee pain relief kalkaji south delhi",
-      canonical: `${BASE_URL}/services/knee-pain`,
-    },
-    description: "Knee pain is a common condition that can affect people of all ages and activity levels. It may occur due to injury, overuse, poor posture, weak muscles, arthritis, or improper movement patterns. Physiotherapy helps reduce pain, restore knee function, strengthen supporting muscles, and prevent future injuries.",
-    sections: [
-      { title: "Overview", content: "Common Causes of Knee Pain:\n\n• Sports injuries and accidents\n• Muscle weakness or imbalance\n• Ligament or meniscus injuries\n• Arthritis and age-related wear\n• Poor posture and movement patterns\n\nConditions We Treat:\n\n• Osteoarthritis of the knee\n• Ligament and meniscus injuries\n• Runner's knee and jumper's knee\n• Post-surgical knee rehabilitation\n• Chronic and work-related knee pain" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed physical assessment\n• Manual therapy to reduce stiffness\n• Strengthening exercises for quadriceps and hamstrings\n• Stretching exercises to improve flexibility\n• Pain-relief modalities such as ice therapy, heat therapy, ultrasound, and TENS\n• Gait training and posture correction" },
-    ],
-    benefits: ["Reduces knee pain and swelling", "Improves joint stability and mobility", "Strengthens muscles supporting the knee", "Enhances walking and daily activities", "Prevents future knee injuries"],
-    customTreatmentText: "Our centre provides personalized knee pain treatment plans based on each patient's condition and lifestyle.",
+// ── 3. KNEE PAIN ─────────────────────────────────────────────────────────────
+{
+  id: 3,
+  title: "Knee Pain Treatment",
+  slug: "knee-pain",
+  category: "Pain Conditions",
+  image: KneePain,
+  seo: {
+    title: "Knee Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Knee Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat osteoarthritis, ACL injuries, meniscus tears, runner's knee & post-surgical knee pain. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "knee pain treatment in delhi, knee pain physiotherapy kalkaji, osteoarthritis knee treatment delhi, acl injury rehabilitation delhi, meniscus tear treatment delhi, knee pain specialist south delhi, knee physiotherapy home visit delhi, best knee pain doctor delhi, runner's knee treatment delhi, knee pain relief kalkaji south delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/knee-pain",
   },
+  hero: {
+    heading: "Knee Pain Treatment ",
+    subheading: "Physiotherapy for osteoarthritis, ligament injuries, runner's knee, and post-surgical knee rehabilitation by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Knee pain is one of the most common reasons people visit Advanced Pain Physiotherapy Centre, and it affects people of nearly every age and activity level — from young athletes with a sports injury to elderly patients whose joints have gradually worn down over the years. It may occur due to a sudden injury, repetitive overuse, poor posture, weak supporting muscles, arthritis, or improper movement patterns built up over time. What makes knee pain particularly disruptive is how quickly it starts limiting everyday life: stairs become harder, walks get shorter, sitting cross-legged stops being comfortable, and simple activities like getting up from a low chair start to feel like a challenge. Dr. Ashish Sharma and the team at Advanced Pain Physiotherapy Centre have worked with patients managing early osteoarthritis, ligament tears like ACL or meniscus injuries, runner's knee from repetitive strain, and post-surgical recovery after knee replacement or ligament reconstruction. Physiotherapy plays a central role in each of these cases because it does more than reduce pain — it restores proper knee function, strengthens the muscles that support and protect the joint, corrects the movement patterns that may have contributed to the problem in the first place, and helps prevent future injuries or the need for more invasive treatment down the line.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Knee Pain:\n\n• Sports injuries and accidents\n• Muscle weakness or imbalance\n• Ligament or meniscus injuries\n• Arthritis and age-related wear\n• Poor posture and movement patterns\n\nConditions We Treat:\n\n• Osteoarthritis of the knee\n• Ligament and meniscus injuries\n• Runner's knee and jumper's knee\n• Post-surgical knee rehabilitation\n• Chronic and work-related knee pain" },
+    { title: "Why It Matters", content: "Knee pain has a way of quietly limiting your world — stairs become a chore, walks get shorter, and sitting cross-legged stops being an option. For someone with early-stage osteoarthritis, ignoring the pain often means faster joint wear and reduced muscle support around the knee.\n\nFor athletes, an untreated ligament or meniscus injury can turn a short recovery into a long-term instability problem. Physiotherapy addresses both pain and the mechanical cause behind it." },
+    { title: "Who Needs This", content: "• Patients with osteoarthritis or age-related knee degeneration\n• Runners and athletes with overuse injuries like runner's knee\n• Patients recovering from ACL, meniscus, or ligament surgery\n• People with knee pain from being overweight or sedentary\n• Anyone experiencing swelling, stiffness, or instability in the knee\n• Elderly patients managing chronic knee pain affecting mobility" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed physical assessment\n• Manual therapy to reduce stiffness\n• Strengthening exercises for quadriceps and hamstrings\n• Stretching exercises to improve flexibility\n• Pain-relief modalities such as ice therapy, heat therapy, ultrasound, and TENS\n• Gait training and posture correction" },
+    { title: "Our Process", content: "1. Assessment — Evaluating knee alignment, swelling, strength, and movement patterns\n2. Pain Management — Ice, heat, or electrotherapy to settle acute symptoms\n3. Manual Therapy — Reducing joint stiffness and improving mobility\n4. Strengthening Programme — Building quadriceps and hamstring support for the joint\n5. Gait and Movement Training — Correcting walking or movement patterns that stress the knee\n6. Return-to-Activity Plan — Gradual progression back to sport or daily activity" },
+  ],
+  benefits: ["Reduces knee pain and swelling", "Improves joint stability and mobility", "Strengthens muscles supporting the knee", "Enhances walking and daily activities", "Prevents future knee injuries"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has structured rehabilitation experience with post-surgical ACL and meniscus patients",
+    "Age-appropriate care for elderly patients managing knee osteoarthritis",
+    "Gait analysis to identify movement patterns contributing to knee strain",
+    "Home visit option for patients with limited mobility",
+    "Evidence-based strengthening programmes, not just passive treatment",
+    "Transparent recovery timelines based on your specific condition",
+  ],
+  faqs: [
+    { question: "Can physiotherapy help with knee osteoarthritis without surgery?", answer: "Yes. Strengthening the muscles around the knee, improving flexibility, and correcting movement patterns can significantly reduce osteoarthritis pain and delay or sometimes avoid the need for surgery, depending on severity." },
+    { question: "How soon after ACL surgery can I start physiotherapy?", answer: "Physiotherapy typically starts within days of ACL surgery, following your surgeon's protocol. Early, guided movement helps prevent stiffness and supports a stronger recovery." },
+    { question: "Why does my knee hurt more when climbing stairs?", answer: "Stair climbing places extra load on the knee joint, particularly the kneecap area, which is why conditions like runner's knee or early arthritis often feel worse on stairs. An assessment can pinpoint the exact cause." },
+    { question: "Is walking bad for knee pain?", answer: "Not usually. In fact, appropriate walking, guided by your physiotherapist, is often part of the recovery plan. What matters is the right amount, surface, and footwear, which Dr. Ashish Sharma's team will advise based on your condition." },
+    { question: "Do you treat meniscus tears without surgery?", answer: "Many meniscus tears, especially smaller or degenerative ones, respond well to physiotherapy alone. Larger tears may require a surgical opinion, which we'll help guide you toward if necessary." },
+    { question: "How long does knee rehabilitation usually take?", answer: "This varies by condition. Muscle strengthening for mild pain may take a few weeks, while post-surgical rehabilitation for ACL reconstruction can take several months for a full return to sport." },
+    { question: "Can weak thigh muscles cause knee pain?", answer: "Yes, weak quadriceps and hamstrings are a common contributor to knee pain because they reduce joint support and shock absorption. Strengthening these muscles is often a core part of treatment." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma provides personalized knee pain treatment plans based on each patient's condition and lifestyle.",
+  cta: {
+    heading: "Knee pain shouldn't keep you off your feet.",
+    subtext: "Get a proper assessment from Dr. Ashish Sharma and a recovery plan built around your knee condition and activity goals.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma examining knee pain patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Quadriceps strengthening exercise for knee osteoarthritis in Kalkaji",
+    "Post-ACL surgery knee rehabilitation session",
+    "Gait training for knee pain patient in South Delhi",
+  ],
+},
 
-  // ── 4. ELBOW PAIN ────────────────────────────────────────────────────────────
-  {
-    id: 4,
-    title: "Elbow Pain Treatment",
-    slug: "elbow-pain",
-    category: "Pain Conditions",
-    image: elbow,
-    seo: {
-      title: `Elbow Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Elbow Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat tennis elbow, golfer's elbow, repetitive strain injuries & post-injury elbow pain. ✅ Certified therapists ✅ ${LOCATION}. Book now!`,
-      keywords: "elbow pain treatment in delhi, tennis elbow treatment delhi, golfer's elbow physiotherapy delhi, elbow pain specialist kalkaji, repetitive strain injury elbow delhi, elbow physiotherapy south delhi, best elbow pain doctor delhi, elbow pain relief delhi, forearm pain treatment delhi, elbow injury rehabilitation kalkaji",
-      canonical: `${BASE_URL}/services/elbow-pain`,
-    },
-    description: "Elbow pain is a common joint condition that can affect daily activities such as lifting, gripping, writing, or sports participation. It may occur due to repetitive movements, overuse injuries like tennis elbow or golfer's elbow, poor posture, arthritis, or trauma.",
-    sections: [
-      { title: "Overview", content: "Common Causes of Elbow Pain:\n\n• Repetitive strain and overuse injuries\n• Tennis elbow (lateral epicondylitis)\n• Golfer's elbow (medial epicondylitis)\n• Arthritis and joint degeneration\n• Sports injuries and trauma\n\nConditions We Treat:\n\n• Tennis elbow and golfer's elbow\n• Elbow stiffness and restricted movement\n• Post-injury elbow pain\n• Work-related and sports-related elbow pain" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment to identify the root cause\n• Manual therapy to reduce stiffness\n• Stretching exercises to relieve tight muscles\n• Strengthening exercises for forearm and elbow\n• Pain-relief modalities such as TENS, ultrasound, LASER therapy, and shockwave therapy\n• Activity modification and posture correction" },
-    ],
-    benefits: ["Reduces pain and inflammation", "Improves elbow flexibility and strength", "Enhances grip strength and arm function", "Speeds up recovery from overuse injuries", "Prevents recurrence of elbow pain"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we design individualized elbow pain treatment plans based on accurate diagnosis and patient needs.",
+// ── 4. ELBOW PAIN ────────────────────────────────────────────────────────────
+{
+  id: 4,
+  title: "Elbow Pain Treatment",
+  slug: "elbow-pain",
+  category: "Pain Conditions",
+  image: elbow,
+  seo: {
+    title: "Elbow Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Elbow Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat tennis elbow, golfer's elbow, repetitive strain injuries & post-injury elbow pain. ✅ Certified therapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "elbow pain treatment in delhi, tennis elbow treatment delhi, golfer's elbow physiotherapy delhi, elbow pain specialist kalkaji, repetitive strain injury elbow delhi, elbow physiotherapy south delhi, best elbow pain doctor delhi, elbow pain relief delhi, forearm pain treatment delhi, elbow injury rehabilitation kalkaji",
+    canonical: "https://advancepainphysiotherapy.com/services/elbow-pain",
   },
+  hero: {
+    heading: "Elbow Pain Treatment",
+    subheading: "Physiotherapy for tennis elbow, golfer's elbow, and repetitive strain injuries by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Elbow pain tends to sneak up gradually rather than arriving suddenly, which is exactly why so many patients at Advanced Pain Physiotherapy Centre delay seeking treatment until basic tasks like holding a cup, shaking hands, or typing become genuinely painful. It is a common joint condition that affects everyday activities such as lifting, gripping, writing, cooking, and sports participation, and it can arise from repetitive movements, overuse injuries like tennis elbow or golfer's elbow, poor posture, arthritis, or a direct trauma such as a fall. Dr. Ashish Sharma frequently treats professionals who spend long hours typing or using a mouse, racket sport players dealing with lateral epicondylitis, and manual workers whose repetitive gripping and lifting tasks have gradually overloaded the tendons around the elbow joint. What makes elbow pain particularly tricky is that the tendons involved have a naturally limited blood supply, which means they heal more slowly than muscle tissue and often need a structured, patient approach rather than just rest. Our physiotherapy programme focuses on accurately identifying which tendon or structure is affected, easing the current inflammation and pain, gradually rebuilding strength and flexibility in the forearm and elbow, and giving you practical guidance on modifying the activities that caused the strain in the first place, so the problem doesn't simply return once you go back to your normal routine.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Elbow Pain:\n\n• Repetitive strain and overuse injuries\n• Tennis elbow (lateral epicondylitis)\n• Golfer's elbow (medial epicondylitis)\n• Arthritis and joint degeneration\n• Sports injuries and trauma\n\nConditions We Treat:\n\n• Tennis elbow and golfer's elbow\n• Elbow stiffness and restricted movement\n• Post-injury elbow pain\n• Work-related and sports-related elbow pain" },
+    { title: "Why It Matters", content: "Elbow pain from repetitive strain often builds slowly, which is why many people wait too long before seeking treatment. A typist or a badminton player who ignores early tennis elbow symptoms can end up with pain that interferes with basic tasks like holding a cup or shaking hands.\n\nWithout treatment, the affected tendon can weaken further, making recovery longer and increasing the chance of the pain becoming chronic." },
+    { title: "Who Needs This", content: "• Office workers and professionals with repetitive typing or mouse use\n• Racket sport players with tennis elbow symptoms\n• Golfers and weightlifters with golfer's elbow\n• Manual laborers with repetitive lifting or gripping tasks\n• Patients recovering from an elbow fracture or dislocation\n• Anyone with pain that worsens with gripping or twisting movements" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment to identify the root cause\n• Manual therapy to reduce stiffness\n• Stretching exercises to relieve tight muscles\n• Strengthening exercises for forearm and elbow\n• Pain-relief modalities such as TENS, ultrasound, LASER therapy, and shockwave therapy\n• Activity modification and posture correction" },
+    { title: "Our Process", content: "1. Assessment — Identifying whether pain is tendon, muscle, or joint related\n2. Load Management — Guidance on which movements to modify during early recovery\n3. Manual Therapy — Reducing tension in forearm muscles and tendons\n4. Progressive Strengthening — Rebuilding grip and forearm strength gradually\n5. Modality Support — Shockwave or LASER therapy for persistent tendon pain\n6. Return-to-Activity Guidance — Safe return to sport or work tasks" },
+  ],
+  benefits: ["Reduces pain and inflammation", "Improves elbow flexibility and strength", "Enhances grip strength and arm function", "Speeds up recovery from overuse injuries", "Prevents recurrence of elbow pain"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has specific experience treating tennis elbow and golfer's elbow in athletes and professionals",
+    "Shockwave therapy available for stubborn, long-standing tendon pain",
+    "Practical activity modification advice suited to your job or sport",
+    "Grip and forearm strengthening programmes tailored to your recovery stage",
+    "Kalkaji, South Delhi location with quick scheduling for acute pain",
+    "Honest guidance on realistic recovery timelines",
+  ],
+  faqs: [
+    { question: "How long does tennis elbow take to heal?", answer: "With consistent physiotherapy, mild tennis elbow can improve in a few weeks, while more chronic cases may take a few months. Recovery time depends on how early treatment starts and how well aggravating activities are managed." },
+    { question: "Do I need to stop playing sports if I have tennis elbow?", answer: "Not always completely, but some modification is usually needed during early treatment. Dr. Ashish Sharma will guide you on what to avoid and when it's safe to gradually return." },
+    { question: "Is tennis elbow only caused by playing tennis?", answer: "No, despite the name, tennis elbow is commonly caused by repetitive gripping or wrist movements from typing, manual work, or other racket sports, not just tennis." },
+    { question: "What's the difference between tennis elbow and golfer's elbow?", answer: "Tennis elbow affects the outer part of the elbow, while golfer's elbow affects the inner part. Both are overuse tendon conditions but involve different muscle groups." },
+    { question: "Can elbow pain be caused by neck issues?", answer: "Yes, sometimes. Nerve compression in the neck can refer pain down to the elbow and forearm. A thorough assessment helps distinguish this from a local elbow problem." },
+    { question: "Will a brace alone fix my elbow pain?", answer: "A brace can help reduce strain temporarily, but it doesn't address the underlying tendon weakness. Combining it with targeted physiotherapy exercises gives more lasting results." },
+    { question: "Is shockwave therapy painful?", answer: "Shockwave therapy can cause mild discomfort during the session, but it's generally well tolerated and is often used for tendon pain that hasn't responded to standard treatment." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma designs individualized elbow pain treatment plans based on accurate diagnosis and patient needs.",
+  cta: {
+    heading: "Don't let elbow pain limit your grip on daily life.",
+    subtext: "Get an accurate diagnosis from Dr. Ashish Sharma and a targeted treatment plan for tennis elbow, golfer's elbow, or any elbow injury.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma treating tennis elbow patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Forearm strengthening exercise for golfer's elbow recovery in Kalkaji",
+    "Shockwave therapy session for chronic elbow pain",
+    "Manual therapy for elbow stiffness treatment in South Delhi",
+  ],
+},
 
-  // ── 5. HIP PAIN ──────────────────────────────────────────────────────────────
-  {
-    id: 5,
-    title: "Hip Pain Treatment",
-    slug: "hip-pain",
-    category: "Pain Conditions",
-    image: hip,
-    seo: {
-      title: `Hip Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Hip Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat hip arthritis, muscle strain, post-surgical hip pain & hip joint stiffness. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "hip pain treatment in delhi, hip joint pain physiotherapy delhi, hip arthritis treatment kalkaji, hip pain specialist south delhi, hip physiotherapy home visit delhi, best hip pain doctor delhi, hip stiffness treatment delhi, post surgical hip rehabilitation delhi, hip pain relief kalkaji, hip muscle strain treatment delhi",
-      canonical: `${BASE_URL}/services/hip-pain`,
-    },
-    description: "Hip pain can significantly affect walking, sitting, standing, and overall mobility. It may be caused by arthritis, muscle weakness, poor posture, prolonged sitting, sports injuries, or age-related joint degeneration.",
-    sections: [
-      { title: "Overview", content: "Common Causes of Hip Pain:\n\n• Arthritis and joint degeneration\n• Muscle weakness or imbalance\n• Poor posture and prolonged sitting\n• Sports injuries and overuse\n\nConditions We Treat:\n\n• Hip joint pain and stiffness\n• Arthritis-related hip pain\n• Post-injury and post-surgical hip pain\n• Muscle strain around the hip\n• Chronic hip pain affecting mobility" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive physical assessment\n• Manual therapy to improve joint movement\n• Strengthening exercises for hip and core\n• Stretching exercises to improve flexibility\n• Pain-relief modalities such as ultrasound, TENS, LASER therapy\n• Posture correction and gait training" },
-    ],
-    benefits: ["Relieves hip pain and stiffness", "Improves walking and daily mobility", "Enhances hip strength and stability", "Reduces inflammation and discomfort", "Prevents future hip problems"],
-    customTreatmentText: "Our hip pain physiotherapy programs focus on restoring movement, improving strength, and enhancing quality of life.",
+// ── 5. HIP PAIN ──────────────────────────────────────────────────────────────
+{
+  id: 5,
+  title: "Hip Pain Treatment",
+  slug: "hip-pain",
+  category: "Pain Conditions",
+  image: hip,
+  seo: {
+    title: "Hip Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Hip Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat hip arthritis, muscle strain, post-surgical hip pain & hip joint stiffness. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "hip pain treatment in delhi, hip joint pain physiotherapy delhi, hip arthritis treatment kalkaji, hip pain specialist south delhi, hip physiotherapy home visit delhi, best hip pain doctor delhi, hip stiffness treatment delhi, post surgical hip rehabilitation delhi, hip pain relief kalkaji, hip muscle strain treatment delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/hip-pain",
   },
+  hero: {
+    heading: "Hip Pain Treatment ",
+    subheading: "Physiotherapy for hip arthritis, muscle strain, joint stiffness, and post-surgical hip rehabilitation by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Hip pain can quietly reshape how you move through an entire day, and by the time most patients come to Advanced Pain Physiotherapy Centre, it has already started affecting walking, sitting, standing up from a chair, or even lying comfortably at night. It may be caused by arthritis and age-related joint degeneration, muscle weakness or imbalance around the hip and core, poor posture and prolonged sitting, sports injuries and overuse, or recovery needs following hip surgery or a hip replacement. Dr. Ashish Sharma has worked with a wide range of hip pain cases, from elderly patients managing the gradual stiffness of osteoarthritis to younger, active patients with muscle strain from running or gym training. Because the hip is a deep, weight-bearing joint connected closely to the lower back and knees, pain here often doesn't stay isolated — a stiff or weak hip can quietly place extra strain on the lower back or alter the way you walk, which in turn can lead to knee discomfort over time. Our physiotherapy approach at Advanced Pain Physiotherapy Centre looks at the hip joint in this broader context: we assess your gait, posture, and muscle strength to understand the full picture, then combine manual therapy, targeted strengthening, and modern pain-relief techniques to restore comfortable movement and protect the joint for the long term.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Hip Pain:\n\n• Arthritis and joint degeneration\n• Muscle weakness or imbalance\n• Poor posture and prolonged sitting\n• Sports injuries and overuse\n\nConditions We Treat:\n\n• Hip joint pain and stiffness\n• Arthritis-related hip pain\n• Post-injury and post-surgical hip pain\n• Muscle strain around the hip\n• Chronic hip pain affecting mobility" },
+    { title: "Why It Matters", content: "Hip pain often shows up first as difficulty getting up from a chair or a limp after a long walk. For elderly patients, ignoring early hip stiffness can lead to reduced independence and higher fall risk. For younger patients, unresolved muscle strain around the hip can affect posture and lead to compensatory back or knee pain.\n\nTreating hip pain early helps maintain mobility and prevents secondary issues in nearby joints." },
+    { title: "Who Needs This", content: "• Elderly patients with hip arthritis or joint stiffness\n• Patients recovering from hip replacement or hip surgery\n• Desk workers with hip tightness from prolonged sitting\n• Athletes and runners with hip muscle strain\n• People with pain radiating from the hip to the lower back or thigh\n• Anyone experiencing a noticeable limp or reduced hip movement" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive physical assessment\n• Manual therapy to improve joint movement\n• Strengthening exercises for hip and core\n• Stretching exercises to improve flexibility\n• Pain-relief modalities such as ultrasound, TENS, LASER therapy\n• Posture correction and gait training" },
+    { title: "Our Process", content: "1. Assessment — Evaluating hip range of motion, gait, and muscle strength\n2. Pain Relief — Manual therapy and electrotherapy to ease acute discomfort\n3. Mobility Restoration — Joint mobilisation to improve hip range of motion\n4. Strengthening — Hip and core exercises to support the joint\n5. Gait Training — Correcting walking patterns that place uneven load on the hip\n6. Long-Term Prevention Plan — Guidance on posture and activity to protect the joint" },
+  ],
+  benefits: ["Relieves hip pain and stiffness", "Improves walking and daily mobility", "Enhances hip strength and stability", "Reduces inflammation and discomfort", "Prevents future hip problems"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has experience with post-surgical hip replacement rehabilitation protocols",
+    "Age-appropriate care for elderly patients with arthritis-related hip pain",
+    "Gait and posture assessment to identify the true source of hip strain",
+    "Home visit availability for patients with limited mobility",
+    "Core and hip strengthening programmes designed to protect long-term joint health",
+    "Conveniently located in Kalkaji, South Delhi with flexible appointment slots",
+  ],
+  faqs: [
+    { question: "Can physiotherapy help with hip arthritis without surgery?", answer: "Yes, for many patients. Strengthening the muscles around the hip and improving joint mobility can meaningfully reduce arthritis pain and improve function, sometimes delaying or reducing the need for surgery." },
+    { question: "How soon after hip replacement surgery can physiotherapy start?", answer: "Physiotherapy typically starts within a day or two after hip replacement surgery, following your surgeon's protocol, to help restore movement and prevent stiffness." },
+    { question: "Why does my hip pain feel worse after sitting for a long time?", answer: "Prolonged sitting can tighten the hip flexor muscles and reduce joint lubrication, which often makes hip pain feel worse when you first stand up. Regular movement and stretching help reduce this." },
+    { question: "Can hip pain cause lower back pain too?", answer: "Yes, hip and lower back pain are closely connected because of shared muscles and movement patterns. Treating one without addressing the other often leads to incomplete relief." },
+    { question: "Is walking good or bad for hip pain?", answer: "In most cases, appropriate walking is beneficial and often part of the treatment plan, but the right amount and pace depend on your specific condition, which Dr. Ashish Sharma will guide you on." },
+    { question: "Do you treat hip pain in elderly patients?", answer: "Yes, we regularly treat elderly patients with hip arthritis and stiffness, using gentler techniques and appropriately paced strengthening exercises suited to their needs." },
+    { question: "How long does hip rehabilitation typically take?", answer: "This depends on the cause. Muscle strain may improve in a few weeks, while post-surgical hip rehabilitation can take a few months for a full return to normal activity." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma's hip pain physiotherapy programs focus on restoring movement, improving strength, and enhancing quality of life.",
+  cta: {
+    heading: "Don't let hip pain slow down your daily life.",
+    subtext: "Get a thorough assessment from Dr. Ashish Sharma and a hip pain treatment plan designed around your condition and mobility goals.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing hip pain patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Hip strengthening exercise for arthritis management in Kalkaji",
+    "Post-hip replacement rehabilitation session",
+    "Gait training for hip pain patient in South Delhi",
+  ],
+},
 
-  // ── 6. WRIST PAIN ────────────────────────────────────────────────────────────
-  {
-    id: 6,
-    title: "Wrist Pain Treatment",
-    slug: "wrist-pain",
-    category: "Pain Conditions",
-    image: wrist,
-    seo: {
-      title: `Wrist Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Wrist Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat carpal tunnel syndrome, repetitive strain, wrist tendonitis & sports wrist injuries. ✅ Certified therapists ✅ ${LOCATION}. Book now!`,
-      keywords: "wrist pain treatment in delhi, wrist pain physiotherapy kalkaji, carpal tunnel physiotherapy delhi, wrist tendonitis treatment delhi, wrist pain specialist south delhi, repetitive strain wrist delhi, best wrist pain doctor delhi, wrist injury rehabilitation delhi, wrist pain relief kalkaji, wrist physiotherapy home visit delhi",
-      canonical: `${BASE_URL}/services/wrist-pain`,
-    },
-    description: "Wrist pain is commonly caused by repetitive hand movements, poor ergonomics, overuse injuries, arthritis, or trauma. It can interfere with daily tasks such as typing, writing, lifting, and gripping.",
-    sections: [
-      { title: "Overview", content: "Common Causes of Wrist Pain:\n\n• Repetitive strain injuries\n• Poor posture and improper hand positioning\n• Tendonitis and ligament strain\n• Arthritis and joint degeneration\n• Sports injuries and falls\n\nConditions We Treat:\n\n• Wrist stiffness and limited movement\n• Overuse and work-related wrist pain\n• Post-injury wrist pain\n• Chronic wrist pain affecting grip strength" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment to identify the cause\n• Manual therapy to improve joint mobility\n• Stretching exercises to reduce stiffness\n• Strengthening exercises for grip and wrist stability\n• Pain-relief modalities such as ultrasound, TENS, LASER therapy\n• Ergonomic advice and activity modification" },
-    ],
-    benefits: ["Reduces wrist pain and swelling", "Improves wrist mobility and grip strength", "Enhances hand function", "Speeds up recovery", "Prevents recurring wrist problems"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized wrist pain rehabilitation using evidence-based techniques and modern equipment.",
+ // ── 6. NECK PAIN ─────────────────────────────────────────────────────────────
+{
+  id: 6,
+  title: "Neck Pain Treatment",
+  slug: "neck-pain",
+  category: "Pain Conditions",
+  image: neck,
+  seo: {
+    title: "Neck Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Neck Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat cervical spondylosis, text neck, stiff neck, nerve compression & whiplash injuries. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "neck pain treatment in delhi, cervical pain physiotherapy delhi, text neck treatment kalkaji, neck pain specialist south delhi, cervical spondylosis treatment delhi, stiff neck physiotherapy delhi, whiplash injury treatment delhi, neck pain home visit delhi, best neck pain doctor delhi, nerve compression neck treatment kalkaji",
+    canonical: "https://advancepainphysiotherapy.com/services/neck-pain",
   },
+  hero: {
+    heading: "Neck Pain Treatment ",
+    subheading: "Physiotherapy for cervical spondylosis, text neck, stiff neck, and nerve-related neck pain by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Neck pain has become one of the fastest-growing complaints Dr. Ashish Sharma sees at Advanced Pain Physiotherapy Centre, largely because of how much time people now spend looking down at phones and laptops. The neck carries the weight of the head, and even a slight forward tilt, held for hours at a stretch, places significantly more load on the cervical spine than most people realise. Over time, this repeated strain leads to what is commonly called text neck, along with muscle tightness, stiffness, and in more advanced cases, cervical spondylosis, where the discs and joints in the neck begin to wear down. Neck pain can also result from whiplash injuries after an accident, sleeping in an awkward position, stress-related muscle tension, or nerve compression that sends pain, tingling, or numbness down into the shoulder and arm. What makes neck pain particularly disruptive is its reach: because the neck connects directly to the head, shoulders, and upper back, untreated neck problems frequently show up as tension headaches, shoulder stiffness, or reduced concentration at work. At Advanced Pain Physiotherapy Centre, our approach starts with identifying whether your pain is coming from muscle tightness, joint stiffness, disc-related changes, or nerve irritation, since each requires a different treatment focus, and then builds a plan to relieve pain, restore full neck movement, and correct the postural habits that caused the problem in the first place.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Neck Pain:\n\n• Prolonged phone and laptop use (text neck)\n• Poor sitting and sleeping posture\n• Cervical spondylosis and disc degeneration\n• Whiplash injuries from accidents\n• Stress-related muscle tension\n• Nerve compression in the cervical spine\n\nConditions We Treat:\n\n• Chronic and acute neck stiffness\n• Cervical spondylosis\n• Text neck and postural neck pain\n• Whiplash-related neck injuries\n• Neck pain with radiating arm symptoms" },
+    { title: "Why It Matters", content: "Neck pain rarely stays confined to the neck. A professional who spends eight hours hunched over a laptop often develops tension headaches and shoulder tightness within the same month the neck pain begins.\n\nLeft unaddressed, cervical spondylosis can progress and nerve compression can worsen, sometimes leading to persistent tingling or weakness in the arm. Correcting posture and treating the neck early prevents this spread to nearby areas." },
+    { title: "Who Needs This", content: "• Desk workers and students with prolonged screen time\n• Patients with cervical spondylosis or age-related neck stiffness\n• People recovering from whiplash after a road accident\n• Anyone with tension headaches linked to neck tightness\n• Patients experiencing tingling or numbness down the arm\n• People who wake up with a stiff neck frequently" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment to identify muscle, joint, or nerve involvement\n• Manual therapy and cervical mobilisation\n• Postural correction and ergonomic guidance\n• Neck and upper back strengthening exercises\n• Pain-relief modalities such as TENS, heat therapy, and ultrasound\n• Nerve mobilisation techniques for radiating pain" },
+    { title: "Our Process", content: "1. Assessment — Identifying whether pain is muscular, joint-related, or nerve-related\n2. Pain Relief — Manual therapy and electrotherapy to settle acute symptoms\n3. Mobility Restoration — Cervical mobilisation to improve neck range of motion\n4. Postural Correction — Ergonomic guidance for desk and phone use\n5. Strengthening — Neck and upper back exercises to support the cervical spine\n6. Prevention Plan — Practical habits to avoid recurrence" },
+  ],
+  benefits: ["Relieves neck stiffness and pain", "Reduces tension headaches linked to the neck", "Improves neck range of motion", "Corrects posture and screen-use habits", "Prevents nerve-related arm symptoms from worsening"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has specific experience treating cervical spondylosis and nerve-related neck pain",
+    "Practical, realistic ergonomic advice for desk and phone-heavy lifestyles",
+    "Manual therapy combined with nerve mobilisation for radiating symptoms",
+    "Home visit availability for patients with severe neck stiffness",
+    "Clear guidance on posture correction, not just temporary pain relief",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can physiotherapy help with text neck?", answer: "Yes. Text neck responds well to a combination of manual therapy, strengthening exercises, and postural correction. Most patients notice meaningful improvement within a few weeks of consistent treatment." },
+    { question: "Is neck pain with tingling in the arm serious?", answer: "It can indicate nerve compression in the cervical spine, so it's worth getting assessed rather than waiting. Early treatment usually resolves this well, but it shouldn't be ignored for too long." },
+    { question: "How long does whiplash take to recover with physiotherapy?", answer: "Mild whiplash often improves within a few weeks with physiotherapy, while more significant injuries can take a few months. Your physiotherapist will give you a realistic timeline after assessing your specific injury." },
+    { question: "Can bad posture really cause long-term neck problems?", answer: "Yes. Sustained poor posture, especially forward head posture from phone or laptop use, gradually increases strain on the cervical spine and can contribute to conditions like cervical spondylosis over time." },
+    { question: "Do I need an X-ray or MRI before starting physiotherapy?", answer: "Not always. Many cases of neck pain can be assessed and treated based on a physical examination alone. Dr. Ashish Sharma will advise if imaging is needed based on your symptoms." },
+    { question: "Can neck pain cause headaches?", answer: "Yes, tension-type headaches are commonly linked to tight neck and upper back muscles. Treating the neck often reduces the frequency and intensity of these headaches." },
+    { question: "Is it safe to continue working at a desk during treatment?", answer: "Usually yes, with some ergonomic adjustments to your workstation and regular movement breaks, which we'll guide you through as part of your treatment plan." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma designs neck pain treatment plans that address both the immediate discomfort and the postural habits behind it, for relief that actually lasts.",
+  cta: {
+    heading: "Stiff neck making every day harder than it should be?",
+    subtext: "Get an accurate diagnosis from Dr. Ashish Sharma and a treatment plan built around your specific neck condition.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing neck pain patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Cervical mobilisation therapy session for neck stiffness in Kalkaji",
+    "Postural correction exercise for text neck treatment",
+    "Neck strengthening exercise guided by physiotherapist in South Delhi",
+  ],
+},
 
-  // ── 7. FOOT PAIN ─────────────────────────────────────────────────────────────
-  {
-    id: 7,
-    title: "Foot Pain Treatment",
-    slug: "foot-pain",
-    category: "Pain Conditions",
-    image: foot,
-    seo: {
-      title: `Foot Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Foot Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat plantar fasciitis, heel pain, flat foot, ankle pain & sports foot injuries. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "foot pain treatment in delhi, plantar fasciitis treatment delhi, heel pain physiotherapy kalkaji, foot pain specialist south delhi, flat foot treatment delhi, ankle pain physiotherapy delhi, best foot pain doctor delhi, foot pain relief kalkaji, sports foot injury treatment delhi, foot physiotherapy home visit delhi",
-      canonical: `${BASE_URL}/services/foot-pain`,
-    },
-    description: "Foot pain is a common condition that can affect daily movement and balance. It may be caused by prolonged standing, improper footwear, muscle strain, ligament injuries, or joint problems.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Prolonged standing or walking\n• Improper footwear\n• Muscle strain or ligament injury\n• Plantar fasciitis\n• Sports injuries and overuse\n\nConditions We Treat:\n\n• Heel pain and plantar fasciitis\n• Ankle and foot stiffness\n• Sports-related foot injuries\n• Postural and work-related foot pain" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed physical assessment\n• Manual therapy to reduce stiffness\n• Stretching and strengthening exercises\n• Balance and stability training\n• Pain-relief modalities\n• Education and prevention exercises" },
-    ],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized treatment plans tailored to each patient's specific foot condition.",
+// ── 7. WRIST PAIN ────────────────────────────────────────────────────────────
+{
+  id: 7,
+  title: "Wrist Pain Treatment",
+  slug: "wrist-pain",
+  category: "Pain Conditions",
+  image: wrist,
+  seo: {
+    title: "Wrist Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Wrist Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat carpal tunnel syndrome, wrist sprains, tendonitis & repetitive strain injuries. ✅ Certified therapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "wrist pain treatment in delhi, carpal tunnel syndrome treatment delhi, wrist sprain physiotherapy kalkaji, wrist pain specialist south delhi, wrist tendonitis treatment delhi, repetitive strain injury wrist delhi, best wrist pain doctor delhi, wrist physiotherapy home visit delhi, wrist pain relief kalkaji, carpal tunnel physiotherapy south delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/wrist-pain",
   },
+  hero: {
+    heading: "Wrist Pain Treatment ",
+    subheading: "Physiotherapy for carpal tunnel syndrome, wrist sprains, tendonitis, and repetitive strain injuries by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Wrist pain is easy to underestimate until it starts interfering with something as ordinary as typing an email, chopping vegetables, or holding a phone for a call. At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma regularly treats patients whose wrist pain developed gradually from repetitive computer use, only to be dismissed for months as simple fatigue until numbness or tingling in the fingers made it clear something more specific was happening. Wrist pain can stem from carpal tunnel syndrome, where a nerve gets compressed as it passes through the wrist, tendonitis from repetitive gripping or typing, sprains from a fall or sudden twist, arthritis, or work-related strain from tasks like cooking, cleaning, or manual labour. The wrist is a complex joint made up of multiple small bones, ligaments, and tendons working together, which means an accurate diagnosis matters a great deal — treating tendonitis the way you would treat a nerve compression issue simply won't give lasting results. Our physiotherapy approach at Advanced Pain Physiotherapy Centre begins with pinpointing exactly which structure is involved, then combines manual therapy, nerve gliding techniques where needed, targeted strengthening, and practical ergonomic advice to relieve pain, restore grip strength, and help you get back to using your hands without hesitation.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Wrist Pain:\n\n• Carpal tunnel syndrome (nerve compression)\n• Repetitive strain from typing or gripping\n• Wrist sprains from falls or sudden twists\n• Tendonitis from overuse\n• Arthritis and joint degeneration\n\nConditions We Treat:\n\n• Carpal tunnel syndrome\n• Wrist sprains and ligament injuries\n• Tendonitis and repetitive strain injuries\n• Post-fracture wrist stiffness\n• Work-related and sports-related wrist pain" },
+    { title: "Why It Matters", content: "Wrist pain often gets ignored in its early stages because it doesn't stop you from functioning entirely, it just makes everything a bit harder. A professional with early carpal tunnel symptoms who keeps typing through the discomfort can end up with persistent numbness that's harder to reverse.\n\nAddressing wrist pain early prevents nerve compression from worsening and avoids the muscle weakness that develops when you unconsciously start avoiding certain grips or movements." },
+    { title: "Who Needs This", content: "• Office workers and professionals with repetitive typing or mouse use\n• Patients with carpal tunnel syndrome symptoms like tingling or numbness\n• People recovering from a wrist sprain or fracture\n• Home cooks and manual workers with repetitive gripping tasks\n• Athletes with wrist strain from sports like badminton or weightlifting\n• Anyone with wrist pain that worsens with typing, lifting, or twisting" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment to identify the affected structure\n• Manual therapy and joint mobilisation\n• Nerve gliding exercises for carpal tunnel symptoms\n• Strengthening exercises for wrist and forearm\n• Pain-relief modalities such as TENS, ultrasound, and LASER therapy\n• Ergonomic guidance for typing, lifting, and daily tasks" },
+    { title: "Our Process", content: "1. Assessment — Identifying whether pain is nerve, tendon, ligament, or joint related\n2. Pain Relief — Manual therapy and electrotherapy for acute symptoms\n3. Nerve or Tendon-Specific Treatment — Nerve gliding or tendon-loading exercises as needed\n4. Progressive Strengthening — Rebuilding grip and wrist stability\n5. Ergonomic Correction — Adjusting workstation setup and daily movement habits\n6. Return-to-Activity Guidance — Safe return to work, sport, or daily tasks" },
+  ],
+  benefits: ["Reduces wrist pain and inflammation", "Relieves numbness and tingling from nerve compression", "Improves grip strength and wrist mobility", "Speeds up recovery from sprains and overuse injuries", "Prevents recurrence with better ergonomics"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has specific experience differentiating carpal tunnel syndrome from tendon-related wrist pain",
+    "Nerve gliding techniques for patients with numbness or tingling",
+    "Practical ergonomic advice suited to desk jobs and manual work alike",
+    "Structured rehabilitation for post-fracture and post-sprain wrist stiffness",
+    "Kalkaji, South Delhi location with quick scheduling for acute pain",
+    "Clear, honest guidance on realistic recovery timelines",
+  ],
+  faqs: [
+    { question: "Can physiotherapy help with carpal tunnel syndrome without surgery?", answer: "Yes, in many mild to moderate cases. Nerve gliding exercises, splinting guidance, and ergonomic changes can significantly reduce symptoms. More severe or long-standing cases may need a surgical opinion, which we can guide you toward if necessary." },
+    { question: "Why does my wrist hurt more after typing for a long time?", answer: "Prolonged typing can strain the tendons and compress the nerve running through the wrist, which is a common early sign of tendonitis or carpal tunnel syndrome. An assessment can identify which structure is affected." },
+    { question: "Is numbness in my fingers related to my wrist pain?", answer: "Often, yes. Numbness or tingling, especially in the thumb, index, and middle fingers, is a classic sign of carpal tunnel syndrome, which originates from nerve compression at the wrist." },
+    { question: "How long does a wrist sprain take to heal with physiotherapy?", answer: "Mild wrist sprains often improve within 2 to 4 weeks with physiotherapy, while more significant ligament injuries can take longer. Your physiotherapist will give you a realistic recovery timeline after assessment." },
+    { question: "Can I continue working while treating my wrist pain?", answer: "Usually yes, with some activity modification and ergonomic adjustments in the early stages. We'll guide you on what to avoid and how to gradually return to full activity." },
+    { question: "Do you treat wrist pain after a fracture?", answer: "Yes, we regularly help patients regain wrist strength and movement after a fracture has healed, focusing on reducing stiffness and rebuilding function safely." },
+    { question: "Will wearing a wrist splint alone fix my pain?", answer: "A splint can help reduce strain temporarily, especially at night, but it doesn't address the underlying muscle or nerve issue. Combining it with targeted physiotherapy gives more lasting results." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma designs individualized wrist pain treatment plans based on an accurate diagnosis of the specific structure involved, whether nerve, tendon, or ligament.",
+  cta: {
+    heading: "Don't let wrist pain get in the way of your daily tasks.",
+    subtext: "Get an accurate diagnosis from Dr. Ashish Sharma and a treatment plan built for your specific wrist condition.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma treating carpal tunnel syndrome patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Wrist mobilisation therapy session for tendonitis in Kalkaji",
+    "Nerve gliding exercise for carpal tunnel syndrome treatment",
+    "Wrist strengthening exercise guided by physiotherapist in South Delhi",
+  ],
+},
 
-  // ── 8. CHONDROMALACIA PATELLA ────────────────────────────────────────────────
-  {
-    id: 8,
-    title: "Chondromalacia Patella",
-    slug: "chondromalacia-patella",
-    category: "Knee Conditions",
-    image: Chondromalacia,
-    seo: {
-      title: `Chondromalacia Patella Treatment in Delhi | ${BRAND}`,
-      description: `Expert Chondromalacia Patella Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat kneecap pain, cartilage damage, patellar misalignment & knee swelling. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "chondromalacia patella treatment delhi, kneecap pain treatment kalkaji, patellar cartilage damage physiotherapy delhi, knee pain climbing stairs treatment delhi, chondromalacia physiotherapy south delhi, patellar misalignment treatment delhi, best chondromalacia doctor delhi, knee cartilage physiotherapy delhi, runner's knee kalkaji, kneecap pain specialist delhi",
-      canonical: `${BASE_URL}/services/chondromalacia-patella`,
-    },
-    description: "Chondromalacia Patella is a condition where the cartilage under the kneecap softens and deteriorates, causing pain, swelling, and difficulty in movement. Physiotherapy focuses on relieving pain, strengthening muscles around the knee, and improving knee function.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Overuse of the knee joint\n• Misalignment of the patella\n• Weak quadriceps or thigh muscles\n• Previous knee injuries or surgeries\n\nConditions We Treat:\n\n• Knee pain while climbing stairs or squatting\n• Swelling around the kneecap\n• Grinding or cracking sensations in the knee" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive knee assessment\n• Quadriceps and hamstring strengthening exercises\n• Patellar mobilization and manual therapy\n• Pain-relief techniques including electrotherapy and TENS\n• Advice on activity modification and knee support\n• Home exercise programs" },
-    ],
-    benefits: ["Reduces knee pain and swelling", "Improves quadriceps strength and knee stability", "Enhances knee flexibility and movement", "Prevents further cartilage damage", "Supports safe return to daily and sports activities"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we create personalized rehabilitation plans for Chondromalacia Patella.",
-  },
-
-  // ── 9. CEREBRAL PALSY ────────────────────────────────────────────────────────
-  {
-    id: 9,
-    title: "Cerebral Palsy",
-    slug: "cerebral-palsy",
-    category: "Neurological Conditions",
-    image: Cerebral,
-    seo: {
-      title: `Cerebral Palsy Physiotherapy in Delhi | ${BRAND}`,
-      description: `Specialized Cerebral Palsy Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve strength, balance, motor skills & functional independence for CP patients. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
-      keywords: "cerebral palsy physiotherapy delhi, cp treatment physiotherapy kalkaji, cerebral palsy rehabilitation south delhi, motor skills improvement cp delhi, spasticity treatment physiotherapy delhi, cerebral palsy specialist delhi, gait training cp delhi, balance therapy cerebral palsy delhi, best cp physiotherapist delhi, neuro rehabilitation kalkaji",
-      canonical: `${BASE_URL}/services/cerebral-palsy`,
-    },
-    description: "Cerebral Palsy (CP) is a neurological disorder affecting movement, posture, and muscle coordination. Physiotherapy focuses on improving strength, balance, motor skills, and functional independence.",
-    sections: [
-      { title: "Overview", content: "Causes and Effects:\n\n• Brain injury during pregnancy, birth, or early infancy\n• Muscle stiffness (spasticity) or involuntary movements\n• Impaired coordination, posture, and balance\n\nConditions We Treat:\n\n• Spasticity and muscle tightness\n• Motor skill delays\n• Balance and gait abnormalities" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive neurological assessment\n• Stretching, strengthening, and posture correction\n• Gait training and balance therapy\n• Adaptive and functional exercises\n• Family education and home exercise guidance" },
-    ],
-    benefits: ["Improves muscle strength and flexibility", "Enhances motor skills and coordination", "Supports posture and balance correction", "Promotes functional independence", "Reduces risk of contractures"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we deliver personalized physiotherapy programs for Cerebral Palsy patients.",
-  },
-
-  // ── 10. TENNIS ELBOW ─────────────────────────────────────────────────────────
-  {
-    id: 10,
-    title: "Tennis Elbow",
-    slug: "tennis-elbow",
-    category: "Elbow Conditions",
-    image: Tennis,
-    seo: {
-      title: `Tennis Elbow Treatment in Delhi | ${BRAND}`,
-      description: `Expert Tennis Elbow Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat lateral epicondylitis, outer elbow pain, weak grip strength & forearm pain. ✅ Shockwave & LASER therapy ✅ ${LOCATION}. Book now!`,
-      keywords: "tennis elbow treatment in delhi, lateral epicondylitis treatment kalkaji, tennis elbow physiotherapy south delhi, outer elbow pain treatment delhi, tennis elbow specialist delhi, shockwave therapy tennis elbow delhi, grip strength weakness treatment delhi, elbow overuse injury treatment kalkaji, best tennis elbow doctor delhi, forearm pain physiotherapy delhi",
-      canonical: `${BASE_URL}/services/tennis-elbow`,
-    },
-    description: "Tennis Elbow (Lateral Epicondylitis) is an overuse injury causing pain on the outer elbow. Physiotherapy helps reduce pain, restore movement, and strengthen forearm muscles.",
-    sections: [
-      { title: "Overview", content: "Causes:\n\n• Repetitive wrist and arm movements\n• Sports activities like tennis, badminton, or squash\n• Poor ergonomics or workplace strain\n\nConditions We Treat:\n\n• Outer elbow pain\n• Weak grip strength\n• Pain while lifting, twisting, or shaking hands" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive elbow assessment\n• Stretching and strengthening exercises\n• Manual therapy and soft tissue mobilization\n• TENS, ultrasound, shockwave therapy\n• Ergonomic advice and activity modification" },
-    ],
-    benefits: ["Reduces pain and inflammation", "Improves grip strength", "Restores range of motion", "Prevents recurrence", "Supports daily and sports activities"],
-    customTreatmentText: "Our centre offers targeted physiotherapy for Tennis Elbow.",
-  },
+// ── 8. ANKLE PAIN ────────────────────────────────────────────────────────────
+// {
+//   id: 8,
+//   title: "Ankle Pain Treatment",
+//   slug: "ankle-pain",
+//   category: "Pain Conditions",
+//   image: ,
+//   seo: {
+//     title: "Ankle Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+//     description: "Expert Ankle Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat ankle sprains, ligament tears, plantar fasciitis & post-injury ankle instability. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+//     keywords: "ankle pain treatment in delhi, ankle sprain physiotherapy delhi, ankle ligament injury treatment kalkaji, ankle pain specialist south delhi, plantar fasciitis treatment delhi, ankle physiotherapy home visit delhi, best ankle pain doctor delhi, ankle instability treatment delhi, ankle pain relief kalkaji, foot and ankle physiotherapy south delhi",
+//     canonical: "https://advancepainphysiotherapy.com/services/ankle-pain",
+//   },
+//   hero: {
+//     heading: "Ankle Pain Treatment in Delhi — Stand, Walk, and Move with Confidence",
+//     subheading: "Physiotherapy for ankle sprains, ligament injuries, plantar fasciitis, and post-injury ankle instability by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+//     cta: "Book Your Assessment Today",
+//   },
+//   description: "Ankle pain is often treated as a minor inconvenience, something to rest for a day or two and forget about, but Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees the consequences of that approach regularly: patients whose ankle sprains never fully healed, leaving them with recurring instability, repeated twists, and a lingering fear of uneven ground years later. The ankle bears your entire body weight with every step, so even a seemingly small ligament sprain, if not rehabilitated properly, can weaken the joint's stability and set the stage for repeated injuries. Ankle pain can result from an acute sprain during sports or an accidental misstep, ligament tears, plantar fasciitis affecting the sole of the foot, tendon inflammation, arthritis, or general instability following a previous injury that wasn't fully rehabilitated. What many people don't realise is that the initial pain settling down doesn't mean the ankle has regained its full strength and balance control, which is exactly why so many sprains recur. At Advanced Pain Physiotherapy Centre, our approach goes beyond just calming the pain — we assess ligament stability, balance, and strength around the ankle, then build a rehabilitation programme that restores full function and specifically works on preventing the re-injury cycle that so many patients get stuck in.",
+//   sections: [
+//     { title: "Overview", content: "Common Causes of Ankle Pain:\n\n• Ankle sprains from sports or missteps\n• Ligament tears and joint instability\n• Plantar fasciitis and heel pain\n• Tendon inflammation and overuse\n• Arthritis and post-injury stiffness\n\nConditions We Treat:\n\n• Acute and chronic ankle sprains\n• Ligament injuries and instability\n• Plantar fasciitis\n• Post-fracture ankle stiffness\n• Recurring ankle injuries from incomplete rehabilitation" },
+//     { title: "Why It Matters", content: "Ankle sprains are often under-treated because the acute pain settles within days, giving a false sense of recovery. Without proper rehabilitation, the ligaments remain lax and the surrounding muscles weak, which is why so many people sprain the same ankle repeatedly.\n\nOver time, this instability can also alter how you walk, placing extra strain on the knees and hips. Complete rehabilitation, not just rest, is what actually prevents this cycle." },
+//     { title: "Who Needs This", content: "• Athletes and sports players recovering from an ankle sprain\n• Patients with recurring ankle sprains or a feeling of instability\n• People with plantar fasciitis or persistent heel pain\n• Patients recovering from an ankle fracture or surgery\n• Anyone who rolls or twists their ankle frequently\n• People with ankle stiffness affecting walking or standing" },
+//     { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment of ligament stability and joint mobility\n• Manual therapy to reduce stiffness and swelling\n• Balance and proprioception training to restore stability\n• Strengthening exercises for ankle and lower leg muscles\n• Pain-relief modalities such as ice therapy, ultrasound, and TENS\n• Taping or bracing guidance during early recovery" },
+//     { title: "Our Process", content: "1. Assessment — Evaluating ligament stability, swelling, and range of motion\n2. Pain and Swelling Management — Ice, compression guidance, and electrotherapy\n3. Mobility Restoration — Manual therapy to regain full ankle movement\n4. Balance Training — Proprioception exercises to rebuild joint stability\n5. Progressive Strengthening — Building ankle and calf strength to support the joint\n6. Return-to-Activity Plan — Structured progression back to sport or daily activity to prevent re-injury" },
+//   ],
+//   benefits: ["Reduces ankle pain and swelling", "Restores balance and joint stability", "Strengthens muscles supporting the ankle", "Prevents recurring sprains and instability", "Improves walking and return to sports"],
+//   whyChooseUs: [
+//     "Dr. Ashish Sharma focuses on complete ligament rehabilitation, not just short-term pain relief",
+//     "Balance and proprioception training to specifically prevent recurring sprains",
+//     "Experience with post-fracture and post-surgical ankle rehabilitation",
+//     "Sport-specific return-to-play programmes for athletes",
+//     "Home visit availability for patients with limited mobility",
+//     "Conveniently located in Kalkaji, South Delhi",
+//   ],
+//   faqs: [
+//     { question: "Why does my ankle keep spraining even though it healed once?", answer: "This usually happens when the ligaments and stabilising muscles weren't fully rehabilitated after the first sprain, leaving the joint less stable. A structured balance and strengthening programme addresses this underlying instability." },
+//     { question: "How long does an ankle sprain take to heal with physiotherapy?", answer: "Mild sprains often improve within 2 to 4 weeks with physiotherapy, while more severe ligament injuries can take 6 to 8 weeks or longer for full stability to return." },
+//     { question: "Is it okay to walk on a sprained ankle?", answer: "This depends on the severity. Your physiotherapist will assess your specific injury and guide you on safe weight-bearing, since walking too soon on a severe sprain can slow healing." },
+//     { question: "Can physiotherapy help with plantar fasciitis?", answer: "Yes. Stretching the calf and plantar fascia, strengthening foot muscles, and correcting movement patterns are effective ways to reduce plantar fasciitis pain, often without needing injections or surgery." },
+//     { question: "Do I need an X-ray after every ankle sprain?", answer: "Not always. Your physiotherapist or doctor will assess specific signs, like inability to bear weight or point tenderness over bone, to decide if imaging is necessary." },
+//     { question: "Will taping my ankle help during recovery?", answer: "Taping or bracing can provide helpful support during early recovery or return to sport, but it works best alongside strengthening and balance exercises rather than as a standalone solution." },
+//     { question: "Can I return to sports after ankle physiotherapy?", answer: "Yes, most patients return to their sport once strength, balance, and stability are properly restored. We guide this return gradually to reduce the risk of re-injury." },
+//   ],
+//   customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma's ankle pain treatment plans focus on complete ligament and muscle rehabilitation, so patients regain confidence in their ankle, not just temporary relief from pain.",
+//   cta: {
+//     heading: "Don't let a 'minor' ankle sprain turn into a recurring problem.",
+//     subtext: "Get a thorough assessment from Dr. Ashish Sharma and a rehabilitation plan built to restore full ankle stability.",
+//     buttonText: "Book Your Appointment Now",
+//   },
+//   imageAltText: [
+//     "Dr. Ashish Sharma assessing ankle sprain patient at Advanced Pain Physiotherapy Centre Delhi",
+//     "Balance and proprioception training for ankle instability in Kalkaji",
+//     "Plantar fasciitis stretching exercise guided by physiotherapist",
+//     "Ankle strengthening exercise for sports injury recovery in South Delhi",
+//   ],
+// },
 
   // ── 11. BAASTRUP SYNDROME ────────────────────────────────────────────────────
-  {
-    id: 11,
-    title: "Baastrup Syndrome",
-    slug: "baastrup-syndrome",
-    category: "Spine Conditions",
-    image: Baastrup,
-    seo: {
-      title: `Baastrup Syndrome Treatment in Delhi | ${BRAND}`,
-      description: `Expert Baastrup Syndrome (Kissing Spine) Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat mid-back pain, lower back stiffness & spinal degeneration. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "baastrup syndrome treatment delhi, kissing spine physiotherapy delhi, baastrup syndrome kalkaji, mid back pain treatment delhi, spinal degeneration physiotherapy south delhi, lower back stiffness treatment delhi, back pain specialist kalkaji, spine physiotherapy delhi, baastrup syndrome specialist delhi, spinal mobilization treatment delhi",
-      canonical: `${BASE_URL}/services/baastrup-syndrome`,
-    },
-    description: "Baastrup Syndrome (Kissing Spine) occurs when spinal vertebrae rub together causing back pain and stiffness. Physiotherapy focuses on relieving pain, improving spine mobility, and strengthening supporting muscles.",
-    sections: [
-      { title: "Overview", content: "Causes:\n\n• Degenerative changes in the spine\n• Poor posture or repetitive spinal movements\n• Weak back muscles\n\nConditions We Treat:\n\n• Mid-back and lower back pain\n• Stiffness and limited spinal movement\n• Pain while bending, lifting, or twisting" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Spinal assessment and posture analysis\n• Stretching and mobilization exercises\n• Core and back strengthening\n• Pain-relief modalities\n• Education on posture correction" },
-    ],
-    benefits: ["Reduces back pain and stiffness", "Improves spinal mobility", "Strengthens back and core muscles", "Prevents recurrence", "Enhances overall posture"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized programs for Baastrup Syndrome patients.",
+ // ── 11. BAASTRUP SYNDROME ────────────────────────────────────────────────────
+{
+  id: 11,
+  title: "Baastrup Syndrome",
+  slug: "baastrup-syndrome",
+  category: "Spine Conditions",
+  image: Baastrup,
+  seo: {
+    title: "Baastrup Syndrome Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Baastrup Syndrome (Kissing Spine) Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat mid-back pain, lower back stiffness & spinal degeneration. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "baastrup syndrome treatment delhi, kissing spine physiotherapy delhi, baastrup syndrome kalkaji, mid back pain treatment delhi, spinal degeneration physiotherapy south delhi, lower back stiffness treatment delhi, back pain specialist kalkaji, spine physiotherapy delhi, baastrup syndrome specialist delhi, spinal mobilization treatment delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/baastrup-syndrome",
   },
+  hero: {
+    heading: "Baastrup Syndrome",
+    subheading: "Physiotherapy for mid-back pain, lower back stiffness, and spinal degeneration caused by vertebrae rubbing together, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Baastrup Syndrome is one of those conditions that gets missed often, mostly because it feels a lot like ordinary lower back pain. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre regularly sees patients who've spent months on rest, painkillers, or generic back exercises with little relief, simply because nobody identified that the actual problem was two spinal bones rubbing against each other, not a disc or a pulled muscle. This tends to develop with age-related spinal changes, long-standing poor posture, or repeated backward bending, and it usually shows up as a nagging ache that worsens on extension and eases when bending forward. What many patients don't realise is that this exact pattern — better with flexion, worse with extension — is a useful clue that points away from a typical disc problem. At Advanced Pain Physiotherapy Centre, our approach starts with correctly identifying this pattern, then builds a plan around calming the irritated area, restoring healthy spinal movement, and strengthening the muscles that reduce vertebral friction over the long term.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Baastrup Syndrome:\n\n• Degenerative changes in the spine\n• Poor posture or repetitive backward bending\n• Weak back and core muscles\n• Excessive lower back curvature (lordosis)\n\nConditions We Treat:\n\n• Mid-back and lower back pain\n• Stiffness and limited spinal movement\n• Pain while bending backward, lifting, or twisting" },
+    { title: "Why It Matters", content: "Because Baastrup Syndrome mimics general back pain, it's often treated with rest alone, which rarely fixes the actual friction between the vertebrae. Left unaddressed, the irritated segment stays inflamed, and patients often start avoiding movement altogether to dodge the pain.\n\nThat avoidance weakens the surrounding back muscles further, which increases strain on the same irritated segment. Over time, this creates a cycle where the pain becomes harder to shift, which is why an accurate diagnosis early on makes such a difference." },
+    { title: "Who Needs This", content: "• Patients with persistent mid-back or lower back pain that worsens on bending backward\n• People with stiffness that makes twisting or reaching uncomfortable\n• Anyone whose back pain improves on bending forward but returns on standing straight\n• Patients with a desk job, poor posture, or repetitive spinal strain\n• People whose back pain hasn't responded to rest or general exercise" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Spinal assessment and posture analysis to confirm the pain pattern\n• Manual therapy and mobilisation to relieve the irritated segment\n• Stretching exercises for tight lower back and hip muscles\n• Core and back strengthening to reduce vertebral friction\n• Pain-relief modalities such as TENS and ultrasound\n• Education on posture correction and safe bending mechanics" },
+    { title: "Our Process", content: "1. Assessment — Evaluating spinal movement, posture, and specific pain triggers\n2. Pain Relief Phase — Manual therapy and modalities to calm the irritated segment\n3. Mobility Restoration — Gentle mobilisation to restore normal movement between vertebrae\n4. Strengthening Phase — Core and back-strengthening exercises to support the spine\n5. Posture Correction — Guidance on sitting, standing, and lifting habits\n6. Home Exercise Plan — A simple routine to maintain progress between sessions" },
+  ],
+  benefits: ["Reduces back pain and stiffness", "Improves spinal mobility", "Strengthens back and core muscles", "Prevents recurrence", "Enhances overall posture"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has hands-on experience distinguishing Baastrup Syndrome from disc-related back pain, which many general treatment plans miss",
+    "Treatment addresses the actual cause of vertebral friction, not just the pain symptoms",
+    "Posture and ergonomic guidance tailored to desk-based and physically active lifestyles",
+    "Structured strengthening programme to prevent recurrence, not just short-term relief",
+    "Home visit availability for patients unable to travel comfortably",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Is Baastrup Syndrome the same as a slipped disc?", answer: "No. Baastrup Syndrome involves the bony parts of the spine touching each other, while a slipped disc involves the soft cushion between vertebrae. The pain pattern and treatment approach are different, which is why an accurate assessment matters." },
+    { question: "Can physiotherapy really help without surgery?", answer: "Yes, in most cases. Physiotherapy addresses posture, mobility, and muscle support, which are the main contributing factors. Surgery is generally considered only when conservative treatment doesn't help after a fair trial." },
+    { question: "How many sessions will I need?", answer: "This depends on how long you've had the pain and how your body responds to treatment. Many patients notice improvement within a few weeks, but Dr. Sharma will give you a realistic timeline after your first assessment." },
+    { question: "What should I avoid doing if I have this condition?", answer: "Avoid prolonged backward bending, sudden twisting movements, and long periods of standing without support. Specific guidance is given based on your daily routine and activity level." },
+    { question: "Will the pain come back after treatment?", answer: "It can, especially if the underlying posture habits aren't corrected. That's why our programme includes posture education and a home exercise plan, not just in-clinic sessions." },
+    { question: "Is this condition linked to age?", answer: "It's more common with age-related spinal changes, but younger people with poor posture or repetitive strain can also develop it." },
+    { question: "Do I need an X-ray or MRI to confirm Baastrup Syndrome?", answer: "Imaging can help confirm the diagnosis in some cases, but a detailed physical assessment of your pain pattern and spinal movement is often enough to guide initial treatment." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma's Baastrup Syndrome treatment plans focus on identifying the true source of your back pain and building lasting spinal support, not just temporary relief.",
+  cta: {
+    heading: "Don't let 'ordinary' back pain hide the real problem.",
+    subtext: "Get a thorough spinal assessment from Dr. Ashish Sharma and a treatment plan built around what's actually causing your pain.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing spine for Baastrup Syndrome at Advanced Pain Physiotherapy Centre Delhi",
+    "Spinal mobilisation therapy for kissing spine treatment in Kalkaji",
+    "Core strengthening exercise for lower back support in South Delhi",
+    "Posture correction guidance session for chronic back pain patient",
+  ],
+},
 
-  // ── 12. ROTATOR CUFF INJURY ──────────────────────────────────────────────────
-  {
-    id: 13,
-    title: "Rotator Cuff Injury",
-    slug: "rotator-cuff-injury",
-    category: "Shoulder Conditions",
-    image: Rotator,
-    seo: {
-      title: `Rotator Cuff Injury Treatment in Delhi | ${BRAND}`,
-      description: `Expert Rotator Cuff Injury Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat rotator cuff tears, shoulder weakness, limited range of motion & sports shoulder injuries. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "rotator cuff injury treatment delhi, rotator cuff tear physiotherapy kalkaji, shoulder injury rehabilitation south delhi, rotator cuff specialist delhi, shoulder weakness treatment delhi, rotator cuff pain relief delhi, shoulder physiotherapy home visit delhi, best rotator cuff doctor delhi, shoulder range of motion treatment delhi, rotator cuff rehabilitation kalkaji",
-      canonical: `${BASE_URL}/services/rotator-cuff-injury`,
-    },
-    description: "Rotator Cuff Injury affects the shoulder muscles and tendons, causing pain, weakness, and limited range of motion. Physiotherapy helps restore strength, mobility, and functional use.",
-    sections: [
-      { title: "Overview", content: "Causes:\n\n• Repetitive overhead movements\n• Sports injuries or heavy lifting\n• Age-related degeneration or trauma\n\nConditions We Treat:\n\n• Shoulder pain and weakness\n• Limited range of motion\n• Difficulty in lifting, reaching, or throwing" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Shoulder assessment and range of motion evaluation\n• Rotator cuff strengthening and stretching\n• Manual therapy and soft tissue mobilization\n• TENS, ultrasound, and shockwave therapy\n• Functional training for daily and sports activities" },
-    ],
-    benefits: ["Reduces shoulder pain", "Restores range of motion and strength", "Improves shoulder stability", "Prevents recurrence", "Supports return to normal and sports activities"],
-    customTreatmentText: "We provide personalized physiotherapy for Rotator Cuff Injuries.",
+// ── 12. ROTATOR CUFF INJURY ──────────────────────────────────────────────────
+{
+  id: 13,
+  title: "Rotator Cuff Injury",
+  slug: "rotator-cuff-injury",
+  category: "Shoulder Conditions",
+  image: Rotator,
+  seo: {
+    title: "Rotator Cuff Injury Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Rotator Cuff Injury Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat rotator cuff tears, shoulder weakness, limited range of motion & sports shoulder injuries. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "rotator cuff injury treatment delhi, rotator cuff tear physiotherapy kalkaji, shoulder injury rehabilitation south delhi, rotator cuff specialist delhi, shoulder weakness treatment delhi, rotator cuff pain relief delhi, shoulder physiotherapy home visit delhi, best rotator cuff doctor delhi, shoulder range of motion treatment delhi, rotator cuff rehabilitation kalkaji",
+    canonical: "https://advancepainphysiotherapy.com/services/rotator-cuff-injury",
   },
+  hero: {
+    heading: "Rotator Cuff Injury Treatment ",
+    subheading: "Physiotherapy for rotator cuff tears, shoulder weakness, and limited range of motion, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "The rotator cuff is a small group of muscles and tendons that quietly does most of the work every time you lift, reach, or throw, which is exactly why an injury there affects so much more than the shoulder itself. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre often sees patients who kept pushing through a mild shoulder ache during sport or daily lifting, only to end up with a partial tear that takes far longer to recover from than if it had been caught early. Rotator cuff injuries can range from mild tendon irritation to partial or full tears, and they're common in people doing repetitive overhead work, racquet sports, or heavy lifting, as well as in age-related wear and tear. What many people don't realise is that the shoulder needs a carefully graded recovery plan — too little movement and it stiffens up, too much too soon and the tear worsens. At Advanced Pain Physiotherapy Centre, we assess exactly which structures are affected, then build a staged rehabilitation programme that restores strength and function without risking re-injury.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Rotator Cuff Injury:\n\n• Repetitive overhead movements\n• Sports injuries or heavy lifting\n• Age-related degeneration or trauma\n• Falls onto an outstretched arm\n\nConditions We Treat:\n\n• Shoulder pain and weakness\n• Limited range of motion\n• Difficulty in lifting, reaching, or throwing\n• Partial and full-thickness rotator cuff tears" },
+    { title: "Why It Matters", content: "Shoulder pain changes how you sleep, get dressed, and carry everyday things, which is why people often start compensating with other muscles without realising it. Over time, that compensation can lead to neck and upper back pain alongside the original shoulder problem.\n\nIgnoring early symptoms also raises the risk of a mild strain progressing into a more significant tear. Addressing the injury early, with the right graded exercise plan, gives the tendon the best chance to heal and regain full strength." },
+    { title: "Who Needs This", content: "• Patients with shoulder pain that worsens with overhead movements\n• People with weakness when lifting or carrying objects\n• Anyone with difficulty sleeping on the affected side\n• Patients recovering from a recent shoulder injury from sport, a fall, or heavy lifting\n• People with ongoing shoulder pain from age-related wear and tear\n• Athletes needing a structured return-to-sport programme" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Shoulder assessment and range of motion evaluation\n• Rotator cuff strengthening and stretching\n• Manual therapy and soft tissue mobilisation\n• TENS, ultrasound, and shockwave therapy\n• Functional training for daily and sports activities" },
+    { title: "Our Process", content: "1. Assessment — Evaluating range of motion, strength, and pain-triggering movements\n2. Pain Management — Manual therapy and modalities to calm early inflammation\n3. Gentle Mobility Work — Controlled movement to prevent stiffness while protecting healing tissue\n4. Progressive Strengthening — Rebuilding rotator cuff and shoulder blade strength in stages\n5. Functional Training — Exercises tailored to your daily tasks or sport\n6. Return-to-Activity Plan — Structured progression back to full use of the shoulder" },
+  ],
+  benefits: ["Reduces shoulder pain", "Restores range of motion and strength", "Improves shoulder stability", "Prevents recurrence", "Supports return to normal and sports activities"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma builds staged rehabilitation plans that protect the healing tendon while restoring full strength",
+    "Detailed shoulder assessment to identify exactly which structures are affected",
+    "Sport-specific return-to-play programmes for athletes",
+    "Experience with both conservative and post-surgical rotator cuff rehabilitation",
+    "Home visit availability for patients with limited mobility during early recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Do I need an MRI before starting physiotherapy?", answer: "Not always. A physical assessment can often identify a likely rotator cuff problem. Imaging is more useful when symptoms are severe, don't improve with initial treatment, or a full tear is suspected." },
+    { question: "Can a torn rotator cuff heal without surgery?", answer: "Many partial tears and even some full tears respond well to physiotherapy, especially in older adults or lower-demand patients. Surgery is usually reserved for cases where conservative treatment doesn't restore function." },
+    { question: "How long does recovery usually take?", answer: "Mild strains may improve in a few weeks. More significant injuries can take two to three months of consistent physiotherapy, and Dr. Sharma will track your progress and adjust the timeline as needed." },
+    { question: "Is it okay to keep using my arm during treatment?", answer: "Light, pain-free use is usually encouraged, but overhead lifting and heavy loads should be avoided until you're cleared for them." },
+    { question: "Will exercises make the pain worse?", answer: "Correctly prescribed exercises shouldn't cause sharp pain. Mild discomfort during strengthening is normal, but the intensity is adjusted if you're in significant pain." },
+    { question: "Can I prevent rotator cuff injuries in the future?", answer: "Yes. Maintaining shoulder strength, warming up before sports, and avoiding repetitive overhead strain without rest all reduce your risk." },
+    { question: "When can I return to sports after a rotator cuff injury?", answer: "This depends on the severity of the injury and how your strength and stability progress. Most patients return once they pass specific strength and movement benchmarks, guided step by step to reduce re-injury risk." },
+  ],
+  customTreatmentText: "We provide personalized physiotherapy for Rotator Cuff Injuries.",
+  cta: {
+    heading: "Don't let shoulder pain limit what you can lift, reach, or do.",
+    subtext: "Get a thorough shoulder assessment from Dr. Ashish Sharma and a rehabilitation plan built to restore full strength and movement.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing shoulder range of motion at Advanced Pain Physiotherapy Centre Delhi",
+    "Rotator cuff strengthening exercise for shoulder injury rehabilitation in Kalkaji",
+    "Manual therapy for shoulder mobility in South Delhi physiotherapy clinic",
+    "Functional shoulder training for return to sports activity",
+  ],
+},
 
-  // ── 13. SCOLIOSIS ────────────────────────────────────────────────────────────
-  {
-    id: 14,
-    title: "Scoliosis",
-    slug: "scoliosis",
-    category: "Spine Conditions",
-    image: Scoliosis,
-    seo: {
-      title: `Scoliosis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Scoliosis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat abnormal spinal curvature, back pain, postural imbalance & improve spinal mobility. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "scoliosis treatment in delhi, scoliosis physiotherapy kalkaji, spinal curvature treatment delhi, scoliosis specialist south delhi, back pain scoliosis treatment delhi, postural correction scoliosis delhi, scoliosis rehabilitation delhi, best scoliosis doctor delhi, spinal alignment physiotherapy delhi, scoliosis exercises kalkaji",
-      canonical: `${BASE_URL}/services/scoliosis`,
-    },
-    description: "Scoliosis is an abnormal lateral curvature of the spine, which may cause back pain, posture issues, and reduced mobility. Physiotherapy focuses on improving posture, spinal strength, flexibility, and functional movement.",
-    sections: [
-      { title: "Overview", content: "Causes:\n\n• Congenital spinal abnormalities\n• Muscle imbalance or neuromuscular conditions\n• Idiopathic causes\n\nConditions We Treat:\n\n• Lateral spinal curvature\n• Back pain and stiffness\n• Postural imbalance and limited mobility" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Posture and spinal assessment\n• Spinal strengthening and core stability exercises\n• Stretching and mobilization for flexibility\n• Pain relief modalities\n• Education for ergonomic adjustments" },
-    ],
-    benefits: ["Reduces back pain and stiffness", "Improves posture and spinal alignment", "Enhances core strength and flexibility", "Prevents progression of curvature", "Supports daily function"],
-    customTreatmentText: "We design customized physiotherapy programs for Scoliosis patients.",
+// ── 13. SCOLIOSIS ────────────────────────────────────────────────────────────
+{
+  id: 14,
+  title: "Scoliosis",
+  slug: "scoliosis",
+  category: "Spine Conditions",
+  image: Scoliosis,
+  seo: {
+    title: "Scoliosis Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Scoliosis Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat abnormal spinal curvature, back pain, postural imbalance & improve spinal mobility. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "scoliosis treatment in delhi, scoliosis physiotherapy kalkaji, spinal curvature treatment delhi, scoliosis specialist south delhi, back pain scoliosis treatment delhi, postural correction scoliosis delhi, scoliosis rehabilitation delhi, best scoliosis doctor delhi, spinal alignment physiotherapy delhi, scoliosis exercises kalkaji",
+    canonical: "https://advancepainphysiotherapy.com/services/scoliosis",
   },
+  hero: {
+    heading: "Scoliosis Treatment ",
+    subheading: "Exercise-based physiotherapy for spinal curvature, postural imbalance, and related back pain, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Scoliosis often gets noticed for the wrong reasons — a parent spotting an uneven shoulder, or an adult being told for years that their one-sided back pain is 'just posture' without anyone identifying the actual spinal curve behind it. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre works with both patterns regularly: growing children whose curve needs careful monitoring, and adults whose long-standing scoliosis has quietly caused muscle fatigue and pain on one side of the back for years. The curve itself can be present from birth, appear during the teenage growth spurt, or develop later due to muscle imbalance or spinal degeneration, and not every case needs the same approach. Mild curves often respond well to targeted exercise, while more significant curves need closer monitoring alongside physiotherapy. At Advanced Pain Physiotherapy Centre, we start by understanding your specific curve pattern, then build a programme around core stability, flexibility, and posture, so the plan fits your spine, not a generic scoliosis protocol.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Scoliosis:\n\n• Congenital spinal abnormalities\n• Muscle imbalance or neuromuscular conditions\n• Idiopathic causes (no identifiable cause, most common in adolescents)\n• Degenerative spinal changes in adults\n\nConditions We Treat:\n\n• Lateral spinal curvature\n• Back pain and stiffness\n• Postural imbalance and limited mobility" },
+    { title: "Why It Matters", content: "An uneven spine affects more than appearance. It can lead to muscle fatigue on one side of the back, uneven shoulder or hip height, and in more significant curves, breathing difficulty.\n\nIn growing children and teenagers, early attention matters because curves can change during growth spurts. In adults, unaddressed scoliosis often shows up as chronic one-sided back pain that responds poorly to generic back exercises, simply because the underlying curve was never factored into the treatment plan." },
+    { title: "Who Needs This", content: "• Patients or parents noticing a visibly uneven back, shoulder, or waistline\n• People with back pain that seems to favour one side\n• Anyone with stiffness or reduced flexibility in the spine\n• Patients with a scoliosis diagnosis who want a structured exercise plan\n• Growing children and teenagers with postural changes noticed during growth" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Posture and spinal assessment\n• Spinal strengthening and core stability exercises\n• Stretching and mobilisation for flexibility\n• Pain relief modalities for active pain\n• Education for ergonomic adjustments at school, home, or work" },
+    { title: "Our Process", content: "1. Assessment — Measuring curve pattern, flexibility, and muscle imbalance\n2. Core Stability Training — Exercises supporting spinal alignment from all sides\n3. Stretching and Mobilisation — Working on tight areas pulling the spine out of alignment\n4. Pain Relief Techniques — Manual therapy and modalities for patients with active pain\n5. Ergonomic Guidance — Advice on school bags, desk setups, and daily habits\n6. Progress Monitoring — Regular reassessment to adjust the exercise plan" },
+  ],
+  benefits: ["Reduces back pain and stiffness", "Improves posture and spinal alignment", "Enhances core strength and flexibility", "Prevents progression of curvature", "Supports daily function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma tailors treatment to your specific curve pattern rather than a generic scoliosis protocol",
+    "Experience working with both growing children and adults with scoliosis-related pain",
+    "Close coordination with families when treating school-age children and teenagers",
+    "Focus on core stability and posture, not just temporary pain relief",
+    "Regular reassessment to track curve-related changes over time",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can physiotherapy correct scoliosis completely?", answer: "Physiotherapy can help manage pain, improve posture, and in some cases support curve stability, especially when started early. It's not typically a way to fully 'correct' a structural curve, and Dr. Sharma will set realistic expectations based on your specific case." },
+    { question: "Is scoliosis physiotherapy only for children?", answer: "No. While early intervention during growth years is valuable, adults with scoliosis-related pain or stiffness also benefit from a targeted exercise programme." },
+    { question: "Does scoliosis always need a back brace?", answer: "Not always. Bracing decisions are usually made by an orthopedic specialist based on the degree and progression of the curve. Physiotherapy can often be used alongside or instead of a brace, depending on the case." },
+    { question: "Will exercise make the curve worse?", answer: "Properly prescribed scoliosis exercises are designed to support the spine, not strain it. Unsupervised heavy lifting or high-impact activity should be avoided without guidance." },
+    { question: "How often should scoliosis be reassessed?", answer: "For growing children, regular monitoring is important since curves can change during growth spurts. A suitable reassessment schedule is recommended based on age and curve severity." },
+    { question: "Can adults develop scoliosis later in life?", answer: "Yes. Degenerative scoliosis can develop with age-related spinal changes, even in people who never had it as children." },
+    { question: "What's the difference between postural scoliosis and structural scoliosis?", answer: "Postural scoliosis is a flexible curve often related to muscle imbalance, and it usually improves with correction of the underlying cause. Structural scoliosis involves a fixed curve in the spine itself and needs a different, more specialised approach." },
+  ],
+  customTreatmentText: "We design customized physiotherapy programs for Scoliosis patients.",
+  cta: {
+    heading: "Get a clear picture of your spine, not just generic back advice.",
+    subtext: "Book a postural and spinal assessment with Dr. Ashish Sharma and get a plan built around your specific curve.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma performing postural assessment for scoliosis at Advanced Pain Physiotherapy Centre Delhi",
+    "Core strengthening exercise for scoliosis patient in Kalkaji",
+    "Spinal flexibility stretch for scoliosis treatment in South Delhi",
+    "Posture correction session for adolescent scoliosis patient",
+  ],
+},
 
-  // ── 14. BELL'S PALSY ─────────────────────────────────────────────────────────
-  {
-    id: 15,
-    title: "Bell's Palsy / Facial Palsy",
-    slug: "bells-palsy-facial-palsy",
-    category: "Neurological Conditions",
-    image: bell,
-    seo: {
-      title: `Bell's Palsy Treatment in Delhi | ${BRAND}`,
-      description: `Expert Bell's Palsy & Facial Palsy Treatment in Delhi by ${DOCTOR} at ${BRAND}. We restore facial muscle movement, reduce weakness & improve facial expressions. ✅ Certified neuro physio ✅ ${LOCATION}. Book now!`,
-      keywords: "bell's palsy treatment in delhi, facial palsy physiotherapy kalkaji, facial palsy treatment south delhi, facial weakness treatment delhi, bell's palsy specialist delhi, facial nerve physiotherapy delhi, facial muscle exercises delhi, neuromuscular stimulation facial palsy delhi, best bell's palsy doctor delhi, facial palsy rehabilitation kalkaji",
-      canonical: `${BASE_URL}/services/bells-palsy-facial-palsy`,
-    },
-    description: "Bell's Palsy or Facial Palsy causes sudden weakness or paralysis on one side of the face. Physiotherapy focuses on facial muscle exercises, nerve stimulation, and functional recovery.",
-    sections: [
-      { title: "Overview", content: "Causes:\n\n• Viral infections affecting the facial nerve\n• Inflammation or trauma\n• Idiopathic cause\n\nConditions We Treat:\n\n• Facial muscle weakness or drooping\n• Difficulty in smiling, blinking, or speaking\n• Pain around the ear or jaw" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Facial muscle assessment\n• Targeted facial exercises and massage\n• Neuromuscular stimulation\n• Guidance on eye care and functional movements\n• Home exercise program" },
-    ],
-    benefits: ["Restores facial muscle movement", "Reduces weakness or drooping", "Improves symmetry and expressions", "Supports speech and eating functions", "Enhances confidence"],
-    customTreatmentText: "We provide personalized physiotherapy for Bell's/Facial Palsy patients.",
+// ── 14. BELL'S PALSY ─────────────────────────────────────────────────────────
+{
+  id: 15,
+  title: "Bell's Palsy / Facial Palsy",
+  slug: "bells-palsy-facial-palsy",
+  category: "Neurological Conditions",
+  image: bell,
+  seo: {
+    title: "Bell's Palsy Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Bell's Palsy & Facial Palsy Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We restore facial muscle movement, reduce weakness & improve facial expressions. ✅ Certified neuro physio ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "bell's palsy treatment in delhi, facial palsy physiotherapy kalkaji, facial palsy treatment south delhi, facial weakness treatment delhi, bell's palsy specialist delhi, facial nerve physiotherapy delhi, facial muscle exercises delhi, neuromuscular stimulation facial palsy delhi, best bell's palsy doctor delhi, facial palsy rehabilitation kalkaji",
+    canonical: "https://advancepainphysiotherapy.com/services/bells-palsy-facial-palsy",
   },
+  hero: {
+    heading: "Bell's Palsy & Facial Palsy Treatment ",
+    subheading: "Neuro physiotherapy for facial muscle weakness, drooping, and reduced facial control, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Waking up with one side of the face drooping or unresponsive is frightening, and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has guided many patients through exactly that experience, working alongside their treating doctor from the early days of diagnosis. Bell's Palsy is a sudden weakness or paralysis affecting one side of the face, usually caused by inflammation of the facial nerve, though facial palsy can also result from trauma or other nerve damage. While medical treatment and time help many patients recover, physiotherapy plays a real role in guiding the facial muscles back to normal function and preventing complications like long-term muscle tightness or uneven movement patterns that can develop even after the nerve starts healing. What many patients don't expect is how much precision this rehabilitation needs — overworking the wrong muscles can actually slow recovery. At Advanced Pain Physiotherapy Centre, we assess exactly which facial movements need attention at each stage and adjust the exercises as nerve function improves.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Bell's Palsy / Facial Palsy:\n\n• Viral infections affecting the facial nerve\n• Inflammation or trauma\n• Idiopathic cause (no identifiable trigger)\n\nConditions We Treat:\n\n• Facial muscle weakness or drooping\n• Difficulty in smiling, blinking, or speaking\n• Pain around the ear or jaw" },
+    { title: "Why It Matters", content: "The face plays a central role in how we communicate, eat, and express emotion, so facial palsy affects daily life in ways that are easy to underestimate. Simple tasks like closing an eye fully, drinking without spilling, or smiling naturally can become difficult overnight.\n\nWithout guided facial exercises during recovery, some patients develop long-term muscle tightness or unwanted movement patterns, even after the underlying nerve issue has largely resolved. Structured rehabilitation during the recovery window helps prevent this." },
+    { title: "Who Needs This", content: "• Patients with sudden weakness or drooping on one side of the face\n• People with difficulty closing one eye, smiling evenly, or speaking clearly\n• Anyone with pain around the ear or jaw that started with facial weakness\n• Patients with a recent Bell's Palsy or facial palsy diagnosis from a doctor\n• People with ongoing facial asymmetry after a previous episode" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Facial muscle assessment\n• Targeted facial exercises and massage\n• Neuromuscular stimulation where appropriate\n• Guidance on eye care and functional movements\n• Home exercise programme" },
+    { title: "Our Process", content: "1. Assessment — Evaluating which facial muscles are affected and to what degree\n2. Targeted Facial Exercises — Specific movements to retrain weakened muscles without overworking them\n3. Facial Massage — Gentle techniques to support circulation and reduce stiffness\n4. Neuromuscular Stimulation — Used where appropriate to support muscle activity\n5. Eye Care Guidance — Protective advice for patients unable to fully close their eye\n6. Home Exercise Programme — Daily facial exercises for steady progress between sessions" },
+  ],
+  benefits: ["Restores facial muscle movement", "Reduces weakness or drooping", "Improves symmetry and expressions", "Supports speech and eating functions", "Enhances confidence"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma works closely with each patient's treating doctor throughout facial nerve recovery",
+    "Precise, stage-specific facial exercises to avoid overworking the wrong muscles",
+    "Experience guiding patients from early acute weakness through to full functional recovery",
+    "Protective eye care guidance to prevent complications during recovery",
+    "Home visit availability for patients who find travel difficult during early recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Will Bell's Palsy go away on its own?", answer: "Many cases improve over weeks to months, especially with early medical treatment. Physiotherapy supports this recovery by keeping the facial muscles active and preventing stiffness, which can improve the overall outcome." },
+    { question: "When should physiotherapy start after diagnosis?", answer: "It's generally best to start once your doctor confirms the diagnosis and clears you for exercise-based treatment, so the facial muscles stay active during the recovery window." },
+    { question: "Can facial exercises make the weakness worse?", answer: "No, but incorrect or excessive exercise can sometimes lead to muscle tightness or unwanted movement patterns. This is why guided, professional exercises are recommended over self-directed routines." },
+    { question: "How long does facial palsy recovery usually take?", answer: "This varies by individual and cause. Some people recover within a few weeks, while others need several months of consistent rehabilitation, and progress is tracked closely to adjust the plan." },
+    { question: "What if my eye doesn't close properly?", answer: "This needs immediate attention to protect the eye from dryness and irritation. Guidance is given on protective care, and this should also be discussed with your treating doctor." },
+    { question: "Is facial palsy the same as a stroke?", answer: "No, though the symptoms can sometimes look similar. Sudden facial weakness should always be evaluated by a doctor promptly to rule out other causes, including stroke." },
+    { question: "Can facial exercises help even months after the initial episode?", answer: "Yes. Patients with lingering asymmetry or tightness from an older episode can still benefit from targeted facial rehabilitation, though the exercise focus is adjusted for a more established pattern." },
+  ],
+  customTreatmentText: "We provide personalized physiotherapy for Bell's/Facial Palsy patients.",
+  cta: {
+    heading: "Facial weakness needs careful, guided recovery — not guesswork.",
+    subtext: "Start your facial rehabilitation with Dr. Ashish Sharma's precise, stage-specific approach.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma guiding facial exercise session at Advanced Pain Physiotherapy Centre Delhi",
+    "Neuromuscular stimulation therapy for facial palsy patient in Kalkaji",
+    "Facial massage technique for Bell's Palsy recovery in South Delhi",
+    "Eye care guidance session for facial nerve weakness patient",
+  ],
+},
 
-  // ── 15. DEMENTIA ─────────────────────────────────────────────────────────────
-  {
-    id: 16,
-    title: "Dementia",
-    slug: "dementia",
-    category: "Neurological Conditions",
-    image: Dementia,
-    seo: {
-      title: `Dementia Physiotherapy in Delhi | ${BRAND}`,
-      description: `Specialized Dementia Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve balance, mobility, cognitive function & prevent falls in dementia patients. ✅ Expert care ✅ ${LOCATION}. Book now!`,
-      keywords: "dementia physiotherapy delhi, dementia rehabilitation kalkaji, balance training dementia delhi, fall prevention dementia delhi, cognitive physiotherapy delhi, dementia mobility exercises south delhi, best dementia physiotherapist delhi, elderly physiotherapy delhi, dementia care kalkaji, neurological physiotherapy delhi",
-      canonical: `${BASE_URL}/services/dementia`,
-    },
-    description: "Dementia affects memory, thinking, and daily functioning. Physiotherapy focuses on cognitive stimulation, balance, mobility, and fall prevention.",
-    sections: [
-      { title: "Overview", content: "Effects:\n\n• Progressive neurological decline\n• Balance and mobility challenges\n• Increased risk of falls\n\nConditions We Treat:\n\n• Memory impairment\n• Balance and gait difficulties\n• Difficulty with daily activities" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Cognitive and memory exercises\n• Balance and coordination training\n• Functional mobility exercises\n• Fall prevention strategies\n• Caregiver guidance" },
-    ],
-    benefits: ["Improves memory and cognitive function", "Enhances balance and coordination", "Promotes independence", "Reduces risk of falls", "Supports overall brain health"],
-    customTreatmentText: "We offer specialized physiotherapy for Dementia patients.",
+// ── 15. DEMENTIA ─────────────────────────────────────────────────────────────
+{
+  id: 16,
+  title: "Dementia",
+  slug: "dementia",
+  category: "Neurological Conditions",
+  image: Dementia,
+  seo: {
+    title: "Dementia Physiotherapy in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Specialized Dementia Physiotherapy in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We improve balance, mobility, cognitive function & prevent falls in dementia patients. ✅ Expert care ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "dementia physiotherapy delhi, dementia rehabilitation kalkaji, balance training dementia delhi, fall prevention dementia delhi, cognitive physiotherapy delhi, dementia mobility exercises south delhi, best dementia physiotherapist delhi, elderly physiotherapy delhi, dementia care kalkaji, neurological physiotherapy delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/dementia",
   },
+  hero: {
+    heading: "Dementia ",
+    subheading: "Structured physiotherapy for dementia patients focused on fall prevention, mobility, and daily function, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book a Home Assessment",
+  },
+  description: "Families dealing with a dementia diagnosis are often focused entirely on memory changes, and understandably so, but Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees a risk that gets overlooked just as often: falls. Dementia affects balance, coordination, and reaction time in ways that raise fall risk significantly, and a single fall can lead to fractures, hospitalisation, and a sharp decline in independence. Physiotherapy for dementia isn't about reversing the condition — it's about protecting safety, maintaining whatever function is possible, and supporting quality of life for as long as possible. What families often find most valuable isn't just the exercises themselves, but the practical, hands-on guidance on how to assist safely with everyday movement, which is genuinely hard to figure out alone. At Advanced Pain Physiotherapy Centre, we work directly with patients and caregivers, usually in the comfort of their own home, to build routines that fit real daily life.",
+  sections: [
+    { title: "Overview", content: "Effects of Dementia on Physical Function:\n\n• Progressive neurological decline\n• Balance and mobility challenges\n• Increased risk of falls\n• Reduced confidence in movement\n\nConditions We Treat:\n\n• Memory impairment affecting daily safety\n• Balance and gait difficulties\n• Difficulty with daily activities" },
+    { title: "Why It Matters", content: "Falls are one of the most serious and preventable risks for people with dementia, and their consequences go well beyond the physical injury itself, often triggering a sharp drop in confidence and independence. Staying physically active has also been associated with better overall wellbeing in people living with dementia.\n\nFor caregivers, having a physiotherapist involved means having someone to turn to for practical, hands-on guidance on safe assistance techniques, something that's difficult to piece together without professional support." },
+    { title: "Who Needs This", content: "• Patients with a dementia diagnosis and noticeable balance or walking difficulty\n• Anyone with a recent fall or near-fall at home\n• Patients with increasing difficulty in daily movements like getting up from a chair\n• People with reduced confidence in walking or moving around independently\n• Families needing caregiver guidance on safe assistance techniques" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Cognitive and memory-linked exercises\n• Balance and coordination training\n• Functional mobility exercises\n• Fall prevention strategies\n• Caregiver guidance" },
+    { title: "Our Process", content: "1. Assessment — Evaluating mobility, balance, strength, and fall risk, often at home\n2. Cognitive and Memory-Linked Exercises — Simple activities combining movement with cognitive engagement\n3. Balance and Coordination Training — Exercises matched to current ability and progressed carefully\n4. Functional Mobility Practice — Focus on real tasks like standing up and walking safely\n5. Fall Prevention Strategies — Assessing the home environment for practical safety adjustments\n6. Caregiver Guidance — Teaching family members safe techniques to assist with daily movement" },
+  ],
+  benefits: ["Improves memory and cognitive function", "Enhances balance and coordination", "Promotes independence", "Reduces risk of falls", "Supports overall brain health"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma prioritises fall prevention as a core part of every dementia care plan",
+    "Home visit assessments in a familiar environment to reduce confusion and anxiety",
+    "Direct caregiver training so safety strategies actually fit into daily life",
+    "Patient, consistent communication suited to the needs of dementia patients",
+    "Functional exercises focused on real daily tasks, not abstract routines",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can physiotherapy improve memory in dementia patients?", answer: "Physiotherapy focuses primarily on physical function, balance, and mobility. Movement-linked cognitive exercises may offer some additional benefit, but physiotherapy works best as part of a broader care plan that includes medical management." },
+    { question: "Is home visit physiotherapy available for dementia patients?", answer: "Yes, home visits are often preferred for dementia patients since a familiar environment reduces confusion and anxiety during sessions." },
+    { question: "How do I know if my loved one needs fall-prevention physiotherapy?", answer: "Signs include unsteady walking, difficulty getting up from a chair, recent falls or near-falls, and reduced confidence in moving around. A physiotherapy assessment can identify specific risk factors." },
+    { question: "Can physiotherapy help in later stages of dementia?", answer: "Yes, though the focus shifts toward maintaining comfort, safety, and whatever functional movement is possible, rather than active strength-building." },
+    { question: "How often should sessions happen?", answer: "This depends on the patient's current mobility and fall risk. A suitable frequency is recommended based on the initial assessment." },
+    { question: "What can family caregivers do between sessions?", answer: "Simple daily activities like short supervised walks, encouraging safe standing, and following the physiotherapist's safety recommendations all support progress between visits." },
+    { question: "Does dementia physiotherapy help with anxiety or agitation during movement?", answer: "A calm, familiar setting and a consistent routine, both part of home visit sessions, often help reduce anxiety around movement, though this is addressed alongside, not instead of, the patient's broader medical care." },
+  ],
+  customTreatmentText: "We offer specialized physiotherapy for Dementia patients.",
+  cta: {
+    heading: "Help your loved one stay safe, mobile, and independent.",
+    subtext: "Book a dementia care assessment with Dr. Ashish Sharma, available for home visits across South Delhi.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma conducting home visit assessment for dementia patient in South Delhi",
+    "Balance training exercise for elderly dementia patient at home in Kalkaji",
+    "Caregiver assisted mobility exercise for dementia fall prevention",
+    "Functional movement training session for dementia care at Advanced Pain Physiotherapy Centre",
+  ],
+},
 
-  // ── 16. PLANTAR FASCIITIS ────────────────────────────────────────────────────
-  {
-    id: 17,
-    title: "Plantar Fasciitis",
-    slug: "plantar-fasciitis",
-    category: "Foot Conditions",
-    image: Plantar,
-    seo: {
-      title: `Plantar Fasciitis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Plantar Fasciitis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat heel pain, morning foot pain, plantar inflammation & flat foot issues. ✅ Shockwave & LASER therapy ✅ ${LOCATION}. Book now!`,
-      keywords: "plantar fasciitis treatment in delhi, heel pain treatment kalkaji, plantar fasciitis physiotherapy south delhi, morning heel pain treatment delhi, plantar fasciitis specialist delhi, shockwave therapy plantar fasciitis delhi, foot pain physiotherapy kalkaji, best plantar fasciitis doctor delhi, heel spur treatment delhi, foot arch pain treatment delhi",
-      canonical: `${BASE_URL}/services/plantar-fasciitis`,
-    },
-    description: "Plantar Fasciitis causes heel pain due to inflammation of the plantar fascia. Physiotherapy focuses on pain relief, stretching, strengthening, and improving foot mechanics.",
-    sections: [
-      { title: "Overview", content: "Causes:\n\n• Overuse and prolonged standing or walking\n• Tight calf muscles or Achilles tendon\n• Flat feet or high arches\n\nConditions We Treat:\n\n• Heel pain, especially in the morning\n• Swelling or tenderness under the foot\n• Pain during walking, running, or standing" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive foot assessment\n• Stretching and strengthening exercises\n• Manual therapy and massage\n• Ultrasound, TENS, and shockwave therapy\n• Advice on footwear and activity modification" },
-    ],
-    benefits: ["Reduces heel pain and inflammation", "Improves foot strength and flexibility", "Supports proper foot mechanics", "Prevents recurrence", "Enhances walking"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide individualized programs for Plantar Fasciitis.",
+// ── 16. PLANTAR FASCIITIS ────────────────────────────────────────────────────
+{
+  id: 17,
+  title: "Plantar Fasciitis",
+  slug: "plantar-fasciitis",
+  category: "Foot Conditions",
+  image: Plantar,
+  seo: {
+    title: "Plantar Fasciitis Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Plantar Fasciitis Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat heel pain, morning foot pain, plantar inflammation & flat foot issues. ✅ Shockwave & LASER therapy ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "plantar fasciitis treatment in delhi, heel pain treatment kalkaji, plantar fasciitis physiotherapy south delhi, morning heel pain treatment delhi, plantar fasciitis specialist delhi, shockwave therapy plantar fasciitis delhi, foot pain physiotherapy kalkaji, best plantar fasciitis doctor delhi, heel spur treatment delhi, foot arch pain treatment delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/plantar-fasciitis",
   },
+  hero: {
+    heading: "Plantar Fasciitis Treatment",
+    subheading: "Physiotherapy for heel pain, morning foot pain, and plantar fascia inflammation, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "That sharp stab of pain with your very first steps in the morning is one of the most recognisable symptoms Dr. Ashish Sharma sees at Advanced Pain Physiotherapy Centre, and also one of the most misunderstood. Plantar fasciitis develops when the thick band of tissue running along the bottom of the foot becomes inflamed or irritated, usually from prolonged standing, walking or running, or tight calf muscles pulling on the fascia. Patients on their feet all day for work often dismiss the early ache, assuming it will settle with rest, but without addressing the underlying tightness and foot mechanics, it tends to worsen gradually until every step becomes uncomfortable. What many people don't realise is that heel pain also quietly changes the way you walk, since most people unconsciously shift their weight to avoid it, which can lead to knee, hip, or lower back discomfort over time. At Advanced Pain Physiotherapy Centre, we assess your specific foot mechanics and calf flexibility first, so treatment targets the actual cause of your heel pain, not just the symptom.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Plantar Fasciitis:\n\n• Overuse and prolonged standing or walking\n• Tight calf muscles or Achilles tendon\n• Flat feet or high arches\n• Unsupportive footwear\n\nConditions We Treat:\n\n• Heel pain, especially in the morning\n• Swelling or tenderness under the foot\n• Pain during walking, running, or standing" },
+    { title: "Why It Matters", content: "Heel pain might seem minor, but it changes how you walk. Many people unconsciously shift their weight to avoid the pain, which can lead to knee, hip, or lower back discomfort over time.\n\nLeft untreated, plantar fasciitis can also become a chronic, harder-to-treat condition instead of resolving with early, focused care. Addressing the tightness and foot mechanics behind it early prevents this from becoming a long-standing problem." },
+    { title: "Who Needs This", content: "• Patients with sharp heel pain during their first steps in the morning\n• People whose pain eases with movement but returns after rest\n• Anyone with swelling or tenderness under the foot\n• Patients whose heel pain is linked to standing, walking, or running for long periods\n• People with flat feet, high arches, or tight calf muscles contributing to foot strain" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive foot assessment\n• Stretching and strengthening exercises\n• Manual therapy and massage\n• Ultrasound, TENS, and shockwave therapy\n• Advice on footwear and activity modification" },
+    { title: "Our Process", content: "1. Assessment — Checking foot arch type, calf flexibility, and walking pattern\n2. Manual Therapy and Massage — Reducing tension in the plantar fascia and surrounding tissue\n3. Stretching Exercises — Targeted stretches for the calf and foot\n4. Strengthening Exercises — Building strength in the small foot muscles that support the arch\n5. Ultrasound, TENS, or Shockwave Therapy — Supporting pain relief and tissue healing in stubborn cases\n6. Footwear and Activity Guidance — Advice on supportive footwear and safe activity modification" },
+  ],
+  benefits: ["Reduces heel pain and inflammation", "Improves foot strength and flexibility", "Supports proper foot mechanics", "Prevents recurrence", "Enhances walking"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma identifies the specific root cause behind your heel pain before starting treatment",
+    "Shockwave therapy available for stubborn, long-standing cases",
+    "Practical footwear and activity guidance suited to your daily routine",
+    "Focus on preventing recurrence, not just short-term pain relief",
+    "Experience treating both active, sports-related cases and prolonged standing-related heel pain",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does plantar fasciitis hurt most in the morning?", answer: "Overnight, the plantar fascia tightens while at rest. The first steps in the morning stretch it suddenly, causing sharp pain that usually eases as you keep moving." },
+    { question: "How long does plantar fasciitis take to heal?", answer: "Mild cases can improve in a few weeks with consistent stretching and treatment. More persistent cases may take a few months, especially if footwear and activity habits aren't adjusted alongside treatment." },
+    { question: "Should I stop exercising if I have plantar fasciitis?", answer: "High-impact activities like running may need to be reduced temporarily, but staying completely inactive isn't usually necessary. Guidance is given on which activities to modify." },
+    { question: "Do I need special shoes or insoles?", answer: "Supportive footwear with good arch support often helps. Dr. Sharma can advise whether custom insoles or orthotics are worth considering based on your specific foot structure." },
+    { question: "What is shockwave therapy, and do I need it?", answer: "Shockwave therapy uses focused sound waves to stimulate healing in stubborn, long-standing cases of plantar fasciitis. It's not needed for every patient — it's recommended only if standard treatment isn't progressing as expected." },
+    { question: "Can plantar fasciitis come back after treatment?", answer: "Yes, if the contributing factors like tight calves or unsupportive footwear aren't addressed. That's why treatment includes education on prevention, not just pain relief." },
+    { question: "Is plantar fasciitis the same as a heel spur?", answer: "Not exactly. A heel spur is a bony growth that can sometimes accompany plantar fasciitis, but the pain usually comes from the inflamed fascia itself, not the spur. Treatment focuses on the fascia regardless of whether a spur is present." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide individualized programs for Plantar Fasciitis.",
+  cta: {
+    heading: "Stop letting heel pain slow down your first steps.",
+    subtext: "Get a detailed foot assessment from Dr. Ashish Sharma and a plan that addresses the real cause of your pain.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing foot mechanics for plantar fasciitis at Advanced Pain Physiotherapy Centre Delhi",
+    "Calf stretching exercise for plantar fasciitis heel pain relief in Kalkaji",
+    "Shockwave therapy session for chronic heel pain in South Delhi",
+    "Foot strengthening exercise for plantar fascia support",
+  ],
+},
 
-  // ── 17. SPINAL STENOSIS ──────────────────────────────────────────────────────
-  {
-    id: 18,
-    title: "Spinal Stenosis",
-    slug: "spinal-stenosis",
-    category: "Spine Conditions",
-    image: Spinal,
-    seo: {
-      title: `Spinal Stenosis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Spinal Stenosis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat narrowing of spinal canal, nerve compression, numbness, back pain & walking difficulty. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "spinal stenosis treatment in delhi, spinal stenosis physiotherapy kalkaji, narrowing spine treatment delhi, spinal canal stenosis specialist south delhi, nerve compression spine treatment delhi, back pain numbness treatment delhi, spinal stenosis rehabilitation delhi, best spinal stenosis doctor delhi, lumbar stenosis treatment kalkaji, cervical stenosis physiotherapy delhi",
-      canonical: `${BASE_URL}/services/spinal-stenosis`,
-    },
-    description: "Spinal Stenosis is a condition where the spaces within the spine narrow, putting pressure on the spinal cord and nerves. Physiotherapy focuses on pain relief, improving mobility, and strengthening supporting muscles.",
-    sections: [
-      { title: "Overview", content: "Causes:\n\n• Age-related degeneration\n• Herniated or bulging discs\n• Thickened ligaments or bone spurs\n\nConditions We Treat:\n\n• Neck or lower back pain\n• Numbness or tingling in arms or legs\n• Weakness in limbs\n• Difficulty walking or standing" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed spinal and posture assessment\n• Pain-relief techniques\n• Gentle spinal mobilization\n• Core and back strengthening\n• Posture correction and ergonomic guidance" },
-    ],
-    benefits: ["Reduces pain and nerve symptoms", "Improves spine mobility", "Enhances walking ability", "Strengthens core muscles", "Maintains independence"],
-    customTreatmentText: "Our centre provides personalized physiotherapy programs for Spinal Stenosis patients.",
+ // ── 17. SPINAL STENOSIS ──────────────────────────────────────────────────────
+{
+  id: 18,
+  title: "Spinal Stenosis",
+  slug: "spinal-stenosis",
+  category: "Spine Conditions",
+  image: Spinal,
+  seo: {
+    title: "Spinal Stenosis Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Spinal Stenosis Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat narrowing of spinal canal, nerve compression, numbness, back pain & walking difficulty. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "spinal stenosis treatment in delhi, spinal stenosis physiotherapy kalkaji, narrowing spine treatment delhi, spinal canal stenosis specialist south delhi, nerve compression spine treatment delhi, back pain numbness treatment delhi, spinal stenosis rehabilitation delhi, best spinal stenosis doctor delhi, lumbar stenosis treatment kalkaji, cervical stenosis physiotherapy delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/spinal-stenosis",
   },
+  hero: {
+    heading: "Spinal Stenosis Treatment ",
+    subheading: "Physiotherapy for nerve compression, numbness, and walking difficulty caused by a narrowing spinal canal, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Spinal stenosis is a condition Dr. Ashish Sharma sees most often in patients who describe the same frustrating pattern: they can walk for a few minutes, then need to stop and bend forward or sit down before the numbness and heaviness in their legs eases enough to continue. This narrowing of the spaces within the spine puts pressure on the spinal cord and nerves, and it commonly develops from age-related degeneration, herniated discs, or thickened ligaments and bone spurs that gradually crowd the nerve pathways. What many patients don't realise is that the specific pattern of relief on bending forward, and worsening on standing or walking upright, is actually a useful diagnostic clue, since it points clearly to the space around the nerves rather than a purely muscular issue. At Advanced Pain Physiotherapy Centre, we build a programme around this pattern, focusing on postures and movements that create more space for the nerves, alongside core strengthening that supports the spine and helps you walk longer distances with less discomfort.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Spinal Stenosis:\n\n• Age-related degeneration\n• Herniated or bulging discs\n• Thickened ligaments or bone spurs\n\nConditions We Treat:\n\n• Neck or lower back pain\n• Numbness or tingling in arms or legs\n• Weakness in limbs\n• Difficulty walking or standing" },
+    { title: "Why It Matters", content: "Spinal stenosis often gets dismissed as general age-related back pain, but the walking difficulty it causes has a real impact on daily independence, especially in older adults. Left unmanaged, patients often reduce their activity to avoid the discomfort, which weakens the muscles supporting the spine further.\n\nThat reduced activity can also affect general fitness, balance, and confidence over time. A physiotherapy plan focused on postures that relieve nerve pressure, alongside targeted strengthening, helps patients stay active and mobile for longer." },
+    { title: "Who Needs This", content: "• Patients with neck or lower back pain linked to nerve compression\n• People with numbness or tingling in the arms or legs\n• Anyone with walking difficulty that improves on bending forward or sitting\n• Patients with weakness in the limbs affecting daily activity\n• People diagnosed with spinal stenosis wanting a non-surgical management plan" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed spinal and posture assessment\n• Pain-relief techniques\n• Gentle spinal mobilisation\n• Core and back strengthening\n• Posture correction and ergonomic guidance" },
+    { title: "Our Process", content: "1. Assessment — Evaluating spinal posture, nerve symptoms, and walking tolerance\n2. Pain Relief Phase — Techniques to ease nerve irritation and discomfort\n3. Postural Retraining — Guidance on positions that relieve pressure on the nerves\n4. Gentle Mobilisation — Restoring safe spinal movement without aggravating symptoms\n5. Core and Back Strengthening — Building support for the spine to reduce strain\n6. Walking Tolerance Training — Gradually building distance and endurance" },
+  ],
+  benefits: ["Reduces pain and nerve symptoms", "Improves spine mobility", "Enhances walking ability", "Strengthens core muscles", "Maintains independence"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma identifies the specific nerve-related pattern behind your symptoms before designing treatment",
+    "Programmes focused on improving walking tolerance and daily independence, not just pain relief",
+    "Experience working with older adults managing age-related spinal changes",
+    "Core strengthening tailored to protect the spine during daily activities",
+    "Home visit availability for patients with limited walking ability",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Is spinal stenosis the same as a slipped disc?", answer: "Not exactly. Spinal stenosis is a narrowing of the space around the spinal cord and nerves, which can be caused by a disc issue but also by bone spurs or thickened ligaments. Treatment focuses on relieving the nerve pressure specific to your case." },
+    { question: "Can physiotherapy help avoid surgery?", answer: "For many patients, physiotherapy focused on posture, nerve-relieving positions, and core strengthening reduces symptoms enough to avoid or delay surgery. Severity varies, so this is assessed on a case-by-case basis." },
+    { question: "Why does bending forward relieve my symptoms?", answer: "Bending forward opens up more space within the spinal canal, which reduces pressure on the compressed nerves. This is a common and recognisable pattern in spinal stenosis." },
+    { question: "How far should I be able to walk after treatment?", answer: "This depends on the severity of your stenosis and your starting point. Walking tolerance is tracked and built up gradually as part of your treatment plan." },
+    { question: "Is spinal stenosis only seen in older adults?", answer: "It's most common with age-related degeneration, but younger patients with congenital spinal narrowing or disc issues can also develop symptoms." },
+    { question: "Can exercise make spinal stenosis worse?", answer: "Correctly prescribed exercises are designed to relieve symptoms, not worsen them. Movements that involve prolonged backward bending or extension are generally avoided unless specifically guided." },
+    { question: "Will I need imaging like an MRI before starting physiotherapy?", answer: "If you already have a diagnosis from imaging, that helps guide treatment. If not, a physical assessment can still identify a likely nerve compression pattern to begin appropriate treatment." },
+  ],
+  customTreatmentText: "Our centre provides personalized physiotherapy programs for Spinal Stenosis patients.",
+  cta: {
+    heading: "Don't let numbness or heaviness shorten your walks.",
+    subtext: "Get a thorough spinal assessment from Dr. Ashish Sharma and a plan to help you walk further with less discomfort.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing spinal stenosis patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Postural retraining exercise for nerve compression relief in Kalkaji",
+    "Core strengthening session for spinal stenosis management in South Delhi",
+    "Walking tolerance training for patient with spinal stenosis",
+  ],
+},
 
-  // ── 18. RHEUMATOID ARTHRITIS ─────────────────────────────────────────────────
-  {
-    id: 19,
-    title: "Rheumatoid Arthritis",
-    slug: "rheumatoid-arthritis",
-    category: "Joint Conditions",
-    image: Rheumatoid,
-    seo: {
-      title: `Rheumatoid Arthritis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Rheumatoid Arthritis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We reduce joint pain, stiffness, swelling & improve mobility for RA patients. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "rheumatoid arthritis treatment in delhi, RA physiotherapy kalkaji, rheumatoid arthritis specialist south delhi, joint pain stiffness treatment delhi, rheumatoid arthritis rehabilitation delhi, best RA physiotherapist delhi, joint inflammation treatment delhi, autoimmune arthritis physiotherapy delhi, RA treatment kalkaji, morning stiffness treatment delhi",
-      canonical: `${BASE_URL}/services/rheumatoid-arthritis`,
-    },
-    description: "Rheumatoid Arthritis is a chronic autoimmune condition that causes inflammation, pain, stiffness, and swelling in multiple joints. Physiotherapy plays a vital role in controlling pain, maintaining joint mobility, and preventing deformities.",
-    sections: [
-      { title: "Overview", content: "Features:\n\n• Chronic joint inflammation and swelling\n• Morning stiffness lasting more than one hour\n• Symmetrical joint involvement\n• Fatigue and reduced endurance\n\nConditions We Treat:\n\n• Pain in hands, wrists, knees, and feet\n• Reduced joint mobility\n• Muscle weakness" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Joint assessment and functional evaluation\n• Gentle range-of-motion exercises\n• Strengthening exercises\n• Pain management using heat, cold, and electrotherapy\n• Joint protection techniques" },
-    ],
-    benefits: ["Reduces joint pain and stiffness", "Maintains joint mobility", "Strengthens muscles", "Prevents deformities", "Improves quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we design individualized plans for Rheumatoid Arthritis patients.",
+// ── 18. RHEUMATOID ARTHRITIS ─────────────────────────────────────────────────
+{
+  id: 19,
+  title: "Rheumatoid Arthritis",
+  slug: "rheumatoid-arthritis",
+  category: "Joint Conditions",
+  image: Rheumatoid,
+  seo: {
+    title: "Rheumatoid Arthritis Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Rheumatoid Arthritis Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We reduce joint pain, stiffness, swelling & improve mobility for RA patients. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "rheumatoid arthritis treatment in delhi, RA physiotherapy kalkaji, rheumatoid arthritis specialist south delhi, joint pain stiffness treatment delhi, rheumatoid arthritis rehabilitation delhi, best RA physiotherapist delhi, joint inflammation treatment delhi, autoimmune arthritis physiotherapy delhi, RA treatment kalkaji, morning stiffness treatment delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/rheumatoid-arthritis",
   },
+  hero: {
+    heading: "Rheumatoid Arthritis ",
+    subheading: "Physiotherapy for joint inflammation, stiffness, and reduced mobility caused by rheumatoid arthritis, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Rheumatoid arthritis is a chronic autoimmune condition, and Dr. Ashish Sharma works with patients at very different stages of it — some newly diagnosed and anxious about what their joints will feel like years from now, others managing long-standing joint changes and looking to preserve the function they still have. The condition causes inflammation, pain, stiffness, and swelling across multiple joints, often symmetrically on both sides of the body, with morning stiffness lasting well over an hour being one of its most recognisable features. What many patients don't realise is that avoiding movement out of fear of pain often does more harm than good, since joints that aren't moved regularly tend to stiffen further and lose function faster. At Advanced Pain Physiotherapy Centre, physiotherapy works alongside your rheumatologist's medical management, focusing on gentle, joint-safe movement, targeted strengthening, and practical joint protection techniques that help you stay independent in daily tasks.",
+  sections: [
+    { title: "Overview", content: "Features of Rheumatoid Arthritis:\n\n• Chronic joint inflammation and swelling\n• Morning stiffness lasting more than one hour\n• Symmetrical joint involvement\n• Fatigue and reduced endurance\n\nConditions We Treat:\n\n• Pain in hands, wrists, knees, and feet\n• Reduced joint mobility\n• Muscle weakness" },
+    { title: "Why It Matters", content: "Rheumatoid arthritis is a progressive condition, and without a proper movement plan, joints can stiffen and weaken faster than necessary. Many patients avoid movement out of fear of pain, which paradoxically speeds up the loss of joint function.\n\nManaging RA well isn't only about medication — physiotherapy plays a real role in preserving joint mobility, protecting joints from unnecessary strain, and maintaining the muscle strength that supports them, which together help slow functional decline." },
+    { title: "Who Needs This", content: "• Patients with pain, stiffness, or swelling in the hands, wrists, knees, or feet\n• Anyone with morning stiffness lasting more than an hour\n• People with reduced joint mobility affecting daily tasks\n• Patients experiencing muscle weakness alongside joint symptoms\n• Newly diagnosed patients wanting guidance on safe, joint-friendly movement" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Joint assessment and functional evaluation\n• Gentle range-of-motion exercises\n• Strengthening exercises\n• Pain management using heat, cold, and electrotherapy\n• Joint protection techniques" },
+    { title: "Our Process", content: "1. Assessment — Evaluating affected joints, stiffness pattern, and functional limitations\n2. Pain and Inflammation Management — Heat, cold, and electrotherapy for symptom relief\n3. Gentle Range-of-Motion Work — Keeping joints mobile without overloading them\n4. Targeted Strengthening — Building muscle support around affected joints\n5. Joint Protection Education — Practical techniques to reduce strain during daily tasks\n6. Ongoing Function Monitoring — Adjusting the plan as your condition and needs change" },
+  ],
+  benefits: ["Reduces joint pain and stiffness", "Maintains joint mobility", "Strengthens muscles", "Prevents deformities", "Improves quality of life"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma designs joint-safe exercise plans that work alongside your rheumatologist's treatment",
+    "Focus on preserving long-term joint function, not just short-term pain relief",
+    "Practical joint protection techniques for daily tasks like cooking, writing, and dressing",
+    "Gentle, progressive approach suited to fluctuating symptoms and flare-ups",
+    "Home visit availability for patients with significant mobility limitations",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can physiotherapy help during an RA flare-up?", answer: "Yes, though the approach is gentler during flare-ups, focusing more on pain relief and protecting the joints rather than active strengthening. Your plan is adjusted based on how active your symptoms are." },
+    { question: "Will exercise make my joints worse?", answer: "Correctly prescribed, joint-safe exercise helps maintain mobility and doesn't worsen RA. Avoiding movement altogether tends to cause faster stiffness and muscle weakness." },
+    { question: "Is rheumatoid arthritis the same as osteoarthritis?", answer: "No. Rheumatoid arthritis is an autoimmune condition causing inflammation across multiple joints, often symmetrically, while osteoarthritis is a wear-and-tear condition usually affecting specific joints. The treatment approach differs accordingly." },
+    { question: "Can physiotherapy prevent joint deformities?", answer: "Physiotherapy combined with joint protection techniques and appropriate medical management can help slow the progression of joint changes, though it can't guarantee prevention in every case." },
+    { question: "How often should I do my exercises?", answer: "This depends on your specific joints and current symptom level. A realistic, sustainable routine is built around your daily life rather than an intense fixed schedule." },
+    { question: "Do I need to stop physiotherapy if I start new RA medication?", answer: "Not usually. Physiotherapy and medical management work well together, and Dr. Sharma will coordinate your exercise plan with any changes in your treatment as needed." },
+    { question: "Can physiotherapy help with the fatigue that comes with RA?", answer: "Gentle aerobic activity and pacing strategies, both part of physiotherapy, can help manage fatigue over time, though this is addressed alongside your overall medical care." },
+  ],
+  customTreatmentText: "At Advanced Pain Physiotherapy Centre, we design individualized plans for Rheumatoid Arthritis patients.",
+  cta: {
+    heading: "Protect your joint function, one guided session at a time.",
+    subtext: "Book a joint assessment with Dr. Ashish Sharma and get a physiotherapy plan that works alongside your RA treatment.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing joint mobility for rheumatoid arthritis patient in Delhi",
+    "Gentle range-of-motion exercise for RA hand stiffness in Kalkaji",
+    "Joint protection technique demonstration for arthritis patient in South Delhi",
+    "Strengthening exercise for rheumatoid arthritis management at Advanced Pain Physiotherapy Centre",
+  ],
+},
 
-  // ── 19. DEGENERATIVE DISC DISEASE ───────────────────────────────────────────
-  {
-    id: 20,
-    title: "Degenerative Disc Disease",
-    slug: "degenerative-disc-disease",
-    category: "Spine Conditions",
-    image: Degenerative,
-    seo: {
-      title: `Degenerative Disc Disease Treatment in Delhi | ${BRAND}`,
-      description: `Expert Degenerative Disc Disease Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat disc degeneration, chronic back pain, spinal stiffness & mobility issues. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "degenerative disc disease treatment delhi, disc degeneration physiotherapy kalkaji, spinal disc treatment south delhi, chronic back pain disc treatment delhi, degenerative disc specialist delhi, disc degeneration rehabilitation delhi, best disc disease doctor delhi, spinal disc physiotherapy kalkaji, lumbar disc degeneration treatment delhi, cervical disc degeneration treatment delhi",
-      canonical: `${BASE_URL}/services/degenerative-disc-disease`,
-    },
-    description: "Degenerative Disc Disease occurs when spinal discs lose hydration and flexibility over time, leading to pain, stiffness, and reduced spinal mobility.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Age-related disc degeneration\n• Poor posture and prolonged sitting\n• Repetitive strain\n• Previous spine injuries\n\nConditions We Treat:\n\n• Chronic neck or back pain\n• Disc-related stiffness\n• Reduced spinal flexibility" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed spine and posture assessment\n• Core and spinal strengthening\n• Flexibility and mobility training\n• Pain-relief modalities\n• Ergonomic guidance" },
-    ],
-    benefits: ["Reduces chronic spine pain", "Improves posture and mobility", "Strengthens spinal support muscles", "Prevents further degeneration", "Enhances daily comfort"],
-    customTreatmentText: "Our personalized programs help manage Degenerative Disc Disease effectively.",
+// ── 19. DEGENERATIVE DISC DISEASE ───────────────────────────────────────────
+{
+  id: 20,
+  title: "Degenerative Disc Disease",
+  slug: "degenerative-disc-disease",
+  category: "Spine Conditions",
+  image: Degenerative,
+  seo: {
+    title: "Degenerative Disc Disease Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Degenerative Disc Disease Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat disc degeneration, chronic back pain, spinal stiffness & mobility issues. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "degenerative disc disease treatment delhi, disc degeneration physiotherapy kalkaji, spinal disc treatment south delhi, chronic back pain disc treatment delhi, degenerative disc specialist delhi, disc degeneration rehabilitation delhi, best disc disease doctor delhi, spinal disc physiotherapy kalkaji, lumbar disc degeneration treatment delhi, cervical disc degeneration treatment delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/degenerative-disc-disease",
   },
+  hero: {
+    heading: "Degenerative Disc Disease Treatment ",
+    subheading: "Physiotherapy for disc degeneration, chronic neck and back pain, and reduced spinal flexibility, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "The term 'degenerative disc disease' sounds alarming, but Dr. Ashish Sharma reassures most patients that it describes a very common, age-related process rather than a rare or unusual disease. Spinal discs naturally lose hydration and flexibility over time, and this can lead to chronic neck or back pain, stiffness, and reduced spinal mobility, especially in people with a history of poor posture, prolonged sitting, repetitive strain, or previous spine injuries. What many patients don't realise is that disc changes visible on an MRI don't always match the level of pain someone feels — many people with significant disc degeneration on imaging have relatively mild symptoms, and vice versa, which is why treatment is based on your actual movement and pain pattern, not just a scan report. At Advanced Pain Physiotherapy Centre, we focus on building spinal strength and flexibility around the affected discs, so you can manage daily activities with far less discomfort.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Degenerative Disc Disease:\n\n• Age-related disc degeneration\n• Poor posture and prolonged sitting\n• Repetitive strain\n• Previous spine injuries\n\nConditions We Treat:\n\n• Chronic neck or back pain\n• Disc-related stiffness\n• Reduced spinal flexibility" },
+    { title: "Why It Matters", content: "Because disc degeneration is a gradual process, many people live with low-grade chronic pain for years, adjusting their activities without realising a structured physiotherapy programme could meaningfully improve their comfort and function.\n\nWithout proper core and spinal support, degenerated discs bear more load during everyday movements, which can accelerate discomfort. Building the right muscular support around the spine takes pressure off the affected discs and helps prevent symptoms from progressing." },
+    { title: "Who Needs This", content: "• Patients with chronic neck or back pain linked to disc changes\n• People with stiffness that limits spinal flexibility\n• Anyone with a desk job or long-standing poor posture\n• Patients with previous spine injuries and ongoing discomfort\n• People wanting a non-surgical, exercise-based management approach" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed spine and posture assessment\n• Core and spinal strengthening\n• Flexibility and mobility training\n• Pain-relief modalities\n• Ergonomic guidance" },
+    { title: "Our Process", content: "1. Assessment — Evaluating spinal posture, movement pattern, and pain triggers\n2. Pain Relief Phase — Modalities to ease chronic discomfort\n3. Flexibility and Mobility Training — Restoring safe, comfortable spinal movement\n4. Core and Spinal Strengthening — Building support to reduce load on the discs\n5. Ergonomic Guidance — Adjusting workstation and daily habits that strain the spine\n6. Long-Term Maintenance Plan — A sustainable routine to manage symptoms over time" },
+  ],
+  benefits: ["Reduces chronic spine pain", "Improves posture and mobility", "Strengthens spinal support muscles", "Prevents further degeneration", "Enhances daily comfort"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma treats based on your actual pain and movement pattern, not just imaging reports",
+    "Focus on building spinal support to reduce load on degenerated discs",
+    "Practical ergonomic guidance for desk-based and physically active lifestyles",
+    "Long-term management approach suited to a chronic, progressive condition",
+    "Experience with both cervical and lumbar disc degeneration",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Does degenerative disc disease mean my discs are wearing out completely?", answer: "It describes a natural, age-related loss of disc hydration and flexibility, not a disease in the traditional sense. Many people have disc degeneration on imaging with minimal or no symptoms." },
+    { question: "Can physiotherapy reverse disc degeneration?", answer: "Physiotherapy can't reverse the natural ageing process of the discs, but it can significantly reduce pain, improve function, and slow how much the degeneration affects your daily life." },
+    { question: "Is bed rest good for degenerative disc disease?", answer: "Prolonged bed rest generally isn't recommended, since it weakens the muscles that support the spine. Guided, appropriate movement is usually more effective for long-term management." },
+    { question: "Why doesn't my MRI match how much pain I feel?", answer: "This is common. Disc changes on imaging don't always correlate directly with pain levels, which is why treatment is based on your functional assessment, not just the scan." },
+    { question: "Will I need surgery for degenerative disc disease?", answer: "Most cases are managed successfully with physiotherapy and lifestyle adjustments. Surgery is typically considered only when conservative treatment fails to control symptoms or there's significant nerve involvement." },
+    { question: "How long will I need physiotherapy for this condition?", answer: "Since it's a chronic, progressive condition, many patients benefit from an initial structured programme followed by a long-term maintenance routine to manage symptoms." },
+    { question: "Can poor posture at a desk job worsen disc degeneration?", answer: "Prolonged poor posture increases strain on the spine and can worsen symptoms over time, which is why ergonomic guidance is an important part of the treatment plan." },
+  ],
+  customTreatmentText: "Our personalized programs help manage Degenerative Disc Disease effectively.",
+  cta: {
+    heading: "Manage chronic back pain with a plan, not just painkillers.",
+    subtext: "Book a spinal assessment with Dr. Ashish Sharma and build long-term strength and comfort into your spine.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing spine for degenerative disc disease at Advanced Pain Physiotherapy Centre Delhi",
+    "Core strengthening exercise for disc degeneration support in Kalkaji",
+    "Spinal flexibility training for chronic back pain in South Delhi",
+    "Ergonomic posture correction session for degenerative disc disease patient",
+  ],
+},
 
-  // ── 20. DISTAL MUSCULAR DYSTROPHY ────────────────────────────────────────────
-  {
-    id: 21,
-    title: "Distal Muscular Dystrophy",
-    slug: "distal-muscular-dystrophy",
-    category: "Neurological Conditions",
-    image: Distal,
-    seo: {
-      title: `Distal Muscular Dystrophy Treatment in Delhi | ${BRAND}`,
-      description: `Specialized Distal Muscular Dystrophy Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We maintain mobility, muscle function & independence for muscular dystrophy patients. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
-      keywords: "distal muscular dystrophy treatment delhi, muscular dystrophy physiotherapy kalkaji, muscle weakness rehabilitation delhi, muscular dystrophy specialist south delhi, progressive muscle weakness treatment delhi, dystrophy physiotherapy delhi, best muscular dystrophy physiotherapist delhi, neuromuscular disease treatment delhi, muscle wasting rehabilitation kalkaji, dystrophy gait training delhi",
-      canonical: `${BASE_URL}/services/distal-muscular-dystrophy`,
-    },
-    description: "Distal Muscular Dystrophy is a rare genetic condition characterized by progressive muscle weakness affecting hands, feet, and lower limbs. Physiotherapy plays a crucial role in maintaining mobility and independence.",
-    sections: [
-      { title: "Overview", content: "Key Features:\n\n• Progressive muscle weakness\n• Difficulty in walking or hand movements\n• Muscle wasting in distal limbs\n\nConditions We Treat:\n\n• Reduced muscle strength\n• Balance and gait issues\n• Functional limitations" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Muscle strengthening and endurance exercises\n• Stretching to prevent contractures\n• Balance and gait training\n• Functional mobility exercises" },
-    ],
-    benefits: ["Maintains muscle function", "Improves balance and mobility", "Prevents stiffness", "Enhances independence", "Improves quality of life"],
-    customTreatmentText: "We provide long-term physiotherapy support for Distal Muscular Dystrophy patients.",
+// ── 20. DISTAL MUSCULAR DYSTROPHY ────────────────────────────────────────────
+{
+  id: 21,
+  title: "Distal Muscular Dystrophy",
+  slug: "distal-muscular-dystrophy",
+  category: "Neurological Conditions",
+  image: Distal,
+  seo: {
+    title: "Distal Muscular Dystrophy Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Specialized Distal Muscular Dystrophy Physiotherapy in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We maintain mobility, muscle function & independence for muscular dystrophy patients. ✅ Expert neuro physio ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "distal muscular dystrophy treatment delhi, muscular dystrophy physiotherapy kalkaji, muscle weakness rehabilitation delhi, muscular dystrophy specialist south delhi, progressive muscle weakness treatment delhi, dystrophy physiotherapy delhi, best muscular dystrophy physiotherapist delhi, neuromuscular disease treatment delhi, muscle wasting rehabilitation kalkaji, dystrophy gait training delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/distal-muscular-dystrophy",
   },
+  hero: {
+    heading: "Distal Muscular Dystrophy ",
+    subheading: "Neuro physiotherapy for progressive muscle weakness affecting the hands, feet, and lower limbs, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Distal Muscular Dystrophy is a rare genetic condition, and Dr. Ashish Sharma understands that a diagnosis like this brings a lot of uncertainty about what the future holds. This condition causes progressive muscle weakness, typically affecting the hands, feet, and lower limbs first, which can gradually make everyday tasks like gripping objects, buttoning clothes, or walking more difficult. Because it's a progressive condition, physiotherapy isn't about reversing the muscle changes — it's about maintaining as much strength, function, and independence as possible for as long as possible, and adapting the approach as the condition changes over time. What many families find most valuable is a physiotherapist who tracks these changes closely and adjusts the plan accordingly, rather than following a fixed routine that doesn't account for progression. At Advanced Pain Physiotherapy Centre, we focus on functional exercises that translate directly into daily tasks, alongside stretching to prevent the joint stiffness that often accompanies muscle weakness.",
+  sections: [
+    { title: "Overview", content: "Key Features of Distal Muscular Dystrophy:\n\n• Progressive muscle weakness\n• Difficulty in walking or hand movements\n• Muscle wasting in distal limbs\n\nConditions We Treat:\n\n• Reduced muscle strength\n• Balance and gait issues\n• Functional limitations" },
+    { title: "Why It Matters", content: "Because this condition progresses over time, early and consistent physiotherapy plays an important role in maintaining function for as long as possible. Without it, muscle weakness combined with inactivity can lead to faster loss of strength and increased stiffness.\n\nFor patients and families, physiotherapy also provides practical strategies for adapting daily tasks as strength changes, which helps preserve independence and quality of life even as the condition progresses." },
+    { title: "Who Needs This", content: "• Patients diagnosed with Distal Muscular Dystrophy at any stage\n• People with progressive weakness in the hands or feet\n• Anyone with balance or gait difficulties linked to muscle weakness\n• Patients experiencing functional limitations in daily tasks\n• Families needing guidance on adapting routines as strength changes" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Muscle strengthening and endurance exercises\n• Stretching to prevent contractures\n• Balance and gait training\n• Functional mobility exercises" },
+    { title: "Our Process", content: "1. Assessment — Evaluating current muscle strength, balance, and functional ability\n2. Strengthening and Endurance Work — Exercises matched to current muscle capacity\n3. Stretching Programme — Preventing joint stiffness and contractures\n4. Balance and Gait Training — Supporting safe, steady movement\n5. Functional Mobility Practice — Translating exercises into real daily tasks\n6. Ongoing Reassessment — Adjusting the plan as the condition progresses" },
+  ],
+  benefits: ["Maintains muscle function", "Improves balance and mobility", "Prevents stiffness", "Enhances independence", "Improves quality of life"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma adapts treatment continuously as the condition progresses, rather than using a fixed plan",
+    "Functional exercises focused on real daily tasks like gripping, walking, and dressing",
+    "Experience with progressive neuromuscular conditions and long-term care planning",
+    "Practical strategies for families to adapt routines as strength changes",
+    "Home visit availability for patients with reduced mobility",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can physiotherapy stop the progression of muscular dystrophy?", answer: "Physiotherapy can't stop the underlying genetic progression, but it plays an important role in maintaining strength, function, and independence for as long as possible." },
+    { question: "Will exercise make the muscle weakness worse?", answer: "Appropriately prescribed exercise, matched to your current muscle strength, is generally beneficial. Overexertion is avoided, and the plan is adjusted regularly based on your response." },
+    { question: "How often should physiotherapy sessions happen?", answer: "This depends on the stage of the condition and current functional needs. A suitable frequency is recommended after the initial assessment and reviewed over time." },
+    { question: "Can physiotherapy help with hand weakness specifically?", answer: "Yes. Targeted exercises and functional strategies can help maintain hand strength and grip for as long as possible, along with guidance on adapting daily tasks as needed." },
+    { question: "Is stretching really necessary if I'm not stiff yet?", answer: "Yes. Preventive stretching helps reduce the risk of contractures developing over time, which is easier to prevent early than to manage once stiffness sets in." },
+    { question: "Does physiotherapy help with balance and fall prevention?", answer: "Yes, balance and gait training are a core part of the treatment plan, aimed at helping you move safely and reduce fall risk as muscle strength changes." },
+    { question: "Can family caregivers be involved in the physiotherapy plan?", answer: "Yes, and it's encouraged. Caregivers are given practical guidance on supporting exercises and daily tasks safely at home." },
+  ],
+  customTreatmentText: "We provide long-term physiotherapy support for Distal Muscular Dystrophy patients.",
+  cta: {
+    heading: "Preserve strength and independence, one step at a time.",
+    subtext: "Book an assessment with Dr. Ashish Sharma for a physiotherapy plan that adapts with you.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing muscle strength for distal muscular dystrophy patient in Delhi",
+    "Functional hand strengthening exercise for muscular dystrophy in Kalkaji",
+    "Balance and gait training session for neuromuscular condition in South Delhi",
+    "Stretching exercise to prevent contractures in muscular dystrophy patient",
+  ],
+},
 
-  // ── 21. HAMSTRING STRAIN ─────────────────────────────────────────────────────
-  {
-    id: 22,
-    title: "Hamstring Strain",
-    slug: "hamstring-strain",
-    category: "Sports Injury",
-    image: Hamstring,
-    seo: {
-      title: `Hamstring Strain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Hamstring Strain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat hamstring tears, thigh muscle pain, sports injuries & prevent re-injury. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "hamstring strain treatment in delhi, hamstring injury physiotherapy kalkaji, thigh muscle pain treatment delhi, hamstring tear rehabilitation south delhi, sports injury hamstring delhi, hamstring specialist delhi, hamstring strain recovery delhi, best hamstring physiotherapist delhi, thigh pain treatment kalkaji, hamstring sports injury delhi",
-      canonical: `${BASE_URL}/services/hamstring-strain`,
-    },
-    description: "Hamstring strain is a common sports injury caused by overstretching or tearing of the hamstring muscles. Physiotherapy ensures safe healing, restores strength, and prevents re-injury.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Sudden sprinting or jumping\n• Muscle imbalance or tightness\n• Poor warm-up\n\nConditions We Treat:\n\n• Acute and chronic hamstring pain\n• Muscle tightness\n• Reduced leg strength" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Pain and swelling management\n• Gentle stretching and flexibility exercises\n• Progressive strengthening program\n• Sports-specific rehabilitation\n• Injury prevention education" },
-    ],
-    benefits: ["Speeds up recovery", "Restores muscle strength", "Improves flexibility", "Prevents recurrence", "Supports safe return to sports"],
-    customTreatmentText: "Our structured rehabilitation helps hamstring strain patients recover safely.",
+// ── 21. HAMSTRING STRAIN ─────────────────────────────────────────────────────
+{
+  id: 22,
+  title: "Hamstring Strain",
+  slug: "hamstring-strain",
+  category: "Sports Injury",
+  image: Hamstring,
+  seo: {
+    title: "Hamstring Strain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Hamstring Strain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat hamstring tears, thigh muscle pain, sports injuries & prevent re-injury. ✅ Sports physiotherapy ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "hamstring strain treatment in delhi, hamstring injury physiotherapy kalkaji, thigh muscle pain treatment delhi, hamstring tear rehabilitation south delhi, sports injury hamstring delhi, hamstring specialist delhi, hamstring strain recovery delhi, best hamstring physiotherapist delhi, thigh pain treatment kalkaji, hamstring sports injury delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/hamstring-strain",
   },
+  hero: {
+    heading: "Hamstring Strain ",
+    subheading: "Sports physiotherapy for hamstring tears, thigh muscle pain, and re-injury prevention, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Hamstring strains are one of the most common sports injuries Dr. Ashish Sharma treats, and also one of the most frequently re-injured, usually because athletes return to sport before the muscle has actually regained full strength and flexibility. This injury typically happens during sudden sprinting or jumping, and is more likely when there's muscle imbalance, tightness, or an inadequate warm-up beforehand. What many athletes don't realise is that the pain settling down doesn't mean the muscle has regained the strength needed to handle sprinting or sudden direction changes, which is exactly why hamstring re-injury rates are so high when people rush back too soon. At Advanced Pain Physiotherapy Centre, our approach follows a clear, progressive path — from calming the initial injury, through flexibility and strength work, to sport-specific drills that test the hamstring under the same demands it will face on the field, before clearing you to return.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Hamstring Strain:\n\n• Sudden sprinting or jumping\n• Muscle imbalance or tightness\n• Poor warm-up\n\nConditions We Treat:\n\n• Acute and chronic hamstring pain\n• Muscle tightness\n• Reduced leg strength" },
+    { title: "Why It Matters", content: "Hamstring strains have one of the highest re-injury rates in sports medicine, largely because athletes return to activity once the pain eases, without confirming the muscle has regained full strength and flexibility.\n\nA re-torn hamstring is often more severe and takes longer to heal than the original injury, which is why a structured, progressive rehabilitation programme, rather than a rushed return, makes such a difference to long-term outcomes." },
+    { title: "Who Needs This", content: "• Athletes and sports players with a recent hamstring strain or tear\n• People with recurring hamstring tightness or pain\n• Anyone recovering from a hamstring injury and planning a return to sport\n• Patients with reduced leg strength or flexibility after injury\n• Sports players wanting a structured injury-prevention programme" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Pain and swelling management\n• Gentle stretching and flexibility exercises\n• Progressive strengthening program\n• Sports-specific rehabilitation\n• Injury prevention education" },
+    { title: "Our Process", content: "1. Assessment — Evaluating the grade and location of the strain\n2. Pain and Swelling Management — Early-stage care to calm the injured muscle\n3. Flexibility Restoration — Gentle stretching to regain full range of motion\n4. Progressive Strengthening — Rebuilding strength in stages, from light to sport-specific loads\n5. Sport-Specific Rehabilitation — Drills that test the hamstring under real sporting demands\n6. Return-to-Sport Clearance — Structured criteria to confirm readiness before full return" },
+  ],
+  benefits: ["Speeds up recovery", "Restores muscle strength", "Improves flexibility", "Prevents recurrence", "Supports safe return to sports"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma follows a structured, criteria-based return-to-sport process to reduce re-injury risk",
+    "Sport-specific rehabilitation drills tailored to your particular sport's demands",
+    "Focus on both flexibility and strength, the two factors most linked to hamstring re-injury",
+    "Experience treating athletes across different levels and sports",
+    "Injury prevention education to reduce risk of future strains",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "How long does a hamstring strain take to heal?", answer: "This depends on the grade of the strain. Mild strains may recover in 1 to 2 weeks, while more significant tears can take 6 to 8 weeks or longer for full, safe recovery." },
+    { question: "Can I return to sport once the pain is gone?", answer: "Pain relief alone doesn't confirm the muscle has regained full strength and flexibility. A structured return-to-sport assessment is recommended to reduce the risk of re-injury." },
+    { question: "Why do hamstring strains keep coming back?", answer: "Recurrence usually happens when athletes return to sport before regaining full strength and flexibility, or when the underlying muscle imbalance that contributed to the original injury isn't addressed." },
+    { question: "Should I stretch a hamstring strain right after injury?", answer: "Aggressive stretching immediately after injury isn't recommended. Gentle, guided flexibility work is introduced at the right stage of healing to avoid aggravating the injury." },
+    { question: "Is heat or ice better for a hamstring strain?", answer: "Ice is generally used in the initial days to manage swelling, while heat may be introduced later in recovery. Specific guidance depends on the stage and severity of your injury." },
+    { question: "Can hamstring strains be prevented?", answer: "Yes, to a good extent. Proper warm-up, addressing muscle imbalances, and maintaining flexibility and strength all significantly reduce the risk of hamstring strains." },
+    { question: "What sports have the highest risk of hamstring strain?", answer: "Sports involving sprinting, sudden acceleration, or rapid direction changes, such as football, athletics, and badminton, carry a higher risk of hamstring strains." },
+  ],
+  customTreatmentText: "Our structured rehabilitation helps hamstring strain patients recover safely.",
+  cta: {
+    heading: "Don't rush your return and risk a worse re-injury.",
+    subtext: "Get a proper hamstring assessment from Dr. Ashish Sharma and a structured plan to return to sport safely.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing hamstring strain injury at Advanced Pain Physiotherapy Centre Delhi",
+    "Progressive hamstring strengthening exercise for sports injury recovery in Kalkaji",
+    "Flexibility training for hamstring strain rehabilitation in South Delhi",
+    "Sport-specific drill for hamstring return-to-play assessment",
+  ],
+},
 
-  // ── 22. FIBROMYALGIA ─────────────────────────────────────────────────────────
-  {
-    id: 23,
-    title: "Fibromyalgia Syndrome",
-    slug: "fibromyalgia-syndrome",
-    category: "Pain Conditions",
-    image: Fibromyalgia,
-    seo: {
-      title: `Fibromyalgia Treatment in Delhi | ${BRAND}`,
-      description: `Expert Fibromyalgia Syndrome Treatment in Delhi by ${DOCTOR} at ${BRAND}. We manage widespread muscle pain, fatigue, stiffness & improve daily functioning. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "fibromyalgia treatment in delhi, fibromyalgia physiotherapy kalkaji, widespread muscle pain treatment delhi, fibromyalgia specialist south delhi, chronic fatigue pain treatment delhi, fibromyalgia rehabilitation delhi, best fibromyalgia doctor delhi, muscle pain fatigue treatment delhi, fibromyalgia exercises kalkaji, pain management fibromyalgia delhi",
-      canonical: `${BASE_URL}/services/fibromyalgia-syndrome`,
-    },
-    description: "Fibromyalgia is a chronic condition characterized by widespread muscle pain, fatigue, stiffness, and sleep disturbances. Physiotherapy helps manage symptoms through gentle exercises and pain relief techniques.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Widespread muscle pain\n• Fatigue and poor sleep\n• Muscle stiffness\n\nConditions We Treat:\n\n• Chronic body pain\n• Reduced endurance\n• Functional limitations" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Gentle aerobic and mobility exercises\n• Muscle relaxation techniques\n• Pain management therapies\n• Posture and movement education\n• Fatigue management strategies" },
-    ],
-    benefits: ["Reduces widespread pain", "Improves mobility and stamina", "Enhances sleep quality", "Reduces fatigue", "Improves daily functioning"],
-    customTreatmentText: "Our holistic physiotherapy approach for Fibromyalgia focuses on symptom control.",
+// ── 22. FIBROMYALGIA ─────────────────────────────────────────────────────────
+{
+  id: 23,
+  title: "Fibromyalgia Syndrome",
+  slug: "fibromyalgia-syndrome",
+  category: "Pain Conditions",
+  image: Fibromyalgia,
+  seo: {
+    title: "Fibromyalgia Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Fibromyalgia Syndrome Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We manage widespread muscle pain, fatigue, stiffness & improve daily functioning. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "fibromyalgia treatment in delhi, fibromyalgia physiotherapy kalkaji, widespread muscle pain treatment delhi, fibromyalgia specialist south delhi, chronic fatigue pain treatment delhi, fibromyalgia rehabilitation delhi, best fibromyalgia doctor delhi, muscle pain fatigue treatment delhi, fibromyalgia exercises kalkaji, pain management fibromyalgia delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/fibromyalgia-syndrome",
   },
+  hero: {
+    heading: "Fibromyalgia Treatment ",
+    subheading: "Physiotherapy for widespread muscle pain, fatigue, and stiffness caused by fibromyalgia, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Fibromyalgia is a condition many patients arrive to Dr. Ashish Sharma with after years of being told their pain 'doesn't show up' on any test, which is exhausting in itself. This chronic condition causes widespread muscle pain, fatigue, stiffness, and sleep disturbances, and it doesn't respond well to intense exercise or complete rest — both extremes tend to make symptoms worse. What many patients don't expect is that the right approach involves very gentle, gradually progressed movement, paired with pain management and fatigue pacing strategies, rather than pushing through pain or avoiding activity altogether. At Advanced Pain Physiotherapy Centre, we build fibromyalgia programmes around what your body can actually tolerate on a given day, adjusting the pace as needed, so you build genuine improvement in mobility and stamina without triggering flare-ups.",
+  sections: [
+    { title: "Overview", content: "Common Symptoms of Fibromyalgia:\n\n• Widespread muscle pain\n• Fatigue and poor sleep\n• Muscle stiffness\n\nConditions We Treat:\n\n• Chronic body pain\n• Reduced endurance\n• Functional limitations" },
+    { title: "Why It Matters", content: "Fibromyalgia pain is real, even though it often doesn't show up on standard tests, and it deserves a management approach that takes this seriously rather than dismissing it. Both complete inactivity and overly intense exercise tend to worsen symptoms, which leaves many patients unsure how to move safely.\n\nA carefully paced, gentle physiotherapy programme helps break this cycle, gradually improving mobility, stamina, and sleep quality without triggering the flare-ups that come from doing too much too soon." },
+    { title: "Who Needs This", content: "• Patients with widespread, chronic muscle pain\n• People experiencing persistent fatigue and poor sleep quality\n• Anyone with generalised muscle stiffness affecting daily activity\n• Patients with reduced endurance and functional limitations\n• People diagnosed with fibromyalgia looking for a safe, structured movement plan" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Gentle aerobic and mobility exercises\n• Muscle relaxation techniques\n• Pain management therapies\n• Posture and movement education\n• Fatigue management strategies" },
+    { title: "Our Process", content: "1. Assessment — Understanding your pain pattern, fatigue levels, and daily limitations\n2. Pain Management — Techniques to ease widespread muscle discomfort\n3. Gentle Aerobic and Mobility Work — Low-impact movement introduced gradually\n4. Relaxation Techniques — Reducing muscle tension linked to chronic pain\n5. Pacing and Fatigue Management — Strategies to balance activity and rest\n6. Gradual Progression — Slowly building stamina and function over time" },
+  ],
+  benefits: ["Reduces widespread pain", "Improves mobility and stamina", "Enhances sleep quality", "Reduces fatigue", "Improves daily functioning"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma paces treatment around what your body can tolerate, avoiding both overexertion and inactivity",
+    "Focus on genuine, sustainable improvement rather than pushing through pain",
+    "Practical fatigue management and pacing strategies for daily life",
+    "Gentle, evidence-based approach suited to fluctuating fibromyalgia symptoms",
+    "Home visit availability for patients with significant fatigue or mobility limitations",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does exercise sometimes make my fibromyalgia pain worse?", answer: "This usually happens when exercise intensity is too high or increased too quickly. A gentle, gradually progressed programme, paced to your tolerance, is much less likely to trigger flare-ups." },
+    { question: "Is fibromyalgia a real medical condition even though tests come back normal?", answer: "Yes. Fibromyalgia is a recognised chronic pain condition, even though it doesn't show up on standard blood tests or imaging. Diagnosis is based on symptoms and clinical assessment." },
+    { question: "Will physiotherapy cure my fibromyalgia?", answer: "There's currently no cure for fibromyalgia, but physiotherapy can meaningfully reduce pain, improve stamina, and support better sleep and daily function as part of an overall management plan." },
+    { question: "How much rest is too much rest?", answer: "Complete inactivity often worsens fibromyalgia symptoms over time by reducing muscle tolerance further. Gentle, regular movement, even in small amounts, is generally more helpful than prolonged rest." },
+    { question: "Can fibromyalgia physiotherapy help with sleep problems?", answer: "Gentle exercise and relaxation techniques can support better sleep quality over time, though sleep issues are often addressed alongside your broader medical care as well." },
+    { question: "What does a flare-up mean for my physiotherapy plan?", answer: "During a flare-up, the plan is adjusted to focus more on pain relief and gentle movement, with intensity reduced temporarily until symptoms settle." },
+    { question: "How long before I notice improvement with physiotherapy?", answer: "This varies by individual, but many patients notice gradual improvements in stamina and pain management over several weeks of consistent, well-paced treatment." },
+  ],
+  customTreatmentText: "Our holistic physiotherapy approach for Fibromyalgia focuses on symptom control.",
+  cta: {
+    heading: "Your pain is real — get a management plan that treats it that way.",
+    subtext: "Book an assessment with Dr. Ashish Sharma for a gentle, paced approach to managing fibromyalgia.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing fibromyalgia patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Gentle aerobic exercise session for fibromyalgia management in Kalkaji",
+    "Muscle relaxation technique for chronic widespread pain in South Delhi",
+    "Pacing and fatigue management guidance for fibromyalgia patient",
+  ],
+},
 
-  // ── 23. SHOULDER DISLOCATION ─────────────────────────────────────────────────
-  {
-    id: 24,
-    title: "Shoulder Dislocation",
-    slug: "shoulder-dislocation",
-    category: "Joint Conditions",
-    image: ShoulderDislocation,
-    seo: {
-      title: `Shoulder Dislocation Treatment in Delhi | ${BRAND}`,
-      description: `Expert Shoulder Dislocation Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We restore shoulder stability, strength & prevent recurrent dislocations. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "shoulder dislocation treatment delhi, shoulder dislocation rehabilitation kalkaji, shoulder instability treatment south delhi, recurrent shoulder dislocation delhi, shoulder dislocation specialist delhi, shoulder stability physiotherapy delhi, shoulder dislocation recovery delhi, best shoulder dislocation physiotherapist delhi, shoulder strength rehabilitation delhi, shoulder injury kalkaji",
-      canonical: `${BASE_URL}/services/shoulder-dislocation`,
-    },
-    description: "Shoulder dislocation occurs when the upper arm bone moves out of the shoulder socket, causing severe pain, instability, and limited movement. Physiotherapy is essential after reduction to restore strength and stability.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Sports injuries or falls\n• Trauma or accidents\n• Weak shoulder stabilizing muscles\n\nConditions We Treat:\n\n• Shoulder instability\n• Pain and restricted movement\n• Recurrent dislocations" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Pain and inflammation control\n• Range-of-motion exercises\n• Shoulder strengthening and stabilization\n• Proprioception and balance training\n• Return-to-activity guidance" },
-    ],
-    benefits: ["Restores shoulder stability", "Improves strength and mobility", "Reduces pain", "Prevents recurrent dislocation", "Enhances functional use"],
-    customTreatmentText: "We provide structured rehabilitation for shoulder dislocation.",
+// ── 23. SHOULDER DISLOCATION ─────────────────────────────────────────────────
+{
+  id: 24,
+  title: "Shoulder Dislocation",
+  slug: "shoulder-dislocation",
+  category: "Joint Conditions",
+  image: ShoulderDislocation,
+  seo: {
+    title: "Shoulder Dislocation Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Shoulder Dislocation Rehabilitation in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We restore shoulder stability, strength & prevent recurrent dislocations. ✅ Sports physiotherapy ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "shoulder dislocation treatment delhi, shoulder dislocation rehabilitation kalkaji, shoulder instability treatment south delhi, recurrent shoulder dislocation delhi, shoulder dislocation specialist delhi, shoulder stability physiotherapy delhi, shoulder dislocation recovery delhi, best shoulder dislocation physiotherapist delhi, shoulder strength rehabilitation delhi, shoulder injury kalkaji",
+    canonical: "https://advancepainphysiotherapy.com/services/shoulder-dislocation",
   },
+  hero: {
+    heading: "Shoulder Dislocation ",
+    subheading: "Sports physiotherapy for shoulder instability and recurrent dislocations, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "A shoulder dislocation is a frightening injury in the moment, but Dr. Ashish Sharma sees the bigger long-term risk once the joint is put back in place: many patients assume the danger has passed, when in fact the shoulder is often left unstable and prone to dislocating again, sometimes with far less force than the original injury. This happens because the ligaments and stabilising structures around the joint get stretched or torn during the dislocation, and without proper rehabilitation, the shoulder never regains the stability it needs. Shoulder dislocations are common in contact sports, falls, and accidents, and they particularly affect younger, more active patients who are at higher risk of recurrence without structured strengthening. What many people don't realise is that the muscles around the shoulder can be trained to compensate for some of this instability, which is exactly what a proper post-dislocation rehabilitation programme focuses on. At Advanced Pain Physiotherapy Centre, we build strength and proprioception around the joint methodically, so you return to full activity with real confidence in your shoulder's stability.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Shoulder Dislocation:\n\n• Sports injuries or falls\n• Trauma or accidents\n• Weak shoulder stabilizing muscles\n\nConditions We Treat:\n\n• Shoulder instability\n• Pain and restricted movement\n• Recurrent dislocations" },
+    { title: "Why It Matters", content: "After the initial dislocation is treated, many patients assume the danger has passed once the pain settles. In reality, the shoulder is often left with reduced stability, and the risk of a repeat dislocation, sometimes with far less force, remains high without proper rehabilitation.\n\nEach subsequent dislocation can further damage the surrounding structures, making the joint progressively less stable. Structured strengthening and proprioception training address this instability directly, rather than leaving the shoulder vulnerable to repeat injury." },
+    { title: "Who Needs This", content: "• Patients recovering from a recent shoulder dislocation\n• People with a history of recurrent shoulder dislocations\n• Athletes returning to contact sports after a dislocation\n• Anyone with ongoing shoulder instability or a feeling of the joint 'giving way'\n• Patients recovering from shoulder dislocation surgery" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Pain and inflammation control\n• Range-of-motion exercises\n• Shoulder strengthening and stabilization\n• Proprioception and balance training\n• Return-to-activity guidance" },
+    { title: "Our Process", content: "1. Assessment — Evaluating joint stability, strength, and range of motion\n2. Pain and Inflammation Control — Managing early discomfort after dislocation\n3. Range-of-Motion Restoration — Gradually regaining full, safe shoulder movement\n4. Strengthening and Stabilisation — Building the muscles that support joint stability\n5. Proprioception Training — Retraining the shoulder's sense of position and control\n6. Return-to-Activity Guidance — Structured progression back to sport or daily activity" },
+  ],
+  benefits: ["Restores shoulder stability", "Improves strength and mobility", "Reduces pain", "Prevents recurrent dislocation", "Enhances functional use"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma focuses specifically on preventing recurrent dislocation, not just restoring initial movement",
+    "Proprioception and stability training that many general rehab plans overlook",
+    "Sport-specific return-to-play programmes for contact sport athletes",
+    "Experience with both first-time and recurrent shoulder dislocation cases",
+    "Guidance suited to post-surgical as well as non-surgical recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does my shoulder feel unstable even after the dislocation was treated?", answer: "The ligaments and stabilising structures around the joint are often stretched or torn during a dislocation. Without proper strengthening and proprioception training, this instability can persist even after the pain resolves." },
+    { question: "How likely is a shoulder to dislocate again?", answer: "Recurrence risk is notably higher in younger, more active patients, especially without structured rehabilitation. A proper strengthening programme significantly reduces this risk." },
+    { question: "How soon after a dislocation should physiotherapy start?", answer: "Once your doctor confirms the joint is stable enough for movement, physiotherapy typically starts early, beginning with gentle range-of-motion work before progressing to strengthening." },
+    { question: "Can I return to contact sports after a shoulder dislocation?", answer: "Many patients do return, but this depends on regaining sufficient strength, stability, and confidence in the joint first. A structured return-to-sport assessment guides this decision." },
+    { question: "Do all shoulder dislocations need surgery?", answer: "No. Many first-time dislocations, especially in older or less active patients, are managed successfully with physiotherapy alone. Surgery is more often considered for recurrent dislocations or specific structural damage." },
+    { question: "What is proprioception training, and why does it matter here?", answer: "Proprioception refers to your joint's sense of position and movement. Training this helps the shoulder react and stabilise itself during sudden movements, which is a key factor in preventing repeat dislocations." },
+    { question: "How long does full recovery take after a shoulder dislocation?", answer: "This varies based on severity and whether surgery was involved, but structured rehabilitation typically takes anywhere from 6 weeks to a few months for a safe return to full activity." },
+  ],
+  customTreatmentText: "We provide structured rehabilitation for shoulder dislocation.",
+  cta: {
+    heading: "Don't let one dislocation become a repeating pattern.",
+    subtext: "Book a shoulder stability assessment with Dr. Ashish Sharma and rebuild real confidence in your joint.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing shoulder stability after dislocation at Advanced Pain Physiotherapy Centre Delhi",
+    "Proprioception training exercise for shoulder instability in Kalkaji",
+    "Shoulder strengthening exercise for dislocation rehabilitation in South Delhi",
+    "Return-to-sport training session for shoulder dislocation recovery",
+  ],
+},
 
-  // ── 24. VARICOSE VEINS ───────────────────────────────────────────────────────
-  {
-    id: 25,
-    title: "Varicose Veins",
-    slug: "varicose-veins",
-    category: "Vascular Conditions",
-    image: Varicose,
-    seo: {
-      title: `Varicose Veins Treatment in Delhi | ${BRAND}`,
-      description: `Expert Varicose Veins Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve circulation, reduce leg pain, swelling & heaviness through non-invasive treatment. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "varicose veins treatment in delhi, varicose veins physiotherapy kalkaji, leg vein pain treatment south delhi, varicose veins specialist delhi, leg swelling treatment delhi, poor circulation treatment delhi, varicose veins exercises delhi, best varicose veins physiotherapist delhi, leg pain heaviness treatment kalkaji, vascular physiotherapy delhi",
-      canonical: `${BASE_URL}/services/varicose-veins`,
-    },
-    description: "Varicose veins are enlarged, twisted veins that commonly appear in the legs due to poor blood circulation and weak vein valves. Physiotherapy helps improve circulation, reduce swelling, and relieve pain.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Poor blood circulation in legs\n• Prolonged standing or sitting\n• Weak vein valves\n• Obesity and sedentary lifestyle\n\nConditions We Treat:\n\n• Leg pain and heaviness\n• Swelling in ankles and feet\n• Fatigue and discomfort" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Circulation-improving exercises\n• Leg elevation and mobility training\n• Compression therapy guidance\n• Muscle strengthening for calf pump\n• Lifestyle and posture correction" },
-    ],
-    benefits: ["Improves blood circulation", "Reduces leg pain and swelling", "Decreases heaviness and fatigue", "Prevents worsening", "Improves comfort"],
-    customTreatmentText: "Our physiotherapy program for Varicose Veins focuses on improving circulation through safe, non-invasive techniques.",
+// ── 24. VARICOSE VEINS ───────────────────────────────────────────────────────
+{
+  id: 25,
+  title: "Varicose Veins",
+  slug: "varicose-veins",
+  category: "Vascular Conditions",
+  image: Varicose,
+  seo: {
+    title: "Varicose Veins Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+    description: "Expert Varicose Veins Physiotherapy in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We improve circulation, reduce leg pain, swelling & heaviness through non-invasive treatment. ✅ Certified physiotherapists ✅ Kalkaji, South Delhi. Book now!",
+    keywords: "varicose veins treatment in delhi, varicose veins physiotherapy kalkaji, leg vein pain treatment south delhi, varicose veins specialist delhi, leg swelling treatment delhi, poor circulation treatment delhi, varicose veins exercises delhi, best varicose veins physiotherapist delhi, leg pain heaviness treatment kalkaji, vascular physiotherapy delhi",
+    canonical: "https://advancepainphysiotherapy.com/services/varicose-veins",
   },
+  hero: {
+    heading: "Varicose Veins",
+    subheading: "Non-invasive physiotherapy for leg pain, swelling, and heaviness caused by varicose veins, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Varicose veins are often treated as a purely cosmetic concern, but Dr. Ashish Sharma regularly sees patients whose real complaint isn't how their legs look, but how heavy, swollen, and tired they feel by the end of the day. These enlarged, twisted veins develop when vein valves weaken and blood pools in the legs, commonly linked to prolonged standing or sitting, a sedentary lifestyle, or simply weak vein valves over time. What many patients don't realise is that targeted calf-strengthening exercises can meaningfully improve circulation, since the calf muscles act as a natural pump that pushes blood back up toward the heart. While physiotherapy doesn't remove the visible veins themselves, it plays a genuinely useful role in reducing the pain, swelling, and heaviness that come with the condition. At Advanced Pain Physiotherapy Centre, our approach combines circulation-focused exercises, leg elevation techniques, and practical lifestyle guidance to help you feel noticeably lighter and more comfortable day to day.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Varicose Veins:\n\n• Poor blood circulation in legs\n• Prolonged standing or sitting\n• Weak vein valves\n• Obesity and sedentary lifestyle\n\nConditions We Treat:\n\n• Leg pain and heaviness\n• Swelling in ankles and feet\n• Fatigue and discomfort" },
+    { title: "Why It Matters", content: "Varicose veins are often dismissed as a cosmetic issue, but the discomfort they cause, heaviness, swelling, and fatigue in the legs, can genuinely affect daily comfort and activity levels, especially for people who stand or sit for long hours at work.\n\nWithout addressing circulation, symptoms tend to worsen gradually over time. Strengthening the calf muscles and improving circulation through targeted exercise offers real, non-invasive symptom relief alongside any medical treatment you may be receiving." },
+    { title: "Who Needs This", content: "• Patients with leg pain, heaviness, or fatigue linked to varicose veins\n• People with swelling in the ankles or feet by the end of the day\n• Anyone with a prolonged standing or sitting job\n• Patients wanting a non-invasive approach to managing symptoms\n• People with a sedentary lifestyle contributing to poor leg circulation" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Circulation-improving exercises\n• Leg elevation and mobility training\n• Compression therapy guidance\n• Muscle strengthening for calf pump\n• Lifestyle and posture correction" },
+    { title: "Our Process", content: "1. Assessment — Evaluating symptom pattern, activity level, and contributing factors\n2. Circulation-Improving Exercises — Movements designed to boost blood flow in the legs\n3. Calf Pump Strengthening — Building the muscle strength that supports venous return\n4. Leg Elevation and Mobility Training — Practical techniques to reduce swelling\n5. Compression Guidance — Advice on using compression garments effectively\n6. Lifestyle and Posture Correction — Adjustments to daily habits that worsen symptoms" },
+  ],
+  benefits: ["Improves blood circulation", "Reduces leg pain and swelling", "Decreases heaviness and fatigue", "Prevents worsening", "Improves comfort"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma focuses on genuine symptom relief, not just addressing the cosmetic aspect of varicose veins",
+    "Practical, non-invasive exercises that fit into standing or desk-based work routines",
+    "Guidance on compression therapy use alongside your exercise programme",
+    "Lifestyle advice tailored to your specific daily activity pattern",
+    "Home visit availability for patients with significant leg discomfort",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can physiotherapy get rid of varicose veins completely?", answer: "Physiotherapy doesn't remove the visible veins themselves, but it can significantly reduce the pain, swelling, and heaviness associated with them through improved circulation and calf strength." },
+    { question: "Is walking good for varicose veins?", answer: "Yes. Walking activates the calf muscles, which act as a natural pump to help push blood back up the legs, making it one of the most beneficial activities for circulation." },
+    { question: "Should I wear compression stockings all day?", answer: "This depends on your specific symptoms and daily activities. Guidance on appropriate use is given based on your assessment, since usage patterns vary by individual." },
+    { question: "Can standing all day at work make varicose veins worse?", answer: "Yes, prolonged standing without movement can worsen blood pooling in the legs. Simple calf exercises done periodically through the day can help offset this." },
+    { question: "Do I need to see a vascular surgeon as well?", answer: "For visible, symptomatic varicose veins, a vascular surgeon's opinion is often valuable alongside physiotherapy, especially if medical or surgical treatment of the veins themselves is being considered." },
+    { question: "Will losing weight help with varicose veins?", answer: "Maintaining a healthy weight can reduce pressure on the leg veins and may help manage symptoms, though it isn't a treatment for the underlying vein valve weakness itself." },
+    { question: "Can varicose veins physiotherapy help prevent them from getting worse?", answer: "Yes, improving circulation and calf strength through consistent exercise can help slow symptom progression, though the underlying vein condition should still be monitored medically." },
+  ],
+  customTreatmentText: "Our physiotherapy program for Varicose Veins focuses on improving circulation through safe, non-invasive techniques.",
+  cta: {
+    heading: "Give your legs the circulation support they need.",
+    subtext: "Book an assessment with Dr. Ashish Sharma for a non-invasive plan to reduce leg pain, swelling, and heaviness.",
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    "Dr. Ashish Sharma assessing leg circulation for varicose veins patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Calf strengthening exercise for varicose veins management in Kalkaji",
+    "Leg elevation technique demonstration for swelling relief in South Delhi",
+    "Compression therapy guidance session for varicose veins patient",
+  ],
+},
 
-  // ── 25. KNEE FRACTURE ────────────────────────────────────────────────────────
-  {
-    id: 26,
-    title: "Knee Fracture",
-    slug: "knee-fracture",
-    category: "Orthopedic Conditions",
-    image: KneeFracture,
-    seo: {
-      title: `Knee Fracture Rehabilitation in Delhi | ${BRAND}`,
-      description: `Expert Knee Fracture Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We restore movement, strength & walking ability after knee fracture or surgery. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "knee fracture rehabilitation delhi, knee fracture physiotherapy kalkaji, knee fracture recovery south delhi, post fracture knee treatment delhi, knee fracture specialist delhi, knee surgery rehabilitation delhi, best knee fracture physiotherapist delhi, knee stiffness after fracture delhi, knee walking rehabilitation kalkaji, orthopedic knee rehabilitation delhi",
-      canonical: `${BASE_URL}/services/knee-fracture`,
-    },
-    description: "A knee fracture involves a break in one or more bones around the knee joint. Physiotherapy after fracture or surgery is essential to restore movement, strength, and functional independence.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Road traffic accidents\n• Falls or trauma\n• Sports injuries\n• Osteoporosis\n\nConditions We Treat:\n\n• Post-fracture knee stiffness\n• Pain and swelling\n• Reduced knee mobility\n• Difficulty walking" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Pain and swelling management\n• Gradual range-of-motion exercises\n• Muscle strengthening\n• Gait training and balance exercises\n• Functional rehabilitation" },
-    ],
-    benefits: ["Reduces pain and stiffness", "Restores knee movement", "Improves muscle strength", "Enhances walking", "Promotes complete recovery"],
-    customTreatmentText: "Our personalized knee fracture rehabilitation programs help patients regain strength and mobility.",
+ {
+  id: 26,
+  title: "Knee Fracture",
+  slug: "knee-fracture",
+  category: "Orthopedic Conditions",
+  image: KneeFracture,
+  seo: {
+    title: `Knee Fracture Rehabilitation in Delhi | ${BRAND}`,
+    description: `Expert Knee Fracture Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We restore movement, strength & walking ability after knee fracture or surgery. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "knee fracture rehabilitation delhi, knee fracture physiotherapy kalkaji, knee fracture recovery south delhi, post fracture knee treatment delhi, knee fracture specialist delhi, knee surgery rehabilitation delhi, best knee fracture physiotherapist delhi, knee stiffness after fracture delhi, knee walking rehabilitation kalkaji, orthopedic knee rehabilitation delhi",
+    canonical: `${BASE_URL}/services/knee-fracture`,
   },
+  hero: {
+    heading: "Knee Fracture ",
+    subheading: `Structured physiotherapy after knee fracture or surgery to restore movement, strength, and independent walking, by ${DOCTOR} at ${BRAND}.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `A knee fracture, whether from a road accident, a fall, a sports injury, or a bone weakened by osteoporosis, disrupts far more than the bone itself. By the time the fracture has healed on an X-ray, the muscles around the knee have often weakened significantly from weeks of immobilisation, the joint has stiffened, and the confidence to bear full weight on that leg has quietly eroded. ${DOCTOR} at ${BRAND} sees this gap regularly — patients are told their bone has healed, yet they still cannot squat, climb stairs, or walk without a limp. Physiotherapy after a knee fracture is not optional; it is the process that actually restores function, rebuilding range of motion, strength, and the balance and confidence needed to move normally again. Depending on the severity, treatment may follow a period of casting, internal fixation, or knee replacement, and the rehabilitation plan is adjusted accordingly at every stage.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Road traffic accidents\n• Falls or trauma\n• Sports injuries\n• Osteoporosis and weakened bone\n\nConditions We Treat:\n\n• Post-fracture knee stiffness\n• Pain and swelling around the joint\n• Reduced knee mobility\n• Difficulty walking or bearing weight\n• Muscle wasting from prolonged immobilisation" },
+    { title: "Why It Matters", content: "A fracture that has healed on paper does not mean the knee has recovered its full function. Weeks in a cast or brace cause the surrounding muscles, especially the quadriceps, to weaken rapidly, and the joint itself often loses range of motion from disuse.\n\nWithout guided rehabilitation, this can lead to a permanent limp, chronic stiffness, or compensatory strain on the hip and opposite leg. Early, structured physiotherapy is what bridges the gap between bone healing and true functional recovery." },
+    { title: "Who Needs This", content: "• Patients recovering from a knee fracture treated with casting or surgery\n• Patients after knee fixation with plates, screws, or rods\n• Elderly patients with osteoporosis-related fractures\n• Athletes returning to sport after a knee injury\n• Anyone struggling to walk, squat, or climb stairs post-fracture\n• Patients with visible muscle wasting after immobilisation" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Pain and swelling management with ice and electrotherapy\n• Gradual, progressive range-of-motion exercises\n• Targeted quadriceps and hamstring strengthening\n• Gait training and balance exercises\n• Functional rehabilitation for stairs, squatting, and daily tasks\n• Scar tissue and stiffness management where surgery was involved" },
+    { title: "Our Process", content: "1. Assessment — Evaluating healing stage, range of motion, and muscle strength\n2. Pain and Swelling Management — Ice, elevation guidance, and electrotherapy\n3. Mobility Restoration — Gentle, progressive exercises to regain knee bend and extension\n4. Strengthening — Rebuilding quadriceps, hamstring, and calf strength\n5. Gait and Balance Training — Restoring a normal, confident walking pattern\n6. Return-to-Function Plan — Structured progression back to stairs, squatting, and daily or sporting activity" },
+  ],
+  benefits: ["Reduces pain and stiffness", "Restores knee movement", "Improves muscle strength", "Enhances walking pattern", "Promotes complete, confident recovery"],
+  whyChooseUs: [
+    `${DOCTOR} designs a stage-wise programme matched to bone healing timelines`,
+    "Experience with post-surgical fixation and knee replacement rehabilitation",
+    "Focus on restoring full weight-bearing confidence, not just bone healing",
+    "Gait and balance retraining to eliminate compensatory limping",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "My X-ray shows the fracture has healed. Why can't I walk normally yet?", answer: "Bone healing and functional recovery are different processes. Weeks of immobilisation weaken the surrounding muscles and stiffen the joint, so a structured strengthening and mobility programme is needed after the bone itself has healed." },
+    { question: "When can I start physiotherapy after a knee fracture?", answer: "This depends on the type of fracture and treatment used. Some patients begin gentle movement within days of surgery, while others need to wait for the cast to be removed. Your physiotherapist will coordinate timing with your orthopedic surgeon." },
+    { question: "Will I regain full knee bending after a fracture?", answer: "Most patients regain functional range of motion with consistent physiotherapy, though the exact degree depends on fracture severity and how early rehabilitation begins." },
+    { question: "Is it normal to still limp months after the fracture healed?", answer: "A lingering limp usually points to unresolved muscle weakness or fear of weight-bearing rather than the bone itself, both of which respond well to targeted gait and strength training." },
+    { question: "Do I need physiotherapy after a knee replacement following a fracture?", answer: "Yes. Physiotherapy is essential after knee replacement surgery to restore movement, build strength, and help you return to walking and daily activities safely." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} and the team design personalised knee fracture rehabilitation programmes that help patients regain strength, mobility, and confidence at every stage of recovery.`,
+  cta: {
+    heading: "A healed fracture isn't the same as a fully recovered knee.",
+    subtext: `Book an assessment with ${DOCTOR} at ${BRAND} and get a rehabilitation plan built around your stage of recovery.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing knee fracture recovery patient at ${BRAND} Delhi`,
+    "Quadriceps strengthening exercise after knee fracture in Kalkaji",
+    "Gait training session for post-fracture knee rehabilitation",
+    "Balance training for knee fracture patient in South Delhi",
+  ],
+},
+ 
+// ── 26. FLAT FOOT ────────────────────────────────────────────────────────────
+{
+  id: 27,
+  title: "Flat Foot (Pes Planus)",
+  slug: "flat-foot",
+  category: "Foot Conditions",
+  image: Flat,
+  seo: {
+    title: `Flat Foot Treatment in Delhi | ${BRAND}`,
+    description: `Expert Flat Foot (Pes Planus) Treatment in Delhi by ${DOCTOR} at ${BRAND}. We strengthen foot muscles, improve arch support & reduce foot, ankle & knee pain. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "flat foot treatment in delhi, pes planus physiotherapy kalkaji, flat foot specialist south delhi, fallen arch treatment delhi, flat foot pain relief delhi, foot arch strengthening delhi, best flat foot doctor delhi, flat foot rehabilitation kalkaji, ankle pain flat foot delhi, postural imbalance flat foot treatment delhi",
+    canonical: `${BASE_URL}/services/flat-foot`,
+  },
+  hero: {
+    heading: "Flat Foot (Pes Planus) Treatment ",
+    subheading: `Physiotherapy for collapsed arches by ${DOCTOR} at ${BRAND}, addressing foot, ankle, knee, and lower back strain together.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Flat foot is rarely just a foot problem. When the arch collapses, either from birth, weak foot muscles, prolonged standing, or worn-out footwear, the entire lower body compensates for it. ${DOCTOR} at ${BRAND} regularly sees patients who come in for knee or lower back pain, only to discover during assessment that a collapsed arch is quietly driving the whole chain of discomfort upward. Because the foot is the foundation of every step, an unsupported arch changes how load travels through the ankle, knee, hip, and spine with every stride. Simply adding an insole often manages the symptom without correcting the underlying weakness. Our approach at ${BRAND} looks at the whole kinetic chain, strengthening the muscles that support the arch, correcting posture and gait, and guiding appropriate footwear choices so the improvement actually lasts.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Weak foot muscles or ligaments\n• Genetic factors and family history\n• Obesity or prolonged standing\n• Improper or unsupportive footwear\n\nConditions We Treat:\n\n• Foot and heel pain\n• Ankle instability related to arch collapse\n• Knee and lower back pain from altered posture\n• Overpronation and gait abnormalities" },
+    { title: "Why It Matters", content: "A flattened arch changes the alignment of the entire lower limb, causing the ankle to roll inward and the knee and hip to compensate with every step. Left unaddressed, this postural shift can lead to chronic knee pain, hip discomfort, and lower back strain that seem unrelated to the feet at first glance.\n\nStrengthening the arch and correcting the resulting movement pattern addresses the root cause rather than just cushioning the symptom." },
+    { title: "Who Needs This", content: "• Adults with visibly collapsed or low arches\n• Patients with recurring foot, ankle, knee, or lower back pain\n• People who stand or walk for long hours at work\n• Patients advised to use orthotics or arch supports\n• Overweight individuals with foot discomfort\n• Anyone noticing uneven shoe wear patterns" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Foot and ankle strengthening exercises\n• Arch support and postural correction techniques\n• Balance and gait retraining\n• Stretching of tight calf and foot muscles\n• Footwear and orthotic guidance tailored to your foot type" },
+    { title: "Our Process", content: "1. Assessment — Evaluating arch height, gait pattern, and muscle strength\n2. Pain Relief — Addressing any existing foot, ankle, or knee discomfort\n3. Muscle Activation — Targeted exercises to engage the arch-supporting muscles\n4. Gait Retraining — Correcting overpronation and walking pattern\n5. Progressive Strengthening — Building lasting support through the foot and lower limb\n6. Footwear and Long-Term Guidance — Practical advice to maintain results" },
+  ],
+  benefits: ["Reduces foot and ankle pain", "Improves arch support", "Enhances walking posture", "Prevents knee and back strain", "Improves overall foot function"],
+  whyChooseUs: [
+    `${DOCTOR} assesses the full kinetic chain, not just the foot in isolation`,
+    "Focus on strengthening the arch rather than relying solely on insoles",
+    "Gait analysis to identify and correct overpronation",
+    "Practical, individualised footwear guidance",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Can flat feet be corrected with physiotherapy, or do I need surgery?", answer: "Most flat foot cases, especially flexible flat feet, respond well to physiotherapy focused on strengthening the arch-supporting muscles. Surgery is only considered in rare, severe, or rigid cases." },
+    { question: "Why does my knee hurt when the problem is in my foot?", answer: "A collapsed arch changes how your leg aligns with every step, which can place extra strain on the knee joint. Correcting the foot mechanics often reduces the associated knee discomfort." },
+    { question: "Do I need to wear orthotics forever?", answer: "Orthotics can help manage symptoms in the short term, but a strengthening programme aims to reduce long-term dependence on them by improving the foot's own support system." },
+    { question: "Is flat foot the same as fallen arches?", answer: "Fallen arches usually refers to an arch that has collapsed over time, often due to weakness or ageing, while flat foot can also be a lifelong structural trait. Both are assessed and managed similarly with physiotherapy." },
+    { question: "Can children have flat foot treated with physiotherapy?", answer: "Yes, many children have flexible flat feet that respond well to guided exercises and monitoring. Your physiotherapist can assess whether intervention is needed based on age and symptoms." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR}'s flat foot physiotherapy programme focuses on correcting alignment and strengthening foot muscles for lasting support.`,
+  cta: {
+    heading: "Don't let a collapsed arch quietly strain your knees and back.",
+    subtext: `Get a full kinetic chain assessment from ${DOCTOR} at ${BRAND} and a plan to rebuild lasting arch support.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing flat foot patient at ${BRAND} Delhi`,
+    "Arch strengthening exercise for pes planus in Kalkaji",
+    "Gait retraining session for flat foot correction",
+    "Foot muscle strengthening exercise in South Delhi",
+  ],
+},
+ 
+// ── 27. SPONDYLOLISTHESIS ────────────────────────────────────────────────────
+{
+  id: 28,
+  title: "Spondylolisthesis",
+  slug: "spondylolisthesis-treatment",
+  category: "Spine Conditions",
+  image: Spondylolisthesis,
+  seo: {
+    title: `Spondylolisthesis Treatment in Delhi | ${BRAND}`,
+    description: `Expert Spondylolisthesis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat vertebral slippage, lower back pain, nerve compression & spinal instability. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "spondylolisthesis treatment in delhi, spondylolisthesis physiotherapy kalkaji, vertebral slippage treatment south delhi, spondylolisthesis specialist delhi, lower back slip treatment delhi, spinal instability physiotherapy delhi, best spondylolisthesis doctor delhi, spondylolisthesis rehabilitation kalkaji, nerve compression back treatment delhi, spinal slippage treatment delhi",
+    canonical: `${BASE_URL}/services/spondylolisthesis-treatment`,
+  },
+  hero: {
+    heading: "Spondylolisthesis Treatment ",
+    subheading: `Physiotherapy for vertebral slippage and spinal instability by ${DOCTOR} at ${BRAND}, focused on protecting your spine as it heals.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Spondylolisthesis, where one vertebra slips forward over the one beneath it, can feel alarming when first diagnosed, but for most patients it is a manageable condition rather than an automatic path to surgery. ${DOCTOR} at ${BRAND} works with patients at every grade of slippage, from mild cases discovered incidentally on imaging to more significant slips causing persistent lower back pain, stiffness, and nerve-related symptoms down the leg. The instability at the affected spinal segment means the muscles around it, particularly the deep core and stabilising muscles, need to work harder to protect the joint. Left untrained, these muscles often become weak and inconsistent, allowing further strain on the slipped segment. Our approach focuses on building that core stability, correcting posture and movement patterns that aggravate the spine, and helping patients return to daily activity with confidence rather than fear of the diagnosis.`,
+  sections: [
+    { title: "Overview", content: "Common Symptoms:\n\n• Lower back pain, often worse with standing or extension\n• Stiffness and reduced spinal flexibility\n• Pain while standing, walking, or after prolonged activity\n• Numbness, tingling, or weakness in the legs\n\nConditions We Treat:\n\n• Isthmic and degenerative spondylolisthesis\n• Nerve compression symptoms related to vertebral slippage\n• Chronic lower back pain from spinal instability" },
+    { title: "Why It Matters", content: "An unstable spinal segment relies heavily on the surrounding core and back muscles for protection. When these muscles are weak or the wrong movement patterns are reinforced daily, the slipped vertebra can be placed under repeated strain, worsening pain and stiffness over time.\n\nA guided stabilisation programme reduces this strain, protects the nerves from further irritation, and allows most patients to manage the condition effectively without surgical intervention." },
+    { title: "Who Needs This", content: "• Patients recently diagnosed with spondylolisthesis\n• Anyone with chronic lower back pain and leg symptoms\n• Athletes, especially in sports involving repeated spinal extension\n• Patients advised core strengthening before considering surgery\n• People with spinal instability affecting daily activity or work\n• Post-surgical patients requiring guided rehabilitation" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Deep core strengthening to stabilise the affected segment\n• Spinal stabilisation and neutral-spine training\n• Posture correction for standing, sitting, and lifting\n• Pain relief modalities and manual therapy\n• Nerve mobility exercises where leg symptoms are present" },
+    { title: "Our Process", content: "1. Assessment — Reviewing imaging, grade of slippage, and movement patterns\n2. Pain Management — Manual therapy and modalities to calm acute symptoms\n3. Core Activation — Engaging deep stabilising muscles safely\n4. Progressive Stabilisation — Building strength through controlled, spine-safe exercises\n5. Postural and Movement Retraining — Correcting habits that load the spine unfavourably\n6. Long-Term Maintenance Plan — Guidance to protect the spine during daily activity and sport" },
+  ],
+  benefits: ["Reduces back pain", "Improves spinal stability", "Enhances mobility", "Reduces nerve-related leg symptoms", "Helps prevent progression of the slip"],
+  whyChooseUs: [
+    `${DOCTOR} tailors the programme to the specific grade and type of slippage`,
+    "Focus on deep core stabilisation, not generic back exercises",
+    "Experience managing both isthmic and degenerative spondylolisthesis",
+    "Guidance on safe movement patterns for work and daily life",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Do I need surgery for spondylolisthesis?", answer: "Most cases, particularly lower-grade slips, are managed successfully with physiotherapy and core stabilisation. Surgery is generally reserved for severe slippage or when conservative treatment does not relieve symptoms." },
+    { question: "Is it safe to exercise with spondylolisthesis?", answer: "Yes, with guidance. Targeted core and stabilisation exercises are safe and beneficial, but movements that involve excessive spinal extension should be approached carefully under a physiotherapist's supervision." },
+    { question: "Can spondylolisthesis get worse over time?", answer: "It can progress in some cases, particularly if the stabilising muscles remain weak or if strain-inducing movements continue unchecked. A structured strengthening programme helps reduce this risk." },
+    { question: "Why do I have leg pain if the problem is in my back?", answer: "Vertebral slippage can compress nearby nerve roots, causing pain, tingling, or weakness to radiate down the leg even though the source is in the spine." },
+    { question: "How long does physiotherapy take to show improvement?", answer: "Many patients notice reduced pain within a few weeks, though building true spinal stability and preventing recurrence is typically an ongoing 2 to 3 month programme." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR}'s personalised physiotherapy programmes help manage spondylolisthesis effectively, protecting the spine while restoring confident movement.`,
+  cta: {
+    heading: "A diagnosis of spondylolisthesis doesn't have to mean surgery.",
+    subtext: `Get a stage-appropriate stabilisation plan from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing spondylolisthesis patient at ${BRAND} Delhi`,
+    "Core stabilisation exercise for vertebral slippage in Kalkaji",
+    "Spinal mobilisation session for spondylolisthesis treatment",
+    "Postural correction guidance for spinal instability in South Delhi",
+  ],
+},
+ 
+// ── 28. ANKYLOSING SPONDYLITIS ───────────────────────────────────────────────
+{
+  id: 29,
+  title: "Ankylosing Spondylitis",
+  slug: "ankylosing-spondylitis-physiotherapy",
+  category: "Arthritis Conditions",
+  image: Ankylosing,
+  seo: {
+    title: `Ankylosing Spondylitis Treatment in Delhi | ${BRAND}`,
+    description: `Expert Ankylosing Spondylitis Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We treat chronic spine inflammation, morning stiffness, back pain & maintain posture. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "ankylosing spondylitis treatment in delhi, ankylosing spondylitis physiotherapy kalkaji, spine inflammation treatment south delhi, ankylosing spondylitis specialist delhi, morning back stiffness treatment delhi, AS physiotherapy delhi, best ankylosing spondylitis doctor delhi, chronic back pain treatment delhi, spinal inflammatory arthritis delhi, ankylosing spondylitis rehabilitation kalkaji",
+    canonical: `${BASE_URL}/services/ankylosing-spondylitis-physiotherapy`,
+  },
+  hero: {
+    heading: "Ankylosing Spondylitis Physiotherapy in Delhi",
+    subheading: `Long-term physiotherapy management for ankylosing spondylitis by ${DOCTOR} at ${BRAND}, aimed at slowing stiffness and keeping you upright and active.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Ankylosing Spondylitis is a chronic inflammatory condition that gradually affects the spine and, in many cases, other joints as well, and unlike many musculoskeletal complaints, it is not something physiotherapy cures outright, it is something it helps you manage for life. ${DOCTOR} at ${BRAND} works with patients from the early stages of morning stiffness through to more established disease, with the consistent goal of keeping the spine as mobile and the posture as upright as possible for as long as possible. Left unmanaged, the inflammatory process can gradually fuse spinal joints in a stooped position, which is difficult to reverse once established. The encouraging reality is that patients who stay consistent with movement, stretching, and breathing exercises tend to maintain significantly better posture, flexibility, and quality of life over the years than those who don't.`,
+  sections: [
+    { title: "Overview", content: "Common Symptoms:\n\n• Morning stiffness lasting more than 30 minutes\n• Chronic lower back and hip pain\n• Reduced spine and chest wall flexibility\n• Fatigue and disturbed sleep from pain\n\nConditions We Treat:\n\n• Early and established ankylosing spondylitis\n• Postural changes related to spinal fusion risk\n• Reduced chest expansion affecting breathing" },
+    { title: "Why It Matters", content: "Ankylosing spondylitis follows a pattern of inflammation followed, over years, by gradual stiffening of the spinal joints. Once a joint fuses in a poor position, it generally cannot be corrected, which is why the window for maintaining posture and mobility is now, not later.\n\nRegular movement, stretching, and postural training directly influence how much flexibility and upright posture a patient retains over the long term, making physiotherapy one of the most important parts of managing this condition alongside medical treatment." },
+    { title: "Who Needs This", content: "• Patients newly diagnosed with ankylosing spondylitis\n• Anyone with persistent morning stiffness in the back or hips\n• Patients noticing a stooped or forward-leaning posture\n• People with reduced chest expansion or breathing difficulty\n• Patients under rheumatology care seeking a physiotherapy partner\n• Anyone wanting to stay active and independent long-term" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Daily stretching and mobility routines for the spine and hips\n• Postural training to counter forward stooping\n• Breathing and chest expansion exercises\n• Pain and inflammation management through movement and modalities\n• Strengthening of postural muscles to support an upright spine" },
+    { title: "Our Process", content: "1. Assessment — Evaluating spinal flexibility, posture, and chest expansion\n2. Pain and Stiffness Management — Techniques to ease acute flare-ups\n3. Mobility Routine Building — A daily stretching plan tailored to your stage of disease\n4. Postural Strengthening — Exercises to support an upright spine\n5. Breathing Training — Maintaining chest wall movement and lung capacity\n6. Long-Term Monitoring — Regular review to adjust the programme as the condition evolves" },
+  ],
+  benefits: ["Improves flexibility", "Reduces stiffness", "Maintains upright posture", "Supports better breathing capacity", "Helps slow disease-related postural changes"],
+  whyChooseUs: [
+    `${DOCTOR} builds a sustainable, long-term movement plan, not a one-time fix`,
+    "Focus on postural preservation to reduce the risk of spinal fusion in a stooped position",
+    "Breathing and chest expansion exercises alongside spinal mobility work",
+    "Coordinated approach alongside your rheumatologist's medical management",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Can physiotherapy cure ankylosing spondylitis?", answer: "Physiotherapy does not cure the underlying inflammatory condition, but it plays a central role in managing symptoms, preserving flexibility, and preventing the posture-related complications associated with it." },
+    { question: "Should I exercise during a flare-up?", answer: "Gentle movement is usually still recommended during flares, though the intensity should be reduced. Your physiotherapist can guide you on what's appropriate based on how you're feeling." },
+    { question: "Why is my posture becoming stooped over time?", answer: "Chronic inflammation can gradually stiffen spinal joints, and without active postural training, the spine can settle into a forward-leaning position. Regular stretching and postural exercises help counter this." },
+    { question: "How often should I do my exercises?", answer: "Daily movement is generally recommended for ankylosing spondylitis, since consistency has a much greater impact on long-term flexibility than occasional intense sessions." },
+    { question: "Does ankylosing spondylitis affect breathing?", answer: "In some patients, stiffness can extend to the joints connecting the ribs to the spine, reducing chest expansion. Breathing exercises are included in physiotherapy to help maintain lung capacity." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised, long-term physiotherapy for ankylosing spondylitis patients, focused on preserving posture and mobility for life.`,
+  cta: {
+    heading: "Protect your posture before stiffness becomes permanent.",
+    subtext: `Start a long-term movement plan with ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing ankylosing spondylitis patient at ${BRAND} Delhi`,
+    "Spinal mobility exercise for ankylosing spondylitis in Kalkaji",
+    "Postural training session for spine stiffness management",
+    "Breathing exercise for chest expansion in South Delhi",
+  ],
+},
+ 
+// ── 29. TRANSVERSE MYELITIS ──────────────────────────────────────────────────
+{
+  id: 30,
+  title: "Transverse Myelitis",
+  slug: "transverse-myelitis-rehabilitation",
+  category: "Neurological Conditions",
+  image: Transverse,
+  seo: {
+    title: `Transverse Myelitis Rehabilitation in Delhi | ${BRAND}`,
+    description: `Specialized Transverse Myelitis Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We restore strength, balance & functional independence after spinal cord inflammation. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
+    keywords: "transverse myelitis rehabilitation delhi, transverse myelitis physiotherapy kalkaji, spinal cord inflammation treatment delhi, transverse myelitis specialist south delhi, myelitis weakness treatment delhi, spinal cord rehabilitation delhi, best transverse myelitis physiotherapist delhi, myelitis balance training delhi, neuro rehabilitation kalkaji, spinal cord injury recovery delhi",
+    canonical: `${BASE_URL}/services/transverse-myelitis-rehabilitation`,
+  },
+  hero: {
+    heading: "Transverse Myelitis Rehabilitation in Delhi",
+    subheading: `Specialised neuro-rehabilitation for transverse myelitis by ${DOCTOR} at ${BRAND}, focused on function, balance, and everyday independence.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Transverse Myelitis, an inflammation of the spinal cord, can be a frightening diagnosis, arriving suddenly with weakness, numbness, or loss of coordination that changes daily life almost overnight. ${DOCTOR} at ${BRAND} works with patients in the weeks and months after diagnosis, when the acute inflammation has been medically managed but the resulting weakness, sensory changes, and balance difficulties still need active rehabilitation to resolve. Recovery from transverse myelitis varies significantly between patients, some regain most function within months, others need a longer, more gradual rebuilding process, but in almost every case, structured neuro-physiotherapy meaningfully improves the outcome compared to rest alone. Our focus is on retraining the nervous system and muscles through repetition and task-specific practice, helping patients regain the strength, balance, and confidence needed for independent movement.`,
+  sections: [
+    { title: "Overview", content: "Common Issues:\n\n• Muscle weakness in the legs, and sometimes the arms\n• Loss of sensation or altered sensation below the affected level\n• Balance problems and unsteady walking\n• Difficulty with bladder or bowel control in some cases\n\nConditions We Treat:\n\n• Post-inflammatory weakness and spasticity\n• Gait and balance impairment\n• Functional dependence in daily activities" },
+    { title: "Why It Matters", content: "The nervous system has a meaningful capacity to relearn movement patterns after injury, but this recovery is not automatic, it depends heavily on consistent, targeted practice. Without structured rehabilitation, weakness and balance difficulties can persist longer than necessary, and compensatory movement patterns can become ingrained.\n\nEarly and consistent neuro-physiotherapy takes advantage of the nervous system's natural capacity for adaptation, helping patients recover more function and regain independence faster." },
+    { title: "Who Needs This", content: "• Patients recently diagnosed with transverse myelitis\n• Anyone with leg or arm weakness following spinal cord inflammation\n• Patients with balance difficulty or unsteady walking\n• People needing support to regain independence in daily activities\n• Patients transitioning from hospital care to home-based recovery\n• Anyone whose recovery has plateaued and needs a renewed programme" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Neuro-rehabilitation exercises tailored to the level and pattern of weakness\n• Balance and gait training, including assistive device guidance where needed\n• Progressive strengthening programmes\n• Functional mobility training for transfers, walking, and daily tasks\n• Family and caregiver guidance for home practice" },
+    { title: "Our Process", content: "1. Assessment — Evaluating strength, sensation, balance, and functional ability\n2. Goal Setting — Identifying priority functional targets with the patient and family\n3. Neuro-Rehabilitation — Task-specific exercises to retrain movement patterns\n4. Strength and Endurance Building — Progressive loading as tolerance improves\n5. Balance and Gait Training — Restoring safe, confident walking\n6. Functional Independence Plan — Practising real-world tasks for daily living" },
+  ],
+  benefits: ["Improves strength", "Enhances balance", "Promotes independence", "Reduces reliance on walking aids over time", "Improves overall quality of life"],
+  whyChooseUs: [
+    `${DOCTOR} designs individualised neuro-rehabilitation based on your specific pattern of weakness`,
+    "Task-specific, functional training rather than generic exercises",
+    "Experience working alongside neurologists for coordinated care",
+    "Family and caregiver training for consistent home practice",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Will I fully recover from transverse myelitis?", answer: "Recovery varies widely between patients. Many regain significant function, especially with early and consistent rehabilitation, though the extent and timeline depend on the severity of the initial inflammation." },
+    { question: "How soon after diagnosis should physiotherapy start?", answer: "Physiotherapy is generally recommended as soon as the patient is medically stable, since early, structured movement supports the nervous system's recovery process." },
+    { question: "Will I need a wheelchair or walking aid permanently?", answer: "This depends on the individual's recovery pattern. Many patients progress from aids to independent walking with consistent rehabilitation, though some may continue to need support depending on residual weakness." },
+    { question: "Can transverse myelitis come back?", answer: "In most cases it is a one-time event, though a small number of patients can experience recurrence. Your neurologist will guide you on monitoring for this." },
+    { question: "How long does rehabilitation typically take?", answer: "This varies significantly by patient, ranging from a few months to over a year of consistent therapy, depending on the severity of the initial weakness and the individual's rate of neurological recovery." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised neuro-rehabilitation for transverse myelitis patients, focused on restoring strength, balance, and independence.`,
+  cta: {
+    heading: "Recovery after transverse myelitis needs consistent, guided practice.",
+    subtext: `Begin a structured neuro-rehabilitation programme with ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} guiding neuro-rehabilitation session at ${BRAND} Delhi`,
+    "Balance training exercise for transverse myelitis in Kalkaji",
+    "Gait training session for spinal cord inflammation recovery",
+    "Functional mobility training for neurological patient in South Delhi",
+  ],
+},
+ 
+// ── 30. JOINT PAIN ───────────────────────────────────────────────────────────
+{
+  id: 31,
+  title: "Joint Pain",
+  slug: "joint-pain-physiotherapy",
+  category: "Pain Conditions",
+  image: Joint,
+  seo: {
+    title: `Joint Pain Treatment in Delhi | ${BRAND}`,
+    description: `Expert Joint Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat knee, shoulder, hip, wrist & ankle joint pain caused by arthritis, injury or overuse. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "joint pain treatment in delhi, joint pain physiotherapy kalkaji, arthritis joint pain treatment south delhi, joint pain specialist delhi, knee shoulder hip joint pain delhi, joint pain relief delhi, best joint pain physiotherapist delhi, joint inflammation treatment kalkaji, joint stiffness treatment delhi, joint pain home visit delhi",
+    canonical: `${BASE_URL}/services/joint-pain-physiotherapy`,
+  },
+  hero: {
+    heading: "Joint Pain Treatment in Delhi",
+    subheading: `Physiotherapy for knee, shoulder, hip, wrist, and ankle joint pain by ${DOCTOR} at ${BRAND}, targeting the root cause rather than just the symptom.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Joint pain is one of the most common reasons patients walk through the doors at ${BRAND}, and one of the most misunderstood, because the same complaint, say, knee pain, can come from arthritis in one patient, an old ligament injury in another, and simple muscle weakness in a third. ${DOCTOR} sees the risk in treating joint pain generically: a patient with weak surrounding muscles gets the same generic advice as one with active inflammation, and neither actually improves. Whether the pain is in the knee, shoulder, hip, wrist, or any other joint, our approach starts with identifying exactly what is driving the pain in that individual, arthritis, an old injury, muscle imbalance, or overuse, before building a treatment plan that addresses that specific cause rather than offering blanket pain relief.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Arthritis, including osteoarthritis and inflammatory types\n• Injury or trauma to the joint or surrounding structures\n• Muscle weakness placing extra load on the joint\n• Overuse, repetitive strain, or poor posture\n\nConditions We Treat:\n\n• Knee, shoulder, hip, wrist, and ankle joint pain\n• Arthritis-related stiffness and discomfort\n• Post-injury joint pain and instability" },
+    { title: "Why It Matters", content: "Joint pain that is treated only with rest or generic pain relief often returns, because the underlying driver, whether it's weak stabilising muscles, poor movement mechanics, or ongoing inflammation, hasn't actually been addressed.\n\nIdentifying the specific cause allows treatment to target it directly, whether that means strengthening the muscles supporting an unstable joint or managing an inflammatory flare, leading to more lasting relief." },
+    { title: "Who Needs This", content: "• Patients with persistent pain in any single joint or multiple joints\n• People diagnosed with arthritis affecting daily movement\n• Anyone recovering from a joint injury\n• Patients whose joint pain worsens with specific activities or postures\n• People noticing stiffness that limits range of motion\n• Anyone whose joint pain hasn't improved with rest alone" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Joint mobilisation to improve movement and reduce stiffness\n• Targeted strengthening exercises for the muscles supporting the joint\n• Pain relief therapies including manual therapy and electrotherapy\n• Lifestyle, posture, and activity modification advice\n• Condition-specific programmes for arthritis or post-injury pain" },
+    { title: "Our Process", content: "1. Assessment — Identifying the specific joint, cause, and contributing factors\n2. Pain Management — Manual therapy and modalities to reduce discomfort\n3. Mobility Restoration — Improving joint range of motion\n4. Targeted Strengthening — Building support around the affected joint\n5. Functional Retraining — Correcting movement patterns that aggravate the joint\n6. Long-Term Management Plan — Guidance to prevent recurrence" },
+  ],
+  benefits: ["Reduces pain", "Improves joint movement", "Enhances strength", "Prevents future flare-ups", "Restores confidence in daily movement"],
+  whyChooseUs: [
+    `${DOCTOR} identifies the specific cause of joint pain before treating it`,
+    "Individualised programmes for arthritis, injury, or overuse-related pain",
+    "Experience treating knee, shoulder, hip, wrist, and ankle joint pain",
+    "Focus on long-term prevention, not just short-term relief",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Is joint pain always caused by arthritis?", answer: "No. Joint pain can also result from injury, muscle weakness, overuse, or poor movement mechanics. A proper assessment is needed to identify the actual cause before treatment." },
+    { question: "Can physiotherapy help if I already have arthritis?", answer: "Yes. While physiotherapy cannot reverse arthritis, it can significantly reduce pain, improve joint mobility, and strengthen the surrounding muscles to reduce strain on the joint." },
+    { question: "Should I rest a painful joint completely?", answer: "Complete rest is rarely the best approach for most joint pain, since it can lead to further stiffness and weakness. Guided, appropriate movement is usually more beneficial." },
+    { question: "How long does joint pain treatment usually take?", answer: "This depends heavily on the cause. Overuse-related pain may improve within a few weeks, while arthritis or post-injury pain often requires an ongoing management programme." },
+    { question: "Can multiple joints be treated at the same time?", answer: "Yes, if you have pain in more than one joint, your physiotherapist will assess each one and build a combined programme that addresses them together." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised joint pain treatment built around the specific cause of your pain, not a one-size-fits-all protocol.`,
+  cta: {
+    heading: "Not all joint pain needs the same treatment.",
+    subtext: `Find out exactly what's driving your joint pain with an assessment from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing joint pain patient at ${BRAND} Delhi`,
+    "Joint mobilisation therapy session in Kalkaji",
+    "Strengthening exercise for arthritis-related joint pain",
+    "Manual therapy for joint pain relief in South Delhi",
+  ],
+},
+ 
+// ── 31. LOSS OF BALANCE ──────────────────────────────────────────────────────
+{
+  id: 32,
+  title: "Loss of Balance",
+  slug: "loss-of-balance-treatment",
+  category: "Neurological Conditions",
+  image: Balance,
+  seo: {
+    title: `Loss of Balance Treatment in Delhi | ${BRAND}`,
+    description: `Expert Loss of Balance Treatment in Delhi by ${DOCTOR} at ${BRAND}. We improve coordination, stability & prevent falls for elderly and neurological patients. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "loss of balance treatment in delhi, balance disorder physiotherapy kalkaji, fall prevention treatment south delhi, balance training specialist delhi, coordination improvement physiotherapy delhi, vestibular rehabilitation delhi, best balance physiotherapist delhi, elderly balance treatment delhi, balance therapy kalkaji, gait training balance delhi",
+    canonical: `${BASE_URL}/services/loss-of-balance-treatment`,
+  },
+  hero: {
+    heading: "Loss of Balance Treatment in Delhi",
+    subheading: `Physiotherapy to improve coordination, stability, and fall prevention by ${DOCTOR} at ${BRAND}, for elderly and neurological patients alike.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Loss of balance rarely announces itself as a single dramatic fall, it usually creeps in gradually, a hesitation on uneven ground, a hand reaching for the wall more often, a growing reluctance to walk outside alone. ${DOCTOR} at ${BRAND} sees this pattern frequently in elderly patients and those with neurological conditions, where by the time a fall actually happens, the underlying balance deficit has often been building for months. Balance depends on a complex interplay of muscle strength, joint sensation, vision, and the inner ear, and a weakness in any one of these systems can quietly undermine stability. Our approach identifies which of these systems needs the most support and builds a progressive, safe training programme, because the goal isn't just avoiding the next fall, it's restoring the confidence to move through daily life without fear.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Neurological disorders affecting coordination\n• Muscle weakness, especially in the legs and core\n• Inner ear or vestibular issues\n• Aging-related sensory and strength changes\n\nConditions We Treat:\n\n• Age-related balance decline\n• Neurological balance impairment\n• Post-fall anxiety and reduced confidence in walking" },
+    { title: "Why It Matters", content: "Balance problems that go unaddressed tend to worsen over time, not because the underlying issue necessarily progresses, but because reduced activity from fear of falling leads to further muscle weakness, creating a cycle that increases fall risk even more.\n\nBreaking this cycle early through targeted balance and strength training significantly reduces the risk of a serious fall and helps patients stay independent and confident for longer." },
+    { title: "Who Needs This", content: "• Elderly patients with a history of falls or near-falls\n• Patients with neurological conditions affecting coordination\n• Anyone feeling unsteady on uneven or crowded surfaces\n• People who have become fearful of walking outdoors\n• Patients recovering from a stroke or other neurological event\n• Anyone advised to improve balance for fall prevention" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Balance and coordination exercises tailored to the specific deficit\n• Gait training to correct unsteady walking patterns\n• Strengthening programmes for the legs and core\n• Fall prevention strategies for home and outdoor environments\n• Confidence-building progression from supported to independent movement" },
+    { title: "Our Process", content: "1. Assessment — Identifying the specific balance systems involved and fall risk factors\n2. Foundational Strengthening — Building leg and core strength as a base for stability\n3. Balance Training — Progressive exercises to challenge and improve control\n4. Gait Retraining — Correcting walking pattern and confidence on varied surfaces\n5. Fall Prevention Planning — Practical guidance for safer home and outdoor movement\n6. Ongoing Review — Ensuring gains are maintained over time" },
+  ],
+  benefits: ["Reduces fall risk", "Improves stability", "Boosts confidence", "Enhances daily mobility", "Reduces fear associated with walking"],
+  whyChooseUs: [
+    `${DOCTOR} identifies which balance system, strength, sensation, or vestibular, needs the most support`,
+    "Progressive, safe training suited to elderly and neurological patients",
+    "Practical fall prevention guidance for the home environment",
+    "Confidence-focused approach alongside physical training",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Is loss of balance just a normal part of ageing?", answer: "Some decline in balance is common with age, but significant unsteadiness or falls are not something to simply accept. Targeted physiotherapy can meaningfully improve stability at any age." },
+    { question: "I haven't fallen yet, just feel unsteady. Should I still get assessed?", answer: "Yes. Addressing balance concerns before a fall happens is far more effective than treating after an injury, and can prevent a fall from occurring in the first place." },
+    { question: "Can balance problems be caused by inner ear issues?", answer: "Yes, vestibular or inner ear problems are a common cause of balance disturbance. An assessment can help determine whether this, or other factors, are contributing." },
+    { question: "How long does balance training take to show results?", answer: "Many patients notice improved confidence and stability within a few weeks of consistent training, though full fall-risk reduction is typically an ongoing programme." },
+    { question: "Will I need to use a walking aid during treatment?", answer: "This depends on your current stability level. Your physiotherapist will guide you on whether a walking aid is appropriate during the early stages of your programme." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised balance rehabilitation to reduce fall risk and restore confident, independent movement.`,
+  cta: {
+    heading: "Feeling unsteady is worth addressing before it leads to a fall.",
+    subtext: `Get a balance assessment from ${DOCTOR} at ${BRAND} and start rebuilding your stability.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} conducting balance assessment at ${BRAND} Delhi`,
+    "Balance training exercise for elderly patient in Kalkaji",
+    "Gait retraining session for fall prevention",
+    "Coordination exercise for neurological balance impairment in South Delhi",
+  ],
+},
+ 
+// ── 32. INFLAMMATION ─────────────────────────────────────────────────────────
+{
+  id: 33,
+  title: "Inflammation",
+  slug: "inflammation-pain-management",
+  category: "Pain Conditions",
+  image: Inflammation,
+  seo: {
+    title: `Inflammation & Pain Management in Delhi | ${BRAND}`,
+    description: `Expert Inflammation & Pain Management in Delhi by ${DOCTOR} at ${BRAND}. We reduce joint and muscle inflammation, swelling, pain & restricted movement. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "inflammation treatment in delhi, inflammation physiotherapy kalkaji, joint inflammation treatment south delhi, muscle inflammation pain delhi, swelling treatment physiotherapy delhi, pain management inflammation delhi, best inflammation physiotherapist delhi, anti-inflammatory physiotherapy delhi, inflammation relief kalkaji, chronic inflammation treatment delhi",
+    canonical: `${BASE_URL}/services/inflammation-pain-management`,
+  },
+  hero: {
+    heading: "Inflammation & Pain Management in Delhi",
+    subheading: `Physiotherapy-led inflammation management by ${DOCTOR} at ${BRAND}, addressing swelling, pain, and restricted movement in muscles and joints.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Inflammation is the body's natural response to injury or irritation, but when it lingers longer than it should, it stops being protective and starts becoming the problem itself, restricting movement, causing persistent pain, and in some cases feeding a cycle where reduced movement leads to more stiffness and more inflammation. ${DOCTOR} at ${BRAND} treats inflammation not as something to simply suppress with rest, but as a process that physiotherapy can actively help resolve, through appropriate loading, movement, and manual techniques that support the body's own healing response. Whether the inflammation follows an acute injury, a flare-up of a chronic joint condition, or overuse, our approach combines calming the acute symptoms with a gradual return to movement, so the affected area heals fully rather than settling into chronic discomfort.`,
+  sections: [
+    { title: "Overview", content: "Symptoms:\n\n• Swelling around a joint or muscle\n• Pain and tenderness, often worse with movement or touch\n• Warmth or redness in the affected area\n• Reduced mobility and stiffness\n\nConditions We Treat:\n\n• Acute post-injury inflammation\n• Chronic joint or muscle inflammation\n• Flare-ups related to arthritis or overuse" },
+    { title: "Why It Matters", content: "Inflammation that isn't managed properly can settle into a chronic cycle, where ongoing swelling limits movement, and limited movement in turn slows healing and worsens stiffness. This cycle can turn a short-term problem into a long-term one.\n\nAppropriately timed physiotherapy, calming the acute phase, then reintroducing safe movement, helps break this cycle and supports genuine tissue healing rather than just symptom suppression." },
+    { title: "Who Needs This", content: "• Patients with swelling or pain following a recent injury\n• Anyone with a flare-up of a known joint or muscle condition\n• Patients with inflammation that hasn't settled with rest alone\n• People experiencing stiffness alongside visible swelling\n• Athletes managing overuse-related inflammation\n• Anyone unsure whether to rest or move an inflamed area" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Cold and heat therapy to manage acute and chronic symptoms\n• Gentle, guided exercises to maintain safe movement\n• Manual therapy to reduce swelling and stiffness\n• Electrotherapy techniques to support pain relief and healing\n• Gradual return-to-activity planning" },
+    { title: "Our Process", content: "1. Assessment — Identifying the cause, stage, and severity of inflammation\n2. Acute Management — Calming pain and swelling with appropriate modalities\n3. Gentle Mobilisation — Reintroducing safe movement without aggravating the area\n4. Progressive Loading — Gradually restoring strength and function\n5. Activity-Specific Return — Tailoring the final stage to your daily or sporting demands\n6. Prevention Guidance — Advice to reduce the chance of recurring flare-ups" },
+  ],
+  benefits: ["Reduces swelling", "Relieves pain", "Improves movement", "Speeds up healing", "Helps prevent chronic flare-up cycles"],
+  whyChooseUs: [
+    `${DOCTOR} balances calming inflammation with restoring safe movement`,
+    "Individualised approach for acute injuries versus chronic flare-ups",
+    "Combination of manual therapy, modalities, and guided exercise",
+    "Focus on breaking the swelling-stiffness cycle, not just symptom relief",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Should I rest completely when a joint or muscle is inflamed?", answer: "Complete rest is rarely ideal for more than the first day or two. After the acute phase, gentle, guided movement generally supports healing better than prolonged immobility." },
+    { question: "Is ice or heat better for inflammation?", answer: "Ice is generally more suitable for acute inflammation with swelling, while heat is often better for chronic stiffness. Your physiotherapist can guide you on which is appropriate for your specific situation." },
+    { question: "How long does inflammation usually take to settle?", answer: "Acute inflammation often improves within one to two weeks with appropriate management, while chronic or recurring inflammation may require an ongoing management plan." },
+    { question: "Can physiotherapy help with inflammation from arthritis?", answer: "Yes. Physiotherapy can help manage arthritis-related flare-ups by reducing swelling, maintaining joint mobility, and strengthening the muscles that support the affected joint." },
+    { question: "Why does my swelling keep coming back?", answer: "Recurring swelling often indicates that the area is being loaded before it has fully healed, or that an underlying muscle weakness is causing repeated strain. An assessment can identify the specific cause." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides effective, physiotherapy-led inflammation management that supports genuine healing rather than just masking symptoms.`,
+  cta: {
+    heading: "Don't let lingering inflammation settle into chronic stiffness.",
+    subtext: `Get an assessment from ${DOCTOR} at ${BRAND} to break the swelling-pain cycle early.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing inflammation patient at ${BRAND} Delhi`,
+    "Cold therapy session for acute swelling in Kalkaji",
+    "Manual therapy for chronic joint inflammation",
+    "Guided mobility exercise for inflammation management in South Delhi",
+  ],
+},
+ 
+// ── 33. NUMBNESS AND TINGLING ────────────────────────────────────────────────
+{
+  id: 34,
+  title: "Numbness and Tingling",
+  slug: "numbness-and-tingling-treatment",
+  category: "Neurological Conditions",
+  image: Numbness,
+  seo: {
+    title: `Numbness & Tingling Treatment in Delhi | ${BRAND}`,
+    description: `Expert Numbness & Tingling Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat nerve compression, pins and needles sensation & loss of sensation in hands and feet. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "numbness tingling treatment in delhi, nerve compression treatment kalkaji, pins needles sensation treatment delhi, numbness hands feet treatment south delhi, tingling sensation physiotherapy delhi, nerve pain treatment delhi, best numbness physiotherapist delhi, nerve mobilization treatment kalkaji, carpal tunnel numbness delhi, sciatica numbness treatment delhi",
+    canonical: `${BASE_URL}/services/numbness-and-tingling-treatment`,
+  },
+  hero: {
+    heading: "Numbness & Tingling Treatment in Delhi",
+    subheading: `Physiotherapy for nerve compression and pins-and-needles sensations by ${DOCTOR} at ${BRAND}, treating the source rather than just the symptom.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Numbness and tingling can be unsettling precisely because they feel disconnected from any obvious injury, a hand that falls asleep too easily, a foot with a persistent pins-and-needles sensation, a patch of skin that feels dull to touch. ${DOCTOR} at ${BRAND} traces these sensations back to their actual source, which is very often a nerve being compressed or irritated somewhere along its path, whether that's in the neck, lower back, wrist, or elsewhere, rather than a problem in the hand or foot itself. Poor posture, prolonged sitting, repetitive movements, and spinal issues are common culprits behind this kind of nerve irritation. Once the site and cause of compression are identified, physiotherapy can directly relieve the pressure on the nerve, restore normal movement patterns, and in most cases, return the affected area to normal sensation.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Nerve compression at the neck, spine, wrist, or elsewhere\n• Cervical or lumbar spine issues\n• Poor posture maintained over long periods\n• Prolonged sitting or repetitive hand and wrist movements\n\nConditions We Treat:\n\n• Nerve compression syndromes including carpal tunnel-related symptoms\n• Sciatica-related numbness and tingling\n• Cervical spine-related arm and hand symptoms" },
+    { title: "Why It Matters", content: "Numbness and tingling are the nervous system's way of signalling that a nerve is under pressure somewhere along its path. If the source of that pressure isn't identified and addressed, the sensation can persist or worsen, and in some cases progress to weakness.\n\nTreating the actual site of compression, rather than just the area where symptoms are felt, is what leads to lasting resolution rather than temporary relief." },
+    { title: "Who Needs This", content: "• Anyone experiencing numbness or tingling in the hands or feet\n• Patients with a burning or 'pins and needles' sensation\n• People with desk jobs involving prolonged sitting or typing\n• Patients with known cervical or lumbar spine issues\n• Anyone with symptoms of carpal tunnel or sciatica\n• People noticing reduced sensation in a specific area of skin" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Nerve mobilisation techniques to relieve compression\n• Posture correction exercises for the neck, back, and wrists\n• Strengthening and stretching around the affected nerve pathway\n• Electrotherapy for nerve-related pain relief\n• Ergonomic guidance for desk and daily activity setups" },
+    { title: "Our Process", content: "1. Assessment — Identifying the nerve involved and the likely site of compression\n2. Pain and Symptom Relief — Techniques to ease acute nerve irritation\n3. Nerve Mobilisation — Gentle, targeted movements to relieve pressure\n4. Postural Correction — Addressing habits contributing to nerve compression\n5. Strengthening — Supporting the spine or joint to prevent recurrence\n6. Ergonomic and Lifestyle Guidance — Practical changes to reduce future irritation" },
+  ],
+  benefits: ["Reduces numbness", "Improves nerve function", "Restores normal sensation", "Reduces tingling and pins-and-needles", "Prevents recurrence"],
+  whyChooseUs: [
+    `${DOCTOR} traces symptoms back to their true site of nerve compression`,
+    "Combination of nerve mobilisation, posture correction, and strengthening",
+    "Experience with carpal tunnel, sciatica, and cervical-related symptoms",
+    "Practical ergonomic guidance for desk-based lifestyles",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Why do I feel tingling in my hand when my neck is the problem?", answer: "Nerves travel from the spine down through the arm to the hand, so compression at the neck can cause symptoms to be felt much further away, in the hand or fingers." },
+    { question: "Is numbness in my feet always related to the back?", answer: "Not always, but lower back nerve compression, including sciatica, is one of the most common causes. An assessment can help identify whether the spine or another source is responsible." },
+    { question: "How long does nerve-related numbness take to improve?", answer: "This depends on the severity and duration of compression. Mild, recent symptoms may improve within a few weeks, while long-standing compression can take longer to fully resolve." },
+    { question: "Can numbness from typing all day be fixed with physiotherapy?", answer: "Yes, this is a very common presentation. Nerve mobilisation, postural correction, and ergonomic adjustments are often very effective for repetitive strain-related numbness." },
+    { question: "Should I be worried if the numbness doesn't go away?", answer: "Persistent numbness should always be properly assessed, since prolonged nerve compression can, in some cases, progress to weakness. Early evaluation and treatment reduce this risk." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised treatment for numbness and tingling by tracing symptoms to their true nerve source.`,
+  cta: {
+    heading: "Numbness or tingling that keeps returning is worth investigating.",
+    subtext: `Trace the source of your nerve symptoms with an assessment from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing nerve compression patient at ${BRAND} Delhi`,
+    "Nerve mobilisation exercise for numbness treatment in Kalkaji",
+    "Posture correction session for cervical nerve symptoms",
+    "Ergonomic guidance for desk-related numbness in South Delhi",
+  ],
+},
+ 
+// ── 34. HEADACHE ─────────────────────────────────────────────────────────────
+{
+  id: 35,
+  title: "Headache",
+  slug: "headache-physiotherapy-treatment",
+  category: "Pain Conditions",
+  image: Headache,
+  seo: {
+    title: `Headache Treatment in Delhi | ${BRAND}`,
+    description: `Expert Headache & Migraine Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We treat tension headaches, cervicogenic headaches, neck-related headaches & migraines. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "headache treatment in delhi, tension headache physiotherapy kalkaji, cervicogenic headache treatment south delhi, migraine physiotherapy delhi, headache specialist delhi, neck related headache treatment delhi, best headache physiotherapist delhi, headache relief kalkaji, physiotherapy for headache delhi, cervical headache treatment delhi",
+    canonical: `${BASE_URL}/services/headache-physiotherapy-treatment`,
+  },
+  hero: {
+    heading: "Headache Physiotherapy in Delhi",
+    subheading: `Physiotherapy for tension, cervicogenic, and neck-related headaches by ${DOCTOR} at ${BRAND}, addressing the root cause rather than masking the pain.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Headaches are usually treated as a purely medical problem, something to be managed with a tablet and forgotten, but ${DOCTOR} at ${BRAND} sees a large number of patients whose recurring headaches trace directly back to tightness and dysfunction in the neck and upper back rather than anything happening in the head itself. Cervicogenic and tension-type headaches, in particular, are driven by tight muscles, stiff joints, and poor posture in the cervical spine, patterns that build up gradually from hours at a desk, screen time, and stress, and that painkillers can mask but never actually resolve. Our approach identifies whether the neck is contributing to your headaches and, where it is, treats that dysfunction directly through manual therapy, postural correction, and targeted exercise, aiming to reduce not just the intensity but the frequency of your headaches over time.`,
+  sections: [
+    { title: "Overview", content: "Common Triggers:\n\n• Neck muscle tightness and trigger points\n• Poor posture, especially during desk work or screen use\n• Stress-related muscle tension\n• Cervical spine stiffness or joint dysfunction\n\nConditions We Treat:\n\n• Tension-type headaches\n• Cervicogenic (neck-related) headaches\n• Headaches associated with poor posture or prolonged screen time" },
+    { title: "Why It Matters", content: "When a headache originates in the neck, treating only the head, whether through medication or rest, addresses the symptom while leaving the actual source of tension untouched. This is why many patients find their headaches keep returning despite consistent painkiller use.\n\nAddressing the neck's mobility, muscle tension, and posture directly reduces the mechanical trigger for the headache, which is why physiotherapy can meaningfully reduce both the frequency and severity of episodes." },
+    { title: "Who Needs This", content: "• Patients with frequent or recurring headaches\n• Anyone whose headaches worsen with desk work or screen time\n• Patients who notice neck stiffness alongside their headaches\n• People whose headaches haven't improved with medication alone\n• Patients experiencing stress-related tension headaches\n• Anyone wanting to reduce reliance on painkillers for headache relief" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Neck mobilisation and manual therapy to release tension\n• Postural correction for desk work and daily habits\n• Stretching and relaxation exercises for the neck and shoulders\n• Pain relief modalities including heat and electrotherapy\n• Trigger point release for tight, headache-provoking muscles" },
+    { title: "Our Process", content: "1. Assessment — Identifying whether the neck is a contributing source of your headaches\n2. Pain Relief — Manual therapy and modalities to ease current symptoms\n3. Mobility Restoration — Improving neck and upper back movement\n4. Postural Correction — Addressing desk setup and daily posture habits\n5. Strengthening — Building neck and shoulder endurance to prevent recurrence\n6. Long-Term Prevention Plan — Guidance to reduce headache frequency over time" },
+  ],
+  benefits: ["Reduces headache frequency", "Relieves neck tension", "Improves posture", "Reduces reliance on painkillers", "Enhances daily comfort"],
+  whyChooseUs: [
+    `${DOCTOR} assesses whether your headaches are neck-related before treating them`,
+    "Focus on reducing frequency and severity, not just momentary relief",
+    "Combination of manual therapy, posture correction, and strengthening",
+    "Practical guidance for desk and screen-related habits",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "How do I know if my headache is coming from my neck?", answer: "Cervicogenic headaches often start at the base of the skull, are accompanied by neck stiffness, and worsen with certain neck movements or postures. A physiotherapy assessment can confirm whether your neck is a contributing factor." },
+    { question: "Can physiotherapy help with migraines too?", answer: "While migraines have a different underlying mechanism than tension or cervicogenic headaches, neck tightness can still act as a trigger in many migraine sufferers, so addressing it can help reduce frequency." },
+    { question: "Why do my headaches get worse after a long day at the desk?", answer: "Prolonged sitting and forward head posture place sustained strain on the neck and upper back muscles, which is a very common trigger for tension and cervicogenic headaches." },
+    { question: "How quickly can physiotherapy reduce my headaches?", answer: "Some patients notice relief after just a few sessions of manual therapy, while reducing overall headache frequency through postural and strength changes typically takes a few weeks of consistent treatment." },
+    { question: "Do I need to stop taking painkillers while doing physiotherapy?", answer: "You should continue following your doctor's advice on medication. Physiotherapy is aimed at addressing the underlying cause, which over time may reduce how often you need to rely on painkillers." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} treats headaches at their root cause, focusing on the neck and posture rather than just the pain itself.`,
+  cta: {
+    heading: "Stop treating the pain and start treating the cause.",
+    subtext: `Find out if your neck is behind your headaches with an assessment from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing headache patient at ${BRAND} Delhi`,
+    "Neck mobilisation therapy for cervicogenic headache in Kalkaji",
+    "Postural correction session for tension headache relief",
+    "Trigger point release therapy in South Delhi",
+  ],
+},
 
-  // ── 26. FLAT FOOT ────────────────────────────────────────────────────────────
-  {
-    id: 27,
-    title: "Flat Foot (Pes Planus)",
-    slug: "flat-foot",
-    category: "Foot Conditions",
-    image: Flat,
-    seo: {
-      title: `Flat Foot Treatment in Delhi | ${BRAND}`,
-      description: `Expert Flat Foot (Pes Planus) Treatment in Delhi by ${DOCTOR} at ${BRAND}. We strengthen foot muscles, improve arch support & reduce foot, ankle & knee pain. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "flat foot treatment in delhi, pes planus physiotherapy kalkaji, flat foot specialist south delhi, fallen arch treatment delhi, flat foot pain relief delhi, foot arch strengthening delhi, best flat foot doctor delhi, flat foot rehabilitation kalkaji, ankle pain flat foot delhi, postural imbalance flat foot treatment delhi",
-      canonical: `${BASE_URL}/services/flat-foot`,
-    },
-    description: "Flat foot is a condition where the arch of the foot collapses, causing foot pain, ankle discomfort, knee pain, and postural problems if left untreated.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Weak foot muscles or ligaments\n• Genetic factors\n• Obesity or prolonged standing\n• Improper footwear\n\nConditions We Treat:\n\n• Foot and heel pain\n• Ankle instability\n• Knee and lower back pain" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Foot and ankle strengthening exercises\n• Arch support and posture correction\n• Balance and gait training\n• Stretching of tight muscles\n• Footwear and orthotic guidance" },
-    ],
-    benefits: ["Reduces foot and ankle pain", "Improves arch support", "Enhances walking posture", "Prevents knee and back strain", "Improves foot function"],
-    customTreatmentText: "Our flat foot physiotherapy program focuses on correcting alignment and strengthening foot muscles.",
+ // ── 35. BALANCE PROBLEM ──────────────────────────────────────────────────────
+{
+  id: 36,
+  title: "Balance Problem Treatment",
+  slug: "balance-problem-treatment",
+  category: "Neurological Conditions",
+  image: Shortness,
+  seo: {
+    title: `Balance Problem Treatment in Delhi | ${BRAND}`,
+    description: `Expert Balance Problem Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat unsteady walking, coordination issues & fall risk in elderly and neurological patients. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "balance problem treatment in delhi, balance disorder physiotherapy kalkaji, unsteady walking treatment delhi, balance training south delhi, fall prevention physiotherapy delhi, coordination disorder treatment delhi, best balance physiotherapist delhi, elderly balance treatment kalkaji, gait imbalance treatment delhi, vestibular physiotherapy delhi",
+    canonical: `${BASE_URL}/services/balance-problem-treatment`,
   },
-
-  // ── 27. SPONDYLOLISTHESIS ────────────────────────────────────────────────────
-  {
-    id: 28,
-    title: "Spondylolisthesis",
-    slug: "spondylolisthesis-treatment",
-    category: "Spine Conditions",
-    image: Spondylolisthesis,
-    seo: {
-      title: `Spondylolisthesis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Spondylolisthesis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat vertebral slippage, lower back pain, nerve compression & spinal instability. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "spondylolisthesis treatment in delhi, spondylolisthesis physiotherapy kalkaji, vertebral slippage treatment south delhi, spondylolisthesis specialist delhi, lower back slip treatment delhi, spinal instability physiotherapy delhi, best spondylolisthesis doctor delhi, spondylolisthesis rehabilitation kalkaji, nerve compression back treatment delhi, spinal slippage treatment delhi",
-      canonical: `${BASE_URL}/services/spondylolisthesis-treatment`,
-    },
-    description: "Spondylolisthesis is a spinal condition where one vertebra slips forward over another, causing lower back pain, stiffness, and nerve compression.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Lower back pain\n• Stiffness and reduced flexibility\n• Pain while standing or walking\n• Numbness or tingling in legs" },
-      { title: "Treatment", content: "• Core strengthening exercises\n• Spinal stabilization therapy\n• Posture correction\n• Pain relief modalities and manual therapy" },
-    ],
-    benefits: ["Reduces back pain", "Improves spinal stability", "Enhances mobility", "Prevents progression"],
-    customTreatmentText: "Our personalized physiotherapy programs help manage Spondylolisthesis effectively.",
+  hero: {
+    heading: "Balance Problem Treatment in Delhi",
+    subheading: `Physiotherapy for unsteady walking, coordination issues, and fall risk by ${DOCTOR} at ${BRAND}, for elderly and neurological patients.`,
+    cta: "Book Your Assessment Today",
   },
-
-  // ── 28. ANKYLOSING SPONDYLITIS ───────────────────────────────────────────────
-  {
-    id: 29,
-    title: "Ankylosing Spondylitis",
-    slug: "ankylosing-spondylitis-physiotherapy",
-    category: "Arthritis Conditions",
-    image: Ankylosing,
-    seo: {
-      title: `Ankylosing Spondylitis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Ankylosing Spondylitis Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We treat chronic spine inflammation, morning stiffness, back pain & maintain posture. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "ankylosing spondylitis treatment in delhi, ankylosing spondylitis physiotherapy kalkaji, spine inflammation treatment south delhi, ankylosing spondylitis specialist delhi, morning back stiffness treatment delhi, AS physiotherapy delhi, best ankylosing spondylitis doctor delhi, chronic back pain treatment delhi, spinal inflammatory arthritis delhi, ankylosing spondylitis rehabilitation kalkaji",
-      canonical: `${BASE_URL}/services/ankylosing-spondylitis-physiotherapy`,
-    },
-    description: "Ankylosing Spondylitis is a chronic inflammatory condition affecting the spine and joints, leading to stiffness and reduced flexibility. Early physiotherapy helps maintain posture, mobility, and quality of life.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Morning stiffness\n• Chronic back pain\n• Reduced spine flexibility\n• Fatigue" },
-      { title: "Treatment", content: "• Stretching and mobility exercises\n• Postural training\n• Breathing exercises\n• Pain and inflammation management" },
-    ],
-    benefits: ["Improves flexibility", "Reduces stiffness", "Maintains upright posture", "Slows disease progression"],
-    customTreatmentText: "We provide specialized physiotherapy for Ankylosing Spondylitis patients.",
+  description: `Balance problems tend to build up quietly, a slight wobble getting up from a chair, a hand reaching for support more often, a growing hesitation on stairs, long before they show up as an actual fall. ${DOCTOR} at ${BRAND} sees this pattern often, particularly in elderly patients and those with underlying neurological conditions, where the coordination between muscles, joints, vision, and the inner ear has gradually become less reliable. Left unaddressed, this uncertainty tends to make patients move less, which weakens the very muscles that support stability and makes the problem worse over time. Our approach identifies exactly which part of the balance system needs the most support, then builds a progressive, safe programme that restores not just physical stability but the everyday confidence to walk, turn, and move without constant worry.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Neurological disorders affecting coordination\n• Muscle weakness, particularly in the legs and core\n• Inner ear or vestibular imbalance\n• Aging-related sensory and strength changes\n\nConditions We Treat:\n\n• Unsteady or hesitant walking\n• Coordination difficulties\n• Fall risk in elderly and neurological patients" },
+    { title: "Why It Matters", content: "Balance problems left untreated create a cycle: uncertainty leads to reduced activity, reduced activity weakens the muscles and reflexes needed for stability, and that weakness increases the risk of an actual fall.\n\nBreaking this cycle early, through targeted strengthening and balance training, is far more effective than waiting until after a fall has already happened." },
+    { title: "Who Needs This", content: "• Elderly patients noticing increased unsteadiness\n• Patients with neurological conditions affecting coordination\n• Anyone who feels hesitant on stairs or uneven ground\n• People who have had a near-fall or a fall\n• Patients recovering from a stroke or other neurological event\n• Anyone advised to work on balance and fall prevention" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Balance and coordination training tailored to the specific deficit\n• Gait and walking exercises to correct unsteady patterns\n• Strengthening programmes for the legs and core\n• Fall prevention strategies for home and outdoor movement\n• Confidence-building, progressive exercise plans" },
+    { title: "Our Process", content: "1. Assessment — Identifying which balance systems are involved and fall risk factors\n2. Foundational Strengthening — Building leg and core strength as a base\n3. Balance Training — Progressive exercises to challenge and improve control\n4. Gait Retraining — Restoring a steady, confident walking pattern\n5. Fall Prevention Planning — Practical guidance for safer daily movement\n6. Ongoing Review — Ensuring gains are maintained over time" },
+  ],
+  benefits: ["Improves balance", "Reduces fall risk", "Boosts confidence", "Enhances mobility", "Supports independent daily movement"],
+  whyChooseUs: [
+    `${DOCTOR} identifies which balance system needs the most support before treating it`,
+    "Progressive, safe training suited to elderly and neurological patients",
+    "Practical fall prevention guidance for the home environment",
+    "Confidence-focused approach alongside physical training",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Is a balance problem just a normal sign of ageing?", answer: "Some decline is common with age, but persistent unsteadiness isn't something to simply accept. Targeted physiotherapy can meaningfully improve stability at any age." },
+    { question: "I haven't fallen yet, should I still get this checked?", answer: "Yes. Addressing balance concerns before a fall happens is far more effective than treating after an injury has occurred." },
+    { question: "Can inner ear issues cause balance problems?", answer: "Yes, vestibular or inner ear disorders are a common contributor. An assessment can help determine whether this or another factor is responsible." },
+    { question: "How long before I notice improvement?", answer: "Many patients notice better stability and confidence within a few weeks of consistent training, though full fall-risk reduction is typically an ongoing programme." },
+    { question: "Will I need a walking aid during treatment?", answer: "This depends on your current stability level. Your physiotherapist will guide you on whether one is appropriate in the early stages." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised balance treatment focused on reducing fall risk and restoring confident, independent movement.`,
+  cta: {
+    heading: "Unsteadiness is worth addressing before it leads to a fall.",
+    subtext: `Get a balance assessment from ${DOCTOR} at ${BRAND} and start rebuilding your stability.`,
+    buttonText: "Book Your Appointment Now",
   },
-
-  // ── 29. TRANSVERSE MYELITIS ──────────────────────────────────────────────────
-  {
-    id: 30,
-    title: "Transverse Myelitis",
-    slug: "transverse-myelitis-rehabilitation",
-    category: "Neurological Conditions",
-    image: Transverse,
-    seo: {
-      title: `Transverse Myelitis Rehabilitation in Delhi | ${BRAND}`,
-      description: `Specialized Transverse Myelitis Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We restore strength, balance & functional independence after spinal cord inflammation. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
-      keywords: "transverse myelitis rehabilitation delhi, transverse myelitis physiotherapy kalkaji, spinal cord inflammation treatment delhi, transverse myelitis specialist south delhi, myelitis weakness treatment delhi, spinal cord rehabilitation delhi, best transverse myelitis physiotherapist delhi, myelitis balance training delhi, neuro rehabilitation kalkaji, spinal cord injury recovery delhi",
-      canonical: `${BASE_URL}/services/transverse-myelitis-rehabilitation`,
-    },
-    description: "Transverse Myelitis is a neurological condition causing inflammation of the spinal cord, leading to weakness, sensory loss, and balance problems.",
-    sections: [
-      { title: "Overview", content: "Common Issues:\n\n• Muscle weakness\n• Loss of sensation\n• Balance problems\n• Difficulty walking" },
-      { title: "Treatment", content: "• Neuro-rehabilitation exercises\n• Balance and gait training\n• Strengthening programs\n• Functional mobility training" },
-    ],
-    benefits: ["Improves strength", "Enhances balance", "Promotes independence", "Improves quality of life"],
-    customTreatmentText: "We provide specialized rehabilitation for Transverse Myelitis patients.",
+  imageAltText: [
+    `${DOCTOR} conducting a balance assessment at ${BRAND} Delhi`,
+    "Balance training exercise for elderly patient in Kalkaji",
+    "Gait retraining session for unsteady walking",
+    "Coordination exercise for fall prevention in South Delhi",
+  ],
+},
+ 
+// ── 36. CREPITUS ─────────────────────────────────────────────────────────────
+{
+  id: 37,
+  title: "Crepitus (Cracking Joints)",
+  slug: "crepitus-cracking-joints",
+  category: "Joint Conditions",
+  image: Crepitus,
+  seo: {
+    title: `Crepitus (Cracking Joints) Treatment in Delhi | ${BRAND}`,
+    description: `Expert Crepitus & Cracking Joints Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat joint popping, grinding sensations, knee crepitus & improve joint function. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "crepitus treatment in delhi, cracking joints treatment kalkaji, joint popping treatment south delhi, knee crepitus treatment delhi, joint grinding sensation physiotherapy delhi, crepitus specialist delhi, best cracking joint physiotherapist delhi, cartilage wear treatment delhi, crepitus rehabilitation kalkaji, joint noise treatment delhi",
+    canonical: `${BASE_URL}/services/crepitus-cracking-joints`,
   },
-
-  // ── 30. JOINT PAIN ───────────────────────────────────────────────────────────
-  {
-    id: 31,
-    title: "Joint Pain",
-    slug: "joint-pain-physiotherapy",
-    category: "Pain Conditions",
-    image: Joint,
-    seo: {
-      title: `Joint Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Joint Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat knee, shoulder, hip, wrist & ankle joint pain caused by arthritis, injury or overuse. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "joint pain treatment in delhi, joint pain physiotherapy kalkaji, arthritis joint pain treatment south delhi, joint pain specialist delhi, knee shoulder hip joint pain delhi, joint pain relief delhi, best joint pain physiotherapist delhi, joint inflammation treatment kalkaji, joint stiffness treatment delhi, joint pain home visit delhi",
-      canonical: `${BASE_URL}/services/joint-pain-physiotherapy`,
-    },
-    description: "Joint pain can affect knees, shoulders, hips, and other joints due to arthritis, injury, or overuse. Physiotherapy treats pain, stiffness, and weakness by targeting the root cause.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Arthritis\n• Injury or trauma\n• Muscle weakness\n• Overuse or poor posture" },
-      { title: "Treatment", content: "• Joint mobilization\n• Strengthening exercises\n• Pain relief therapies\n• Lifestyle and posture advice" },
-    ],
-    benefits: ["Reduces pain", "Improves joint movement", "Enhances strength", "Prevents future problems"],
-    customTreatmentText: "We provide specialized joint pain treatment at Advanced Pain Physiotherapy Centre.",
+  hero: {
+    heading: "Crepitus (Cracking Joints) Treatment in Delhi",
+    subheading: `Physiotherapy for joint popping, grinding, and cracking sensations by ${DOCTOR} at ${BRAND}, focused on function, not just the noise.`,
+    cta: "Book Your Assessment Today",
   },
-
-  // ── 31. LOSS OF BALANCE ──────────────────────────────────────────────────────
-  {
-    id: 32,
-    title: "Loss of Balance",
-    slug: "loss-of-balance-treatment",
-    category: "Neurological Conditions",
-    image: Balance,
-    seo: {
-      title: `Loss of Balance Treatment in Delhi | ${BRAND}`,
-      description: `Expert Loss of Balance Treatment in Delhi by ${DOCTOR} at ${BRAND}. We improve coordination, stability & prevent falls for elderly and neurological patients. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "loss of balance treatment in delhi, balance disorder physiotherapy kalkaji, fall prevention treatment south delhi, balance training specialist delhi, coordination improvement physiotherapy delhi, vestibular rehabilitation delhi, best balance physiotherapist delhi, elderly balance treatment delhi, balance therapy kalkaji, gait training balance delhi",
-      canonical: `${BASE_URL}/services/loss-of-balance-treatment`,
-    },
-    description: "Loss of balance can increase the risk of falls and injuries, especially in elderly or neurological patients. Physiotherapy improves coordination, strength, and confidence in movement.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Neurological disorders\n• Muscle weakness\n• Inner ear issues\n• Aging-related changes" },
-      { title: "Treatment", content: "• Balance and coordination exercises\n• Gait training\n• Strengthening programs\n• Fall prevention strategies" },
-    ],
-    benefits: ["Reduces fall risk", "Improves stability", "Boosts confidence", "Enhances daily mobility"],
-    customTreatmentText: "We provide specialized balance rehabilitation at Advanced Pain Physiotherapy Centre.",
+  description: `A cracking or popping knee is something most patients mention almost as an afterthought, until it starts coming with discomfort, or the sound itself becomes a constant reminder that something isn't moving quite right. ${DOCTOR} at ${BRAND} sees crepitus across a wide range of patients, from young, active people whose joints simply pop without pain, to older patients where the grinding sensation reflects genuine cartilage wear underneath. The distinction matters, because painless crepitus in an otherwise healthy joint often needs little more than reassurance and general strengthening, while crepitus accompanied by pain, swelling, or stiffness usually points to an underlying issue worth addressing directly. Our approach starts by working out which category your crepitus falls into, then builds a plan around improving joint mechanics, strengthening the surrounding muscles, and restoring smoother, more comfortable movement.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Joint stiffness from reduced movement\n• Cartilage degeneration\n• Muscle imbalance around the joint\n• Overuse of the joint\n\nConditions We Treat:\n\n• Knee, shoulder, and other joint crepitus\n• Crepitus accompanied by pain or stiffness\n• Cartilage-related joint wear" },
+    { title: "Why It Matters", content: "Not all crepitus is a warning sign, but crepitus that comes with pain, swelling, or a feeling of the joint catching often reflects an underlying mechanical issue that will not resolve on its own.\n\nAddressing the muscle imbalance or stiffness driving the sensation early helps prevent it from progressing into more significant joint discomfort or wear over time." },
+    { title: "Who Needs This", content: "• Anyone whose joint cracking is accompanied by pain or discomfort\n• Patients noticing an increase in grinding or catching sensations\n• People with joint stiffness alongside audible popping\n• Athletes or gym-goers with crepitus during specific movements\n• Patients concerned about cartilage wear or early arthritis\n• Anyone wanting reassurance about whether their joint noise is a concern" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Joint mobilisation techniques to improve movement quality\n• Strengthening of the muscles supporting the joint\n• Flexibility exercises to reduce stiffness\n• Posture and movement pattern correction\n• Guidance on activity modification where needed" },
+    { title: "Our Process", content: "1. Assessment — Determining whether crepitus is painless or linked to an underlying issue\n2. Mobility Work — Improving joint movement quality where stiffness is present\n3. Targeted Strengthening — Building support around the joint to reduce strain\n4. Movement Correction — Addressing patterns that may be contributing to the grinding sensation\n5. Progress Review — Monitoring whether symptoms are improving with treatment\n6. Long-Term Guidance — Advice to protect the joint going forward" },
+  ],
+  benefits: ["Improves joint movement", "Reduces discomfort", "Enhances stability", "Prevents further joint wear", "Provides clarity on whether the crepitus needs ongoing management"],
+  whyChooseUs: [
+    `${DOCTOR} distinguishes harmless crepitus from cases needing active treatment`,
+    "Focus on the underlying muscle and joint mechanics, not just the noise",
+    "Practical guidance for athletes and active individuals",
+    "Experience managing early cartilage-related joint changes",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Is cracking in my knee always something to worry about?", answer: "Not necessarily. Painless popping in an otherwise healthy joint is often harmless. It's worth getting assessed when the cracking comes with pain, swelling, or a catching sensation." },
+    { question: "Does crepitus mean I have arthritis?", answer: "Not always, though crepitus with pain and stiffness can sometimes be an early sign of cartilage wear. An assessment can help clarify what's actually happening in your joint." },
+    { question: "Can physiotherapy actually stop the cracking sound?", answer: "In some cases, improving joint mechanics and muscle balance reduces the frequency of the sound, though the goal of treatment is primarily comfort and function rather than eliminating noise entirely." },
+    { question: "Should I avoid exercise if my joints crack?", answer: "Not usually. Movement is generally still encouraged, though your physiotherapist may adjust specific exercises if certain movements are aggravating the joint." },
+    { question: "Why does my joint crack more after sitting for a while?", answer: "Prolonged stillness can lead to temporary stiffness, which often causes more noticeable popping when you first start moving again. This is usually harmless." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised assessment and treatment for crepitus, focused on joint function and comfort rather than the sound alone.`,
+  cta: {
+    heading: "A cracking joint deserves a proper look, not just a shrug.",
+    subtext: `Get clarity on your joint crepitus with an assessment from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
   },
-
-  // ── 32. INFLAMMATION ─────────────────────────────────────────────────────────
-  {
-    id: 33,
-    title: "Inflammation",
-    slug: "inflammation-pain-management",
-    category: "Pain Conditions",
-    image: Inflammation,
-    seo: {
-      title: `Inflammation & Pain Management in Delhi | ${BRAND}`,
-      description: `Expert Inflammation & Pain Management in Delhi by ${DOCTOR} at ${BRAND}. We reduce joint and muscle inflammation, swelling, pain & restricted movement. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "inflammation treatment in delhi, inflammation physiotherapy kalkaji, joint inflammation treatment south delhi, muscle inflammation pain delhi, swelling treatment physiotherapy delhi, pain management inflammation delhi, best inflammation physiotherapist delhi, anti-inflammatory physiotherapy delhi, inflammation relief kalkaji, chronic inflammation treatment delhi",
-      canonical: `${BASE_URL}/services/inflammation-pain-management`,
-    },
-    description: "Inflammation can cause pain, swelling, and restricted movement in muscles and joints. Physiotherapy helps control inflammation and promotes faster recovery.",
-    sections: [
-      { title: "Overview", content: "Symptoms:\n\n• Swelling\n• Pain and tenderness\n• Reduced mobility" },
-      { title: "Treatment", content: "• Cold and heat therapy\n• Gentle exercises\n• Manual therapy\n• Electrotherapy techniques" },
-    ],
-    benefits: ["Reduces swelling", "Relieves pain", "Improves movement", "Speeds up healing"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide effective inflammation management.",
+  imageAltText: [
+    `${DOCTOR} assessing joint crepitus patient at ${BRAND} Delhi`,
+    "Joint mobilisation therapy for cracking knee in Kalkaji",
+    "Strengthening exercise for joint stability",
+    "Movement correction session for crepitus treatment in South Delhi",
+  ],
+},
+ 
+// ── 37. TREMORS ──────────────────────────────────────────────────────────────
+{
+  id: 38,
+  title: "Tremors",
+  slug: "tremors-physiotherapy",
+  category: "Neurological Conditions",
+  image: Tremors,
+  seo: {
+    title: `Tremors Treatment in Delhi | ${BRAND}`,
+    description: `Expert Tremors Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve muscle control, coordination & functional ability for patients with tremors. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
+    keywords: "tremors treatment in delhi, tremors physiotherapy kalkaji, hand tremors treatment south delhi, tremors specialist delhi, involuntary shaking treatment delhi, essential tremors physiotherapy delhi, best tremors physiotherapist delhi, parkinson's tremors treatment delhi, tremors rehabilitation kalkaji, tremors coordination training delhi",
+    canonical: `${BASE_URL}/services/tremors-physiotherapy`,
   },
-
-  // ── 33. NUMBNESS AND TINGLING ────────────────────────────────────────────────
-  {
-    id: 34,
-    title: "Numbness and Tingling",
-    slug: "numbness-and-tingling-treatment",
-    category: "Neurological Conditions",
-    image: Numbness,
-    seo: {
-      title: `Numbness & Tingling Treatment in Delhi | ${BRAND}`,
-      description: `Expert Numbness & Tingling Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat nerve compression, pins and needles sensation & loss of sensation in hands and feet. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "numbness tingling treatment in delhi, nerve compression treatment kalkaji, pins needles sensation treatment delhi, numbness hands feet treatment south delhi, tingling sensation physiotherapy delhi, nerve pain treatment delhi, best numbness physiotherapist delhi, nerve mobilization treatment kalkaji, carpal tunnel numbness delhi, sciatica numbness treatment delhi",
-      canonical: `${BASE_URL}/services/numbness-and-tingling-treatment`,
-    },
-    description: "Numbness and tingling sensations are often caused by nerve compression, poor circulation, or prolonged poor posture. Physiotherapy helps relieve nerve pressure and restore normal sensation.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Nerve compression\n• Cervical or lumbar spine issues\n• Poor posture\n• Prolonged sitting or repetitive movements" },
-      { title: "Treatment", content: "• Nerve mobilization techniques\n• Posture correction exercises\n• Strengthening and stretching\n• Electrotherapy for nerve pain relief" },
-    ],
-    benefits: ["Reduces numbness", "Improves nerve function", "Restores sensation", "Prevents recurrence"],
-    customTreatmentText: "We provide specialized treatment for numbness and tingling at Advanced Pain Physiotherapy Centre.",
+  hero: {
+    heading: "Tremors Physiotherapy in Delhi",
+    subheading: `Physiotherapy to improve muscle control, coordination, and functional ability by ${DOCTOR} at ${BRAND}, for patients living with tremors.`,
+    cta: "Book Your Assessment Today",
   },
-
-  // ── 34. HEADACHE ─────────────────────────────────────────────────────────────
-  {
-    id: 35,
-    title: "Headache",
-    slug: "headache-physiotherapy-treatment",
-    category: "Pain Conditions",
-    image: Headache,
-    seo: {
-      title: `Headache Treatment in Delhi | ${BRAND}`,
-      description: `Expert Headache & Migraine Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We treat tension headaches, cervicogenic headaches, neck-related headaches & migraines. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "headache treatment in delhi, tension headache physiotherapy kalkaji, cervicogenic headache treatment south delhi, migraine physiotherapy delhi, headache specialist delhi, neck related headache treatment delhi, best headache physiotherapist delhi, headache relief kalkaji, physiotherapy for headache delhi, cervical headache treatment delhi",
-      canonical: `${BASE_URL}/services/headache-physiotherapy-treatment`,
-    },
-    description: "Headaches can result from neck stiffness, muscle tension, stress, or poor posture. Physiotherapy addresses the root cause by improving neck mobility, posture, and muscle balance.",
-    sections: [
-      { title: "Overview", content: "Common Triggers:\n\n• Neck muscle tightness\n• Poor posture\n• Stress-related tension\n• Cervical spine problems" },
-      { title: "Treatment", content: "• Neck mobilization and manual therapy\n• Postural correction\n• Stretching and relaxation exercises\n• Pain relief modalities" },
-    ],
-    benefits: ["Reduces headache frequency", "Relieves neck tension", "Improves posture", "Enhances daily comfort"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we treat headaches at their root cause.",
+  description: `Tremors, the involuntary rhythmic shaking that can affect the hands, arms, or other parts of the body, often make simple tasks like holding a cup, writing, or buttoning a shirt far more effortful than they used to be. ${DOCTOR} at ${BRAND} works with patients managing tremors from a range of underlying causes, including essential tremor and Parkinson's-related tremor, with the understanding that while physiotherapy cannot eliminate the tremor itself in most cases, it can meaningfully improve the muscle control, coordination, and functional strategies needed to manage daily tasks more independently. Our approach focuses on strengthening the muscles involved, training coordination through functional, task-specific practice, and working with patients on practical strategies for the specific activities that tremors make difficult, so that daily independence is protected as much as possible.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Neurological disorders, including Parkinson's disease\n• Essential tremor\n• Muscle weakness\n• Postural instability\n\nConditions We Treat:\n\n• Hand and arm tremors affecting daily tasks\n• Tremor-related coordination difficulty\n• Functional decline associated with tremor conditions" },
+    { title: "Why It Matters", content: "Tremors can gradually erode confidence in everyday tasks, leading some patients to avoid activities they're still capable of doing with the right support and strategy.\n\nWhile physiotherapy doesn't cure the underlying tremor, it can improve the strength, coordination, and control needed to manage daily function, helping patients stay independent for longer." },
+    { title: "Who Needs This", content: "• Patients with essential tremor affecting hand function\n• Patients with Parkinson's disease or other neurological tremor conditions\n• Anyone finding fine motor tasks increasingly difficult\n• Patients wanting to maintain independence in daily activities\n• People newly diagnosed and seeking a management plan\n• Anyone whose coordination has been affected by tremors" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Coordination and motor control exercises\n• Strength training for the affected muscles\n• Functional task training for daily activities\n• Balance exercises where postural stability is also affected\n• Practical strategies for specific tasks affected by tremor" },
+    { title: "Our Process", content: "1. Assessment — Evaluating the tremor's impact on strength, coordination, and daily function\n2. Goal Setting — Identifying the specific tasks most affected by the tremor\n3. Coordination Training — Exercises to improve motor control\n4. Strengthening — Building stability in the affected muscles\n5. Functional Task Practice — Applying gains to real daily activities\n6. Ongoing Support — Adjusting the plan as function and needs evolve" },
+  ],
+  benefits: ["Improves muscle control", "Enhances coordination", "Supports daily activities", "Boosts confidence", "Helps maintain functional independence"],
+  whyChooseUs: [
+    `${DOCTOR} focuses on functional independence, not just the tremor itself`,
+    "Task-specific training tailored to the activities you find most difficult",
+    "Experience working alongside neurologists for coordinated care",
+    "Practical, realistic strategies for daily tasks",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Can physiotherapy stop my tremors completely?", answer: "Physiotherapy generally does not eliminate the underlying tremor, but it can meaningfully improve muscle control, coordination, and your ability to manage daily tasks despite it." },
+    { question: "Is physiotherapy useful for Parkinson's-related tremors?", answer: "Yes. Alongside medical management, physiotherapy helps maintain strength, coordination, and function, which is an important part of managing Parkinson's-related tremor over time." },
+    { question: "Will exercises make my tremor worse?", answer: "No, appropriately designed exercises are safe and are aimed at improving control, not worsening the tremor." },
+    { question: "How often should I attend physiotherapy for tremors?", answer: "This depends on the severity and how the tremor is affecting your daily function. Your physiotherapist will recommend a frequency based on your specific goals." },
+    { question: "Can physiotherapy help me write or hold objects more steadily?", answer: "Task-specific training can help you develop strategies and improve control for specific activities like writing or holding objects, even if the tremor itself persists." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised tremors physiotherapy focused on functional independence and daily task management.`,
+  cta: {
+    heading: "Tremors don't have to take away your independence.",
+    subtext: `Build a functional management plan with ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
   },
-
-  // ── 35. BALANCE PROBLEM ──────────────────────────────────────────────────────
-  {
-    id: 36,
-    title: "Shortness of Balance",
-    slug: "balance-problem-treatment",
-    category: "Neurological Conditions",
-    image: Shortness,
-    seo: {
-      title: `Balance Problem Treatment in Delhi | ${BRAND}`,
-      description: `Expert Balance Problem Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat unsteady walking, coordination issues & fall risk in elderly and neurological patients. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "balance problem treatment in delhi, balance disorder physiotherapy kalkaji, unsteady walking treatment delhi, balance training south delhi, fall prevention physiotherapy delhi, coordination disorder treatment delhi, best balance physiotherapist delhi, elderly balance treatment kalkaji, gait imbalance treatment delhi, vestibular physiotherapy delhi",
-      canonical: `${BASE_URL}/services/balance-problem-treatment`,
-    },
-    description: "Balance problems can affect walking, coordination, and confidence, increasing the risk of falls. Physiotherapy focuses on improving stability, coordination, and muscle strength.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Neurological disorders\n• Muscle weakness\n• Inner ear imbalance\n• Aging-related changes" },
-      { title: "Treatment", content: "• Balance and coordination training\n• Gait and walking exercises\n• Strengthening programs\n• Fall prevention strategies" },
-    ],
-    benefits: ["Improves balance", "Reduces fall risk", "Boosts confidence", "Enhances mobility"],
-    customTreatmentText: "We provide specialized balance treatment at Advanced Pain Physiotherapy Centre.",
+  imageAltText: [
+    `${DOCTOR} guiding a tremor management session at ${BRAND} Delhi`,
+    "Coordination exercise for hand tremors in Kalkaji",
+    "Functional task training for tremor patient",
+    "Strength training session for tremor-related weakness in South Delhi",
+  ],
+},
+ 
+// ── 38. SPRAINS AND STRAINS ──────────────────────────────────────────────────
+{
+  id: 39,
+  title: "Sprains and Strains",
+  slug: "sprains-and-strains-treatment",
+  category: "Sports Injuries",
+  image: Sprains,
+  seo: {
+    title: `Sprains & Strains Treatment in Delhi | ${BRAND}`,
+    description: `Expert Sprains & Strains Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat ankle sprains, muscle strains, ligament injuries & sports injuries for fast recovery. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "sprains strains treatment in delhi, ankle sprain treatment kalkaji, muscle strain physiotherapy south delhi, ligament sprain treatment delhi, sports injury sprains delhi, sprain rehabilitation specialist delhi, best sprain strain physiotherapist delhi, ankle ligament injury treatment delhi, sprain recovery kalkaji, muscle tear treatment delhi",
+    canonical: `${BASE_URL}/services/sprains-and-strains-treatment`,
   },
-
-  // ── 36. CREPITUS ─────────────────────────────────────────────────────────────
-  {
-    id: 37,
-    title: "Crepitus (Cracking Joints)",
-    slug: "crepitus-cracking-joints",
-    category: "Joint Conditions",
-    image: Crepitus,
-    seo: {
-      title: `Crepitus (Cracking Joints) Treatment in Delhi | ${BRAND}`,
-      description: `Expert Crepitus & Cracking Joints Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat joint popping, grinding sensations, knee crepitus & improve joint function. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "crepitus treatment in delhi, cracking joints treatment kalkaji, joint popping treatment south delhi, knee crepitus treatment delhi, joint grinding sensation physiotherapy delhi, crepitus specialist delhi, best cracking joint physiotherapist delhi, cartilage wear treatment delhi, crepitus rehabilitation kalkaji, joint noise treatment delhi",
-      canonical: `${BASE_URL}/services/crepitus-cracking-joints`,
-    },
-    description: "Crepitus refers to cracking or popping sounds in joints during movement. It may occur due to joint stiffness, cartilage wear, or muscle imbalance. Physiotherapy helps improve joint function and reduce discomfort.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Joint stiffness\n• Cartilage degeneration\n• Muscle imbalance\n• Overuse of joints" },
-      { title: "Treatment", content: "• Joint mobilization techniques\n• Strengthening surrounding muscles\n• Flexibility exercises\n• Posture and movement correction" },
-    ],
-    benefits: ["Improves joint movement", "Reduces discomfort", "Enhances stability", "Prevents joint wear"],
-    customTreatmentText: "We provide specialized crepitus treatment at Advanced Pain Physiotherapy Centre.",
+  hero: {
+    heading: "Sprains & Strains Treatment in Delhi",
+    subheading: `Physiotherapy for ankle sprains, muscle strains, and ligament injuries by ${DOCTOR} at ${BRAND}, built for fast, complete recovery.`,
+    cta: "Book Your Assessment Today",
   },
-
-  // ── 37. TREMORS ──────────────────────────────────────────────────────────────
-  {
-    id: 38,
-    title: "Tremors",
-    slug: "tremors-physiotherapy",
-    category: "Neurological Conditions",
-    image: Tremors,
-    seo: {
-      title: `Tremors Treatment in Delhi | ${BRAND}`,
-      description: `Expert Tremors Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve muscle control, coordination & functional ability for patients with tremors. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
-      keywords: "tremors treatment in delhi, tremors physiotherapy kalkaji, hand tremors treatment south delhi, tremors specialist delhi, involuntary shaking treatment delhi, essential tremors physiotherapy delhi, best tremors physiotherapist delhi, parkinson's tremors treatment delhi, tremors rehabilitation kalkaji, tremors coordination training delhi",
-      canonical: `${BASE_URL}/services/tremors-physiotherapy`,
-    },
-    description: "Tremors are involuntary rhythmic movements that may affect hands, arms, or other body parts. Physiotherapy helps improve muscle control, coordination, and functional ability.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Neurological disorders\n• Muscle weakness\n• Postural instability" },
-      { title: "Treatment", content: "• Coordination and control exercises\n• Strength training\n• Functional task training\n• Balance exercises" },
-    ],
-    benefits: ["Improves muscle control", "Enhances coordination", "Supports daily activities", "Boosts confidence"],
-    customTreatmentText: "We provide specialized tremors physiotherapy at Advanced Pain Physiotherapy Centre.",
+  description: `Sprains and strains are among the most common injuries ${DOCTOR} sees at ${BRAND}, from a sudden ankle roll during a game to a pulled hamstring from an awkward stretch, and while they're often treated as minor, how they're managed in the first few weeks has a big impact on whether they heal completely or turn into a recurring weak spot. A sprain involves overstretching or tearing a ligament, while a strain affects a muscle or tendon, and both commonly affect the ankles, knees, wrists, and shoulders. The instinct to simply rest until the pain fades often leaves the area weaker than before the injury, which is exactly why so many sprains and strains recur. Our approach at ${BRAND} manages the acute pain and swelling first, then moves into a structured programme of stretching, strengthening, and stability work, so the injured area doesn't just feel better, it becomes genuinely resilient again.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Sports injuries and sudden movements\n• Overuse and repetitive strain\n• Poor warm-up before activity\n• Awkward falls or twists\n\nConditions We Treat:\n\n• Ankle, knee, wrist, and shoulder sprains\n• Muscle strains and tears\n• Ligament injuries\n• Recurring sprains from incomplete rehabilitation" },
+    { title: "Why It Matters", content: "Sprains and strains that are only rested, without a structured strengthening and stability programme, often leave the area weaker and more prone to re-injury than before.\n\nProper rehabilitation restores not just pain-free movement but the strength and stability needed to prevent the same injury from happening again, particularly important for athletes and physically active individuals." },
+    { title: "Who Needs This", content: "• Athletes recovering from a sprain or strain during sport\n• Anyone who has rolled an ankle or pulled a muscle\n• Patients with recurring sprains in the same joint\n• People experiencing ongoing weakness after an old injury\n• Gym-goers with a recent muscle strain\n• Anyone unsure whether their injury needs more than rest" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Pain and swelling management in the acute phase\n• Gentle stretching and progressive strengthening\n• Joint and muscle stabilisation exercises\n• Gradual return-to-activity programme\n• Sport-specific rehabilitation where relevant" },
+    { title: "Our Process", content: "1. Assessment — Evaluating the severity and specific structures involved\n2. Acute Management — Ice, compression guidance, and pain relief\n3. Mobility Restoration — Gentle movement to prevent stiffness\n4. Progressive Strengthening — Rebuilding strength in the injured area\n5. Stability Training — Restoring balance and control to prevent recurrence\n6. Return-to-Activity Plan — Structured progression back to sport or daily activity" },
+  ],
+  benefits: ["Reduces pain and swelling", "Speeds up recovery", "Restores strength", "Prevents future injuries", "Supports safe return to sport"],
+  whyChooseUs: [
+    `${DOCTOR} manages both the acute injury and the long-term stability needed to prevent recurrence`,
+    "Structured, sport-specific rehabilitation programmes",
+    "Experience across ankle, knee, wrist, and shoulder sprains and strains",
+    "Focus on complete recovery, not just symptom relief",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "How do I know if it's a sprain, strain, or fracture?", answer: "Sprains affect ligaments, strains affect muscles or tendons, and fractures involve bone. A physiotherapy or medical assessment can determine which has occurred based on your symptoms and, if needed, imaging." },
+    { question: "How long does a sprain or strain take to heal?", answer: "Mild injuries often improve within 1 to 3 weeks with proper treatment, while more significant sprains or strains can take 6 weeks or longer for full recovery and stability." },
+    { question: "Should I rest completely or start moving early?", answer: "A short period of protected rest is usually recommended, followed by guided movement. Prolonged complete rest can actually slow recovery and weaken the area further." },
+    { question: "Why does my ankle keep spraining the same way?", answer: "This usually points to incomplete rehabilitation after the first injury, leaving the stabilising muscles and ligaments weaker than before. A structured strengthening programme addresses this." },
+    { question: "Can I return to sports after a sprain or strain?", answer: "Yes, most patients return to their sport once strength, mobility, and stability are properly restored. We guide this return gradually to reduce the risk of re-injury." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides specialised sprain and strain treatment focused on complete recovery and re-injury prevention.`,
+  cta: {
+    heading: "Don't let a 'minor' sprain become a recurring problem.",
+    subtext: `Get a proper rehabilitation plan from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
   },
-
-  // ── 38. SPRAINS AND STRAINS ──────────────────────────────────────────────────
-  {
-    id: 39,
-    title: "Sprains and Strains",
-    slug: "sprains-and-strains-treatment",
-    category: "Sports Injuries",
-    image: Sprains,
-    seo: {
-      title: `Sprains & Strains Treatment in Delhi | ${BRAND}`,
-      description: `Expert Sprains & Strains Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat ankle sprains, muscle strains, ligament injuries & sports injuries for fast recovery. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "sprains strains treatment in delhi, ankle sprain treatment kalkaji, muscle strain physiotherapy south delhi, ligament sprain treatment delhi, sports injury sprains delhi, sprain rehabilitation specialist delhi, best sprain strain physiotherapist delhi, ankle ligament injury treatment delhi, sprain recovery kalkaji, muscle tear treatment delhi",
-      canonical: `${BASE_URL}/services/sprains-and-strains-treatment`,
-    },
-    description: "Sprains and strains occur due to overstretching or tearing of ligaments and muscles. They commonly affect ankles, knees, wrists, and shoulders. Physiotherapy promotes faster healing and prevents re-injury.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Sports injuries\n• Sudden movements\n• Overuse\n• Poor warm-up" },
-      { title: "Treatment", content: "• Pain and swelling management\n• Gentle stretching and strengthening\n• Joint stabilization exercises\n• Gradual return-to-activity program" },
-    ],
-    benefits: ["Reduces pain and swelling", "Speeds up recovery", "Restores strength", "Prevents future injuries"],
-    customTreatmentText: "We provide specialized sprain and strain treatment at Advanced Pain Physiotherapy Centre.",
+  imageAltText: [
+    `${DOCTOR} assessing a sprain injury patient at ${BRAND} Delhi`,
+    "Stability training exercise for ankle sprain recovery in Kalkaji",
+    "Muscle strengthening session for strain rehabilitation",
+    "Return-to-sport training for injury recovery in South Delhi",
+  ],
+},
+ 
+// ── 39. MUSCLE PAIN (id 68) ──────────────────────────────────────────────────
+{
+  id: 68,
+  title: "Muscle Pain Treatment",
+  slug: "muscle-pain",
+  category: "Pain Conditions",
+  image: musclePain,
+  seo: {
+    title: `Muscle Pain Treatment in Delhi | ${BRAND}`,
+    description: `Expert Muscle Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat muscle soreness, overuse pain, sports muscle injuries & chronic muscle pain. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "muscle pain treatment in delhi, muscle soreness treatment kalkaji, muscle pain physiotherapy south delhi, chronic muscle pain specialist delhi, sports muscle injury treatment delhi, muscle pain relief delhi, best muscle pain physiotherapist delhi, overuse muscle pain treatment kalkaji, muscle strain pain physiotherapy delhi, myalgia treatment delhi",
+    canonical: `${BASE_URL}/services/muscle-pain`,
   },
-
-  // ── 39. MUSCLE PAIN (id 68) ──────────────────────────────────────────────────
-  {
-    id: 68,
-    title: "Muscle Pain Treatment",
-    slug: "muscle-pain",
-    category: "Pain Conditions",
-    image: musclePain,
-    seo: {
-      title: `Muscle Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Muscle Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat muscle soreness, overuse pain, sports muscle injuries & chronic muscle pain. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "muscle pain treatment in delhi, muscle soreness treatment kalkaji, muscle pain physiotherapy south delhi, chronic muscle pain specialist delhi, sports muscle injury treatment delhi, muscle pain relief delhi, best muscle pain physiotherapist delhi, overuse muscle pain treatment kalkaji, muscle strain pain physiotherapy delhi, myalgia treatment delhi",
-      canonical: `${BASE_URL}/services/muscle-pain`,
-    },
-    description: "Muscle pain can occur due to overuse, poor posture, stress, or injury. It may cause stiffness, soreness, and reduced movement, affecting daily activities.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Muscle overuse or strain\n• Poor posture\n• Stress and fatigue\n• Sports injuries\n\nConditions We Treat:\n\n• Acute and chronic muscle pain\n• Muscle stiffness and tightness\n• Work-related muscle pain" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment\n• Manual therapy for muscle relaxation\n• Stretching and strengthening exercises\n• Heat and electrotherapy\n• Posture and movement correction" },
-    ],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we offer customized physiotherapy programs for muscle pain.",
+  hero: {
+    heading: "Muscle Pain Treatment in Delhi",
+    subheading: `Physiotherapy for muscle soreness, overuse pain, and chronic muscle tightness by ${DOCTOR} at ${BRAND}.`,
+    cta: "Book Your Assessment Today",
   },
-
-  // ── 40. NECK PAIN ────────────────────────────────────────────────────────────
-  {
-    id: 51,
-    title: "Neck Pain Treatment",
-    slug: "neck-pain",
-    category: "Pain Conditions",
-    image: neck,
-    seo: {
-      title: `Neck Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Neck Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat cervical pain, stiff neck, cervical spondylosis, nerve compression & work-related neck pain. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "neck pain treatment in delhi, cervical pain treatment kalkaji, stiff neck physiotherapy south delhi, neck pain specialist delhi, cervical spondylosis treatment delhi, neck pain physiotherapy home visit delhi, best neck pain doctor delhi, neck pain relief kalkaji, cervical nerve compression treatment delhi, work related neck pain treatment delhi",
-      canonical: `${BASE_URL}/services/neck-pain`,
-    },
-    description: "Neck pain is commonly caused by poor posture, prolonged screen use, muscle tension, or injury. Physiotherapy helps relieve pain, improve posture, and restore neck mobility.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Poor posture and long screen time\n• Muscle tension and stress\n• Cervical spondylosis\n• Nerve compression\n\nConditions We Treat:\n\n• Cervical pain\n• Stiff neck\n• Work-related neck pain\n• Postural neck problems" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Posture assessment and correction\n• Manual therapy and mobilization\n• Stretching and strengthening\n• Pain-relief modalities\n• Ergonomic guidance" },
-    ],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized physiotherapy care for neck pain.",
+  description: `Muscle pain shows up in more ways than people expect, sometimes it's the sharp soreness after a hard workout, other times it's a dull, persistent ache that's been sitting in the shoulders or lower back for weeks because of stress and poor posture. ${DOCTOR} at ${BRAND} treats muscle pain across this whole spectrum, from acute overuse injuries in athletes to chronic tightness in patients whose desk jobs and daily stress have quietly built up tension over months. What makes muscle pain tricky to self-manage is that the actual source is often not where the pain is felt, tight hip muscles can refer pain to the lower back, and tense shoulder muscles are frequently a downstream effect of poor neck posture. Our approach identifies where the tension is actually originating, then combines manual therapy to release it with a strengthening and stretching programme that prevents the same pattern from building back up.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Muscle overuse or strain\n• Poor posture\n• Stress and fatigue\n• Sports injuries\n\nConditions We Treat:\n\n• Acute and chronic muscle pain\n• Muscle stiffness and tightness\n• Work-related muscle pain\n• Sports-related muscle soreness" },
+    { title: "Why It Matters", content: "Muscle pain that's ignored tends to build a compensation pattern, other muscles start working harder to protect the painful area, which often spreads discomfort to new locations over time.\n\nAddressing the actual source of tension, rather than just the spot where pain is felt, prevents this spread and gives more lasting relief." },
+    { title: "Who Needs This", content: "• Anyone with persistent muscle soreness or tightness\n• Desk workers with chronic shoulder or back muscle tension\n• Athletes recovering from muscle overuse or strain\n• Patients whose muscle pain is linked to stress\n• People with muscle pain that keeps returning to the same area\n• Anyone whose muscle pain hasn't improved with rest alone" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment to identify the true source of tension\n• Manual therapy for muscle relaxation\n• Stretching and strengthening exercises\n• Heat therapy and electrotherapy\n• Posture and movement correction" },
+    { title: "Our Process", content: "1. Assessment — Identifying the source and pattern of muscle tension\n2. Pain Relief — Manual therapy and heat to ease acute soreness\n3. Mobility Work — Restoring normal muscle length and movement\n4. Strengthening — Building endurance in the affected muscle groups\n5. Postural Correction — Addressing habits contributing to recurring tension\n6. Prevention Guidance — Practical advice to avoid recurrence" },
+  ],
+  benefits: ["Reduces muscle soreness and tightness", "Relieves chronic tension", "Improves flexibility", "Speeds up recovery from overuse", "Prevents recurring muscle pain"],
+  whyChooseUs: [
+    `${DOCTOR} traces muscle pain to its true source, not just the area where it's felt`,
+    "Combination of manual therapy, stretching, and targeted strengthening",
+    "Experience with both sports-related and stress-related muscle pain",
+    "Practical posture guidance for desk-based lifestyles",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Why does my muscle pain keep coming back to the same spot?", answer: "Recurring muscle pain often means the underlying cause, whether posture, muscle imbalance, or overuse, hasn't been fully addressed. Identifying and treating that source gives more lasting relief." },
+    { question: "Is it normal for stress to cause muscle pain?", answer: "Yes, stress commonly causes muscle tension, particularly in the neck, shoulders, and upper back, which can lead to persistent aching if not addressed." },
+    { question: "Should I use heat or ice for muscle pain?", answer: "Heat is generally more suitable for chronic muscle tightness, while ice is more appropriate for acute soreness following an injury. Your physiotherapist can guide you on which applies to your situation." },
+    { question: "Can physiotherapy help with muscle soreness after workouts?", answer: "Yes, manual therapy and appropriate stretching can help ease post-exercise soreness and support faster recovery, especially if the soreness is frequent or severe." },
+    { question: "How long does chronic muscle pain take to resolve?", answer: "This depends on how long-standing the tension is and its underlying cause. Many patients notice improvement within a few weeks of consistent treatment, though some cases need a longer-term programme." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} offers customised physiotherapy programmes for muscle pain, addressing both the discomfort and its underlying cause.`,
+  cta: {
+    heading: "Persistent muscle pain usually has a fixable source.",
+    subtext: `Find out what's actually driving your muscle tension with an assessment from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
   },
-
-  // ── 41. FROZEN SHOULDER ──────────────────────────────────────────────────────
-  {
-    id: 41,
-    title: "Frozen Shoulder Treatment",
-    slug: "frozen-shoulder",
-    category: "Joint Conditions",
-    image: FrozenShoulder,
-    seo: {
-      title: `Frozen Shoulder Treatment in Delhi | ${BRAND}`,
-      description: `Expert Frozen Shoulder Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat adhesive capsulitis, shoulder stiffness, restricted movement & chronic shoulder pain. ✅ LASER & Shockwave therapy ✅ ${LOCATION}. Book now!`,
-      keywords: "frozen shoulder treatment in delhi, adhesive capsulitis treatment kalkaji, frozen shoulder physiotherapy south delhi, shoulder stiffness treatment delhi, frozen shoulder specialist delhi, shoulder mobility treatment delhi, best frozen shoulder doctor delhi, shoulder movement restricted treatment delhi, frozen shoulder pain relief kalkaji, shoulder physiotherapy delhi",
-      canonical: `${BASE_URL}/services/frozen-shoulder`,
-    },
-    description: "Frozen shoulder treatment focuses on reducing pain, stiffness, and improving shoulder mobility. Physiotherapy includes stretching and strengthening exercises to restore range of motion.",
-    benefits: ["Reduced pain and inflammation", "Improved range of motion", "Increased strength and stability", "Prevention of further injury", "Early return to daily activities"],
-    sections: [
-      { title: "Overview", content: "Physiotherapy for frozen shoulder focuses on reducing pain, stiffness, and restoring shoulder mobility through stretching, strengthening, and pain-relief therapies." },
-      { title: "Treatment", content: `${DOCTOR} designs a personalized treatment plan including mobilization, stretching, strengthening, posture correction, and advanced electrotherapy techniques such as LASER Therapy, Shockwave Therapy, Ultrasound, Dry Needling, IFT, and TENS.` },
-    ],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide evidence-based physiotherapy care for frozen shoulder.",
+  imageAltText: [
+    `${DOCTOR} assessing muscle pain patient at ${BRAND} Delhi`,
+    "Manual therapy session for chronic muscle tension in Kalkaji",
+    "Stretching exercise for muscle soreness recovery",
+    "Posture correction session for muscle pain management in South Delhi",
+  ],
+},
+ 
+// ── 40. NECK PAIN ────────────────────────────────────────────────────────────
+{
+  id: 51,
+  title: "Neck Pain Treatment",
+  slug: "neck-pain",
+  category: "Pain Conditions",
+  image: neck,
+  seo: {
+    title: `Neck Pain Treatment in Delhi | ${BRAND}`,
+    description: `Expert Neck Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat cervical pain, stiff neck, cervical spondylosis, nerve compression & work-related neck pain. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "neck pain treatment in delhi, cervical pain treatment kalkaji, stiff neck physiotherapy south delhi, neck pain specialist delhi, cervical spondylosis treatment delhi, neck pain physiotherapy home visit delhi, best neck pain doctor delhi, neck pain relief kalkaji, cervical nerve compression treatment delhi, work related neck pain treatment delhi",
+    canonical: `${BASE_URL}/services/neck-pain`,
   },
-
-  // ── 42. VERTIGO ──────────────────────────────────────────────────────────────
-  {
-    id: 42,
-    title: "Vertigo",
-    slug: "vertigo",
-    category: "Balance & Neurological Conditions",
-    image: Vertigo,
-    seo: {
-      title: `Vertigo Treatment in Delhi | ${BRAND}`,
-      description: `Expert Vertigo Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat BPPV, dizziness, spinning sensation, balance disorders & vestibular problems. ✅ Vestibular rehabilitation ✅ ${LOCATION}. Book now!`,
-      keywords: "vertigo treatment in delhi, dizziness treatment kalkaji, BPPV treatment south delhi, vertigo specialist delhi, vestibular rehabilitation delhi, spinning sensation treatment delhi, balance disorder treatment delhi, best vertigo physiotherapist delhi, inner ear dizziness treatment kalkaji, vertigo exercises delhi",
-      canonical: `${BASE_URL}/services/vertigo`,
-    },
-    description: "Vertigo is a sensation of dizziness or spinning caused by inner ear problems, neurological disorders, or balance issues. Physiotherapy helps improve balance, reduce dizziness, and restore confidence.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• BPPV\n• Vestibular neuritis\n• Inner ear disorders\n• Migraine-associated dizziness\n\nConditions We Treat:\n\n• Spinning sensation or dizziness\n• Imbalance and unsteadiness\n• Falls risk due to vestibular disorders" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive vestibular assessment\n• Balance and gait training\n• Vestibular rehabilitation exercises\n• Posture and movement guidance\n• Home exercise programs" },
-    ],
-    benefits: ["Reduces dizziness", "Improves balance", "Enhances mobility", "Reduces falls risk", "Promotes vestibular health"],
-    customTreatmentText: "Our centre provides personalized vestibular rehabilitation plans for vertigo patients.",
+  hero: {
+    heading: "Neck Pain Treatment in Delhi",
+    subheading: `Physiotherapy for cervical pain, stiff neck, cervical spondylosis, and work-related neck pain by ${DOCTOR} at ${BRAND}.`,
+    cta: "Book Your Assessment Today",
   },
-
-  // ── 43. ACHILLES TENDON RUPTURE ──────────────────────────────────────────────
-  {
-    id: 43,
-    title: "Achilles Tendon Rupture",
-    slug: "achilles-tendon-rupture",
-    category: "Sports Injury",
-    image: Achilles,
-    seo: {
-      title: `Achilles Tendon Rupture Treatment in Delhi | ${BRAND}`,
-      description: `Expert Achilles Tendon Rupture Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat Achilles tears, heel pain, tendon injuries & post-surgical Achilles rehabilitation. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "achilles tendon rupture treatment delhi, achilles tendon injury physiotherapy kalkaji, heel tendon injury treatment south delhi, achilles rupture rehabilitation delhi, achilles tendon specialist delhi, tendon tear treatment delhi, best achilles physiotherapist delhi, achilles tendon recovery kalkaji, achilles pain treatment delhi, sports tendon injury delhi",
-      canonical: `${BASE_URL}/services/achilles-tendon-rupture`,
-    },
-    description: "Achilles tendon rupture is a severe injury causing pain, swelling, and difficulty walking. Physiotherapy focuses on restoring strength, flexibility, and mobility for full functional recovery.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Sudden forceful movements\n• Overuse or repetitive strain\n• Weak or tight calf muscles\n• Age-related degeneration\n\nConditions We Treat:\n\n• Partial or complete Achilles tears\n• Pain, swelling, and inflammation\n• Post-surgical rehabilitation" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Thorough assessment\n• Pain management\n• Gradual stretching and strengthening\n• Gait retraining and balance exercises\n• Functional training for sports return" },
-    ],
-    benefits: ["Restores Achilles strength", "Reduces pain and swelling", "Improves walking and running", "Prevents recurrence", "Supports return to sports"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized rehabilitation for Achilles tendon rupture.",
+  description: `Neck pain has become an increasingly common complaint at ${BRAND}, largely driven by how much time people now spend hunched over screens. ${DOCTOR} regularly sees patients whose neck pain began as mild end-of-day stiffness and gradually progressed into a daily discomfort that affects concentration, sleep, and even triggers tension headaches. Poor posture, prolonged screen use, muscle tension from stress, cervical spondylosis, and nerve compression are among the most common causes, and because the neck connects so directly to the shoulders and head, an untreated issue here rarely stays contained to just the neck. Our physiotherapy approach identifies whether your pain is coming from muscle tightness, joint stiffness, or nerve irritation, then builds a plan to relieve the immediate discomfort, restore full neck movement, and correct the postural habits that caused the problem to begin with.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Poor posture and long screen time\n• Muscle tension and stress\n• Cervical spondylosis\n• Nerve compression\n\nConditions We Treat:\n\n• Cervical pain\n• Stiff neck\n• Work-related neck pain\n• Postural neck problems" },
+    { title: "Why It Matters", content: "Neck pain rarely stays isolated, it commonly spreads into tension headaches and shoulder tightness the longer it goes unaddressed. For desk workers in particular, the postural habits behind neck pain tend to worsen gradually without any active correction.\n\nTreating the neck early prevents this spread and reduces the risk of cervical spondylosis or nerve compression progressing further." },
+    { title: "Who Needs This", content: "• Desk workers and students with prolonged screen time\n• Patients with cervical spondylosis or age-related stiffness\n• Anyone with tension headaches linked to neck tightness\n• Patients experiencing tingling or numbness down the arm\n• People who wake up with a stiff neck frequently\n• Anyone whose neck pain hasn't improved with rest alone" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Posture assessment and correction\n• Manual therapy and cervical mobilisation\n• Stretching and strengthening exercises\n• Pain-relief modalities such as TENS and heat therapy\n• Ergonomic guidance for desk and daily habits" },
+    { title: "Our Process", content: "1. Assessment — Identifying whether pain is muscular, joint-related, or nerve-related\n2. Pain Relief — Manual therapy and electrotherapy to settle acute symptoms\n3. Mobility Restoration — Cervical mobilisation to improve range of motion\n4. Postural Correction — Ergonomic guidance for desk and phone use\n5. Strengthening — Neck and upper back exercises to support the cervical spine\n6. Prevention Plan — Practical habits to avoid recurrence" },
+  ],
+  benefits: ["Relieves neck stiffness and pain", "Reduces tension headaches linked to the neck", "Improves neck range of motion", "Corrects posture and screen-use habits", "Prevents nerve-related arm symptoms from worsening"],
+  whyChooseUs: [
+    `${DOCTOR} identifies whether pain is muscular, joint, or nerve-related before treating it`,
+    "Practical, realistic ergonomic advice for desk-heavy lifestyles",
+    "Manual therapy combined with nerve mobilisation for radiating symptoms",
+    "Home visit availability for patients with severe neck stiffness",
+    "Clear guidance on posture correction, not just temporary pain relief",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Can physiotherapy help with a stiff neck from desk work?", answer: "Yes. A combination of manual therapy, strengthening exercises, and postural correction typically brings meaningful improvement within a few weeks of consistent treatment." },
+    { question: "Is neck pain with tingling in the arm serious?", answer: "It can indicate nerve compression in the cervical spine, so it's worth getting assessed rather than waiting. Early treatment usually resolves this well." },
+    { question: "Can bad posture cause long-term neck problems?", answer: "Yes, sustained poor posture, especially forward head posture, gradually increases strain on the cervical spine and can contribute to conditions like cervical spondylosis over time." },
+    { question: "Do I need an X-ray before starting physiotherapy for neck pain?", answer: "Not always. Many cases can be assessed and treated based on a physical examination alone, with imaging recommended only if specific signs suggest it's needed." },
+    { question: "Can neck pain cause headaches?", answer: "Yes, tension-type headaches are commonly linked to tight neck and upper back muscles. Treating the neck often reduces their frequency and intensity." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides personalised physiotherapy care for neck pain, addressing both immediate discomfort and the habits behind it.`,
+  cta: {
+    heading: "Stiff neck making every day harder than it should be?",
+    subtext: `Get an accurate diagnosis from ${DOCTOR} at ${BRAND} and a treatment plan built around your specific neck condition.`,
+    buttonText: "Book Your Appointment Now",
   },
-
-  // ── 44. ARTHRITIS ────────────────────────────────────────────────────────────
-  {
-    id: 44,
-    title: "Arthritis Treatment",
-    slug: "arthritis-pain",
-    category: "Joint Conditions",
-    image: arthritis,
-    seo: {
-      title: `Arthritis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Arthritis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat osteoarthritis, rheumatoid arthritis, joint pain, stiffness & swelling. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "arthritis treatment in delhi, arthritis physiotherapy kalkaji, joint pain arthritis treatment south delhi, osteoarthritis treatment delhi, arthritis specialist delhi, arthritis pain relief delhi, best arthritis physiotherapist delhi, joint stiffness swelling treatment delhi, arthritis rehabilitation kalkaji, rheumatoid arthritis physiotherapy delhi",
-      canonical: `${BASE_URL}/services/arthritis-pain`,
-    },
-    description: "Arthritis is a joint condition characterized by pain, stiffness, swelling, and reduced movement. Physiotherapy plays a key role in reducing pain, maintaining joint mobility, and improving strength.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Age-related joint degeneration\n• Inflammatory joint conditions\n• Previous joint injuries\n\nConditions We Treat:\n\n• Osteoarthritis\n• Rheumatoid arthritis\n• Joint stiffness and swelling" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Gentle joint mobilization\n• Strengthening and flexibility exercises\n• Pain-relief modalities\n• Posture and movement correction\n• Long-term joint care strategies" },
-    ],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we offer personalized arthritis management programs.",
+  imageAltText: [
+    `${DOCTOR} assessing neck pain patient at ${BRAND} Delhi`,
+    "Cervical mobilisation therapy session for neck stiffness in Kalkaji",
+    "Postural correction exercise for desk-related neck pain",
+    "Neck strengthening exercise guided by physiotherapist in South Delhi",
+  ],
+},
+ 
+// ── 41. FROZEN SHOULDER ──────────────────────────────────────────────────────
+{
+  id: 41,
+  title: "Frozen Shoulder Treatment",
+  slug: "frozen-shoulder",
+  category: "Joint Conditions",
+  image: FrozenShoulder,
+  seo: {
+    title: `Frozen Shoulder Treatment in Delhi | ${BRAND}`,
+    description: `Expert Frozen Shoulder Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat adhesive capsulitis, shoulder stiffness, restricted movement & chronic shoulder pain. ✅ LASER & Shockwave therapy ✅ ${LOCATION}. Book now!`,
+    keywords: "frozen shoulder treatment in delhi, adhesive capsulitis treatment kalkaji, frozen shoulder physiotherapy south delhi, shoulder stiffness treatment delhi, frozen shoulder specialist delhi, shoulder mobility treatment delhi, best frozen shoulder doctor delhi, shoulder movement restricted treatment delhi, frozen shoulder pain relief kalkaji, shoulder physiotherapy delhi",
+    canonical: `${BASE_URL}/services/frozen-shoulder`,
   },
-
-  // ── 45. OSTEOARTHRITIS ───────────────────────────────────────────────────────
-  {
-    id: 45,
-    title: "Osteoarthritis Treatment",
-    slug: "osteoarthritis-pain",
-    category: "Joint Conditions",
-    image: orthopedic,
-    seo: {
-      title: `Osteoarthritis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Osteoarthritis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat knee, hip & hand osteoarthritis with LASER, Shockwave & manual therapy. ✅ BPT/MPT certified ✅ ${LOCATION}. Book now!`,
-      keywords: "osteoarthritis treatment in delhi, OA treatment kalkaji, knee osteoarthritis physiotherapy south delhi, osteoarthritis specialist delhi, joint cartilage degeneration treatment delhi, osteoarthritis pain relief delhi, best osteoarthritis doctor delhi, shockwave laser osteoarthritis delhi, OA rehabilitation kalkaji, hip osteoarthritis treatment delhi",
-      canonical: `${BASE_URL}/services/osteoarthritis-pain`,
-    },
-    description: "Osteoarthritis is a degenerative joint disease caused by gradual cartilage breakdown, leading to joint pain, stiffness, and reduced mobility. Physiotherapy focuses on pain relief, improving joint movement, and preventing further damage.",
-    sections: [
-      { title: "Overview", content: "Common Features:\n\n• Joint pain and stiffness in knees, hips, or hands\n• Reduced range of motion\n• Swelling or tenderness\n• Gradual cartilage degeneration" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment\n• Stretching and strengthening exercises\n• Manual therapy\n• LASER Therapy, Shockwave Therapy, Ultrasound, TENS, Dry Needling\n• Posture correction and lifestyle guidance" },
-    ],
-    benefits: ["Reduces joint pain and stiffness", "Improves flexibility", "Strengthens muscles around joints", "Prevents further degeneration", "Enhances quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide comprehensive and personalized osteoarthritis care.",
+  hero: {
+    heading: "Frozen Shoulder Treatment in Delhi",
+    subheading: `Physiotherapy for adhesive capsulitis, shoulder stiffness, and restricted movement by ${DOCTOR} at ${BRAND}, using advanced electrotherapy alongside manual treatment.`,
+    cta: "Book Your Assessment Today",
   },
+  description: `Frozen shoulder, medically known as adhesive capsulitis, has a reputation for being one of the slower, more frustrating conditions to recover from, largely because it progresses through distinct stages of worsening pain and stiffness before it starts to loosen. ${DOCTOR} at ${BRAND} sees patients at every stage of this journey, from the early "freezing" phase where pain dominates, through the "frozen" phase where stiffness makes even reaching for a seatbelt difficult, to the "thawing" phase where movement gradually returns. Left untreated, frozen shoulder can take well over a year to resolve on its own. Structured physiotherapy, combining manual therapy, targeted stretching, strengthening, and advanced modalities, meaningfully shortens this timeline for most patients and helps restore a much fuller range of motion than would occur naturally.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Prolonged shoulder immobility, often after injury or surgery\n• Diabetes and certain metabolic conditions\n• Age-related joint changes\n• Idiopathic onset with no clear cause\n\nConditions We Treat:\n\n• Adhesive capsulitis at any stage\n• Shoulder stiffness and restricted movement\n• Chronic shoulder pain linked to capsular tightness" },
+    { title: "Why It Matters", content: "Frozen shoulder tends to worsen before it improves if left untreated, and the stiffness phase can severely limit basic tasks like dressing, reaching overhead, or sleeping comfortably.\n\nEarly, structured treatment doesn't just manage pain, it actively works to shorten the overall recovery timeline and improve the final range of motion regained, compared to waiting it out." },
+    { title: "Who Needs This", content: "• Patients newly diagnosed with frozen shoulder or adhesive capsulitis\n• Anyone with progressively worsening shoulder stiffness\n• Patients with diabetes, who are at higher risk of frozen shoulder\n• People struggling with basic tasks like dressing or reaching overhead\n• Patients whose shoulder pain has lasted several weeks without improvement\n• Anyone wanting to avoid a prolonged, untreated recovery" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Stage-appropriate joint mobilisation and stretching\n• Progressive strengthening as mobility returns\n• Posture correction to support shoulder mechanics\n• Advanced electrotherapy including LASER Therapy, Shockwave Therapy, Ultrasound, Dry Needling, IFT, and TENS\n• Home exercise guidance to maintain gains between sessions" },
+    { title: "Our Process", content: "1. Assessment — Identifying which stage of frozen shoulder you're in\n2. Pain Management — Modalities and gentle techniques suited to the current stage\n3. Mobility Restoration — Progressive stretching and joint mobilisation\n4. Strengthening — Rebuilding shoulder strength as movement returns\n5. Modality Support — LASER, shockwave, or dry needling for persistent stiffness\n6. Home Exercise Plan — Practical routine to sustain progress" },
+  ],
+  benefits: ["Reduced pain and inflammation", "Improved range of motion", "Increased strength and stability", "Prevention of further stiffness", "Earlier return to daily activities"],
+  whyChooseUs: [
+    `${DOCTOR} tailors treatment to the specific stage of frozen shoulder you're in`,
+    "Access to advanced modalities like LASER and Shockwave Therapy",
+    "Experience helping patients meaningfully shorten recovery timelines",
+    "Diabetes-aware treatment planning for higher-risk patients",
+    "Home visit availability for patients with severe restricted movement",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "How long does frozen shoulder take to heal with physiotherapy?", answer: "Untreated, frozen shoulder can take a year or more to resolve. Structured physiotherapy usually shortens this considerably and helps restore a fuller range of motion than would occur naturally." },
+    { question: "Is it normal for frozen shoulder pain to get worse before it gets better?", answer: "Yes, frozen shoulder typically progresses through a painful freezing stage before stiffness sets in and eventually begins to loosen. Physiotherapy is adjusted to each stage." },
+    { question: "Am I at higher risk of frozen shoulder if I have diabetes?", answer: "Yes, diabetes is a known risk factor for frozen shoulder, and ${DOCTOR} factors this into your treatment planning if relevant." },
+    { question: "Will exercises alone fix a frozen shoulder?", answer: "Exercises are important, but they work best combined with manual therapy and, where appropriate, advanced modalities to address the capsular tightness driving the stiffness." },
+    { question: "Can frozen shoulder come back after treatment?", answer: "It's uncommon for frozen shoulder to recur in the same shoulder once it has fully resolved, though it can occasionally develop in the other shoulder." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides evidence-based physiotherapy care for frozen shoulder, combining manual therapy with advanced electrotherapy for faster, fuller recovery.`,
+  cta: {
+    heading: "Frozen shoulder gets harder to treat the longer it's left.",
+    subtext: `Start stage-appropriate treatment with ${DOCTOR} at ${BRAND} today.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} treating frozen shoulder patient at ${BRAND} Delhi`,
+    "Shoulder mobilisation therapy for adhesive capsulitis in Kalkaji",
+    "Shockwave therapy session for frozen shoulder stiffness",
+    "Shoulder strengthening exercise guided by physiotherapist in South Delhi",
+  ],
+},
+ 
+// ── 42. VERTIGO ──────────────────────────────────────────────────────────────
+{
+  id: 42,
+  title: "Vertigo",
+  slug: "vertigo",
+  category: "Balance & Neurological Conditions",
+  image: Vertigo,
+  seo: {
+    title: `Vertigo Treatment in Delhi | ${BRAND}`,
+    description: `Expert Vertigo Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat BPPV, dizziness, spinning sensation, balance disorders & vestibular problems. ✅ Vestibular rehabilitation ✅ ${LOCATION}. Book now!`,
+    keywords: "vertigo treatment in delhi, dizziness treatment kalkaji, BPPV treatment south delhi, vertigo specialist delhi, vestibular rehabilitation delhi, spinning sensation treatment delhi, balance disorder treatment delhi, best vertigo physiotherapist delhi, inner ear dizziness treatment kalkaji, vertigo exercises delhi",
+    canonical: `${BASE_URL}/services/vertigo`,
+  },
+  hero: {
+    heading: "Vertigo Treatment in Delhi",
+    subheading: `Vestibular physiotherapy for BPPV, dizziness, and balance disorders by ${DOCTOR} at ${BRAND}.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Vertigo, the sudden sensation that the room is spinning or tilting, can be genuinely disorienting, and for many patients, the fear of triggering another episode ends up limiting their movement almost as much as the vertigo itself. ${DOCTOR} at ${BRAND} treats vertigo arising from a range of causes, most commonly BPPV, a mechanical issue involving tiny calcium crystals in the inner ear, but also vestibular neuritis, other inner ear disorders, and migraine-associated dizziness. What makes vertigo particularly treatable is that specific repositioning techniques and vestibular rehabilitation exercises directly target the underlying mechanism, rather than just managing the symptom, which is why many patients experience significant relief within just a few sessions. Our approach starts with a thorough vestibular assessment to identify the likely cause, then applies the specific technique or exercise programme suited to that cause, restoring both balance and the confidence to move freely again.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• BPPV (Benign Paroxysmal Positional Vertigo)\n• Vestibular neuritis\n• Inner ear disorders\n• Migraine-associated dizziness\n\nConditions We Treat:\n\n• Spinning sensation or dizziness\n• Imbalance and unsteadiness\n• Fall risk related to vestibular disorders" },
+    { title: "Why It Matters", content: "Vertigo that isn't properly assessed and treated often leads patients to unnecessarily restrict their movement out of fear of another episode, which itself can weaken balance and coordination over time.\n\nIdentifying the specific underlying cause allows for targeted treatment, such as repositioning techniques for BPPV, which can resolve symptoms far faster than general rest or medication alone." },
+    { title: "Who Needs This", content: "• Anyone experiencing sudden spinning or dizziness sensations\n• Patients diagnosed with or suspected of having BPPV\n• People with recurring imbalance or unsteadiness\n• Patients recovering from vestibular neuritis\n• Anyone whose dizziness is linked to migraines\n• People who have become fearful of certain head movements or positions" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive vestibular assessment\n• Repositioning techniques for BPPV where applicable\n• Balance and gait training\n• Vestibular rehabilitation exercises\n• Home exercise programmes to reinforce progress" },
+    { title: "Our Process", content: "1. Assessment — Identifying the specific cause of your vertigo\n2. Targeted Intervention — Repositioning technique or vestibular exercises based on the diagnosis\n3. Balance Training — Rebuilding stability and coordination\n4. Symptom Monitoring — Tracking response and adjusting the approach as needed\n5. Confidence Building — Gradual exposure to movements that previously triggered symptoms\n6. Home Exercise Plan — A routine to maintain results between sessions" },
+  ],
+  benefits: ["Reduces dizziness", "Improves balance", "Enhances mobility", "Reduces fall risk", "Promotes long-term vestibular health"],
+  whyChooseUs: [
+    `${DOCTOR} identifies the specific vestibular cause before applying treatment`,
+    "Targeted repositioning techniques for fast BPPV relief",
+    "Comprehensive vestibular rehabilitation for ongoing balance issues",
+    "Confidence-focused approach to reduce fear of movement",
+    "Home visit availability for patients with severe dizziness",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "How quickly can vertigo be treated?", answer: "BPPV, one of the most common causes, often responds within one to a few sessions using specific repositioning techniques. Other causes may take longer, depending on the underlying condition." },
+    { question: "Is vertigo the same as feeling dizzy?", answer: "Not exactly. Vertigo specifically refers to a spinning or tilting sensation, while dizziness is a broader term that can include lightheadedness or unsteadiness from various causes." },
+    { question: "Can vertigo come back after treatment?", answer: "BPPV can recur in some patients, though repositioning techniques are usually effective again if it does. Your physiotherapist can also teach you self-management techniques." },
+    { question: "Do I need a scan before starting vertigo treatment?", answer: "Not always. Many cases, especially BPPV, are diagnosed through specific physical tests. Imaging is considered if the presentation suggests a different underlying cause." },
+    { question: "Is it safe to do vestibular exercises at home?", answer: "Yes, once your physiotherapist has assessed you and taught you the correct technique, home exercises are an important part of maintaining and building on your progress." },
+  ],
+  customTreatmentText: `${BRAND} provides personalised vestibular rehabilitation plans for vertigo patients, led by ${DOCTOR}, targeting the specific cause of your dizziness.`,
+  cta: {
+    heading: "Vertigo often has a specific, treatable cause.",
+    subtext: `Get a vestibular assessment from ${DOCTOR} at ${BRAND} and find lasting relief.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} conducting a vestibular assessment at ${BRAND} Delhi`,
+    "BPPV repositioning technique session in Kalkaji",
+    "Balance training exercise for vertigo patient",
+    "Vestibular rehabilitation session in South Delhi",
+  ],
+},
+ 
+// ── 43. ACHILLES TENDON RUPTURE ──────────────────────────────────────────────
+{
+  id: 43,
+  title: "Achilles Tendon Rupture",
+  slug: "achilles-tendon-rupture",
+  category: "Sports Injury",
+  image: Achilles,
+  seo: {
+    title: `Achilles Tendon Rupture Treatment in Delhi | ${BRAND}`,
+    description: `Expert Achilles Tendon Rupture Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat Achilles tears, heel pain, tendon injuries & post-surgical Achilles rehabilitation. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "achilles tendon rupture treatment delhi, achilles tendon injury physiotherapy kalkaji, heel tendon injury treatment south delhi, achilles rupture rehabilitation delhi, achilles tendon specialist delhi, tendon tear treatment delhi, best achilles physiotherapist delhi, achilles tendon recovery kalkaji, achilles pain treatment delhi, sports tendon injury delhi",
+    canonical: `${BASE_URL}/services/achilles-tendon-rupture`,
+  },
+  hero: {
+    heading: "Achilles Tendon Rupture Treatment in Delhi",
+    subheading: `Physiotherapy for Achilles tears and post-surgical rehabilitation by ${DOCTOR} at ${BRAND}, built for full functional recovery.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `An Achilles tendon rupture is one of the more dramatic injuries ${DOCTOR} treats at ${BRAND}, often described by patients as feeling like they were struck from behind, followed by an inability to push off or walk normally. Whether treated conservatively in a cast or surgically repaired, the tendon needs a carefully staged rehabilitation process, moving too fast risks re-rupture, while too little movement leads to unnecessary stiffness and weakness. This injury typically results from sudden forceful movements, such as an explosive sprint or jump, though it can also occur from overuse or degeneration in tendons weakened by age or repetitive strain. Our physiotherapy programme follows established staged protocols, closely coordinated with your surgeon where relevant, to progressively restore calf strength, ankle mobility, and the confidence needed to return to walking, running, or sport.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Sudden forceful movements, such as sprinting or jumping\n• Overuse or repetitive strain\n• Weak or tight calf muscles\n• Age-related tendon degeneration\n\nConditions We Treat:\n\n• Partial or complete Achilles tears\n• Post-surgical Achilles repair\n• Pain, swelling, and inflammation around the tendon\n• Weakness and stiffness following immobilisation" },
+    { title: "Why It Matters", content: "The Achilles tendon bears enormous load during walking, running, and jumping, and rehabilitation needs to be carefully staged to protect the healing tissue while still preventing the stiffness and weakness that comes from too much rest.\n\nRushing the process risks re-rupture, while being overly cautious for too long leads to a longer, harder road back to full function. A structured, protocol-based approach avoids both extremes." },
+    { title: "Who Needs This", content: "• Patients recovering from a conservatively managed Achilles rupture\n• Patients following surgical Achilles tendon repair\n• Athletes wanting a structured return-to-sport programme\n• Anyone with residual weakness or stiffness after Achilles injury\n• Patients with Achilles tendinopathy at risk of rupture\n• Anyone unsure how to safely progress their recovery" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Thorough assessment of healing stage and current function\n• Pain and swelling management\n• Gradual, staged stretching and strengthening\n• Gait retraining and balance exercises\n• Functional and sport-specific training for return to activity" },
+    { title: "Our Process", content: "1. Assessment — Evaluating healing stage, strength, and ankle mobility\n2. Protected Mobility — Careful, protocol-guided movement to prevent stiffness\n3. Progressive Strengthening — Rebuilding calf and ankle strength in stages\n4. Gait Retraining — Restoring a normal, confident walking pattern\n5. Functional Training — Reintroducing higher-demand movements like jogging or jumping\n6. Return-to-Sport Plan — Structured, staged progression back to full activity" },
+  ],
+  benefits: ["Restores Achilles strength", "Reduces pain and swelling", "Improves walking and running", "Prevents re-rupture and recurrence", "Supports safe return to sports"],
+  whyChooseUs: [
+    `${DOCTOR} follows staged, protocol-based rehabilitation to protect the healing tendon`,
+    "Coordinated care alongside your orthopedic surgeon where relevant",
+    "Experience with both conservative and post-surgical Achilles rehabilitation",
+    "Sport-specific return-to-play programmes for athletes",
+    "Home visit availability for patients in early recovery",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "How long does Achilles tendon rupture recovery take?", answer: "Full recovery typically takes 6 to 12 months, depending on whether the injury was managed conservatively or surgically, and how consistently the rehabilitation programme is followed." },
+    { question: "When can I start physiotherapy after Achilles surgery?", answer: "This is guided by your surgeon's protocol, but gentle, protected movement often begins within the first couple of weeks, with strengthening added progressively as healing allows." },
+    { question: "Will I be able to run again after an Achilles rupture?", answer: "Many patients, including athletes, do return to running and sport, though this depends on following a structured rehabilitation programme and allowing adequate time for the tendon to regain strength." },
+    { question: "Is surgery always needed for an Achilles rupture?", answer: "Not always. Some ruptures are managed conservatively with casting or bracing, depending on the severity and the patient's activity level. Your surgeon and physiotherapist will guide the best approach for you." },
+    { question: "What happens if rehabilitation progresses too quickly?", answer: "Progressing too fast risks re-rupturing the tendon before it has fully healed, which is why staged, protocol-based rehabilitation is so important during recovery." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides personalised, protocol-based rehabilitation for Achilles tendon rupture, whether managed conservatively or surgically.`,
+  cta: {
+    heading: "Achilles recovery needs the right pace, not just time.",
+    subtext: `Get a staged rehabilitation plan from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing Achilles tendon rupture patient at ${BRAND} Delhi`,
+    "Calf strengthening exercise for Achilles rehabilitation in Kalkaji",
+    "Gait retraining session for post-Achilles surgery recovery",
+    "Return-to-sport training for Achilles tendon injury in South Delhi",
+  ],
+},
+ 
+// ── 44. ARTHRITIS ────────────────────────────────────────────────────────────
+{
+  id: 44,
+  title: "Arthritis Treatment",
+  slug: "arthritis-pain",
+  category: "Joint Conditions",
+  image: arthritis,
+  seo: {
+    title: `Arthritis Treatment in Delhi | ${BRAND}`,
+    description: `Expert Arthritis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat osteoarthritis, rheumatoid arthritis, joint pain, stiffness & swelling. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "arthritis treatment in delhi, arthritis physiotherapy kalkaji, joint pain arthritis treatment south delhi, osteoarthritis treatment delhi, arthritis specialist delhi, arthritis pain relief delhi, best arthritis physiotherapist delhi, joint stiffness swelling treatment delhi, arthritis rehabilitation kalkaji, rheumatoid arthritis physiotherapy delhi",
+    canonical: `${BASE_URL}/services/arthritis-pain`,
+  },
+  hero: {
+    heading: "Arthritis Treatment in Delhi",
+    subheading: `Physiotherapy for osteoarthritis, rheumatoid arthritis, and joint stiffness by ${DOCTOR} at ${BRAND}.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Arthritis covers a wide range of joint conditions, from the gradual wear-and-tear of osteoarthritis to the immune-driven inflammation of rheumatoid arthritis, and while the underlying process differs, both share a common thread: pain, stiffness, and swelling that make everyday movement progressively harder if left unmanaged. ${DOCTOR} at ${BRAND} works with arthritis patients at every stage, from those managing early morning stiffness to patients with more established joint changes affecting their independence. While physiotherapy cannot reverse arthritis, it plays a genuinely central role in managing it, gentle joint mobilisation eases stiffness, targeted strengthening reduces load on the affected joint, and the right pacing of activity helps avoid the flare-ups that come from either overdoing it or moving too little. Our approach is built around your specific type of arthritis and stage of disease, not a generic joint programme.`,
+  sections: [
+    { title: "Overview", content: "Common Causes:\n\n• Age-related joint degeneration\n• Inflammatory joint conditions such as rheumatoid arthritis\n• Previous joint injuries\n• Genetic and lifestyle factors\n\nConditions We Treat:\n\n• Osteoarthritis\n• Rheumatoid arthritis\n• Joint stiffness and swelling\n• Arthritis-related mobility decline" },
+    { title: "Why It Matters", content: "Arthritis that isn't actively managed tends to lead to a gradual decline in joint mobility and muscle strength, as pain naturally discourages movement, which in turn worsens stiffness and weakness over time.\n\nStaying appropriately active, with the right guidance on pacing and joint protection, is one of the most effective ways to slow this decline and maintain independence." },
+    { title: "Who Needs This", content: "• Patients newly diagnosed with osteoarthritis or rheumatoid arthritis\n• Anyone with persistent joint stiffness, especially in the morning\n• Patients experiencing swelling or joint tenderness\n• People whose arthritis is starting to limit daily activities\n• Patients under rheumatology care seeking a physiotherapy partner\n• Anyone wanting to stay active and mobile despite an arthritis diagnosis" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Gentle joint mobilisation to ease stiffness\n• Strengthening and flexibility exercises tailored to the affected joints\n• Pain-relief modalities for symptomatic relief\n• Posture and movement correction to reduce joint strain\n• Long-term joint care and activity pacing strategies" },
+    { title: "Our Process", content: "1. Assessment — Identifying the type, stage, and affected joints\n2. Pain and Stiffness Management — Gentle techniques to ease acute symptoms\n3. Mobility Work — Restoring comfortable range of motion\n4. Strengthening — Building muscle support around affected joints\n5. Activity Pacing — Guidance on balancing movement and rest to avoid flare-ups\n6. Long-Term Monitoring — Adjusting the plan as the condition evolves" },
+  ],
+  benefits: ["Reduces joint pain and stiffness", "Improves flexibility", "Strengthens muscles supporting the joints", "Helps slow functional decline", "Supports long-term independence"],
+  whyChooseUs: [
+    `${DOCTOR} builds arthritis programmes specific to your joint and disease stage`,
+    "Experience with both osteoarthritis and rheumatoid arthritis management",
+    "Focus on activity pacing to avoid flare-ups",
+    "Coordinated approach alongside your rheumatologist or orthopedist",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Can physiotherapy reverse arthritis?", answer: "No, physiotherapy cannot reverse the underlying joint changes, but it plays a major role in reducing pain, maintaining mobility, and slowing functional decline." },
+    { question: "Is exercise safe if I have arthritis?", answer: "Yes, appropriately guided exercise is generally safe and beneficial for most types of arthritis. The key is choosing the right type and intensity, which your physiotherapist will tailor to your condition." },
+    { question: "What's the difference between osteoarthritis and rheumatoid arthritis treatment?", answer: "Osteoarthritis treatment focuses more on mechanical joint support and strengthening, while rheumatoid arthritis management also needs to account for inflammatory flares and disease activity, often alongside medical treatment." },
+    { question: "Why is my arthritis worse in the morning?", answer: "Morning stiffness is common in many types of arthritis due to reduced joint fluid movement overnight. Gentle mobility exercises first thing in the day can help ease this." },
+    { question: "Can arthritis pain be managed without medication?", answer: "Physiotherapy can meaningfully reduce arthritis-related pain and stiffness, though it's often used alongside, rather than as a replacement for, medical management advised by your doctor." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} offers personalised arthritis management programmes tailored to your specific joint condition and stage of disease.`,
+  cta: {
+    heading: "Arthritis doesn't have to mean giving up your mobility.",
+    subtext: `Start a personalised management plan with ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing arthritis patient at ${BRAND} Delhi`,
+    "Joint mobilisation therapy for arthritis stiffness in Kalkaji",
+    "Strengthening exercise for arthritis joint support",
+    "Activity pacing guidance session for arthritis management in South Delhi",
+  ],
+},
+ 
+// ── 45. OSTEOARTHRITIS ───────────────────────────────────────────────────────
+{
+  id: 45,
+  title: "Osteoarthritis Treatment",
+  slug: "osteoarthritis-pain",
+  category: "Joint Conditions",
+  image: orthopedic,
+  seo: {
+    title: `Osteoarthritis Treatment in Delhi | ${BRAND}`,
+    description: `Expert Osteoarthritis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat knee, hip & hand osteoarthritis with LASER, Shockwave & manual therapy. ✅ BPT/MPT certified ✅ ${LOCATION}. Book now!`,
+    keywords: "osteoarthritis treatment in delhi, OA treatment kalkaji, knee osteoarthritis physiotherapy south delhi, osteoarthritis specialist delhi, joint cartilage degeneration treatment delhi, osteoarthritis pain relief delhi, best osteoarthritis doctor delhi, shockwave laser osteoarthritis delhi, OA rehabilitation kalkaji, hip osteoarthritis treatment delhi",
+    canonical: `${BASE_URL}/services/osteoarthritis-pain`,
+  },
+  hero: {
+    heading: "Osteoarthritis Treatment in Delhi",
+    subheading: `Physiotherapy for knee, hip, and hand osteoarthritis by ${DOCTOR} at ${BRAND}, combining manual therapy with advanced modalities.`,
+    cta: "Book Your Assessment Today",
+  },
+  description: `Osteoarthritis is the gradual breakdown of cartilage within a joint, and it's one of the most common reasons ${DOCTOR} sees patients at ${BRAND}, particularly affecting the knees, hips, and hands. What makes osteoarthritis manageable, despite being a degenerative condition, is that a large part of the pain and stiffness patients experience comes not from the cartilage loss itself, but from the resulting muscle weakness, joint stiffness, and altered movement patterns that build up around it. Strengthening the muscles supporting an osteoarthritic joint measurably reduces the load passing through it, easing pain even though the underlying cartilage changes remain. Our approach at ${BRAND} combines this strengthening focus with manual therapy and advanced modalities like LASER and Shockwave Therapy, aiming to reduce pain, preserve as much joint function as possible, and delay or avoid the need for more invasive treatment.`,
+  sections: [
+    { title: "Overview", content: "Common Features:\n\n• Joint pain and stiffness in knees, hips, or hands\n• Reduced range of motion\n• Swelling or tenderness around the joint\n• Gradual cartilage degeneration\n\nConditions We Treat:\n\n• Knee osteoarthritis\n• Hip osteoarthritis\n• Hand and finger joint osteoarthritis" },
+    { title: "Why It Matters", content: "A significant portion of osteoarthritis-related pain comes from weakness and stiffness in the muscles and tissues around the joint, not just the cartilage loss itself, which is precisely what physiotherapy can directly influence.\n\nStrengthening these supporting muscles reduces the load on the joint with every step or movement, often providing meaningful pain relief and helping to delay the progression toward surgical intervention." },
+    { title: "Who Needs This", content: "• Patients diagnosed with knee, hip, or hand osteoarthritis\n• Anyone with joint pain that worsens with activity or at the end of the day\n• Patients noticing reduced joint range of motion\n• People wanting to manage osteoarthritis without or before surgery\n• Patients recovering from a joint replacement related to osteoarthritis\n• Anyone whose osteoarthritis is starting to limit daily activities" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive joint and movement assessment\n• Stretching and strengthening exercises for the affected joint\n• Manual therapy to improve mobility and reduce stiffness\n• LASER Therapy, Shockwave Therapy, Ultrasound, TENS, and Dry Needling\n• Posture correction and lifestyle guidance" },
+    { title: "Our Process", content: "1. Assessment — Evaluating the affected joint, strength, and functional limitations\n2. Pain Management — Manual therapy and modalities to ease discomfort\n3. Mobility Restoration — Techniques to improve joint range of motion\n4. Progressive Strengthening — Building muscle support to reduce joint load\n5. Functional Training — Applying gains to daily activities like walking or gripping\n6. Long-Term Management Plan — Guidance to maintain function and slow progression" },
+  ],
+  benefits: ["Reduces joint pain and stiffness", "Improves flexibility", "Strengthens muscles around joints", "Helps delay further degeneration", "Enhances overall quality of life"],
+  whyChooseUs: [
+    `${DOCTOR} focuses on the muscle weakness and stiffness that drive much of the pain in osteoarthritis`,
+    "Access to advanced modalities like LASER and Shockwave Therapy",
+    "BPT/MPT certified physiotherapists with structured OA rehabilitation experience",
+    "Experience across knee, hip, and hand osteoarthritis",
+    "Home visit availability for patients with limited mobility",
+    `Conveniently located in ${LOCATION}`,
+  ],
+  faqs: [
+    { question: "Can physiotherapy help osteoarthritis without surgery?", answer: "Yes, for many patients. Strengthening the muscles around the joint and improving mobility can significantly reduce pain and improve function, sometimes delaying or reducing the need for surgery." },
+    { question: "Why does strengthening help if the cartilage is already worn?", answer: "A large part of osteoarthritis pain comes from weakness and stiffness in the surrounding muscles, not just cartilage loss. Strengthening these muscles reduces the load passing through the joint, which eases pain." },
+    { question: "Is walking bad for osteoarthritis?", answer: "Not usually. Appropriate walking, guided by your physiotherapist, is often beneficial and part of the treatment plan, though the right amount depends on your specific joint and stage of osteoarthritis." },
+    { question: "Do you provide physiotherapy after a joint replacement for osteoarthritis?", answer: "Yes, we regularly support patients through post-joint replacement rehabilitation, helping restore strength, mobility, and confidence in the new joint." },
+    { question: "How long does osteoarthritis treatment typically take?", answer: "Osteoarthritis is a long-term condition, so treatment is often ongoing, though many patients notice meaningful pain reduction and improved function within the first few weeks of a structured programme." },
+  ],
+  customTreatmentText: `At ${BRAND}, ${DOCTOR} provides comprehensive and personalised osteoarthritis care, combining manual therapy with advanced modalities for lasting relief.`,
+  cta: {
+    heading: "Cartilage wear doesn't have to mean constant joint pain.",
+    subtext: `Get a strengthening-focused osteoarthritis plan from ${DOCTOR} at ${BRAND}.`,
+    buttonText: "Book Your Appointment Now",
+  },
+  imageAltText: [
+    `${DOCTOR} assessing osteoarthritis patient at ${BRAND} Delhi`,
+    "Strengthening exercise for knee osteoarthritis in Kalkaji",
+    "Shockwave therapy session for joint pain relief",
+    "Manual therapy for hip osteoarthritis in South Delhi",
+  ],
+},
 
   // ── 46. CARPAL TUNNEL SYNDROME ───────────────────────────────────────────────
   {
@@ -4245,13 +2565,36 @@ export const servicesData = [
       keywords: "carpal tunnel syndrome treatment in delhi, CTS treatment kalkaji, carpal tunnel physiotherapy south delhi, wrist numbness treatment delhi, hand tingling treatment delhi, carpal tunnel specialist delhi, best CTS doctor delhi, nerve compression wrist treatment delhi, carpal tunnel pain relief kalkaji, hand weakness wrist treatment delhi",
       canonical: `${BASE_URL}/services/carpal-tunnel-syndrome`,
     },
-    description: "Carpal Tunnel Syndrome (CTS) is caused by compression of the median nerve in the wrist, leading to pain, numbness, and tingling. Physiotherapy focuses on relieving nerve compression and restoring wrist mobility.",
+    hero: {
+      heading: "Carpal Tunnel Syndrome Treatment",
+      subheading: "Physiotherapy for wrist numbness, tingling fingers, and hand weakness caused by median nerve compression, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "Most people brush off the tingling in their thumb and first two fingers as a sign they simply slept on their hand wrong, until it starts waking them up at night, week after week. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees this pattern often: the numbness is dismissed for months while the underlying compression on the median nerve steadily worsens, and by the time patients seek help, grip strength has already started to fade. Carpal Tunnel Syndrome develops when the median nerve, running through a narrow passage in the wrist, gets compressed by swelling, repetitive strain, or poor wrist posture during daily or occupational activities. Left untreated, it doesn't stay a wrist problem, it starts affecting the ability to hold a cup, type, or button a shirt. At Advanced Pain Physiotherapy Centre, treatment goes beyond symptom relief, we address the tendons and soft tissue that are compressing the nerve, correct the postures and movement habits that caused it, and rebuild grip and wrist function so it doesn't return.",
     sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Numbness, tingling in thumb, index, and middle fingers\n• Weak grip strength\n• Pain or discomfort in the wrist\n• Reduced wrist flexibility" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment\n• Stretching and strengthening exercises\n• Manual therapy\n• LASER Therapy, Ultrasound, TENS, IFT, Shockwave, Dry Needling\n• Ergonomic guidance" },
+      { title: "Overview", content: "Common Causes of Carpal Tunnel Syndrome:\n\n• Repetitive hand and wrist movements\n• Prolonged computer or mobile phone use\n• Poor wrist posture during work\n• Pregnancy-related fluid retention\n• Underlying conditions like diabetes or thyroid disorders\n\nConditions We Treat:\n\n• Mild to moderate median nerve compression\n• Post-surgical carpal tunnel release rehabilitation\n• Work-related repetitive strain wrist pain\n• Nighttime hand numbness and tingling" },
+      { title: "Why It Matters", content: "The numbness in carpal tunnel syndrome is often intermittent in the beginning, which makes it easy to ignore. But this on-and-off numbness is actually a sign of ongoing nerve irritation, and if the compression isn't relieved, the nerve can sustain lasting damage, leading to permanent weakness in the thumb muscles.\n\nAddressing wrist mechanics and nerve gliding early on prevents the condition from progressing to a stage where surgery becomes the only option." },
+      { title: "Who Needs This", content: "• Office workers and professionals who type or use a mouse extensively\n• Patients experiencing nighttime hand numbness or tingling\n• People noticing reduced grip strength or dropping objects\n• Pregnant women with wrist swelling and numbness\n• Patients recovering from carpal tunnel release surgery\n• Anyone with repetitive hand-intensive work or hobbies" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment of nerve compression and wrist mechanics\n• Nerve gliding and tendon mobility exercises\n• Manual therapy to release surrounding soft tissue tension\n• LASER Therapy, Ultrasound, TENS, IFT, Shockwave, Dry Needling\n• Wrist strengthening and grip restoration exercises\n• Ergonomic guidance for desk setup and daily activities" },
+      { title: "Our Process", content: "1. Assessment — Evaluating nerve compression, wrist posture, and grip strength\n2. Pain and Inflammation Management — Electrotherapy and manual techniques to calm irritation\n3. Nerve Mobility Restoration — Gliding exercises to free up the compressed median nerve\n4. Strengthening — Rebuilding wrist and hand muscle strength\n5. Ergonomic Correction — Adjusting posture and workstation habits to prevent recurrence\n6. Return-to-Activity Plan — Structured progression back to work and daily tasks" },
     ],
     benefits: ["Relieves wrist and hand pain", "Improves wrist flexibility", "Reduces nerve compression", "Restores grip strength", "Prevents recurrence"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we offer specialized CTS treatment.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma focuses on relieving nerve compression, not just masking the numbness",
+      "Combined LASER and Shockwave therapy for faster nerve and tissue recovery",
+      "Ergonomic guidance tailored to your specific work or lifestyle habits",
+      "Experience with both conservative and post-surgical CTS rehabilitation",
+      "Home visit availability for patients with limited mobility",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Can carpal tunnel syndrome be treated without surgery?", answer: "Yes, in mild to moderate cases, physiotherapy focused on nerve gliding, wrist strengthening, and ergonomic correction often relieves symptoms without needing surgery." },
+      { question: "Why does the numbness happen mostly at night?", answer: "Many people sleep with their wrists bent, which increases pressure on the median nerve. Wrist positioning guidance and nighttime splinting can significantly reduce this." },
+      { question: "How long does physiotherapy take to show results?", answer: "Mild cases often improve within 3 to 6 weeks, while more established compression may take 8 to 12 weeks of consistent treatment." },
+      { question: "Is carpal tunnel syndrome linked to diabetes?", answer: "Yes, diabetes and thyroid disorders can increase the risk of nerve compression, so managing the underlying condition alongside physiotherapy is important." },
+      { question: "Can I continue working while undergoing treatment?", answer: "In most cases yes, with modified ergonomics and activity guidance, though severe cases may need temporary activity restrictions." },
+      { question: "Will the numbness come back after treatment?", answer: "With proper strengthening and ergonomic changes, recurrence is significantly reduced, though ongoing posture awareness is important for long-term prevention." },
+    ],
   },
 
   // ── 47. MYASTHENIA GRAVIS ────────────────────────────────────────────────────
@@ -4267,13 +2610,36 @@ export const servicesData = [
       keywords: "myasthenia gravis treatment delhi, myasthenia gravis physiotherapy kalkaji, MG muscle weakness treatment south delhi, myasthenia specialist delhi, autoimmune muscle disorder treatment delhi, muscle fatigue physiotherapy delhi, best MG physiotherapist delhi, neuromuscular disease rehabilitation delhi, myasthenia gravis exercises kalkaji, MG independence training delhi",
       canonical: `${BASE_URL}/services/myasthenia-gravis`,
     },
-    description: "Myasthenia Gravis (MG) is a chronic autoimmune disorder that causes muscle weakness and fatigue. Physiotherapy focuses on improving muscle strength, reducing fatigue, and enhancing functional independence.",
+    hero: {
+      heading: "Myasthenia Gravis Treatment",
+      subheading: "Physiotherapy for muscle weakness and fatigue caused by Myasthenia Gravis, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "Myasthenia Gravis is unpredictable in a way few other conditions are, a patient can feel relatively strong in the morning and struggle to lift their arms by evening. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has worked with MG patients who initially avoided any form of exercise out of fear it would worsen their fatigue, when in reality, the right kind of paced, carefully monitored physiotherapy is one of the most effective ways to maintain strength without triggering exhaustion. MG is a chronic autoimmune disorder where the body's immune system interferes with communication between nerves and muscles, causing weakness that worsens with activity and improves with rest. This fluctuating nature makes generic exercise advice risky and often counterproductive. At Advanced Pain Physiotherapy Centre, we build individualised, energy-conscious programmes that respect the disease's fatigue pattern while still helping patients maintain functional strength and independence in daily life.",
     sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Muscle weakness worsening with activity\n• Drooping eyelids and double vision\n• Difficulty swallowing or speaking\n• Fatigue in limbs and neck" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive muscle strength assessment\n• Tailored strengthening and endurance exercises\n• Energy conservation techniques\n• Posture and mobility training\n• Breathing exercises" },
+      { title: "Overview", content: "Common Symptoms:\n\n• Muscle weakness worsening with activity\n• Drooping eyelids and double vision\n• Difficulty swallowing or speaking\n• Fatigue in limbs and neck\n\nConditions We Manage:\n\n• Ocular and generalised Myasthenia Gravis\n• Post-crisis muscle weakness\n• Fatigue-related mobility limitations" },
+      { title: "Why It Matters", content: "Because MG-related weakness fluctuates, patients often either overexert themselves on a 'good day' and crash afterward, or avoid activity altogether out of fear, both of which can accelerate deconditioning.\n\nStructured, fatigue-paced physiotherapy helps maintain muscle strength and function without triggering flare-ups, which is essential for preserving independence and quality of life over the long term." },
+      { title: "Who Needs This", content: "• Patients newly diagnosed with Myasthenia Gravis\n• People experiencing worsening fatigue with daily activity\n• Patients recovering strength after an MG crisis\n• Those struggling with posture, neck, or limb weakness\n• Patients wanting to safely maintain fitness without triggering flare-ups\n• Caregivers seeking guidance on safe activity levels" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive muscle strength and fatigue pattern assessment\n• Tailored, fatigue-paced strengthening and endurance exercises\n• Energy conservation techniques\n• Posture and mobility training\n• Breathing exercises to support respiratory muscles" },
+      { title: "Our Process", content: "1. Assessment — Mapping muscle strength, fatigue triggers, and functional limitations\n2. Energy Conservation Planning — Teaching pacing strategies for daily tasks\n3. Graded Strengthening — Low-fatigue exercises introduced gradually\n4. Posture and Mobility Training — Reducing strain on weakened muscle groups\n5. Breathing Support — Exercises to maintain respiratory muscle function\n6. Ongoing Monitoring — Adjusting the programme based on symptom fluctuations" },
     ],
     benefits: ["Improves muscle strength", "Reduces fatigue", "Enhances daily independence", "Supports posture and mobility", "Promotes quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized care for Myasthenia Gravis.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma designs fatigue-paced programmes suited to MG's fluctuating nature",
+      "Careful monitoring to avoid overexertion and post-exercise crashes",
+      "Focus on functional independence, not just isolated muscle strength",
+      "Coordination with your neurologist's treatment plan where needed",
+      "Home visit availability for patients with limited mobility",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Is exercise safe for someone with Myasthenia Gravis?", answer: "Yes, when properly paced and monitored, exercise can help maintain strength without worsening fatigue. Unsupervised or overly intense exercise, however, can trigger a flare." },
+      { question: "Why does my weakness feel worse by the end of the day?", answer: "This is a hallmark feature of MG, where repeated muscle use reduces nerve-to-muscle signal transmission over the course of the day. Pacing activities helps manage this." },
+      { question: "Can physiotherapy replace my MG medication?", answer: "No, physiotherapy works alongside your neurologist's medical treatment, it does not replace medication but supports functional strength and independence." },
+      { question: "How often should physiotherapy sessions happen?", answer: "This depends on symptom severity, but most patients benefit from 2 to 3 sessions per week initially, adjusted based on fatigue response." },
+      { question: "Can breathing exercises really help with MG?", answer: "Yes, since MG can affect respiratory muscles, targeted breathing exercises help maintain lung function and reduce breathlessness during activity." },
+      { question: "Will physiotherapy help with double vision or drooping eyelids?", answer: "Physiotherapy primarily addresses limb and postural muscle weakness; ocular symptoms are best managed together with your neurologist or ophthalmologist." },
+    ],
   },
 
   // ── 48. ALZHEIMER'S ──────────────────────────────────────────────────────────
@@ -4289,13 +2655,36 @@ export const servicesData = [
       keywords: "alzheimer's disease physiotherapy delhi, alzheimer's rehabilitation kalkaji, dementia mobility treatment south delhi, alzheimer's specialist delhi, cognitive physiotherapy delhi, fall prevention alzheimer's delhi, best alzheimer's physiotherapist delhi, elderly neurological care delhi, alzheimer's balance training kalkaji, alzheimer's exercises delhi",
       canonical: `${BASE_URL}/services/alzheimers`,
     },
-    description: "Alzheimer's Disease is a progressive neurological disorder affecting memory, cognition, and daily functioning. Physiotherapy helps improve mobility, balance, and independence.",
+    hero: {
+      heading: "Alzheimer's Disease Physiotherapy",
+      subheading: "Physiotherapy to maintain mobility, balance, and independence for Alzheimer's patients, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "Families often focus entirely on the memory loss in Alzheimer's Disease and overlook a quieter, equally important decline happening alongside it, the gradual loss of balance, coordination, and mobility. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has seen how a fall, something that could have been prevented with the right balance training, often becomes the event that accelerates a patient's decline far more than the memory issues themselves. Alzheimer's is a progressive neurological disorder that affects not just cognition but also motor planning, gait, and coordination as it advances. Physiotherapy in this context isn't about reversing the disease, it's about preserving physical independence and safety for as long as possible, while giving families and caregivers practical tools to manage day-to-day mobility challenges. At Advanced Pain Physiotherapy Centre, we build gentle, structured routines that keep patients moving safely and confidently within their own homes.",
     sections: [
-      { title: "Overview", content: "Common Features:\n\n• Memory loss and confusion\n• Difficulty performing daily tasks\n• Reduced coordination and balance\n• Muscle stiffness" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive mobility and balance assessment\n• Tailored exercises for strength and coordination\n• Gait training and fall prevention\n• Cognitive-motor integration exercises\n• Caregiver guidance" },
+      { title: "Overview", content: "Common Features:\n\n• Memory loss and confusion\n• Difficulty performing daily tasks\n• Reduced coordination and balance\n• Muscle stiffness\n• Increased fall risk as the condition progresses" },
+      { title: "Why It Matters", content: "A fall in an Alzheimer's patient often has consequences far beyond the physical injury, it can trigger a rapid decline in confidence, independence, and even cognitive function due to hospitalisation and disorientation.\n\nMaintaining strength, balance, and safe movement patterns through physiotherapy is one of the most effective ways to protect a patient's overall wellbeing and delay the need for full-time assisted care." },
+      { title: "Who Needs This", content: "• Patients in early to moderate stages of Alzheimer's Disease\n• Individuals experiencing frequent stumbles or balance issues\n• Patients with reduced walking confidence or shuffling gait\n• Caregivers seeking guidance on safe home mobility\n• Families wanting to maintain a patient's physical independence\n• Patients recovering physical strength after a fall or hospitalisation" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive mobility and balance assessment\n• Tailored exercises for strength and coordination\n• Gait training and fall prevention\n• Cognitive-motor integration exercises\n• Caregiver guidance on safe home mobility" },
+      { title: "Our Process", content: "1. Assessment — Evaluating mobility, balance, gait pattern, and fall risk\n2. Safety Planning — Identifying home hazards and mobility precautions\n3. Balance and Coordination Training — Structured exercises to reduce fall risk\n4. Strength Maintenance — Gentle routines to preserve muscle function\n5. Gait Training — Improving walking confidence and stability\n6. Caregiver Education — Practical guidance for daily support at home" },
     ],
     benefits: ["Maintains mobility and strength", "Improves balance", "Supports independence", "Enhances coordination", "Supports caregivers"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized physiotherapy for Alzheimer's patients.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma designs routines specifically to reduce fall risk in Alzheimer's patients",
+      "Focus on preserving independence, not just isolated muscle exercises",
+      "Practical caregiver training included as part of the programme",
+      "Gentle, patient-paced approach suited for cognitive limitations",
+      "Home visit availability, ideal for patients who find travel disorienting",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Can physiotherapy help if my parent is already in the moderate stage of Alzheimer's?", answer: "Yes, physiotherapy can still meaningfully improve balance, strength, and safety even in moderate stages, the approach is simply adapted to the patient's current cognitive and physical ability." },
+      { question: "How does physiotherapy help prevent falls?", answer: "Through targeted balance training, strengthening of the legs and core, and gait correction, physiotherapy directly addresses the physical factors that lead to falls." },
+      { question: "Will my family member need to follow complex exercise instructions?", answer: "No, routines are kept simple and repetitive, often incorporated into daily activities, so they remain manageable despite memory or attention difficulties." },
+      { question: "Can physiotherapy improve cognitive symptoms too?", answer: "While physiotherapy's main focus is physical function, cognitive-motor integration exercises can offer some secondary benefit to coordination and attention." },
+      { question: "Is home visit physiotherapy better for Alzheimer's patients?", answer: "Often yes, familiar surroundings reduce confusion and anxiety, making home visits a comfortable and effective option for many patients." },
+      { question: "How often should sessions be scheduled?", answer: "This varies by stage and mobility level, but 2 to 3 sessions per week is a common starting point, adjusted based on the patient's response." },
+    ],
   },
 
   // ── 49. STROKE ───────────────────────────────────────────────────────────────
@@ -4311,13 +2700,36 @@ export const servicesData = [
       keywords: "stroke rehabilitation in delhi, stroke physiotherapy kalkaji, stroke recovery treatment south delhi, stroke specialist delhi, post stroke rehabilitation delhi, stroke weakness treatment delhi, best stroke physiotherapist delhi, hemiplegia rehabilitation delhi, stroke balance training kalkaji, stroke gait training delhi",
       canonical: `${BASE_URL}/services/stroke`,
     },
-    description: "Stroke can cause weakness, paralysis, and loss of coordination, impacting daily life. Physiotherapy plays a crucial role in restoring movement, strength, and independence.",
+    hero: {
+      heading: "Stroke Rehabilitation",
+      subheading: "Physiotherapy to restore movement, strength, and independence after a stroke, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "The first few months after a stroke are the window where the brain has the greatest capacity to rewire itself and recover function, yet this is exactly when many families feel most lost about what to do next. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has guided countless stroke survivors and their families through this critical period, and the pattern is clear: patients who begin structured, intensive rehabilitation early recover significantly more function than those who wait. A stroke interrupts blood flow to the brain, and depending on the area affected, can cause weakness or paralysis on one side of the body, impaired coordination, and difficulty walking or speaking. Recovery isn't automatic, it requires the brain to relearn movement patterns through repetition, and physiotherapy is the primary tool that drives this relearning. At Advanced Pain Physiotherapy Centre, our stroke rehabilitation programmes are built around this window of neuroplasticity, combining neuromuscular re-education, gait training, and spasticity management to maximise recovery.",
     sections: [
-      { title: "Overview", content: "Common Effects:\n\n• Weakness or paralysis on one side\n• Impaired coordination and balance\n• Difficulty walking\n• Muscle stiffness or spasticity" },
+      { title: "Overview", content: "Common Effects:\n\n• Weakness or paralysis on one side\n• Impaired coordination and balance\n• Difficulty walking\n• Muscle stiffness or spasticity\n• Speech and swallowing difficulties in some cases" },
+      { title: "Why It Matters", content: "The brain's ability to rewire itself, known as neuroplasticity, is highest in the first three to six months after a stroke. Delaying rehabilitation during this window means missing the period when the greatest functional gains are possible.\n\nEven beyond this window, continued physiotherapy remains valuable for managing spasticity, preventing joint contractures, and maintaining whatever function has been regained." },
+      { title: "Who Needs This", content: "• Patients recently discharged from hospital after a stroke\n• Individuals with one-sided weakness or paralysis\n• Patients struggling with balance or walking confidence\n• People experiencing spasticity or muscle stiffness post-stroke\n• Patients wanting to regain hand and arm function\n• Families seeking structured, goal-oriented stroke recovery care" },
       { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed motor function assessment\n• Tailored strengthening and flexibility exercises\n• Gait training and mobility enhancement\n• Neuromuscular re-education\n• Spasticity management\n• Caregiver education" },
+      { title: "Our Process", content: "1. Assessment — Evaluating motor function, muscle tone, balance, and mobility level\n2. Early Mobilisation — Safe, guided movement to prevent complications\n3. Neuromuscular Re-education — Retraining the brain-muscle connection through repetitive, task-specific exercises\n4. Balance and Gait Training — Rebuilding walking ability and stability\n5. Spasticity Management — Reducing stiffness through stretching and manual therapy\n6. Functional Independence Training — Practising real-world tasks to restore daily living skills" },
     ],
     benefits: ["Restores strength and mobility", "Improves balance", "Reduces spasticity", "Supports independence", "Enhances quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized stroke rehabilitation programs.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma structures rehabilitation around the critical neuroplasticity window",
+      "Task-specific, repetition-based training proven to drive motor recovery",
+      "Experience managing spasticity and preventing joint contractures",
+      "Coordinated approach with your neurologist for comprehensive stroke care",
+      "Home visit availability for patients with limited mobility post-stroke",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "How soon after a stroke should physiotherapy start?", answer: "Ideally as soon as the patient is medically stable, often within days of the stroke, since early mobilisation significantly improves recovery outcomes." },
+      { question: "Will my loved one fully recover movement after a stroke?", answer: "Recovery varies widely depending on the stroke's severity and location, but structured physiotherapy maximises the chances of regaining meaningful function." },
+      { question: "What is spasticity and can physiotherapy help with it?", answer: "Spasticity is abnormal muscle stiffness or tightness following a stroke. Physiotherapy, through stretching and manual therapy, helps manage and reduce it effectively." },
+      { question: "How long does stroke rehabilitation typically take?", answer: "This varies significantly by case, ranging from a few months for mild strokes to a year or more for more severe cases, with progress often continuing well beyond the initial phase." },
+      { question: "Can physiotherapy help with walking again after a stroke?", answer: "Yes, gait training is a core part of stroke rehabilitation, focusing on rebuilding balance, coordination, and strength needed for safe, independent walking." },
+      { question: "Is home visit physiotherapy suitable after a stroke?", answer: "Yes, especially in the early recovery phase when travel can be difficult, home visits allow consistent, comfortable rehabilitation in a familiar environment." },
+    ],
   },
 
   // ── 50. PARALYSIS ────────────────────────────────────────────────────────────
@@ -4333,13 +2745,36 @@ export const servicesData = [
       keywords: "paralysis rehabilitation in delhi, paralysis physiotherapy kalkaji, paralysis treatment south delhi, paralysis specialist delhi, hemiplegia paraplegia rehabilitation delhi, post paralysis physiotherapy delhi, best paralysis physiotherapist delhi, paralysis movement recovery delhi, muscle atrophy prevention delhi, paralysis independence training kalkaji",
       canonical: `${BASE_URL}/services/paralysis`,
     },
-    description: "Paralysis results from nerve damage or neurological disorders, leading to loss of movement or sensation. Physiotherapy focuses on restoring function, strength, and mobility.",
+    hero: {
+      heading: "Paralysis Rehabilitation",
+      subheading: "Physiotherapy to restore movement, strength, and independence for patients living with paralysis, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "A diagnosis of paralysis often comes with an assumption, spoken or unspoken, that the affected limb or side of the body simply won't function again. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has seen this assumption proven wrong many times over, not through a single breakthrough, but through the slow, consistent work of structured rehabilitation that many patients are never offered. Paralysis, whether from stroke, brain injury, spinal cord damage, or another neurological cause, results in partial or complete loss of movement or sensation, and without targeted physiotherapy, secondary complications like muscle atrophy, joint stiffness, and pressure sores can set in quickly. Our approach at Advanced Pain Physiotherapy Centre focuses on maximising whatever movement potential remains, preventing these complications, and equipping patients and families with the tools to manage daily life as safely and independently as possible.",
     sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Stroke or brain injury\n• Spinal cord injury\n• Neurological disorders\n• Trauma\n\nConditions We Treat:\n\n• Hemiplegia and paraplegia\n• Muscle atrophy\n• Loss of coordination" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of affected muscles\n• Tailored strengthening and mobility exercises\n• Manual therapy\n• Assistive device training\n• Posture correction\n• Caregiver education" },
+      { title: "Overview", content: "Common Causes:\n\n• Stroke or brain injury\n• Spinal cord injury\n• Neurological disorders\n• Trauma\n\nConditions We Treat:\n\n• Hemiplegia and paraplegia\n• Muscle atrophy\n• Loss of coordination and sensation" },
+      { title: "Why It Matters", content: "Without physiotherapy, paralysed muscles quickly begin to atrophy, and joints that aren't moved regularly can become permanently stiff, a complication called contracture. These secondary effects can be more limiting long-term than the original paralysis itself.\n\nEarly, consistent physiotherapy prevents this cascade of complications while actively working to maximise whatever functional recovery is possible." },
+      { title: "Who Needs This", content: "• Patients with paralysis from stroke, brain, or spinal injury\n• Individuals experiencing muscle wasting or joint stiffness\n• Patients requiring assistive device training for mobility\n• Families seeking guidance on safe positioning and transfers\n• Patients working to regain partial movement and sensation\n• Anyone at risk of pressure sores due to limited mobility" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of affected muscles and remaining function\n• Tailored strengthening and mobility exercises\n• Manual therapy to maintain joint range of motion\n• Assistive device training\n• Posture correction and positioning guidance\n• Caregiver education" },
+      { title: "Our Process", content: "1. Assessment — Evaluating muscle function, sensation, and joint mobility\n2. Complication Prevention — Positioning and passive movement to avoid stiffness and pressure sores\n3. Movement Facilitation — Techniques to stimulate whatever motor function remains\n4. Strengthening — Building strength in functioning and partially affected muscle groups\n5. Assistive Device Training — Guidance on mobility aids for safe daily function\n6. Caregiver Support — Practical training for transfers, positioning, and home care" },
     ],
     benefits: ["Restores movement and function", "Improves muscle strength", "Prevents complications", "Enhances daily independence", "Supports quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we offer specialized rehabilitation for paralysis.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma focuses on preventing secondary complications from day one",
+      "Structured programmes to maximise whatever functional recovery is possible",
+      "Hands-on caregiver training for safe transfers and daily support",
+      "Experience across stroke, spinal, and traumatic causes of paralysis",
+      "Home visit availability, essential for patients with limited mobility",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Can paralysed muscles recover with physiotherapy?", answer: "This depends on the cause and extent of nerve damage, but many patients regain partial function through consistent, targeted physiotherapy, especially when started early." },
+      { question: "What happens if physiotherapy isn't started early?", answer: "Delayed physiotherapy allows muscle wasting, joint stiffness, and pressure sores to develop, which can limit recovery potential even if some nerve function later returns." },
+      { question: "Is home visit physiotherapy possible for paralysis patients?", answer: "Yes, and it's often preferred, since travel can be difficult and home visits allow for practical training in the patient's actual living environment." },
+      { question: "How do you prevent pressure sores during rehabilitation?", answer: "Through regular repositioning guidance, pressure-relief techniques, and caregiver education on safe handling, all of which are part of our rehabilitation approach." },
+      { question: "Will my family member need an assistive device permanently?", answer: "This varies by case, some patients transition off devices as strength returns, while others use them long-term to maintain safe, independent mobility." },
+      { question: "How long does paralysis rehabilitation take?", answer: "Timelines vary significantly depending on the cause and severity, ranging from months to ongoing, long-term maintenance care." },
+    ],
   },
 
   // ── 51. EPILEPSY ─────────────────────────────────────────────────────────────
@@ -4355,13 +2790,36 @@ export const servicesData = [
       keywords: "epilepsy physiotherapy delhi, epilepsy rehabilitation kalkaji, seizure disorder physiotherapy south delhi, epilepsy balance training delhi, epilepsy specialist physiotherapist delhi, fall prevention epilepsy delhi, best epilepsy physiotherapist delhi, neurological condition physiotherapy delhi, epilepsy exercises kalkaji, seizure safety training delhi",
       canonical: `${BASE_URL}/services/epilepsy`,
     },
-    description: "Epilepsy is a neurological disorder characterized by recurrent seizures that may affect physical activity and daily function. Physiotherapy focuses on maintaining strength, balance, and safety.",
+    hero: {
+      heading: "Epilepsy Physiotherapy",
+      subheading: "Physiotherapy to build strength, balance, and safety for patients managing epilepsy, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "A lot of patients with epilepsy are told, often by well-meaning family members, to avoid physical activity altogether out of fear it might trigger a seizure. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre takes a different view, one supported by current understanding of the condition, that appropriately guided exercise is not only safe for most epilepsy patients but actively beneficial, improving strength, balance, and confidence while reducing the injury risk that comes with deconditioning and post-seizure fatigue. Epilepsy is a neurological disorder marked by recurrent seizures, and while the seizures themselves are managed medically, the physical after-effects, muscle fatigue, coordination difficulties, and fall risk following an episode, are areas where physiotherapy plays a genuine, often overlooked role. At Advanced Pain Physiotherapy Centre, we work within safe, individualised parameters to help patients stay physically active and independent.",
     sections: [
-      { title: "Overview", content: "Common Features:\n\n• Recurrent seizures\n• Muscle weakness or fatigue post-seizure\n• Balance and coordination challenges\n• Risk of falls" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of strength and balance\n• Tailored exercises for strength and flexibility\n• Balance and gait training\n• Fall prevention education\n• Lifestyle guidance" },
+      { title: "Overview", content: "Common Features:\n\n• Recurrent seizures\n• Muscle weakness or fatigue post-seizure\n• Balance and coordination challenges\n• Risk of falls or injury during or after episodes" },
+      { title: "Why It Matters", content: "Avoiding physical activity out of fear of seizures often leads to deconditioning, which paradoxically increases fall risk and reduces the ability to recover physically after a seizure episode.\n\nSafe, structured physiotherapy helps patients build the strength and balance needed to move confidently, while incorporating appropriate safety precautions around known seizure triggers." },
+      { title: "Who Needs This", content: "• Patients newly diagnosed with epilepsy seeking safe activity guidance\n• Individuals experiencing fatigue or weakness after seizure episodes\n• Patients with balance or coordination difficulties\n• People who have become deconditioned due to activity avoidance\n• Families wanting guidance on safe exercise and fall prevention\n• Patients wanting to return to sport or regular fitness safely" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of strength, balance, and seizure-related physical impact\n• Tailored exercises for strength and flexibility\n• Balance and gait training\n• Fall prevention education\n• Lifestyle and activity guidance" },
+      { title: "Our Process", content: "1. Assessment — Understanding seizure history, physical impact, and current fitness level\n2. Safety Planning — Establishing safe exercise parameters and precautions\n3. Strength and Balance Training — Building physical resilience and coordination\n4. Fall Prevention — Techniques to reduce injury risk during and after episodes\n5. Graded Activity Progression — Safely rebuilding fitness and confidence\n6. Lifestyle Guidance — Practical advice for staying active within safe limits" },
     ],
     benefits: ["Improves strength and balance", "Reduces injury risk", "Enhances independence", "Supports physical fitness", "Provides safety guidance"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized physiotherapy for epilepsy patients.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma designs safe, individualised activity plans around seizure history",
+      "Focus on rebuilding confidence, not restricting activity unnecessarily",
+      "Practical fall prevention and safety education for patients and families",
+      "Balanced approach that avoids both overexertion and excessive avoidance",
+      "Home visit availability for patients preferring a familiar, controlled setting",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Is exercise safe for someone with epilepsy?", answer: "For most people with well-managed epilepsy, exercise is safe and beneficial. Activity plans are tailored around your specific seizure triggers and history for added safety." },
+      { question: "Can physiotherapy reduce the frequency of seizures?", answer: "Physiotherapy doesn't directly control seizure frequency, that's managed medically, but it helps address the physical fatigue, weakness, and fall risk that often accompany the condition." },
+      { question: "Why do I feel so weak and tired after a seizure?", answer: "Post-seizure fatigue and muscle weakness are common due to the intense muscular activity during an episode. Structured recovery exercises help rebuild strength afterward." },
+      { question: "Are there exercises I should avoid with epilepsy?", answer: "Certain high-risk activities like unsupervised swimming or activities at height may need extra precautions. Your physiotherapist will guide you on safe alternatives based on your seizure pattern." },
+      { question: "Can physiotherapy help with the anxiety around exercising?", answer: "Yes, a supervised, gradual approach helps rebuild confidence in a safe environment, which often reduces anxiety about returning to physical activity." },
+      { question: "Should family members be involved in the physiotherapy sessions?", answer: "It can be helpful, especially for fall prevention education and understanding safe activity guidelines to support you at home." },
+    ],
   },
 
   // ── 52. MENINGITIS ───────────────────────────────────────────────────────────
@@ -4377,13 +2835,36 @@ export const servicesData = [
       keywords: "meningitis rehabilitation delhi, meningitis physiotherapy kalkaji, post meningitis recovery south delhi, meningitis specialist physiotherapist delhi, meningitis weakness treatment delhi, meningitis balance training delhi, best meningitis physiotherapist delhi, neurological rehabilitation delhi, meningitis functional recovery kalkaji, brain infection rehabilitation delhi",
       canonical: `${BASE_URL}/services/meningitis`,
     },
-    description: "Meningitis is an inflammation of the protective membranes around the brain and spinal cord. Physiotherapy focuses on restoring strength, mobility, and cognitive function post-recovery.",
+    hero: {
+      heading: "Meningitis Rehabilitation",
+      subheading: "Physiotherapy to restore strength, balance, and functional independence after meningitis, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "Recovering from meningitis is often treated as complete once the infection has cleared and the patient is discharged from hospital, but Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre regularly sees patients who, weeks later, are still struggling with weakness, poor balance, or a body that simply doesn't move the way it used to. Meningitis, an inflammation of the membranes surrounding the brain and spinal cord, can leave behind residual muscle weakness, coordination difficulties, and fatigue even after the infection itself has resolved. These physical after-effects are frequently under-addressed because the medical focus, understandably, is on treating the infection itself. At Advanced Pain Physiotherapy Centre, we pick up where that treatment leaves off, working to rebuild strength, balance, and functional independence so recovery doesn't stall once the infection is gone.",
     sections: [
-      { title: "Overview", content: "Common Effects:\n\n• Severe headaches and neck stiffness\n• Fatigue and muscle weakness\n• Balance and coordination difficulties" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive motor and cognitive assessment\n• Strengthening and flexibility exercises\n• Balance and coordination training\n• Posture and mobility enhancement" },
+      { title: "Overview", content: "Common Effects:\n\n• Severe headaches and neck stiffness\n• Fatigue and muscle weakness\n• Balance and coordination difficulties\n• Reduced mobility during recovery" },
+      { title: "Why It Matters", content: "The physical weakness and coordination issues following meningitis can persist well after the infection clears, and without targeted rehabilitation, patients often plateau at a reduced level of function rather than making a full recovery.\n\nAddressing these residual effects early helps prevent long-term mobility limitations and supports a more complete return to daily activities." },
+      { title: "Who Needs This", content: "• Patients recently recovered from meningitis experiencing ongoing weakness\n• Individuals with balance or coordination difficulties post-infection\n• Patients struggling with fatigue affecting daily function\n• People with reduced mobility following hospitalisation\n• Families seeking structured recovery support after discharge\n• Patients wanting to rebuild strength and confidence in movement" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive motor and cognitive assessment\n• Strengthening and flexibility exercises\n• Balance and coordination training\n• Posture and mobility enhancement\n• Gradual return to daily activity" },
+      { title: "Our Process", content: "1. Assessment — Evaluating residual strength, balance, and functional limitations\n2. Fatigue Management — Pacing strategies to work within current energy levels\n3. Strengthening — Rebuilding muscle strength lost during illness\n4. Balance and Coordination Training — Restoring stable, confident movement\n5. Mobility Enhancement — Improving posture and general physical function\n6. Return-to-Activity Plan — Structured progression back to normal daily life" },
     ],
     benefits: ["Restores strength and mobility", "Improves balance", "Supports cognitive recovery", "Enhances independence", "Promotes overall health"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized meningitis rehabilitation.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma focuses on the residual weakness often missed after infection clears",
+      "Structured, fatigue-aware programmes suited to post-illness recovery",
+      "Experience helping patients transition from hospital discharge to full function",
+      "Balance and coordination training to rebuild movement confidence",
+      "Home visit availability during the early recovery phase",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Is it normal to still feel weak weeks after recovering from meningitis?", answer: "Yes, residual weakness and fatigue are common even after the infection has cleared, and structured physiotherapy can help address this rather than waiting for it to resolve on its own." },
+      { question: "How soon after discharge should physiotherapy start?", answer: "As soon as your doctor confirms you're medically stable, early physiotherapy helps prevent prolonged weakness and deconditioning." },
+      { question: "Will physiotherapy help with balance problems after meningitis?", answer: "Yes, balance and coordination training is a core part of the rehabilitation process and typically shows steady improvement with consistent sessions." },
+      { question: "How long does recovery typically take with physiotherapy?", answer: "This varies based on the severity of the illness, but many patients see meaningful improvement within 4 to 8 weeks of structured rehabilitation." },
+      { question: "Can physiotherapy help with the fatigue I'm still experiencing?", answer: "Yes, through paced, graded activity and energy conservation techniques, physiotherapy helps rebuild stamina without overexertion." },
+      { question: "Is home visit physiotherapy recommended after meningitis?", answer: "Often yes, especially in the early recovery phase when fatigue and mobility limitations make travel difficult." },
+    ],
   },
 
   // ── 53. SPINAL CORD INJURY ───────────────────────────────────────────────────
@@ -4399,13 +2880,36 @@ export const servicesData = [
       keywords: "spinal cord injury rehabilitation delhi, SCI physiotherapy kalkaji, spinal cord injury treatment south delhi, SCI specialist delhi, paraplegia rehabilitation delhi, quadriplegia physiotherapy delhi, best SCI physiotherapist delhi, spinal cord recovery kalkaji, spinal injury independence training delhi, SCI complication prevention delhi",
       canonical: `${BASE_URL}/services/spinal-cord-injury`,
     },
-    description: "Spinal cord injuries can lead to partial or complete paralysis, affecting mobility and daily activities. Physiotherapy aims to restore strength, prevent complications, and improve functional independence.",
+    hero: {
+      heading: "Spinal Cord Injury Rehabilitation",
+      subheading: "Physiotherapy to restore movement, prevent complications, and rebuild independence after a spinal cord injury, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "A spinal cord injury changes life instantly, but how much function is ultimately regained often depends less on the injury itself and more on the quality and consistency of the rehabilitation that follows. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has worked with SCI patients across the full spectrum of severity, from partial injuries with strong recovery potential to complete injuries where the focus shifts to maximising independence with the function that remains. Spinal cord injuries can cause partial or complete paralysis below the level of injury, along with loss of sensation and a range of possible complications including contractures, pressure sores, and muscle atrophy if not managed properly. At Advanced Pain Physiotherapy Centre, our rehabilitation programmes are built around two parallel goals, restoring as much movement and strength as the injury allows, and preventing the secondary complications that can compound the original injury's impact.",
     sections: [
-      { title: "Overview", content: "Common Effects:\n\n• Partial or complete paralysis\n• Loss of sensation\n• Reduced mobility and muscle strength\n• Complications such as contractures" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of motor function\n• Tailored exercises for mobility and strength\n• Manual therapy and joint mobilization\n• Assistive device training\n• Caregiver training" },
+      { title: "Overview", content: "Common Effects:\n\n• Partial or complete paralysis below injury level\n• Loss of sensation\n• Reduced mobility and muscle strength\n• Complications such as contractures and pressure sores" },
+      { title: "Why It Matters", content: "Without structured rehabilitation, the muscles and joints below the level of injury quickly develop complications like contractures and pressure sores, which can be more limiting to daily function than the original injury itself.\n\nEarly, consistent physiotherapy addresses these risks directly while working to maximise whatever motor and sensory recovery is medically possible." },
+      { title: "Who Needs This", content: "• Patients recently diagnosed with a spinal cord injury\n• Individuals with paraplegia or quadriplegia\n• Patients at risk of contractures, pressure sores, or muscle atrophy\n• People requiring assistive device or wheelchair mobility training\n• Families needing guidance on transfers and daily care\n• Patients working to maximise independence in daily activities" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of motor function and sensation level\n• Tailored exercises for mobility and strength\n• Manual therapy and joint mobilization\n• Assistive device training\n• Caregiver training for safe daily support" },
+      { title: "Our Process", content: "1. Assessment — Mapping the level of injury, motor function, and sensation\n2. Complication Prevention — Positioning, passive movement, and pressure care\n3. Strength Building — Maximising function in unaffected and partially affected muscle groups\n4. Mobility and Transfer Training — Building safe, independent movement skills\n5. Assistive Device Training — Wheelchair or walking aid guidance suited to the injury level\n6. Caregiver Support — Practical training for long-term home care" },
     ],
     benefits: ["Restores movement where possible", "Prevents secondary complications", "Improves daily independence", "Supports safe mobility", "Enhances quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized SCI rehabilitation.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma builds rehabilitation around both recovery and complication prevention",
+      "Experience across the full range of SCI severity, from partial to complete injuries",
+      "Structured assistive device and transfer training for safe independence",
+      "Comprehensive caregiver education for long-term home management",
+      "Home visit availability, critical for patients with limited mobility",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Can someone with a complete spinal cord injury still benefit from physiotherapy?", answer: "Yes, even with a complete injury, physiotherapy plays a crucial role in preventing complications, maintaining strength in unaffected areas, and maximising independence with assistive devices." },
+      { question: "How soon after the injury should rehabilitation begin?", answer: "As early as medically safe, often starting in the hospital itself, since early mobilisation and positioning significantly reduce the risk of complications." },
+      { question: "What are contractures and how are they prevented?", answer: "Contractures are permanent joint stiffness from lack of movement. They're prevented through regular passive range-of-motion exercises and proper positioning, a key part of SCI physiotherapy." },
+      { question: "Will physiotherapy help me regain the ability to walk?", answer: "This depends entirely on the level and completeness of the injury. Your physiotherapist will give you a realistic assessment based on your specific injury and guide rehabilitation accordingly." },
+      { question: "Is wheelchair training part of physiotherapy?", answer: "Yes, for patients who require a wheelchair, training on safe, efficient mobility and transfers is an important part of the rehabilitation programme." },
+      { question: "How involved do family members need to be?", answer: "Very involved, especially for daily transfers, positioning, and pressure care, which is why caregiver training is built into our rehabilitation process." },
+    ],
   },
 
   // ── 54. DIABETIC NEUROPATHY ──────────────────────────────────────────────────
@@ -4421,13 +2925,36 @@ export const servicesData = [
       keywords: "diabetic neuropathy treatment in delhi, diabetic neuropathy physiotherapy kalkaji, diabetes nerve pain treatment south delhi, diabetic foot pain treatment delhi, neuropathy specialist delhi, numbness tingling diabetes treatment delhi, best diabetic neuropathy physiotherapist delhi, diabetic neuropathy rehabilitation kalkaji, peripheral neuropathy treatment delhi, diabetic balance training delhi",
       canonical: `${BASE_URL}/services/diabetic-neuropathy`,
     },
-    description: "Diabetic neuropathy is nerve damage caused by uncontrolled diabetes, leading to numbness, tingling, and pain in the hands and feet. Physiotherapy helps improve circulation, strength, and balance.",
+    hero: {
+      heading: "Diabetic Neuropathy Treatment",
+      subheading: "Physiotherapy for numbness, tingling, and balance problems caused by diabetic nerve damage, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "Diabetic neuropathy tends to creep in quietly, a bit of numbness in the toes that gets blamed on tight shoes, an occasional stumble that's written off as clumsiness. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has seen how, left unaddressed, this gradual nerve damage doesn't just cause discomfort, it significantly increases the risk of unnoticed foot injuries and falls, both serious concerns for someone managing diabetes. Diabetic neuropathy results from prolonged high blood sugar damaging peripheral nerves, most commonly in the feet and hands, leading to numbness, burning pain, and reduced balance. While managing blood sugar is the medical priority, physiotherapy addresses the physical consequences, improving circulation, balance, and strength to reduce injury risk and improve quality of life. At Advanced Pain Physiotherapy Centre, we combine targeted exercise with practical foot-care and balance education tailored specifically for diabetic patients.",
     sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Numbness or tingling in hands and feet\n• Burning or sharp pain\n• Muscle weakness\n• Balance problems" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of strength, balance, and circulation\n• Tailored exercises\n• Manual therapy\n• Balance and gait training\n• Lifestyle education" },
+      { title: "Overview", content: "Common Symptoms:\n\n• Numbness or tingling in hands and feet\n• Burning or sharp pain\n• Muscle weakness\n• Balance problems and increased fall risk" },
+      { title: "Why It Matters", content: "Numbness in the feet means injuries, cuts, blisters, or pressure sores, often go unnoticed until they've become serious, a leading cause of diabetic foot complications. Reduced balance further compounds the risk of falls.\n\nPhysiotherapy addressing circulation, balance, and sensory awareness plays a meaningful role in reducing these risks alongside good blood sugar management." },
+      { title: "Who Needs This", content: "• Diabetic patients experiencing numbness or tingling in feet or hands\n• Individuals with burning or shooting nerve pain\n• Patients noticing balance difficulties or frequent stumbles\n• People concerned about diabetic foot complications\n• Patients wanting to improve circulation and muscle strength\n• Anyone newly diagnosed with peripheral neuropathy" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of strength, balance, and circulation\n• Tailored exercises to improve nerve and muscle function\n• Manual therapy\n• Balance and gait training\n• Foot care and lifestyle education" },
+      { title: "Our Process", content: "1. Assessment — Evaluating sensation, strength, balance, and circulation\n2. Circulation Improvement — Exercises and techniques to support blood flow to affected areas\n3. Strengthening — Building muscle support around weakened areas\n4. Balance and Gait Training — Reducing fall risk through stability exercises\n5. Sensory Awareness Training — Helping patients compensate safely for reduced sensation\n6. Foot Care Education — Practical guidance to prevent unnoticed injuries" },
     ],
     benefits: ["Reduces pain and numbness", "Improves balance", "Enhances strength", "Prevents complications", "Supports well-being"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized diabetic neuropathy treatment.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma combines nerve-focused exercise with practical diabetic foot care education",
+      "Balance training specifically designed to reduce fall risk from sensory loss",
+      "Experience working alongside diabetes management plans",
+      "Focus on preventing complications, not just relieving symptoms",
+      "Home visit availability for patients with mobility or balance concerns",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Can physiotherapy actually improve nerve damage from diabetes?", answer: "Physiotherapy can't reverse nerve damage, but it improves circulation, strength, and balance, which meaningfully reduces symptoms and complications, alongside good blood sugar control." },
+      { question: "Why do I need to worry about small cuts on my feet?", answer: "Because numbness means you may not feel an injury forming, small cuts or blisters can go unnoticed and worsen into serious infections, which is why foot care education is part of treatment." },
+      { question: "Will physiotherapy help with the burning pain in my feet?", answer: "Many patients experience meaningful relief through targeted exercise, circulation-focused techniques, and manual therapy, though results vary based on severity." },
+      { question: "How does diabetic neuropathy affect my balance?", answer: "Reduced sensation in the feet makes it harder for your brain to sense ground position, affecting balance. Targeted balance training helps compensate for this safely." },
+      { question: "Is it safe to exercise if I have diabetic neuropathy?", answer: "Yes, with proper guidance and appropriate footwear, exercise is not only safe but beneficial. Your physiotherapist will tailor activities to protect vulnerable areas." },
+      { question: "How often should I do physiotherapy for diabetic neuropathy?", answer: "Most patients benefit from regular sessions, typically 2 to 3 times per week initially, along with a home exercise routine for ongoing management." },
+    ],
   },
 
   // ── 55. ENCEPHALITIS ─────────────────────────────────────────────────────────
@@ -4443,622 +2970,1297 @@ export const servicesData = [
       keywords: "encephalitis rehabilitation delhi, encephalitis physiotherapy kalkaji, brain inflammation rehabilitation south delhi, post encephalitis recovery delhi, encephalitis specialist physiotherapist delhi, encephalitis weakness treatment delhi, best encephalitis physiotherapist delhi, brain infection rehabilitation kalkaji, encephalitis balance training delhi, neurological rehabilitation delhi",
       canonical: `${BASE_URL}/services/encephalitis`,
     },
-    description: "Encephalitis is inflammation of the brain that can lead to weakness, balance issues, and cognitive impairments. Physiotherapy focuses on restoring mobility, strength, and functional independence.",
+    hero: {
+      heading: "Encephalitis Rehabilitation",
+      subheading: "Physiotherapy to restore mobility, strength, and function after brain inflammation, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+      cta: "Book Your Assessment Today",
+    },
+    description: "Once the acute phase of encephalitis passes and the inflammation is under control, families are often relieved simply that the danger has passed, without realising that the road to physical recovery is really just beginning. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has worked with patients recovering from encephalitis who, despite being medically stable, are left with significant weakness, balance difficulties, and coordination problems that don't resolve on their own. Encephalitis is inflammation of the brain, often caused by infection, and depending on which areas were affected, can leave behind a range of physical impairments alongside any cognitive effects. Physiotherapy plays a central role in this recovery phase, retraining movement patterns and rebuilding strength that was lost during the illness. At Advanced Pain Physiotherapy Centre, we tailor rehabilitation to each patient's specific pattern of impairment, working closely with families throughout the recovery journey.",
     sections: [
-      { title: "Overview", content: "Common Effects:\n\n• Muscle weakness and fatigue\n• Balance and coordination difficulties\n• Cognitive impairments\n• Reduced mobility" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment\n• Tailored exercises for strength and balance\n• Neuromuscular re-education and gait training\n• Caregiver guidance" },
+      { title: "Overview", content: "Common Effects:\n\n• Muscle weakness and fatigue\n• Balance and coordination difficulties\n• Cognitive impairments\n• Reduced mobility during and after recovery" },
+      { title: "Why It Matters", content: "The physical effects of encephalitis, weakness, poor coordination, reduced mobility, often persist well after the underlying brain inflammation has resolved, and without rehabilitation, patients can remain at a reduced level of function indefinitely.\n\nTargeted physiotherapy during the recovery phase helps retrain movement patterns and rebuild strength, supporting a more complete return to daily life." },
+      { title: "Who Needs This", content: "• Patients recovering from encephalitis with residual weakness\n• Individuals experiencing balance or coordination difficulties post-illness\n• Patients with reduced mobility following hospitalisation\n• Families seeking structured support during the recovery phase\n• Patients working alongside cognitive rehabilitation for a full recovery\n• Anyone wanting to rebuild strength and confidence in movement after illness" },
+      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment of strength, balance, and mobility\n• Tailored exercises for strength and balance\n• Neuromuscular re-education and gait training\n• Caregiver guidance for ongoing home support" },
+      { title: "Our Process", content: "1. Assessment — Evaluating strength, balance, coordination, and mobility level\n2. Early Mobilisation — Safe, guided movement appropriate to recovery stage\n3. Neuromuscular Re-education — Retraining movement patterns affected by the illness\n4. Balance and Gait Training — Rebuilding stability and walking confidence\n5. Strength Building — Progressive exercises to restore lost muscle function\n6. Caregiver Education — Practical guidance to support recovery at home" },
     ],
     benefits: ["Restores strength and balance", "Improves mobility", "Supports cognitive recovery", "Prevents complications", "Enhances quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized encephalitis rehabilitation.",
+    whyChooseUs: [
+      "Dr. Ashish Sharma focuses on the physical recovery phase often overlooked after treatment",
+      "Neuromuscular re-education tailored to the pattern of impairment from the illness",
+      "Coordinated approach alongside cognitive rehabilitation where needed",
+      "Structured, progressive programmes suited to post-illness recovery",
+      "Home visit availability during the early recovery phase",
+      "Conveniently located in Kalkaji, South Delhi",
+    ],
+    faqs: [
+      { question: "Is it normal to have weakness after recovering from encephalitis?", answer: "Yes, residual weakness and coordination difficulties are common even after the brain inflammation has resolved, and physiotherapy plays a key role in addressing this." },
+      { question: "How soon after hospital discharge should physiotherapy start?", answer: "As soon as your doctor confirms medical stability, early rehabilitation helps prevent prolonged weakness and supports faster functional recovery." },
+      { question: "Will physiotherapy help with cognitive symptoms too?", answer: "Physiotherapy primarily addresses physical function, but improved mobility and confidence often has positive secondary effects, and we coordinate with cognitive rehabilitation specialists where needed." },
+      { question: "How long does recovery typically take?", answer: "This varies significantly based on severity, ranging from a few months for milder cases to a longer, phased recovery for more severe encephalitis." },
+      { question: "Can physiotherapy help with balance problems after encephalitis?", answer: "Yes, balance and coordination training is a central part of the rehabilitation process and typically shows steady improvement with consistent sessions." },
+      { question: "Is home visit physiotherapy suitable during recovery?", answer: "Yes, especially in the early phase when fatigue and mobility limitations make travel difficult, home visits allow for consistent, comfortable rehabilitation." },
+    ],
   },
 
-  // ── 56. SCIATICA ─────────────────────────────────────────────────────────────
-  {
-    id: 60,
-    title: "Sciatica Pain",
-    slug: "sciatica-pain-treatment",
-    category: "Pain Conditions",
-    image: sciatic,
-    seo: {
-      title: `Sciatica Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Sciatica Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat sciatic nerve pain, lower back pain radiating to legs, numbness & weakness. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "sciatica pain treatment in delhi, sciatic nerve pain treatment kalkaji, sciatica physiotherapy south delhi, sciatica specialist delhi, lower back leg pain treatment delhi, sciatica numbness treatment delhi, best sciatica physiotherapist delhi, sciatica relief kalkaji, piriformis syndrome treatment delhi, sciatica exercises delhi",
-      canonical: `${BASE_URL}/services/sciatica-pain-treatment`,
-    },
-    description: "Sciatica is caused by irritation of the sciatic nerve, resulting in pain, numbness, or tingling from the lower back down the legs. Physiotherapy focuses on relieving nerve compression and improving flexibility.",
-    sections: [
-      { title: "Overview", content: "Common Features:\n\n• Lower back pain radiating to buttocks and legs\n• Numbness, tingling, or weakness\n• Pain aggravated by sitting, bending, or lifting" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment\n• Stretching and strengthening for back and legs\n• Manual therapy to relieve nerve compression\n• TENS, heat therapy, and electrotherapy\n• Posture correction" },
-    ],
-    benefits: ["Relieves sciatic nerve pain", "Improves flexibility", "Strengthens core muscles", "Restores functional movement", "Prevents recurrence"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized sciatica treatment.",
+ // ── 56. SCIATICA ─────────────────────────────────────────────────────────────
+{
+  id: 60,
+  title: "Sciatica Pain",
+  slug: "sciatica-pain-treatment",
+  category: "Pain Conditions",
+  image: sciatic,
+  seo: {
+    title: `Sciatica Pain Treatment in Delhi | ${BRAND}`,
+    description: `Expert Sciatica Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat sciatic nerve pain, lower back pain radiating to legs, numbness & weakness. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "sciatica pain treatment in delhi, sciatic nerve pain treatment kalkaji, sciatica physiotherapy south delhi, sciatica specialist delhi, lower back leg pain treatment delhi, sciatica numbness treatment delhi, best sciatica physiotherapist delhi, sciatica relief kalkaji, piriformis syndrome treatment delhi, sciatica exercises delhi",
+    canonical: `${BASE_URL}/services/sciatica-pain-treatment`,
   },
+  hero: {
+    heading: "Sciatica Pain Treatment",
+    subheading: "Physiotherapy for sciatic nerve pain, numbness, and weakness radiating from the lower back into the legs, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Sciatica rarely announces itself gently — it usually starts as a dull ache in the lower back and, within days or weeks, turns into a sharp, burning, or electric pain that shoots down the buttock and leg, sometimes all the way to the foot. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees this pattern often: patients who tried painkillers and bed rest, felt temporary relief, and then found the pain returning the moment they resumed normal activity. Sciatica happens when the sciatic nerve, the longest nerve in the body, gets compressed or irritated, most commonly due to a disc bulge, spinal stenosis, or tightness in the piriformis muscle deep in the buttock. Prolonged sitting, poor posture, and weak core muscles all make the nerve more vulnerable to compression. What makes sciatica particularly frustrating is that the source of the pain — the spine or hip — often feels fine, while the leg is where the real suffering happens, which leads many people to treat the leg instead of the actual cause. At Advanced Pain Physiotherapy Centre, our approach identifies exactly where the nerve is being compressed and builds a treatment plan around decompressing it, restoring flexibility, and strengthening the muscles that keep the spine supported so the irritation doesn't return.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Sciatica:\n\n• Lumbar disc bulge or herniation pressing on the nerve root\n• Piriformis muscle tightness compressing the sciatic nerve\n• Spinal stenosis narrowing the space around the nerve\n• Prolonged sitting and poor posture\n• Weak core and back muscles\n\nConditions We Treat:\n\n• Acute and chronic sciatica\n• Disc-related nerve compression\n• Piriformis syndrome\n• Postural sciatica from desk jobs\n• Recurrent sciatic flare-ups" },
+    { title: "Why It Matters", content: "Sciatica is often masked with painkillers, which numb the symptom but do nothing to relieve the actual nerve compression. Left unaddressed, this can lead to persistent numbness, muscle weakness in the leg, and in some cases, difficulty walking normally.\n\nThe longer the nerve stays irritated, the more the surrounding muscles tighten and compensate, which is why early, targeted physiotherapy makes such a difference in preventing sciatica from becoming a recurring problem." },
+    { title: "Who Needs This", content: "• People with lower back pain radiating into the buttock or leg\n• Patients experiencing numbness, tingling, or weakness in the leg or foot\n• Desk workers with prolonged sitting and postural strain\n• Patients with a diagnosed disc bulge or spinal stenosis\n• Anyone whose sciatica keeps returning despite rest\n• People wanting to avoid long-term dependence on painkillers" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Detailed assessment to identify the exact site of nerve compression\n• Stretching and strengthening for the back, hips, and legs\n• Manual therapy to relieve nerve compression and muscle tightness\n• TENS, heat therapy, and electrotherapy for pain relief\n• Posture correction and ergonomic guidance" },
+    { title: "Our Process", content: "1. Assessment — Evaluating nerve involvement, posture, and movement patterns\n2. Pain Management — Electrotherapy, heat therapy, and manual techniques to calm the nerve\n3. Mobility Restoration — Targeted stretches to release tight muscles compressing the nerve\n4. Core and Spine Strengthening — Building the support system around the lower back\n5. Postural Retraining — Correcting sitting and movement habits that trigger flare-ups\n6. Long-Term Prevention Plan — Home exercise programme to keep the nerve free of compression" },
+  ],
+  benefits: ["Relieves sciatic nerve pain", "Improves flexibility", "Strengthens core muscles", "Restores functional movement", "Prevents recurrence"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma pinpoints the exact source of nerve compression rather than treating symptoms generically",
+    "Combined manual therapy and electrotherapy approach for faster pain relief",
+    "Core-strengthening programmes designed to prevent sciatica from recurring",
+    "Postural and ergonomic guidance suited for desk-based lifestyles",
+    "Home visit availability for patients in severe pain",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "How do I know if my back pain is actually sciatica?", answer: "Sciatica typically involves pain that travels from the lower back or buttock down the leg, often with numbness or tingling. A physiotherapy assessment can confirm nerve involvement versus simple muscular back pain." },
+    { question: "How long does sciatica take to heal with physiotherapy?", answer: "Many patients notice significant relief within 2 to 4 weeks of consistent physiotherapy, though more severe disc-related cases may take 6 to 8 weeks for full recovery." },
+    { question: "Is walking good or bad for sciatica?", answer: "Gentle walking is generally beneficial as it keeps the spine mobile and reduces stiffness, but your physiotherapist will guide the right amount based on your specific condition." },
+    { question: "Can sciatica go away without surgery?", answer: "Yes, the vast majority of sciatica cases improve with physiotherapy, nerve decompression techniques, and targeted strengthening, without needing surgical intervention." },
+    { question: "Why does sitting make my sciatica worse?", answer: "Sitting increases pressure on the lower spine and can compress the sciatic nerve further, especially with poor posture, which is why postural correction is a key part of treatment." },
+    { question: "Will sciatica come back after treatment?", answer: "Recurrence is common when the underlying weakness and postural habits aren't addressed, which is why our programme focuses on long-term core strength and prevention, not just symptom relief." },
+  ],
+},
 
-  // ── 57. SLIP DISC ────────────────────────────────────────────────────────────
-  {
-    id: 61,
-    title: "Slip Disc Pain",
-    slug: "slip-disc-pain",
-    category: "Pain Conditions",
-    image: slipdisc,
-    seo: {
-      title: `Slip Disc Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Slip Disc Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat herniated disc, bulging disc, back pain, leg pain & nerve compression. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "slip disc pain treatment in delhi, herniated disc physiotherapy kalkaji, slip disc treatment south delhi, slipped disc specialist delhi, disc bulge treatment delhi, back pain disc treatment delhi, best slip disc physiotherapist delhi, herniated disc relief kalkaji, lumbar disc herniation treatment delhi, cervical disc treatment delhi",
-      canonical: `${BASE_URL}/services/slip-disc-pain`,
-    },
-    description: "A slip disc occurs when the soft cushioning discs between spinal vertebrae bulge or rupture, causing pain, numbness, or weakness. Physiotherapy aims to relieve pain, restore mobility, and strengthen supporting muscles.",
-    sections: [
-      { title: "Overview", content: "Common Features:\n\n• Lower back or neck pain radiating to limbs\n• Numbness, tingling, or weakness\n• Pain aggravated by bending or lifting" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Spine and posture assessment\n• Targeted exercises for core and back\n• Manual therapy\n• TENS, heat therapy, electrotherapy\n• Posture correction" },
-    ],
-    benefits: ["Reduces pain and inflammation", "Improves spinal flexibility", "Strengthens core muscles", "Restores movement", "Prevents recurrence"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized slip disc treatment.",
+// ── 57. SLIP DISC ────────────────────────────────────────────────────────────
+{
+  id: 61,
+  title: "Slip Disc Pain",
+  slug: "slip-disc-pain",
+  category: "Pain Conditions",
+  image: slipdisc,
+  seo: {
+    title: `Slip Disc Pain Treatment in Delhi | ${BRAND}`,
+    description: `Expert Slip Disc Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat herniated disc, bulging disc, back pain, leg pain & nerve compression. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "slip disc pain treatment in delhi, herniated disc physiotherapy kalkaji, slip disc treatment south delhi, slipped disc specialist delhi, disc bulge treatment delhi, back pain disc treatment delhi, best slip disc physiotherapist delhi, herniated disc relief kalkaji, lumbar disc herniation treatment delhi, cervical disc treatment delhi",
+    canonical: `${BASE_URL}/services/slip-disc-pain`,
   },
+  hero: {
+    heading: "Slip Disc Pain Treatment",
+    subheading: "Physiotherapy for herniated and bulging discs, back and leg pain, and nerve compression, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "A slip disc, medically known as a herniated or bulging disc, occurs when the soft cushioning tissue between spinal vertebrae pushes outward and presses on nearby nerves. Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre regularly sees patients who assume a slip disc automatically means surgery, when in reality, the majority of cases respond well to structured physiotherapy. The condition often develops gradually from repeated poor lifting habits, prolonged sitting, or sudden strain, and presents as back or neck pain that may radiate into the arms or legs along with numbness or weakness. What patients often don't realise is that pain intensity doesn't always match disc severity — some large disc bulges cause minimal pain, while smaller ones can be intensely painful depending on which nerve is affected. At Advanced Pain Physiotherapy Centre, our approach focuses on relieving pressure on the affected nerve, correcting the postural and movement patterns that caused the disc to bulge in the first place, and building the core and spinal strength needed to protect the disc going forward.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Slip Disc:\n\n• Repeated poor lifting technique\n• Prolonged sitting and slouched posture\n• Sudden twisting or heavy strain\n• Age-related disc degeneration\n• Weak core and spinal support muscles\n\nConditions We Treat:\n\n• Lumbar disc herniation\n• Cervical disc herniation\n• Disc bulge with nerve compression\n• Chronic disc-related back pain\n• Post-injury disc flare-ups" },
+    { title: "Why It Matters", content: "Many people assume a slip disc is a permanent, surgery-only condition, which often leads to unnecessary fear and inactivity. In reality, prolonged inactivity can further weaken the muscles supporting the spine, making the disc more vulnerable.\n\nStructured, progressive physiotherapy not only relieves current pain but also retrains the body's movement patterns so the disc is protected during everyday activities like lifting, bending, and sitting." },
+    { title: "Who Needs This", content: "• Patients diagnosed with a bulging or herniated disc\n• People with back or neck pain radiating into the arms or legs\n• Anyone with numbness, tingling, or weakness linked to disc compression\n• Patients wanting to avoid or delay surgery\n• People recovering after a disc-related flare-up\n• Anyone with a physically demanding job involving lifting or bending" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Spine and posture assessment\n• Targeted exercises for core and back stability\n• Manual therapy to reduce nerve compression\n• TENS, heat therapy, and electrotherapy for pain relief\n• Posture and lifting technique correction" },
+    { title: "Our Process", content: "1. Assessment — Identifying the affected disc level and nerve involvement\n2. Pain and Inflammation Control — Electrotherapy, heat, and manual techniques\n3. Mobility Restoration — Gentle mobilisation to relieve stiffness safely\n4. Core Strengthening — Building deep spinal stabiliser strength\n5. Movement Retraining — Correcting lifting, bending, and sitting habits\n6. Long-Term Spine Protection Plan — Ongoing exercises to prevent re-herniation" },
+  ],
+  benefits: ["Reduces pain and inflammation", "Improves spinal flexibility", "Strengthens core muscles", "Restores movement", "Prevents recurrence"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma builds progressive, non-surgical rehabilitation plans for disc conditions",
+    "Focus on correcting the root cause — posture and movement patterns — not just pain relief",
+    "Safe mobilisation techniques suited to the severity of the disc bulge",
+    "Core-strengthening protocols to protect the spine long-term",
+    "Home visit availability for patients unable to travel comfortably",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Does a slip disc always need surgery?", answer: "No, most slip disc cases improve significantly with physiotherapy, and surgery is usually only considered when there is severe, unrelenting nerve compression or loss of function." },
+    { question: "How long does slip disc treatment take?", answer: "Many patients see noticeable improvement within 4 to 6 weeks, though full recovery and strengthening can take a few months depending on severity." },
+    { question: "Can I exercise with a slip disc?", answer: "Yes, but the type and intensity of exercise matter greatly. Your physiotherapist will guide safe movements that avoid aggravating the disc while still building strength." },
+    { question: "Is bed rest good for a slip disc?", answer: "Short periods of rest can help during acute flare-ups, but prolonged bed rest weakens supporting muscles and can slow recovery, so early guided movement is usually recommended." },
+    { question: "Can a slip disc heal completely?", answer: "The disc itself may not return to its original shape, but symptoms can resolve completely with proper rehabilitation, and many patients return to full, pain-free activity." },
+    { question: "What should I avoid with a slip disc?", answer: "Heavy lifting with poor technique, prolonged sitting, and sudden twisting movements should be avoided, and your physiotherapist will give you specific guidance for your daily routine." },
+  ],
+},
 
-  // ── 58. CERVICAL SPONDYLITIS ─────────────────────────────────────────────────
-  {
-    id: 62,
-    title: "Cervical Spondylitis",
-    slug: "cervical-spondylitis",
-    category: "Spine Conditions",
-    image: cervical,
-    seo: {
-      title: `Cervical Spondylitis Treatment in Delhi | ${BRAND}`,
-      description: `Expert Cervical Spondylitis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat neck degeneration, cervical pain, stiffness, headaches & arm numbness. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "cervical spondylitis treatment in delhi, cervical spondylosis treatment kalkaji, neck degeneration treatment south delhi, cervical spondylitis specialist delhi, neck pain stiffness treatment delhi, cervical physiotherapy delhi, best cervical spondylitis doctor delhi, cervical neck pain relief kalkaji, cervical headache treatment delhi, cervical arm numbness treatment delhi",
-      canonical: `${BASE_URL}/services/cervical-spondylitis`,
-    },
-    description: "Cervical spondylitis is degeneration of the neck vertebrae causing neck pain, stiffness, and reduced mobility. Physiotherapy focuses on pain relief, posture correction, and strengthening neck muscles.",
-    sections: [
-      { title: "Overview", content: "Common Features:\n\n• Neck pain and stiffness\n• Reduced range of motion\n• Headaches and shoulder discomfort\n• Numbness or tingling in arms" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of neck posture and range of motion\n• Neck and shoulder strengthening\n• Manual therapy\n• LASER Therapy, TENS, and heat therapy\n• Posture and ergonomic advice" },
-    ],
-    benefits: ["Reduces neck pain and stiffness", "Improves cervical flexibility", "Strengthens neck muscles", "Prevents further degeneration", "Enhances daily function"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized cervical spondylitis treatment.",
+// ── 58. CERVICAL SPONDYLITIS ─────────────────────────────────────────────────
+{
+  id: 62,
+  title: "Cervical Spondylitis",
+  slug: "cervical-spondylitis",
+  category: "Spine Conditions",
+  image: cervical,
+  seo: {
+    title: `Cervical Spondylitis Treatment in Delhi | ${BRAND}`,
+    description: `Expert Cervical Spondylitis Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat neck degeneration, cervical pain, stiffness, headaches & arm numbness. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "cervical spondylitis treatment in delhi, cervical spondylosis treatment kalkaji, neck degeneration treatment south delhi, cervical spondylitis specialist delhi, neck pain stiffness treatment delhi, cervical physiotherapy delhi, best cervical spondylitis doctor delhi, cervical neck pain relief kalkaji, cervical headache treatment delhi, cervical arm numbness treatment delhi",
+    canonical: `${BASE_URL}/services/cervical-spondylitis`,
   },
+  hero: {
+    heading: "Cervical Spondylitis Treatment",
+    subheading: "Physiotherapy for neck degeneration, stiffness, headaches, and arm numbness, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Cervical spondylitis is one of the most common conditions Dr. Ashish Sharma encounters at Advanced Pain Physiotherapy Centre, largely because modern lifestyles — hours spent looking down at phones and laptops — place constant strain on the neck. It refers to the age-related or strain-related degeneration of the vertebrae and discs in the neck, leading to stiffness, pain, and sometimes headaches or numbness radiating into the shoulders and arms. What often surprises patients is how much a forward-head posture, held for hours every day, accelerates this wear and tear, effectively adding extra kilograms of load onto the cervical spine with every degree the head tilts forward. Left unmanaged, cervical spondylitis can progressively reduce neck mobility and contribute to chronic headaches and shoulder tension. At Advanced Pain Physiotherapy Centre, our approach doesn't just relieve current stiffness — we assess posture, screen time habits, and neck-shoulder muscle balance to slow the degenerative process and keep the neck functioning comfortably for years to come.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Cervical Spondylitis:\n\n• Age-related wear and tear of neck vertebrae and discs\n• Prolonged forward-head posture from phone and laptop use\n• Previous neck injuries\n• Weak neck and upper back muscles\n• Poor sleeping posture\n\nConditions We Treat:\n\n• Cervical spondylosis and spondylitis\n• Neck stiffness and reduced mobility\n• Cervicogenic headaches\n• Arm numbness or tingling from nerve involvement\n• Postural neck pain from desk work" },
+    { title: "Why It Matters", content: "Cervical spondylitis is often dismissed as ordinary stiffness that will pass on its own. Left unaddressed, however, the degeneration can progress, gradually narrowing the space around nerves and increasing the risk of chronic headaches, shoulder pain, and numbness in the arms.\n\nAddressing posture and muscle imbalance early not only relieves current symptoms but significantly slows how quickly the condition progresses over time." },
+    { title: "Who Needs This", content: "• People with chronic neck pain and stiffness\n• Desk workers and students with prolonged screen time\n• Patients experiencing frequent headaches linked to neck tension\n• Anyone with numbness or tingling radiating into the arms\n• Patients diagnosed with cervical spondylosis on imaging\n• People wanting to prevent further neck degeneration" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of neck posture and range of motion\n• Neck and shoulder strengthening exercises\n• Manual therapy to relieve stiffness and tension\n• LASER Therapy, TENS, and heat therapy\n• Posture and ergonomic advice" },
+    { title: "Our Process", content: "1. Assessment — Evaluating neck mobility, posture, and nerve involvement\n2. Pain and Stiffness Relief — Manual therapy, LASER, and heat therapy\n3. Mobility Restoration — Gentle mobilisation to regain neck range of motion\n4. Strengthening — Building neck and upper back muscle support\n5. Postural Retraining — Correcting screen-time and sleeping posture habits\n6. Long-Term Maintenance Plan — Home exercises to slow further degeneration" },
+  ],
+  benefits: ["Reduces neck pain and stiffness", "Improves cervical flexibility", "Strengthens neck muscles", "Prevents further degeneration", "Enhances daily function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma addresses posture and lifestyle habits, not just the neck symptoms",
+    "LASER and manual therapy combination for effective pain and stiffness relief",
+    "Ergonomic guidance tailored to desk-based and screen-heavy routines",
+    "Focus on slowing long-term degeneration, not just short-term relief",
+    "Home visit availability for patients with severe stiffness",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Is cervical spondylitis a permanent condition?", answer: "The underlying degeneration in the vertebrae doesn't reverse, but symptoms like pain, stiffness, and headaches can be significantly reduced and managed long-term with physiotherapy." },
+    { question: "Can cervical spondylitis cause headaches?", answer: "Yes, tension and stiffness in the neck muscles and joints commonly refer pain upward, causing cervicogenic headaches that often improve with targeted neck treatment." },
+    { question: "How does phone use affect cervical spondylitis?", answer: "Looking down at a phone places significant extra load on the cervical spine, accelerating wear and tear, which is why posture correction is a core part of treatment." },
+    { question: "Will neck exercises help my condition?", answer: "Yes, specific strengthening and mobility exercises for the neck and upper back are one of the most effective ways to manage and slow cervical spondylitis." },
+    { question: "Can cervical spondylitis affect my arms?", answer: "In some cases, nerve compression in the neck can cause numbness, tingling, or weakness radiating into the shoulders and arms, which physiotherapy can help relieve." },
+    { question: "How often should I do my neck exercises?", answer: "Consistency matters more than intensity — your physiotherapist will design a daily routine that fits realistically into your schedule for lasting results." },
+  ],
+},
 
-  // ── 59. PARKINSON'S DISEASE ──────────────────────────────────────────────────
-  {
-    id: 63,
-    title: "Parkinson's Disease",
-    slug: "parkinsons",
-    category: "Neurological Conditions",
-    image: parkinsons,
-    seo: {
-      title: `Parkinson's Disease Physiotherapy in Delhi | ${BRAND}`,
-      description: `Expert Parkinson's Disease Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve mobility, balance, coordination & quality of life for Parkinson's patients. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
-      keywords: "parkinson's disease physiotherapy delhi, parkinson's treatment kalkaji, parkinson's rehabilitation south delhi, parkinson's specialist delhi, tremor balance treatment delhi, parkinson's gait training delhi, best parkinson's physiotherapist delhi, parkinson's exercises kalkaji, parkinson's fall prevention delhi, neurological rehabilitation parkinson's delhi",
-      canonical: `${BASE_URL}/services/parkinsons`,
-    },
-    description: "Parkinson's Disease is a progressive neurological disorder affecting movement, balance, and coordination. Physiotherapy helps improve mobility, strength, and independence.",
-    sections: [
-      { title: "Overview", content: "Common Features:\n\n• Tremors, rigidity, and slow movements\n• Balance and coordination difficulties\n• Muscle weakness\n• Challenges in daily activities" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment\n• Tailored exercises for strength and coordination\n• Gait training and posture correction\n• Balance and functional activity exercises\n• Caregiver guidance" },
-    ],
-    benefits: ["Improves mobility and balance", "Strengthens muscles", "Supports daily independence", "Reduces fall risk", "Enhances quality of life"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized Parkinson's physiotherapy.",
+// ── 59. PARKINSON'S DISEASE ──────────────────────────────────────────────────
+{
+  id: 63,
+  title: "Parkinson's Disease",
+  slug: "parkinsons",
+  category: "Neurological Conditions",
+  image: parkinsons,
+  seo: {
+    title: `Parkinson's Disease Physiotherapy in Delhi | ${BRAND}`,
+    description: `Expert Parkinson's Disease Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve mobility, balance, coordination & quality of life for Parkinson's patients. ✅ Expert neuro physio ✅ ${LOCATION}. Book now!`,
+    keywords: "parkinson's disease physiotherapy delhi, parkinson's treatment kalkaji, parkinson's rehabilitation south delhi, parkinson's specialist delhi, tremor balance treatment delhi, parkinson's gait training delhi, best parkinson's physiotherapist delhi, parkinson's exercises kalkaji, parkinson's fall prevention delhi, neurological rehabilitation parkinson's delhi",
+    canonical: `${BASE_URL}/services/parkinsons`,
   },
+  hero: {
+    heading: "Parkinson's Disease Physiotherapy",
+    subheading: "Neuro-physiotherapy to improve mobility, balance, coordination, and independence for patients living with Parkinson's Disease, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Parkinson's Disease affects far more than movement — it gradually changes how a person walks, balances, and performs the small daily tasks most people take for granted, and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre works closely with patients and families to slow that decline. It is a progressive neurological condition caused by reduced dopamine production in the brain, leading to tremors, muscle rigidity, slowed movements, and impaired balance. What many families don't realise is that physiotherapy cannot cure Parkinson's, but it plays a powerful role in maintaining mobility, reducing fall risk, and preserving independence for far longer than the disease's natural progression would otherwise allow. Every patient's presentation is different — some struggle most with tremors, others with freezing episodes or balance — which is why a one-size-fits-all exercise sheet rarely helps. At Advanced Pain Physiotherapy Centre, our approach involves an individualised assessment of movement, balance, and functional ability, followed by a structured programme that keeps patients moving safely and confidently for as long as possible, along with guidance for caregivers on how to support daily activity.",
+  sections: [
+    { title: "Overview", content: "Common Features of Parkinson's Disease:\n\n• Tremors, especially at rest\n• Muscle rigidity and stiffness\n• Slowness of movement (bradykinesia)\n• Balance and coordination difficulties\n• Freezing episodes while walking\n\nConditions We Support:\n\n• Early to moderate stage Parkinson's Disease\n• Gait and balance impairment\n• Fall risk in elderly patients\n• Reduced functional independence\n• Post-diagnosis rehabilitation planning" },
+    { title: "Why It Matters", content: "Without active physiotherapy, muscle rigidity and balance difficulties tend to progress faster, increasing the risk of falls and gradual loss of independence in daily activities.\n\nRegular, guided movement not only helps maintain physical function but has also been shown to support better overall quality of life for Parkinson's patients, making structured physiotherapy a essential part of long-term management alongside medication." },
+    { title: "Who Needs This", content: "• Patients newly diagnosed with Parkinson's Disease\n• People experiencing balance difficulties or frequent falls\n• Patients with tremors affecting daily tasks\n• Families seeking guidance on safe home exercise routines\n• Patients with reduced walking speed or freezing episodes\n• Anyone wanting to maintain independence for longer" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment of movement, balance, and function\n• Tailored exercises for strength and coordination\n• Gait training and posture correction\n• Balance and functional activity exercises\n• Caregiver guidance for safe daily support" },
+    { title: "Our Process", content: "1. Assessment — Evaluating movement patterns, balance, tremors, and functional ability\n2. Individualised Programme Design — Building exercises around the patient's specific challenges\n3. Balance and Gait Training — Reducing fall risk through targeted practice\n4. Strength and Coordination Work — Maintaining muscle function and control\n5. Functional Activity Training — Practising real daily tasks safely\n6. Caregiver Education — Guidance on supporting safe movement at home" },
+  ],
+  benefits: ["Improves mobility and balance", "Strengthens muscles", "Supports daily independence", "Reduces fall risk", "Enhances quality of life"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma designs individualised programmes based on each patient's specific symptoms",
+    "Focus on fall prevention and long-term functional independence",
+    "Caregiver guidance included as part of the rehabilitation plan",
+    "Experience working with progressive neurological conditions",
+    "Home visit availability for patients with limited mobility",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can physiotherapy slow down Parkinson's Disease?", answer: "While physiotherapy cannot stop the underlying neurological progression, it can significantly help maintain mobility, balance, and independence for longer through regular, targeted exercise." },
+    { question: "Is exercise safe for someone with Parkinson's?", answer: "Yes, guided exercise is not only safe but strongly recommended, as it helps maintain strength, coordination, and balance, though the programme should be tailored to the individual's stage and symptoms." },
+    { question: "How can physiotherapy help with freezing episodes?", answer: "Specific gait training techniques and cueing strategies can help patients manage and reduce the frequency of freezing episodes while walking." },
+    { question: "Should Parkinson's physiotherapy start immediately after diagnosis?", answer: "Yes, starting physiotherapy early, even in mild stages, helps establish good movement habits and can delay the onset of more significant mobility challenges." },
+    { question: "Can physiotherapy help reduce falls in Parkinson's patients?", answer: "Yes, balance and gait training are core components of our programme specifically aimed at reducing fall risk, which is one of the most serious concerns in Parkinson's Disease." },
+    { question: "Do caregivers need to be involved in the physiotherapy sessions?", answer: "Caregiver involvement is highly encouraged, as it helps ensure safe exercise practices and daily activity support continue consistently at home." },
+  ],
+},
 
-  // ── 60. GOLFER'S ELBOW ───────────────────────────────────────────────────────
-  {
-    id: 64,
-    title: "Golfer's Elbow Treatment",
-    slug: "golfers-elbow",
-    category: "Elbow Conditions",
-    image: golfersElbow,
-    seo: {
-      title: `Golfer's Elbow Treatment in Delhi | ${BRAND}`,
-      description: `Expert Golfer's Elbow (Medial Epicondylitis) Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat inner elbow pain, forearm weakness & repetitive strain injuries. ✅ Shockwave & LASER therapy ✅ ${LOCATION}. Book now!`,
-      keywords: "golfer's elbow treatment in delhi, medial epicondylitis treatment kalkaji, inner elbow pain treatment south delhi, golfer's elbow specialist delhi, elbow overuse treatment delhi, forearm pain treatment delhi, best golfer's elbow doctor delhi, shockwave golfer's elbow delhi, golfer's elbow relief kalkaji, medial elbow pain treatment delhi",
-      canonical: `${BASE_URL}/services/golfers-elbow`,
-    },
-    description: "Golfer's Elbow causes pain and inflammation on the inner side of the elbow due to overuse of forearm muscles. Physiotherapy focuses on relieving pain and restoring elbow function.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Pain and tenderness on inner elbow\n• Stiffness and reduced range of motion\n• Weakness in grip and forearm muscles" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of elbow and forearm\n• Stretching and strengthening exercises\n• Manual therapy\n• TENS, heat, electrotherapy, shockwave\n• Ergonomic advice" },
-    ],
-    benefits: ["Reduces elbow pain", "Restores range of motion", "Strengthens forearm and grip", "Prevents recurrence", "Enhances function"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized care for Golfer's Elbow.",
+// ── 60. GOLFER'S ELBOW ───────────────────────────────────────────────────────
+{
+  id: 64,
+  title: "Golfer's Elbow Treatment",
+  slug: "golfers-elbow",
+  category: "Elbow Conditions",
+  image: golfersElbow,
+  seo: {
+    title: `Golfer's Elbow Treatment in Delhi | ${BRAND}`,
+    description: `Expert Golfer's Elbow (Medial Epicondylitis) Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat inner elbow pain, forearm weakness & repetitive strain injuries. ✅ Shockwave & LASER therapy ✅ ${LOCATION}. Book now!`,
+    keywords: "golfer's elbow treatment in delhi, medial epicondylitis treatment kalkaji, inner elbow pain treatment south delhi, golfer's elbow specialist delhi, elbow overuse treatment delhi, forearm pain treatment delhi, best golfer's elbow doctor delhi, shockwave golfer's elbow delhi, golfer's elbow relief kalkaji, medial elbow pain treatment delhi",
+    canonical: `${BASE_URL}/services/golfers-elbow`,
   },
+  hero: {
+    heading: "Golfer's Elbow Treatment",
+    subheading: "Physiotherapy and shockwave therapy for inner elbow pain, forearm weakness, and repetitive strain injuries, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Despite the name, most patients Dr. Ashish Sharma treats for Golfer's Elbow at Advanced Pain Physiotherapy Centre have never picked up a golf club — the condition, medically known as medial epicondylitis, is far more commonly caused by repetitive gripping, typing, lifting, or even carrying heavy bags. It develops when the tendons on the inner side of the elbow become inflamed or develop small tears from repeated strain, causing pain that often worsens with gripping or wrist-flexing movements. What surprises many patients is how much everyday tasks — opening jars, carrying shopping bags, typing for long hours — contribute to the condition once it develops, since the affected tendons are used constantly throughout the day. Ignoring early symptoms often allows the tendon damage to worsen, turning a manageable strain into a stubborn, chronic problem. At Advanced Pain Physiotherapy Centre, our approach combines pain-relief techniques with progressive tendon-loading exercises that actually help the tendon heal and rebuild strength, rather than just resting it temporarily.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Golfer's Elbow:\n\n• Repetitive gripping or wrist-flexing movements\n• Heavy lifting or carrying\n• Prolonged typing or computer use\n• Sports involving repetitive swinging or throwing\n• Sudden increase in forearm-intensive activity\n\nConditions We Treat:\n\n• Medial epicondylitis (Golfer's Elbow)\n• Forearm tendon overuse injuries\n• Grip weakness related to elbow strain\n• Chronic inner elbow pain\n• Sports and occupation-related elbow strain" },
+    { title: "Why It Matters", content: "Golfer's Elbow is often dismissed as minor discomfort that will settle with rest. Without proper loading and rehabilitation, however, the tendon damage can progress, leading to chronic pain, ongoing grip weakness, and difficulty with everyday tasks.\n\nRest alone often isn't enough — tendons need progressive, controlled loading to heal properly, which is exactly the gap that structured physiotherapy fills." },
+    { title: "Who Needs This", content: "• People with pain or tenderness on the inner elbow\n• Patients whose pain worsens with gripping or lifting\n• Office workers with prolonged typing-related elbow pain\n• Sports players involved in throwing or swinging activities\n• Anyone with reduced grip strength affecting daily tasks\n• Patients whose pain hasn't improved with rest alone" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of elbow and forearm function\n• Stretching and progressive strengthening exercises\n• Manual therapy to release tight forearm muscles\n• TENS, heat, electrotherapy, and shockwave therapy\n• Ergonomic and activity modification advice" },
+    { title: "Our Process", content: "1. Assessment — Evaluating tendon involvement and aggravating movements\n2. Pain and Inflammation Control — Shockwave therapy, electrotherapy, and manual techniques\n3. Mobility Restoration — Gentle stretching to release forearm tightness\n4. Progressive Tendon Loading — Structured strengthening to rebuild tendon resilience\n5. Grip and Functional Training — Restoring strength for daily and work-related tasks\n6. Prevention Plan — Ergonomic adjustments to avoid recurrence" },
+  ],
+  benefits: ["Reduces elbow pain", "Restores range of motion", "Strengthens forearm and grip", "Prevents recurrence", "Enhances function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma uses progressive tendon-loading protocols proven to rebuild tendon strength",
+    "Shockwave therapy available for stubborn, chronic cases",
+    "Ergonomic guidance tailored to occupational and sports-related causes",
+    "Focus on full functional recovery, not just temporary pain relief",
+    "Home visit availability for patients unable to travel",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Do I need to play golf to get Golfer's Elbow?", answer: "No, despite the name, most cases result from repetitive gripping, typing, or lifting activities in everyday life or other sports, not from playing golf." },
+    { question: "How long does Golfer's Elbow take to heal?", answer: "With consistent physiotherapy, many patients see improvement within 4 to 6 weeks, though more chronic cases may take 8 to 12 weeks of progressive loading to fully resolve." },
+    { question: "Is rest enough to heal Golfer's Elbow?", answer: "Rest alone often isn't sufficient, since tendons need controlled, progressive loading to properly heal and regain strength, which is a core part of our treatment approach." },
+    { question: "What is shockwave therapy and how does it help?", answer: "Shockwave therapy uses acoustic waves to stimulate healing in chronic tendon injuries and is particularly effective for stubborn cases of Golfer's Elbow that haven't responded to standard treatment." },
+    { question: "Can I continue working with Golfer's Elbow?", answer: "In most cases yes, but activity modification and ergonomic adjustments are important to prevent the condition from worsening while you continue rehabilitation." },
+    { question: "How can I prevent Golfer's Elbow from coming back?", answer: "Maintaining forearm and grip strength through regular exercise, along with proper ergonomic technique during repetitive tasks, significantly reduces the risk of recurrence." },
+  ],
+},
 
-  // ── 61. STUDENT ELBOW ────────────────────────────────────────────────────────
-  {
-    id: 65,
-    title: "Student Elbow Treatment",
-    slug: "student-elbow",
-    category: "Elbow Conditions",
-    image: studentElbow,
-    seo: {
-      title: `Student Elbow Treatment in Delhi | ${BRAND}`,
-      description: `Expert Student Elbow & Repetitive Strain Injury Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat desk worker elbow pain, writing strain & repetitive use injuries. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "student elbow treatment in delhi, repetitive strain elbow treatment kalkaji, desk worker elbow pain south delhi, student elbow specialist delhi, writing strain elbow treatment delhi, computer elbow pain treatment delhi, best elbow strain physiotherapist delhi, elbow strain relief kalkaji, ergonomic elbow treatment delhi, elbow overuse student delhi",
-      canonical: `${BASE_URL}/services/student-elbow`,
-    },
-    description: "Student Elbow (Repetitive Strain Injury of the elbow) causes discomfort from prolonged writing or computer use. Physiotherapy focuses on pain relief, flexibility, and strengthening.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Pain and tenderness on inner or outer elbow\n• Stiffness during writing or typing\n• Reduced grip strength" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of elbow and forearm\n• Stretching and strengthening exercises\n• Manual therapy\n• TENS, heat, electrotherapy\n• Ergonomic guidance" },
-    ],
-    benefits: ["Relieves elbow pain", "Improves flexibility", "Strengthens muscles", "Supports ergonomic performance", "Prevents recurrence"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized Student Elbow care.",
+// ── 61. STUDENT ELBOW ────────────────────────────────────────────────────────
+{
+  id: 65,
+  title: "Student Elbow Treatment",
+  slug: "student-elbow",
+  category: "Elbow Conditions",
+  image: studentElbow,
+  seo: {
+    title: `Student Elbow Treatment in Delhi | ${BRAND}`,
+    description: `Expert Student Elbow & Repetitive Strain Injury Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat desk worker elbow pain, writing strain & repetitive use injuries. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "student elbow treatment in delhi, repetitive strain elbow treatment kalkaji, desk worker elbow pain south delhi, student elbow specialist delhi, writing strain elbow treatment delhi, computer elbow pain treatment delhi, best elbow strain physiotherapist delhi, elbow strain relief kalkaji, ergonomic elbow treatment delhi, elbow overuse student delhi",
+    canonical: `${BASE_URL}/services/student-elbow`,
   },
+  hero: {
+    heading: "Student Elbow Treatment",
+    subheading: "Physiotherapy for repetitive strain elbow pain from prolonged writing, typing, and desk work, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Student Elbow is a term Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre uses for the repetitive strain injuries he sees frequently in students, writers, and desk workers who spend hours in the same fixed elbow position, whether writing exam answers, typing, or resting on a desk. Unlike a single traumatic injury, this condition develops gradually, from sustained pressure on the elbow's bony prominence combined with repetitive forearm and wrist movements, leading to tenderness, stiffness, and reduced grip strength over time. Many students first notice it during exam season, when hours of continuous writing suddenly make the elbow ache in a way it never has before, only to have the discomfort persist well after exams end because the underlying strain was never properly addressed. What makes this condition tricky is that it's rarely taken seriously early on, since it's mistaken for ordinary tiredness rather than a genuine soft-tissue strain. At Advanced Pain Physiotherapy Centre, our approach relieves the current discomfort while also correcting the desk posture and repetitive habits that caused it, so students and professionals can return to long study or work sessions without recurring elbow pain.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Student Elbow:\n\n• Prolonged writing during exams or studying\n• Extended typing or computer use\n• Resting elbows on hard desk surfaces for long periods\n• Poor desk ergonomics and posture\n• Repetitive wrist and forearm movements\n\nConditions We Treat:\n\n• Repetitive strain injury of the elbow\n• Olecranon bursitis from prolonged pressure\n• Writing and typing-related forearm strain\n• Postural elbow and wrist discomfort\n• Exam-season overuse injuries" },
+    { title: "Why It Matters", content: "Student Elbow is frequently brushed off as ordinary fatigue, especially among students under exam pressure who simply push through the discomfort. Left unaddressed, the strain can worsen, affecting grip strength and making even routine writing or typing painful.\n\nEarly correction of posture and hand mechanics prevents what starts as mild tiredness from developing into a persistent, harder-to-treat overuse injury." },
+    { title: "Who Needs This", content: "• Students experiencing elbow pain during exam periods\n• Desk workers with prolonged typing or writing demands\n• Anyone who rests their elbows on hard surfaces for long hours\n• People with reduced grip strength after intensive writing sessions\n• Patients with tenderness on the inner or outer elbow\n• Anyone wanting ergonomic guidance to prevent recurrence" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of elbow, wrist, and forearm mechanics\n• Stretching and strengthening exercises\n• Manual therapy to relieve tension and tenderness\n• TENS, heat, and electrotherapy for pain relief\n• Ergonomic guidance for studying and desk work" },
+    { title: "Our Process", content: "1. Assessment — Evaluating elbow tenderness, grip strength, and desk habits\n2. Pain Relief — Manual therapy, heat, and electrotherapy to ease discomfort\n3. Mobility Restoration — Gentle stretching to relieve forearm and elbow tightness\n4. Strengthening — Building forearm and grip endurance for sustained tasks\n5. Ergonomic Correction — Adjusting desk setup and writing posture\n6. Prevention Plan — Guided breaks and stretches for long study or work sessions" },
+  ],
+  benefits: ["Relieves elbow pain", "Improves flexibility", "Strengthens muscles", "Supports ergonomic performance", "Prevents recurrence"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma understands the specific demands of exam-season and desk-based strain",
+    "Practical ergonomic guidance suited to students and working professionals",
+    "Focus on preventing recurrence during future high-pressure study or work periods",
+    "Combined manual therapy and electrotherapy for effective pain relief",
+    "Flexible scheduling suited to student routines",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Is Student Elbow a serious condition?", answer: "It's generally a manageable repetitive strain injury, but if ignored, it can worsen into more persistent tendon irritation, so early attention is recommended." },
+    { question: "Can I still study or write while undergoing treatment?", answer: "Yes, your physiotherapist will guide safe writing and study habits, including posture adjustments and breaks, so you can continue academic work while recovering." },
+    { question: "How long does Student Elbow take to recover?", answer: "Mild cases often improve within 2 to 3 weeks with proper physiotherapy and posture correction, while more persistent cases may take slightly longer." },
+    { question: "What can I do to prevent this during exams?", answer: "Taking regular short breaks, using proper desk ergonomics, and doing simple forearm stretches during study sessions can significantly reduce the risk of developing Student Elbow." },
+    { question: "Is this the same as tennis elbow or golfer's elbow?", answer: "It shares similarities as a repetitive strain condition, but Student Elbow specifically relates to prolonged writing, typing, and desk postures rather than sports-specific movements." },
+    { question: "Should I ice my elbow if it hurts after long study sessions?", answer: "Ice can help with acute discomfort after a long session, but your physiotherapist will advise a complete plan addressing both symptom relief and the underlying cause." },
+  ],
+},
 
-  // ── 62. LIGAMENT INJURY ──────────────────────────────────────────────────────
-  {
-    id: 66,
-    title: "Ligament Injury Rehabilitation",
-    slug: "ligament-injury",
-    category: "Joint Conditions",
-    image: ligamentInjury,
-    seo: {
-      title: `Ligament Injury Rehabilitation in Delhi | ${BRAND}`,
-      description: `Expert Ligament Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat ligament tears, joint instability, swelling & sports ligament injuries. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "ligament injury rehabilitation delhi, ligament tear treatment kalkaji, joint ligament injury south delhi, ligament injury specialist delhi, ligament sprain rehabilitation delhi, joint instability treatment delhi, best ligament physiotherapist delhi, ligament injury recovery kalkaji, sports ligament injury delhi, ligament healing physiotherapy delhi",
-      canonical: `${BASE_URL}/services/ligament-injury`,
-    },
-    description: "Ligament injuries can result from trauma or sports injuries, causing pain, swelling, and reduced joint stability. Physiotherapy focuses on restoring strength, stability, and mobility.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Pain and swelling around the joint\n• Reduced range of motion\n• Joint instability\n• Difficulty performing daily activities" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of injured ligament\n• Targeted strengthening and flexibility\n• Manual therapy\n• TENS, ice, and heat therapy\n• Education on protective techniques" },
-    ],
-    benefits: ["Reduces pain and inflammation", "Restores joint stability", "Strengthens muscles", "Prevents future injury", "Enhances joint function"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized ligament rehabilitation.",
+// ── 62. LIGAMENT INJURY ──────────────────────────────────────────────────────
+{
+  id: 66,
+  title: "Ligament Injury Rehabilitation",
+  slug: "ligament-injury",
+  category: "Joint Conditions",
+  image: ligamentInjury,
+  seo: {
+    title: `Ligament Injury Rehabilitation in Delhi | ${BRAND}`,
+    description: `Expert Ligament Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat ligament tears, joint instability, swelling & sports ligament injuries. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "ligament injury rehabilitation delhi, ligament tear treatment kalkaji, joint ligament injury south delhi, ligament injury specialist delhi, ligament sprain rehabilitation delhi, joint instability treatment delhi, best ligament physiotherapist delhi, ligament injury recovery kalkaji, sports ligament injury delhi, ligament healing physiotherapy delhi",
+    canonical: `${BASE_URL}/services/ligament-injury`,
   },
+  hero: {
+    heading: "Ligament Injury Rehabilitation",
+    subheading: "Physiotherapy for ligament tears, joint instability, and sports-related ligament injuries, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Ligament injuries occupy a unique place in Dr. Ashish Sharma's practice at Advanced Pain Physiotherapy Centre, because unlike muscle strains, ligaments have a limited blood supply and heal more slowly, which makes rehabilitation timing and technique especially important. These injuries occur when the fibrous tissue connecting bones at a joint is stretched or torn, most commonly from sudden twisting, trauma, or sports-related impact, resulting in pain, swelling, and a feeling of the joint 'giving way.' What many patients underestimate is how much joint instability can persist even after the initial pain and swelling subside, since the ligament's structural support has been compromised and the surrounding muscles haven't yet learned to compensate for it. Rushing back to activity before this stability is rebuilt is one of the most common reasons ligament injuries recur or worsen. At Advanced Pain Physiotherapy Centre, our approach follows a careful, staged progression — protecting the healing ligament early on, then systematically rebuilding strength, proprioception, and joint stability so patients can return to sport or daily activity with genuine confidence, not just reduced pain.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Ligament Injuries:\n\n• Sudden twisting or awkward joint movement\n• Sports-related trauma or impact\n• Falls or accidents\n• Repetitive joint stress without adequate strength\n• Previous ligament injuries left incompletely rehabilitated\n\nConditions We Treat:\n\n• Ligament sprains and partial tears\n• Joint instability following injury\n• Sports-related ligament trauma\n• Post-injury swelling and stiffness\n• Chronic joint laxity from old injuries" },
+    { title: "Why It Matters", content: "Ligament injuries are often judged solely by pain level, but pain settling down doesn't mean the ligament has regained its full structural support. Without proper rehabilitation, the joint can remain unstable, making it significantly more prone to repeat injury.\n\nBecause ligaments heal slowly and have limited blood supply, a staged, patient rehabilitation approach is essential — rushing this process is one of the leading causes of long-term joint instability." },
+    { title: "Who Needs This", content: "• Athletes recovering from a ligament sprain or tear\n• Patients with joint instability or a feeling of 'giving way'\n• People recovering from a fall or sports-related trauma\n• Patients with swelling or stiffness following a joint injury\n• Anyone with recurring injuries to the same joint\n• People preparing for a safe return to sport or physical activity" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of the injured ligament and joint stability\n• Targeted strengthening and flexibility exercises\n• Manual therapy to reduce swelling and stiffness\n• TENS, ice, and heat therapy\n• Education on protective techniques and safe return to activity" },
+    { title: "Our Process", content: "1. Assessment — Grading ligament injury severity and joint stability\n2. Protection and Swelling Control — Ice therapy, compression guidance, and electrotherapy\n3. Mobility Restoration — Gentle movement to prevent stiffness without stressing the healing ligament\n4. Progressive Strengthening — Building muscular support around the joint\n5. Proprioception and Balance Training — Restoring the joint's positional awareness and control\n6. Return-to-Activity Plan — Staged progression back to sport or daily activity" },
+  ],
+  benefits: ["Reduces pain and inflammation", "Restores joint stability", "Strengthens muscles", "Prevents future injury", "Enhances joint function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma follows a staged rehabilitation protocol respecting ligament healing timelines",
+    "Strong focus on proprioception and balance training to prevent re-injury",
+    "Experience across a wide range of joint ligament injuries",
+    "Sport-specific return-to-play programmes for athletes",
+    "Home visit availability for patients in the early recovery phase",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "How long does a ligament injury take to heal?", answer: "This depends on the severity — mild sprains can improve in 2 to 3 weeks, while more significant tears may take 6 to 12 weeks of structured rehabilitation for full stability to return." },
+    { question: "Can I walk on an injured ligament?", answer: "This depends on which joint and how severe the injury is; your physiotherapist will assess and guide safe weight-bearing to avoid delaying healing." },
+    { question: "Why does my joint still feel unstable even though pain is gone?", answer: "Pain relief doesn't automatically mean the ligament and surrounding muscles have regained full stability, which is why continuing strengthening and balance work even after pain resolves is important." },
+    { question: "Do all ligament injuries need surgery?", answer: "No, many ligament sprains and even some partial tears heal well with structured physiotherapy alone; surgery is generally reserved for complete tears causing significant instability." },
+    { question: "When can I return to sport after a ligament injury?", answer: "Return to sport is based on regaining full strength, stability, and confidence in the joint, not just the absence of pain, and your physiotherapist will guide this timeline individually." },
+    { question: "How can I prevent ligament injuries in the future?", answer: "Maintaining strength and balance around vulnerable joints, along with proper warm-up and technique during sports, significantly reduces the risk of future ligament injuries." },
+  ],
+},
 
-  // ── 63. ACL INJURY ───────────────────────────────────────────────────────────
-  {
-    id: 67,
-    title: "ACL Injury Rehabilitation",
-    slug: "acl-injury",
-    category: "Knee Conditions",
-    image: aclInjury,
-    seo: {
-      title: `ACL Injury Rehabilitation in Delhi | ${BRAND}`,
-      description: `Expert ACL Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat ACL tears, knee instability, swelling & help return to sports after ACL injury. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "acl injury rehabilitation in delhi, acl tear treatment kalkaji, anterior cruciate ligament treatment south delhi, acl injury specialist delhi, knee instability acl treatment delhi, acl reconstruction rehabilitation delhi, best acl physiotherapist delhi, acl recovery kalkaji, sports knee injury delhi, acl return to sport rehabilitation delhi",
-      canonical: `${BASE_URL}/services/acl-injury`,
-    },
-    description: "ACL (Anterior Cruciate Ligament) injuries cause knee instability, pain, and limited mobility. Physiotherapy focuses on restoring strength, stability, and functional movement.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Knee pain and swelling\n• Instability or giving way\n• Reduced range of motion\n• Difficulty running or jumping" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee function and stability\n• Strengthening exercises for quadriceps, hamstrings, and hips\n• Range of motion training\n• Manual therapy\n• Functional and sport-specific training" },
-    ],
-    benefits: ["Reduces pain and swelling", "Restores knee stability", "Strengthens muscles", "Supports return to sports", "Prevents future ACL injuries"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized ACL rehabilitation.",
+// ── 63. ACL INJURY ───────────────────────────────────────────────────────────
+{
+  id: 67,
+  title: "ACL Injury Rehabilitation",
+  slug: "acl-injury",
+  category: "Knee Conditions",
+  image: aclInjury,
+  seo: {
+    title: `ACL Injury Rehabilitation in Delhi | ${BRAND}`,
+    description: `Expert ACL Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat ACL tears, knee instability, swelling & help return to sports after ACL injury. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "acl injury rehabilitation in delhi, acl tear treatment kalkaji, anterior cruciate ligament treatment south delhi, acl injury specialist delhi, knee instability acl treatment delhi, acl reconstruction rehabilitation delhi, best acl physiotherapist delhi, acl recovery kalkaji, sports knee injury delhi, acl return to sport rehabilitation delhi",
+    canonical: `${BASE_URL}/services/acl-injury`,
   },
+  hero: {
+    heading: "ACL Injury Rehabilitation",
+    subheading: "Physiotherapy for ACL tears, knee instability, and safe return to sport after ACL injury or reconstruction, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "An ACL tear is one of the most feared injuries among athletes, and for good reason — Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has guided many patients through the long road back from an anterior cruciate ligament injury, whether managed conservatively or after surgical reconstruction. The ACL is a key stabilising ligament inside the knee, and when it tears, typically from a sudden pivot, awkward landing, or direct impact during sport, patients often describe a distinct pop followed by rapid swelling and a feeling that the knee simply won't hold their weight. What many patients don't realise is that ACL rehabilitation isn't a quick fix — it's a structured, months-long process that must respect specific healing timelines, particularly after surgery, and skipping stages in an attempt to return to sport faster is one of the most common causes of re-injury or graft failure. At Advanced Pain Physiotherapy Centre, our approach follows evidence-based rehabilitation phases, rebuilding strength, stability, and confidence in a carefully sequenced way, so patients don't just return to sport, but return without fear of the knee giving way again.",
+  sections: [
+    { title: "Overview", content: "Common Causes of ACL Injury:\n\n• Sudden pivoting or direction change during sport\n• Awkward landing from a jump\n• Direct impact or collision to the knee\n• Sudden deceleration while running\n• Weak surrounding muscles unable to protect the joint\n\nConditions We Treat:\n\n• ACL sprains and partial tears\n• Complete ACL tears (surgical and non-surgical management)\n• Post-ACL reconstruction rehabilitation\n• Knee instability and giving-way episodes\n• Return-to-sport conditioning after ACL injury" },
+    { title: "Why It Matters", content: "ACL injuries are often treated as purely a surgical problem, with rehabilitation seen as an afterthought. In reality, the quality and consistency of physiotherapy, both before and after surgery, is one of the biggest factors determining whether an athlete truly regains full knee function and confidence.\n\nRushing rehabilitation or skipping strengthening stages significantly increases the risk of re-tear, which is why a staged, criteria-based approach matters far more than simply counting weeks since injury or surgery." },
+    { title: "Who Needs This", content: "• Athletes who have suffered an ACL tear\n• Patients recovering after ACL reconstruction surgery\n• People experiencing knee instability or giving-way episodes\n• Patients managing an ACL tear without surgery\n• Anyone preparing for a safe, confident return to sport\n• People wanting to reduce the risk of re-injury" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee function, stability, and swelling\n• Strengthening exercises for quadriceps, hamstrings, and hips\n• Range of motion training\n• Manual therapy to manage stiffness and swelling\n• Functional and sport-specific training" },
+    { title: "Our Process", content: "1. Assessment — Evaluating knee stability, swelling, and range of motion\n2. Early Protection and Swelling Control — Managing inflammation and restoring basic movement\n3. Strength Rebuilding — Progressive quadriceps, hamstring, and hip strengthening\n4. Neuromuscular and Balance Training — Restoring joint control and proprioception\n5. Functional and Sport-Specific Drills — Rebuilding movement confidence for cutting, pivoting, and jumping\n6. Return-to-Sport Testing — Criteria-based clearance before full return to competitive activity" },
+  ],
+  benefits: ["Reduces pain and swelling", "Restores knee stability", "Strengthens muscles", "Supports return to sports", "Prevents future ACL injuries"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma follows evidence-based, criteria-driven ACL rehabilitation protocols",
+    "Experience with both surgical and non-surgical ACL management",
+    "Structured return-to-sport testing to minimise re-injury risk",
+    "Sport-specific training tailored to the athlete's discipline",
+    "Home visit availability during early post-surgical recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Do all ACL tears need surgery?", answer: "Not always — some patients, particularly those with lower activity demands, can manage well with structured physiotherapy alone, while athletes returning to pivoting sports often benefit from surgical reconstruction." },
+    { question: "How long does ACL rehabilitation take?", answer: "Full rehabilitation after ACL reconstruction typically takes 9 to 12 months before safe return to competitive sport, following a carefully staged, criteria-based programme." },
+    { question: "When can I start physiotherapy after ACL surgery?", answer: "Physiotherapy usually begins within days of surgery, starting with swelling control and gentle range of motion before progressing into strengthening phases." },
+    { question: "How do I know if I'm ready to return to sport after ACL injury?", answer: "Readiness is determined by objective strength, balance, and functional testing, not just time passed, which is why criteria-based clearance is central to our rehabilitation approach." },
+    { question: "Can I re-tear my ACL after rehabilitation?", answer: "Re-injury risk exists, especially if rehabilitation stages are rushed, which is why our programme emphasises building genuine strength and control before clearing return to sport." },
+    { question: "Is knee instability normal after an ACL injury?", answer: "Some initial instability is expected, but persistent giving-way should be assessed, as it may indicate the need for further strengthening or, in some cases, surgical evaluation." },
+  ],
+},
 
-  // ── 64. MCL INJURY ───────────────────────────────────────────────────────────
-  {
-    id: 68,
-    title: "MCL Injury Rehabilitation",
-    slug: "mcl-injury",
-    category: "Knee Conditions",
-    image: mclInjury,
-    seo: {
-      title: `MCL Injury Rehabilitation in Delhi | ${BRAND}`,
-      description: `Expert MCL Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat medial collateral ligament tears, inner knee pain & knee instability. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "mcl injury rehabilitation delhi, medial collateral ligament treatment kalkaji, inner knee pain treatment south delhi, mcl injury specialist delhi, knee medial instability treatment delhi, mcl tear rehabilitation delhi, best mcl physiotherapist delhi, mcl recovery kalkaji, medial knee pain treatment delhi, sports mcl injury delhi",
-      canonical: `${BASE_URL}/services/mcl-injury`,
-    },
-    description: "MCL (Medial Collateral Ligament) injuries cause knee pain and instability on the inner side of the knee. Physiotherapy focuses on restoring strength, mobility, and stability.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Pain and tenderness on inner knee\n• Swelling and stiffness\n• Instability during walking\n• Difficulty with activities" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee and ligament\n• Strengthening exercises\n• Range of motion and flexibility exercises\n• Manual therapy\n• Functional training" },
-    ],
-    benefits: ["Reduces pain and inflammation", "Restores inner knee stability", "Strengthens muscles", "Prevents recurrence", "Enhances function"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide MCL injury rehabilitation.",
+// ── 64. MCL INJURY ───────────────────────────────────────────────────────────
+{
+  id: 68,
+  title: "MCL Injury Rehabilitation",
+  slug: "mcl-injury",
+  category: "Knee Conditions",
+  image: mclInjury,
+  seo: {
+    title: `MCL Injury Rehabilitation in Delhi | ${BRAND}`,
+    description: `Expert MCL Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat medial collateral ligament tears, inner knee pain & knee instability. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "mcl injury rehabilitation delhi, medial collateral ligament treatment kalkaji, inner knee pain treatment south delhi, mcl injury specialist delhi, knee medial instability treatment delhi, mcl tear rehabilitation delhi, best mcl physiotherapist delhi, mcl recovery kalkaji, medial knee pain treatment delhi, sports mcl injury delhi",
+    canonical: `${BASE_URL}/services/mcl-injury`,
   },
+  hero: {
+    heading: "MCL Injury Rehabilitation",
+    subheading: "Physiotherapy for medial collateral ligament tears, inner knee pain, and knee instability, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "The Medial Collateral Ligament (MCL) runs along the inner side of the knee and is most commonly injured from a direct blow to the outer knee or a forceful sideways bending motion, something Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees frequently in contact sports and sudden twisting incidents. Unlike the ACL, the MCL generally has a better blood supply and often heals well with non-surgical rehabilitation, even in moderate tears, which is reassuring news for most patients. That said, an MCL injury still causes real pain, swelling, and a sense of instability on the inner knee, particularly with side-to-side movements, and inadequate rehabilitation can leave the knee vulnerable to repeat strain during pivoting activities. What patients often underestimate is how much the surrounding hip and thigh muscles need to be strengthened alongside the ligament itself, since they play a major role in protecting the knee from the sideways forces that caused the original injury. At Advanced Pain Physiotherapy Centre, our approach guides the ligament through its natural healing process while systematically rebuilding the strength and control needed to prevent re-injury.",
+  sections: [
+    { title: "Overview", content: "Common Causes of MCL Injury:\n\n• Direct blow to the outer side of the knee\n• Forceful sideways bending or twisting\n• Sports involving sudden changes in direction\n• Awkward landing with the knee turned inward\n• Weak hip and thigh muscles reducing knee protection\n\nConditions We Treat:\n\n• MCL sprains and partial tears\n• Moderate to severe MCL injuries managed conservatively\n• Inner knee pain and instability\n• Post-injury swelling and stiffness\n• Sports-related medial knee injuries" },
+    { title: "Why It Matters", content: "MCL injuries often heal reasonably well on their own, which can tempt patients to skip structured rehabilitation altogether. Without proper strengthening, however, the knee remains vulnerable to sideways forces, increasing the risk of repeat strain during sport or daily activity.\n\nBuilding strength in the surrounding hip and thigh muscles is just as important as the ligament's own healing, since these muscles provide the dynamic protection the knee needs against future injury." },
+    { title: "Who Needs This", content: "• Athletes with a suspected or diagnosed MCL sprain\n• Patients with inner knee pain following a twisting injury\n• People experiencing knee instability during side-to-side movement\n• Patients recovering from a direct knee impact injury\n• Anyone with swelling or stiffness on the inner knee\n• People wanting a safe, structured return to sport" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee and ligament stability\n• Strengthening exercises for the thigh, hip, and knee\n• Range of motion and flexibility exercises\n• Manual therapy to manage swelling and stiffness\n• Functional training for sport and daily activity" },
+    { title: "Our Process", content: "1. Assessment — Grading MCL injury severity and evaluating knee stability\n2. Protection and Swelling Control — Ice therapy, bracing guidance, and electrotherapy\n3. Mobility Restoration — Gentle range of motion work to prevent stiffness\n4. Progressive Strengthening — Building thigh, hip, and knee muscle support\n5. Balance and Control Training — Restoring stability for side-to-side movement\n6. Return-to-Activity Plan — Staged progression back to sport or daily activity" },
+  ],
+  benefits: ["Reduces pain and inflammation", "Restores inner knee stability", "Strengthens muscles", "Prevents recurrence", "Enhances function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma specialises in structured, non-surgical MCL rehabilitation",
+    "Focus on hip and thigh strengthening for lasting knee protection",
+    "Experience with sports-related and trauma-related MCL injuries",
+    "Staged return-to-activity planning to prevent repeat strain",
+    "Home visit availability for early recovery patients",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Does an MCL injury always need surgery?", answer: "No, most MCL injuries, even moderate tears, heal well with structured physiotherapy alone, and surgery is generally reserved for severe combined ligament injuries." },
+    { question: "How long does an MCL injury take to heal?", answer: "Mild sprains can improve within 2 to 4 weeks, while more significant tears may take 6 to 8 weeks of guided rehabilitation for full stability to return." },
+    { question: "Can I walk with an MCL injury?", answer: "This depends on severity; your physiotherapist will assess your specific injury and guide safe weight-bearing during the early recovery phase." },
+    { question: "Will I need a knee brace for an MCL injury?", answer: "Bracing is sometimes used in the early stages to support the healing ligament, particularly for moderate to severe sprains, and your physiotherapist will advise if it's appropriate for your case." },
+    { question: "Why do I need hip strengthening for a knee ligament injury?", answer: "Strong hip and thigh muscles help control the sideways forces on the knee that often cause MCL injuries in the first place, making them essential for both recovery and prevention." },
+    { question: "When can I return to sport after an MCL injury?", answer: "Return to sport depends on regaining full strength and stability in side-to-side movements, and your physiotherapist will guide this timeline based on your specific progress." },
+  ],
+},
 
-  // ── 65. PCL INJURY ───────────────────────────────────────────────────────────
-  {
-    id: 69,
-    title: "PCL Injury Rehabilitation",
-    slug: "pcl-injury",
-    category: "Knee Conditions",
-    image: pclInjury,
-    seo: {
-      title: `PCL Injury Rehabilitation in Delhi | ${BRAND}`,
-      description: `Expert PCL Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat posterior cruciate ligament injuries, knee instability & restore full knee function. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "pcl injury rehabilitation delhi, posterior cruciate ligament treatment kalkaji, pcl tear treatment south delhi, pcl injury specialist delhi, knee posterior instability treatment delhi, pcl rehabilitation delhi, best pcl physiotherapist delhi, pcl recovery kalkaji, sports pcl knee injury delhi, posterior knee pain treatment delhi",
-      canonical: `${BASE_URL}/services/pcl-injury`,
-    },
-    description: "PCL (Posterior Cruciate Ligament) injuries cause knee instability and difficulty in bending or walking. Physiotherapy focuses on restoring strength, mobility, and function.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Pain and swelling in knee\n• Instability when walking or bending\n• Reduced range of motion" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee stability\n• Strengthening exercises\n• Range of motion training\n• Manual therapy\n• Functional rehabilitation" },
-    ],
-    benefits: ["Reduces knee pain and swelling", "Restores stability", "Strengthens muscles", "Supports activity return", "Enhances mobility"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide PCL injury rehabilitation.",
+// ── 65. PCL INJURY ───────────────────────────────────────────────────────────
+{
+  id: 69,
+  title: "PCL Injury Rehabilitation",
+  slug: "pcl-injury",
+  category: "Knee Conditions",
+  image: pclInjury,
+  seo: {
+    title: `PCL Injury Rehabilitation in Delhi | ${BRAND}`,
+    description: `Expert PCL Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat posterior cruciate ligament injuries, knee instability & restore full knee function. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "pcl injury rehabilitation delhi, posterior cruciate ligament treatment kalkaji, pcl tear treatment south delhi, pcl injury specialist delhi, knee posterior instability treatment delhi, pcl rehabilitation delhi, best pcl physiotherapist delhi, pcl recovery kalkaji, sports pcl knee injury delhi, posterior knee pain treatment delhi",
+    canonical: `${BASE_URL}/services/pcl-injury`,
   },
+  hero: {
+    heading: "PCL Injury Rehabilitation",
+    subheading: "Physiotherapy for posterior cruciate ligament injuries, knee instability, and full functional recovery, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "PCL injuries are less common than ACL tears but often more easily missed in the initial assessment, something Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre pays close attention to when patients describe knee pain following a direct impact to the front of a bent knee, such as in a fall onto the knee or a dashboard injury during an accident. The posterior cruciate ligament stabilises the knee against backward movement of the shin bone, and when injured, patients often experience diffuse knee pain, mild swelling, and a vague sense of instability that can be subtler than other ligament injuries, sometimes leading to delayed diagnosis. Many mild to moderate PCL injuries actually respond very well to non-surgical rehabilitation because of the ligament's relatively good healing capacity, provided the quadriceps muscle — which plays a key protective role for the PCL — is properly strengthened. At Advanced Pain Physiotherapy Centre, our approach centres on a careful assessment to confirm PCL involvement, followed by a structured programme emphasising quadriceps strength, controlled range of motion, and functional training to restore full, confident knee function.",
+  sections: [
+    { title: "Overview", content: "Common Causes of PCL Injury:\n\n• Direct impact to the front of a bent knee (fall or dashboard injury)\n• Hyperextension of the knee during sport\n• Awkward landing with the knee in a flexed position\n• Sports involving high-impact collisions\n• Weak quadriceps reducing posterior knee protection\n\nConditions We Treat:\n\n• PCL sprains and partial tears\n• Combined ligament injuries involving the PCL\n• Post-injury knee instability\n• Persistent swelling and stiffness after knee trauma\n• Functional rehabilitation after PCL injury" },
+    { title: "Why It Matters", content: "PCL injuries can present with subtler symptoms than other ligament injuries, which sometimes leads to them being under-diagnosed or dismissed as general knee soreness. Left unaddressed, this can result in ongoing instability and altered movement patterns that place extra strain on other parts of the knee.\n\nBecause quadriceps strength plays such a significant protective role for the PCL, a rehabilitation programme that neglects this muscle group often leaves the knee vulnerable even after the ligament itself has settled." },
+    { title: "Who Needs This", content: "• Patients with knee pain following a fall onto a bent knee\n• People involved in accidents with direct knee impact\n• Athletes with suspected posterior knee instability\n• Patients with persistent swelling after knee trauma\n• People with combined ligament injuries involving the PCL\n• Anyone wanting to restore full knee function and confidence" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee stability and ligament involvement\n• Strengthening exercises, with particular focus on the quadriceps\n• Range of motion training\n• Manual therapy to manage stiffness and swelling\n• Functional rehabilitation for daily and sport-specific activity" },
+    { title: "Our Process", content: "1. Assessment — Confirming PCL involvement and grading injury severity\n2. Protection and Swelling Control — Managing inflammation in the early recovery phase\n3. Mobility Restoration — Controlled range of motion work to prevent stiffness\n4. Quadriceps-Focused Strengthening — Building the muscle group most protective of the PCL\n5. Balance and Functional Training — Restoring confident, stable movement\n6. Return-to-Activity Plan — Staged progression back to sport or daily function" },
+  ],
+  benefits: ["Reduces knee pain and swelling", "Restores stability", "Strengthens muscles", "Supports activity return", "Enhances mobility"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has specific expertise in identifying and rehabilitating PCL injuries",
+    "Strong emphasis on quadriceps strengthening, key to long-term PCL protection",
+    "Experience managing both isolated and combined ligament knee injuries",
+    "Structured, staged rehabilitation for safe return to activity",
+    "Home visit availability for patients with limited mobility",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "How is a PCL injury different from an ACL injury?", answer: "The PCL prevents the shin bone from moving too far backward, while the ACL prevents it from moving too far forward; PCL injuries often present with subtler symptoms and, in many cases, heal well without surgery." },
+    { question: "Does a PCL injury always need surgery?", answer: "No, many mild to moderate PCL injuries respond very well to structured physiotherapy, particularly quadriceps strengthening, without requiring surgical intervention." },
+    { question: "How long does PCL rehabilitation take?", answer: "Mild injuries may improve within 4 to 6 weeks, while more significant injuries, especially those involving other structures, can take several months of structured rehabilitation." },
+    { question: "Why is quadriceps strength so important for PCL injuries?", answer: "A strong quadriceps muscle helps stabilise the knee and reduce the load on the PCL, making it one of the most important factors in both recovery and preventing further injury." },
+    { question: "Can a PCL injury be missed on initial assessment?", answer: "Yes, PCL injuries can present with milder or vaguer symptoms compared to other ligament injuries, which is why a thorough clinical assessment is important if a posterior knee injury is suspected." },
+    { question: "Will I regain full knee function after a PCL injury?", answer: "With appropriate rehabilitation, most patients regain excellent knee function, though the recovery timeline and eventual outcome depend on the severity of the original injury." },
+  ],
+},
+ // ── 66. MENISCUS INJURY ──────────────────────────────────────────────────────
+{
+  id: 70,
+  title: "Meniscus Injury Rehabilitation",
+  slug: "meniscus-injury",
+  category: "Knee Conditions",
+  image: meniscusInjury,
+  seo: {
+    title: `Meniscus Injury Rehabilitation in Delhi | ${BRAND}`,
+    description: `Expert Meniscus Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat meniscus tears, knee locking, swelling & restore full knee mobility. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "meniscus injury rehabilitation delhi, meniscus tear treatment kalkaji, knee meniscus treatment south delhi, meniscus injury specialist delhi, knee locking treatment delhi, meniscus rehabilitation delhi, best meniscus physiotherapist delhi, meniscus recovery kalkaji, sports meniscus injury delhi, meniscus tear knee pain delhi",
+    canonical: `${BASE_URL}/services/meniscus-injury`,
+  },
+  hero: {
+    heading: "Meniscus Injury Rehabilitation",
+    subheading: "Physiotherapy for meniscus tears, knee locking, and swelling, aimed at restoring full knee mobility, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "The meniscus, a C-shaped cartilage cushion inside the knee, is one of the structures Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees injured both in young athletes twisting during sport and in older adults where the tissue simply weakens with age and tears during an ordinary squat or twist. A meniscus tear can cause pain along the joint line, swelling, and in some cases a distinct locking or catching sensation where the knee seems to get momentarily stuck mid-movement. What surprises many patients is that not every meniscus tear needs surgery — smaller tears, particularly in the outer, better blood-supplied portion of the meniscus, often heal well with physiotherapy alone, focused on reducing swelling and building the surrounding muscles to take pressure off the damaged area. Ignoring a meniscus tear or continuing high-impact activity on it, however, can worsen the damage and accelerate wear on the knee joint itself. At Advanced Pain Physiotherapy Centre, our approach assesses the specific pattern of the tear and builds a rehabilitation plan — whether managed conservatively or post-surgically — that restores pain-free movement and protects the knee for the long term.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Meniscus Injury:\n\n• Sudden twisting of the knee during sport\n• Deep squatting or kneeling movements\n• Age-related degeneration of the meniscus tissue\n• Direct impact or trauma to the knee\n• Weak surrounding muscles increasing joint stress\n\nConditions We Treat:\n\n• Meniscus tears (traumatic and degenerative)\n• Knee locking or catching sensations\n• Post-meniscus surgery rehabilitation\n• Chronic joint line pain\n• Swelling and stiffness following knee injury" },
+    { title: "Why It Matters", content: "A meniscus tear is often assumed to require surgery immediately, but many tears, particularly smaller or degenerative ones, respond well to structured physiotherapy that reduces swelling and strengthens the knee's supporting muscles.\n\nContinuing high-impact activity on an untreated tear can worsen the damage over time and accelerate wear within the joint, making early, accurate assessment an important first step." },
+    { title: "Who Needs This", content: "• Patients with knee pain along the joint line\n• People experiencing a locking or catching sensation in the knee\n• Athletes who have suffered a twisting knee injury\n• Older adults with degenerative meniscus tears\n• Patients recovering after meniscus surgery\n• Anyone with knee swelling that hasn't resolved with rest" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee function and tear pattern\n• Strengthening and flexibility exercises\n• Manual therapy to manage stiffness\n• TENS and heat therapy for pain relief\n• Functional training for daily and sport-specific activity" },
+    { title: "Our Process", content: "1. Assessment — Evaluating the tear pattern, swelling, and knee mechanics\n2. Pain and Swelling Control — Electrotherapy, heat therapy, and manual techniques\n3. Mobility Restoration — Gentle range of motion work to reduce stiffness\n4. Progressive Strengthening — Building quadriceps and hamstring support around the knee\n5. Functional Training — Restoring confidence in squatting, twisting, and daily movement\n6. Long-Term Knee Protection Plan — Guidance to reduce further joint stress" },
+  ],
+  benefits: ["Reduces knee pain", "Restores mobility", "Strengthens muscles", "Supports daily activity", "Prevents recurrence"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma accurately assesses tear patterns to guide conservative versus surgical decision-making",
+    "Focus on reducing joint stress through targeted muscle strengthening",
+    "Experience with both conservative and post-surgical meniscus rehabilitation",
+    "Functional training suited to sport and everyday knee demands",
+    "Home visit availability for patients with limited mobility",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Does every meniscus tear need surgery?", answer: "No, many tears, especially smaller ones in the outer meniscus, heal well with physiotherapy alone; surgery is generally considered for larger tears or when locking symptoms persist." },
+    { question: "What does a locking knee mean?", answer: "A locking or catching sensation often indicates a torn piece of meniscus is interfering with normal knee movement, and this should be assessed by a physiotherapist or doctor." },
+    { question: "How long does meniscus rehabilitation take?", answer: "Conservative rehabilitation often shows improvement within 4 to 6 weeks, while post-surgical recovery can take 6 to 12 weeks depending on the type of surgery performed." },
+    { question: "Can I still exercise with a meniscus tear?", answer: "Low-impact strengthening exercises are usually encouraged, but high-impact or deep twisting movements should be avoided until your physiotherapist confirms it's safe to resume them." },
+    { question: "Will my knee feel normal again after a meniscus tear?", answer: "Most patients regain excellent function with appropriate rehabilitation, though some degenerative changes may mean occasional stiffness, especially with age-related tears." },
+    { question: "How can I prevent future meniscus injuries?", answer: "Maintaining strong quadriceps and hamstring muscles, along with proper technique during squatting and twisting movements, significantly reduces the risk of further meniscus injury." },
+  ],
+},
 
-  // ── 66. MENISCUS INJURY ──────────────────────────────────────────────────────
-  {
-    id: 70,
-    title: "Meniscus Injury Rehabilitation",
-    slug: "meniscus-injury",
-    category: "Knee Conditions",
-    image: meniscusInjury,
-    seo: {
-      title: `Meniscus Injury Rehabilitation in Delhi | ${BRAND}`,
-      description: `Expert Meniscus Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat meniscus tears, knee locking, swelling & restore full knee mobility. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "meniscus injury rehabilitation delhi, meniscus tear treatment kalkaji, knee meniscus treatment south delhi, meniscus injury specialist delhi, knee locking treatment delhi, meniscus rehabilitation delhi, best meniscus physiotherapist delhi, meniscus recovery kalkaji, sports meniscus injury delhi, meniscus tear knee pain delhi",
-      canonical: `${BASE_URL}/services/meniscus-injury`,
-    },
-    description: "Meniscus injuries cause knee pain, swelling, and limited motion. Physiotherapy aims to relieve pain, restore mobility, and strengthen the knee.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Knee pain while bending or twisting\n• Swelling and stiffness\n• Locking or catching sensation" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of knee function\n• Strengthening and flexibility exercises\n• Manual therapy\n• TENS and heat therapy\n• Functional training" },
-    ],
-    benefits: ["Reduces knee pain", "Restores mobility", "Strengthens muscles", "Supports daily activity", "Prevents recurrence"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide tailored meniscus rehabilitation.",
+// ── 67. PATELLA MOBILIZATION ─────────────────────────────────────────────────
+{
+  id: 71,
+  title: "Patella Mobilization Therapy",
+  slug: "patella-mobilization",
+  category: "Knee Conditions",
+  image: patellaMobilization,
+  seo: {
+    title: `Patella Mobilization Therapy in Delhi | ${BRAND}`,
+    description: `Expert Patella Mobilization Therapy in Delhi by ${DOCTOR} at ${BRAND}. We treat kneecap misalignment, patellar tracking issues & knee pain around the kneecap. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "patella mobilization therapy delhi, patellar tracking treatment kalkaji, kneecap misalignment treatment south delhi, patella mobilization specialist delhi, kneecap pain physiotherapy delhi, patellofemoral pain treatment delhi, best patella physiotherapist delhi, patellar mobilization kalkaji, knee rehabilitation patella delhi, kneecap treatment delhi",
+    canonical: `${BASE_URL}/services/patella-mobilization`,
   },
+  hero: {
+    heading: "Patella Mobilization Therapy",
+    subheading: "Physiotherapy to correct kneecap misalignment, improve patellar tracking, and relieve pain around the kneecap, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Pain around the kneecap is one of the most common yet most misunderstood knee complaints Dr. Ashish Sharma treats at Advanced Pain Physiotherapy Centre, often diagnosed generally as 'knee pain' when the real issue lies specifically in how the patella (kneecap) glides within its groove during movement. When the patella doesn't track smoothly — often due to muscle imbalances, tightness, or restricted movement of the surrounding soft tissue — it can cause pain during stair climbing, squatting, or even after prolonged sitting, a pattern often called patellofemoral pain. What many patients don't realise is that the kneecap itself needs proper mobility, not just the knee joint as a whole, and restricted patellar movement can quietly perpetuate pain even when other treatments have been tried. Left uncorrected, poor patellar tracking can lead to uneven cartilage wear behind the kneecap over time. At Advanced Pain Physiotherapy Centre, our approach uses specific manual mobilization techniques to restore the patella's natural gliding movement, combined with targeted quadriceps strengthening to keep it tracking correctly going forward.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Patellar Tracking Issues:\n\n• Muscle imbalance between inner and outer quadriceps\n• Tightness in the outer thigh (IT band) and soft tissue\n• Restricted patellar mobility within its groove\n• Weak hip and quadriceps muscles\n• Previous knee injury altering movement patterns\n\nConditions We Treat:\n\n• Patellofemoral pain syndrome\n• Kneecap misalignment and maltracking\n• Anterior knee pain\n• Pain with stairs, squatting, or prolonged sitting\n• Post-injury patellar stiffness" },
+    { title: "Why It Matters", content: "Anterior knee pain is often treated as generic 'knee pain,' missing the specific issue of restricted patellar movement. Without addressing this directly, pain tends to persist despite general knee-strengthening exercises.\n\nOver time, poor patellar tracking can contribute to uneven cartilage wear behind the kneecap, making early, targeted correction important for long-term knee health." },
+    { title: "Who Needs This", content: "• Patients with pain specifically around or behind the kneecap\n• People with pain climbing or descending stairs\n• Anyone experiencing knee discomfort after prolonged sitting\n• Patients with a diagnosed patellar tracking issue\n• People whose knee pain hasn't improved with general exercises\n• Athletes with anterior knee pain during running or jumping" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of patellar alignment and tracking\n• Manual mobilization techniques for the kneecap\n• Strengthening exercises for the quadriceps\n• Stretching and flexibility exercises for surrounding soft tissue" },
+    { title: "Our Process", content: "1. Assessment — Evaluating patellar position, tracking, and mobility\n2. Manual Mobilization — Restoring the kneecap's natural gliding movement\n3. Soft Tissue Release — Reducing tightness in the outer thigh and surrounding structures\n4. Targeted Strengthening — Building inner quadriceps strength to correct tracking\n5. Functional Retraining — Correcting movement patterns during stairs and squatting\n6. Maintenance Plan — Home exercises to sustain proper patellar alignment" },
+  ],
+  benefits: ["Reduces knee pain", "Improves patellar tracking", "Strengthens quadriceps", "Restores functional movement", "Enhances mobility"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma specialises in identifying and correcting patellar tracking issues specifically",
+    "Hands-on manual mobilization techniques targeting the kneecap directly",
+    "Targeted quadriceps strengthening protocols for lasting correction",
+    "Effective for anterior knee pain that hasn't responded to general treatment",
+    "Home visit availability for patients with mobility limitations",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "What is patellar tracking and why does it matter?", answer: "Patellar tracking refers to how smoothly the kneecap glides within its groove during movement; poor tracking can cause pain and, over time, contribute to cartilage wear behind the kneecap." },
+    { question: "Why does my knee hurt after sitting for a long time?", answer: "This is a classic sign of patellofemoral pain, often related to patellar tracking issues, and typically improves with targeted mobilization and strengthening." },
+    { question: "How is patella mobilization different from regular knee physiotherapy?", answer: "Patella mobilization specifically targets the kneecap's own movement within its groove, rather than just the broader knee joint, addressing a root cause that general exercises often miss." },
+    { question: "How long does treatment take to relieve kneecap pain?", answer: "Many patients notice improvement within 3 to 5 weeks of consistent treatment, though full correction of tracking patterns can take a bit longer." },
+    { question: "Can I keep running with patellar tracking issues?", answer: "High-impact activity is usually best modified temporarily while the underlying tracking issue is addressed, and your physiotherapist will guide a safe return to running." },
+    { question: "Will my kneecap pain come back after treatment?", answer: "With proper quadriceps strengthening and maintenance exercises, most patients maintain long-term relief, though returning to old muscle imbalances can cause symptoms to recur." },
+  ],
+},
 
-  // ── 67. PATELLA MOBILIZATION ─────────────────────────────────────────────────
-  {
-    id: 71,
-    title: "Patella Mobilization Therapy",
-    slug: "patella-mobilization",
-    category: "Knee Conditions",
-    image: patellaMobilization,
-    seo: {
-      title: `Patella Mobilization Therapy in Delhi | ${BRAND}`,
-      description: `Expert Patella Mobilization Therapy in Delhi by ${DOCTOR} at ${BRAND}. We treat kneecap misalignment, patellar tracking issues & knee pain around the kneecap. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "patella mobilization therapy delhi, patellar tracking treatment kalkaji, kneecap misalignment treatment south delhi, patella mobilization specialist delhi, kneecap pain physiotherapy delhi, patellofemoral pain treatment delhi, best patella physiotherapist delhi, patellar mobilization kalkaji, knee rehabilitation patella delhi, kneecap treatment delhi",
-      canonical: `${BASE_URL}/services/patella-mobilization`,
-    },
-    description: "Patella mobilization therapy addresses knee pain and stiffness caused by restricted patellar movement. Physiotherapy focuses on improving patellar tracking, flexibility, and strength.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Knee pain around the kneecap\n• Stiffness or reduced range of motion\n• Difficulty climbing stairs or squatting" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of patellar alignment\n• Manual mobilization techniques\n• Strengthening exercises for quadriceps\n• Stretching and flexibility exercises" },
-    ],
-    benefits: ["Reduces knee pain", "Improves patellar tracking", "Strengthens quadriceps", "Restores functional movement", "Enhances mobility"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized patella mobilization therapy.",
+// ── 68. SHOULDER LIGAMENT SPORTS MASSAGE ─────────────────────────────────────
+{
+  id: 72,
+  title: "Shoulder Ligament Sports Massage",
+  slug: "shoulder-ligament-sports-massage",
+  category: "Shoulder Conditions",
+  image: shoulderLigamentMassage,
+  seo: {
+    title: `Shoulder Ligament Sports Massage in Delhi | ${BRAND}`,
+    description: `Expert Shoulder Ligament Sports Massage in Delhi by ${DOCTOR} at ${BRAND}. We treat shoulder ligament injuries, sports shoulder pain & improve shoulder mobility. ✅ Certified therapists ✅ ${LOCATION}. Book now!`,
+    keywords: "shoulder ligament sports massage delhi, shoulder sports massage kalkaji, shoulder ligament injury treatment south delhi, sports massage specialist delhi, shoulder massage physiotherapy delhi, shoulder sports injury treatment delhi, best shoulder massage therapist delhi, shoulder ligament massage kalkaji, shoulder pain sports massage delhi, shoulder rehabilitation massage delhi",
+    canonical: `${BASE_URL}/services/shoulder-ligament-sports-massage`,
   },
+  hero: {
+    heading: "Shoulder Ligament Sports Massage",
+    subheading: "Sports massage and physiotherapy for shoulder ligament injuries, improving circulation, mobility, and recovery, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "The shoulder is the most mobile joint in the body, and that mobility comes at a cost — its stability relies heavily on surrounding ligaments and soft tissue, which is exactly why Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees so many sports-related shoulder ligament injuries, particularly in athletes involved in throwing, swimming, or contact sports. When these ligaments are strained or overstretched, patients typically notice pain during overhead movement, stiffness, and sometimes a feeling of weakness when reaching or lifting. Sports massage plays a valuable role here, working to improve blood flow to the injured ligament tissue, reduce muscular guarding around the joint, and ease the stiffness that so often accompanies shoulder injuries. What many athletes underestimate is how much this muscular tension around an injured shoulder ligament can itself become a secondary source of pain and restricted movement, sometimes lasting well after the ligament itself has started healing. At Advanced Pain Physiotherapy Centre, our approach combines targeted sports massage with structured strengthening and flexibility work, so the shoulder doesn't just feel looser temporarily, but genuinely regains the strength and control needed to return to sport.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Shoulder Ligament Injury:\n\n• Repetitive overhead sports movements (throwing, swimming)\n• Sudden impact or fall onto the shoulder\n• Overstretching during sport-specific movements\n• Muscle imbalance around the shoulder joint\n• Inadequate warm-up before high-intensity activity\n\nConditions We Treat:\n\n• Shoulder ligament sprains and strains\n• Sports-related shoulder pain and stiffness\n• Muscular guarding following shoulder injury\n• Reduced overhead mobility\n• Post-injury shoulder tension" },
+    { title: "Why It Matters", content: "Shoulder ligament injuries often bring along secondary muscular tension as the body instinctively guards the joint, and this tension can itself become a lasting source of stiffness and pain, even after the ligament has begun healing.\n\nAddressing both the ligament injury and the surrounding muscular guarding together, rather than treating them separately, leads to a more complete and lasting recovery." },
+    { title: "Who Needs This", content: "• Athletes with shoulder pain from throwing, swimming, or overhead sports\n• Patients with a diagnosed shoulder ligament sprain or strain\n• People experiencing stiffness or reduced overhead mobility\n• Anyone with muscular tension surrounding a shoulder injury\n• Patients wanting a safe return to sport-specific shoulder movements\n• People seeking relief from persistent post-injury shoulder tightness" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of shoulder ligament function and movement\n• Sports massage targeting affected ligaments and surrounding muscles\n• Strengthening and flexibility exercises\n• Pain-relief modalities as needed" },
+    { title: "Our Process", content: "1. Assessment — Evaluating ligament involvement, mobility, and muscular guarding\n2. Sports Massage — Targeted work to improve circulation and ease tension\n3. Mobility Restoration — Gentle mobilisation to regain overhead movement\n4. Progressive Strengthening — Rebuilding stability around the shoulder joint\n5. Sport-Specific Conditioning — Preparing the shoulder for throwing, swimming, or contact demands\n6. Return-to-Sport Plan — Staged progression back to full training and competition" },
+  ],
+  benefits: ["Reduces shoulder pain", "Improves flexibility", "Strengthens muscles", "Enhances functional movement", "Supports return to sports"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma combines sports massage with structured strengthening for complete recovery",
+    "Specific experience with throwing, swimming, and contact-sport shoulder injuries",
+    "Focus on resolving secondary muscular guarding, not just ligament pain",
+    "Sport-specific conditioning to support confident return to play",
+    "Home visit availability for patients unable to travel",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Is sports massage enough to treat a shoulder ligament injury?", answer: "Sports massage helps significantly with circulation and muscular tension, but it works best combined with structured strengthening exercises to fully rehabilitate the ligament and joint stability." },
+    { question: "How long does a shoulder ligament injury take to heal?", answer: "Mild sprains often improve within 2 to 4 weeks, while more significant strains may take 6 to 8 weeks of combined massage and strengthening therapy." },
+    { question: "Can I keep training with a shoulder ligament injury?", answer: "Modified, lower-intensity training is often possible, but overhead and high-load movements should be paused until your physiotherapist confirms it's safe to resume them." },
+    { question: "Why does my shoulder feel stiff even after the pain reduced?", answer: "This is often due to muscular guarding that develops around an injured ligament, which sports massage and mobility work specifically help to release." },
+    { question: "Is shoulder massage safe for athletes?", answer: "Yes, when performed by a trained physiotherapist as part of a structured recovery plan, sports massage is safe and can meaningfully speed up recovery." },
+    { question: "When can I return to overhead sports after this injury?", answer: "Return to sport depends on regaining full pain-free range of motion and strength, which your physiotherapist will assess through specific functional testing before clearing you." },
+  ],
+},
 
-  // ── 68. SHOULDER LIGAMENT SPORTS MASSAGE ─────────────────────────────────────
-  {
-    id: 72,
-    title: "Shoulder Ligament Sports Massage",
-    slug: "shoulder-ligament-sports-massage",
-    category: "Shoulder Conditions",
-    image: shoulderLigamentMassage,
-    seo: {
-      title: `Shoulder Ligament Sports Massage in Delhi | ${BRAND}`,
-      description: `Expert Shoulder Ligament Sports Massage in Delhi by ${DOCTOR} at ${BRAND}. We treat shoulder ligament injuries, sports shoulder pain & improve shoulder mobility. ✅ Certified therapists ✅ ${LOCATION}. Book now!`,
-      keywords: "shoulder ligament sports massage delhi, shoulder sports massage kalkaji, shoulder ligament injury treatment south delhi, sports massage specialist delhi, shoulder massage physiotherapy delhi, shoulder sports injury treatment delhi, best shoulder massage therapist delhi, shoulder ligament massage kalkaji, shoulder pain sports massage delhi, shoulder rehabilitation massage delhi",
-      canonical: `${BASE_URL}/services/shoulder-ligament-sports-massage`,
-    },
-    description: "Shoulder ligament injuries can cause pain, stiffness, and reduced mobility. Sports massage helps relieve pain, improve circulation, and enhance ligament recovery.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Shoulder pain and stiffness\n• Reduced range of motion\n• Weakness in shoulder muscles" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of shoulder ligament function\n• Sports massage targeting affected ligaments\n• Strengthening and flexibility exercises\n• Pain-relief modalities" },
-    ],
-    benefits: ["Reduces shoulder pain", "Improves flexibility", "Strengthens muscles", "Enhances functional movement", "Supports return to sports"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized shoulder sports massage.",
+// ── 69. PERFORMANCE ENHANCING ────────────────────────────────────────────────
+{
+  id: 73,
+  title: "Performance Enhancing Treatment",
+  slug: "performance-enhancing",
+  category: "Sports Physiotherapy",
+  image: performanceEnhancing,
+  seo: {
+    title: `Sports Performance Enhancement in Delhi | ${BRAND}`,
+    description: `Expert Sports Performance Enhancement Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve athletic strength, flexibility, endurance & prevent sports injuries. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "sports performance enhancement delhi, performance physiotherapy kalkaji, athletic performance training south delhi, sports performance specialist delhi, strength conditioning physiotherapy delhi, sports injury prevention delhi, best sports physiotherapist delhi, athletic training physiotherapy kalkaji, endurance training physiotherapy delhi, sports rehabilitation delhi",
+    canonical: `${BASE_URL}/services/performance-enhancing`,
   },
+  hero: {
+    heading: "Sports Performance Enhancement",
+    subheading: "Physiotherapy-led strength, flexibility, and conditioning programmes to optimise athletic performance and prevent injury, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Performance physiotherapy is a service Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre offers not just to athletes recovering from injury, but to anyone wanting to move better, train smarter, and reduce their risk of getting injured in the first place. It's built on the idea that most sports injuries don't happen randomly — they happen because of specific, identifiable weaknesses, imbalances, or movement inefficiencies that build up over time and eventually give way under the demands of training or competition. Through detailed movement screening, Dr. Ashish Sharma is able to spot these vulnerabilities before they become injuries, then design a conditioning programme that directly targets them, whether that's asymmetrical strength between limbs, limited hip or ankle mobility, or poor landing mechanics. What sets performance-focused physiotherapy apart from generic gym training is this diagnostic approach — the exercises aren't generic, they're chosen specifically because they address what your body actually needs. At Advanced Pain Physiotherapy Centre, our approach blends this injury-prevention screening with progressive strength, mobility, and recovery strategies, helping athletes and active individuals genuinely perform better while staying injury-free for longer.",
+  sections: [
+    { title: "Overview", content: "What Performance Physiotherapy Addresses:\n\n• Muscle imbalances and asymmetries between limbs\n• Limited joint mobility affecting movement efficiency\n• Poor movement mechanics increasing injury risk\n• Suboptimal strength and power for sport-specific demands\n• Inadequate recovery strategies between training sessions\n\nWho We Support:\n\n• Competitive athletes across various sports\n• Recreational sports players wanting to train smarter\n• Individuals recovering from injury who want to return stronger\n• Fitness enthusiasts looking to break through training plateaus" },
+    { title: "Why It Matters", content: "Most sports injuries don't occur randomly — they develop from specific, identifiable weaknesses or movement inefficiencies that accumulate under repeated training load until something eventually gives way.\n\nA thorough movement screening can identify these vulnerabilities before they cause injury, meaning performance training isn't just about getting stronger, it's about training in a way that specifically protects the body's weak points." },
+    { title: "Who Needs This", content: "• Athletes wanting to improve strength, speed, or endurance\n• People with a history of recurring sports injuries\n• Recreational players wanting a structured conditioning plan\n• Athletes preparing for a competitive season\n• Anyone wanting a professional movement assessment\n• People recovering from injury who want to return stronger than before" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of body mechanics and movement patterns\n• Targeted strength and conditioning exercises\n• Flexibility and mobility training\n• Recovery strategies between sessions\n• Injury prevention guidance specific to your sport" },
+    { title: "Our Process", content: "1. Movement Screening — Identifying imbalances, mobility restrictions, and movement inefficiencies\n2. Goal Setting — Aligning the programme with your specific sport and performance goals\n3. Strength and Power Development — Progressive, targeted conditioning exercises\n4. Mobility and Flexibility Work — Addressing joint restrictions affecting performance\n5. Sport-Specific Training — Translating strength gains into on-field or on-court performance\n6. Recovery and Maintenance Planning — Strategies to sustain performance and prevent injury long-term" },
+  ],
+  benefits: ["Improves athletic performance", "Enhances strength and endurance", "Reduces injury risk", "Supports faster recovery", "Optimizes physical efficiency"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma uses detailed movement screening to identify injury risk before it becomes a problem",
+    "Individualised programmes based on your specific sport and goals",
+    "Combines strength, mobility, and recovery strategies in one integrated plan",
+    "Experience training both competitive athletes and recreational sports players",
+    "Home visit availability for personalised training sessions",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Is performance physiotherapy only for professional athletes?", answer: "No, this service benefits anyone active — recreational players, fitness enthusiasts, and weekend athletes all benefit from identifying and correcting movement inefficiencies before they cause injury." },
+    { question: "How is this different from regular gym training?", answer: "Performance physiotherapy starts with a specific movement assessment to identify your individual weaknesses, so the exercises chosen directly target what your body needs, rather than following a generic programme." },
+    { question: "Can this help prevent injuries during my sports season?", answer: "Yes, movement screening and targeted conditioning are specifically designed to identify and correct the imbalances that commonly lead to sports injuries." },
+    { question: "How often should I do performance training sessions?", answer: "This depends on your sport, current fitness level, and goals; your physiotherapist will design a frequency that fits realistically alongside your existing training schedule." },
+    { question: "Will this help me recover from a past injury and prevent it recurring?", answer: "Yes, performance-focused rehabilitation is particularly effective for athletes who have had recurring injuries, as it addresses the underlying movement patterns that contributed to the original injury." },
+    { question: "Do I need any special equipment for performance physiotherapy?", answer: "Most assessments and initial programming can be done with minimal equipment, and your physiotherapist will guide you on any additional equipment useful for your specific sport." },
+  ],
+},
 
-  // ── 69. PERFORMANCE ENHANCING ────────────────────────────────────────────────
-  {
-    id: 73,
-    title: "Performance Enhancing Treatment",
-    slug: "performance-enhancing",
-    category: "Sports Physiotherapy",
-    image: performanceEnhancing,
-    seo: {
-      title: `Sports Performance Enhancement in Delhi | ${BRAND}`,
-      description: `Expert Sports Performance Enhancement Physiotherapy in Delhi by ${DOCTOR} at ${BRAND}. We improve athletic strength, flexibility, endurance & prevent sports injuries. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "sports performance enhancement delhi, performance physiotherapy kalkaji, athletic performance training south delhi, sports performance specialist delhi, strength conditioning physiotherapy delhi, sports injury prevention delhi, best sports physiotherapist delhi, athletic training physiotherapy kalkaji, endurance training physiotherapy delhi, sports rehabilitation delhi",
-      canonical: `${BASE_URL}/services/performance-enhancing`,
-    },
-    description: "Performance enhancing treatment in physiotherapy helps athletes optimize strength, flexibility, and endurance while preventing injuries.",
-    sections: [
-      { title: "Overview", content: "Benefits:\n\n• Improves strength, flexibility, and endurance\n• Reduces risk of sports injuries\n• Enhances agility and coordination\n• Supports faster recovery" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of body mechanics\n• Targeted strength and conditioning exercises\n• Flexibility and mobility training\n• Recovery strategies\n• Injury prevention guidance" },
-    ],
-    benefits: ["Improves athletic performance", "Enhances strength and endurance", "Reduces injury risk", "Supports faster recovery", "Optimizes physical efficiency"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized performance enhancing programs.",
+// ── 70. SPRAIN LIGAMENT ──────────────────────────────────────────────────────
+{
+  id: 74,
+  title: "Sprain Ligament Treatment",
+  slug: "sprain-ligament",
+  category: "Joint Conditions",
+  image: sprainLigament,
+  seo: {
+    title: `Sprain Ligament Treatment in Delhi | ${BRAND}`,
+    description: `Expert Ligament Sprain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat ankle, knee & wrist ligament sprains with pain relief & rehabilitation. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "sprain ligament treatment in delhi, ligament sprain treatment kalkaji, ankle sprain physiotherapy south delhi, ligament sprain specialist delhi, knee ligament sprain treatment delhi, wrist sprain treatment delhi, best ligament sprain physiotherapist delhi, sprain recovery kalkaji, joint sprain treatment delhi, ligament sprain rehabilitation delhi",
+    canonical: `${BASE_URL}/services/sprain-ligament`,
   },
+  hero: {
+    heading: "Sprain Ligament Treatment",
+    subheading: "Physiotherapy for ankle, knee, and wrist ligament sprains, focused on pain relief and complete joint rehabilitation, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "A sprain — the overstretching or partial tearing of a ligament — is one of the most common injuries Dr. Ashish Sharma treats at Advanced Pain Physiotherapy Centre, and also one of the most frequently under-rehabilitated, since patients often assume that once the swelling goes down, the joint is fully healed. Sprains most commonly affect the ankle, knee, or wrist, typically from a sudden twist, awkward step, or fall, and grade from mild overstretching to more significant partial tears, each requiring a different rehabilitation timeline. What many patients don't realise is that a ligament sprain, even a mild one, temporarily disrupts the joint's proprioception — its sense of position and balance — and if this isn't specifically retrained, the joint remains at higher risk of spraining again, sometimes repeatedly, even after pain has fully resolved. This is why so many people find themselves spraining the 'same' ankle or wrist over and over. At Advanced Pain Physiotherapy Centre, our approach doesn't stop at pain and swelling control — we specifically rebuild strength, flexibility, and joint stability so patients regain full confidence in the joint, not just the absence of pain.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Ligament Sprains:\n\n• Sudden twisting or rolling of a joint\n• Awkward landing or misstep\n• Falls onto an outstretched hand or bent joint\n• Sports involving quick direction changes\n• Previous sprains left incompletely rehabilitated\n\nConditions We Treat:\n\n• Ankle ligament sprains\n• Knee ligament sprains\n• Wrist ligament sprains\n• Recurrent joint sprains\n• Post-sprain joint instability" },
+    { title: "Why It Matters", content: "Ligament sprains are frequently under-treated because pain and swelling settle within days, creating a false sense of full recovery. In reality, a sprain disrupts the joint's sense of position and balance, and without specific retraining, this instability persists well after the pain is gone.\n\nThis is exactly why so many people sprain the same joint repeatedly — the underlying instability was never fully addressed in the first place." },
+    { title: "Who Needs This", content: "• People who have recently sprained an ankle, knee, or wrist\n• Patients with a history of recurring sprains in the same joint\n• Athletes returning to sport after a ligament sprain\n• Anyone with lingering instability or a feeling of weakness in the joint\n• Patients wanting a complete, not just symptom-focused, recovery\n• People wanting to reduce future sprain risk" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of the affected ligament and joint stability\n• Targeted strengthening and stretching exercises\n• Manual therapy to reduce stiffness and swelling\n• TENS, ice, and heat therapy\n• Education on injury prevention techniques" },
+    { title: "Our Process", content: "1. Assessment — Grading sprain severity and evaluating joint stability\n2. Pain and Swelling Control — Ice therapy, compression guidance, and electrotherapy\n3. Mobility Restoration — Gentle movement to prevent stiffness during healing\n4. Progressive Strengthening — Rebuilding muscular support around the joint\n5. Proprioception and Balance Training — Restoring the joint's positional awareness\n6. Return-to-Activity Plan — Staged progression back to sport or daily activity" },
+  ],
+  benefits: ["Reduces pain and swelling", "Restores joint stability", "Strengthens muscles", "Prevents recurrence", "Enhances function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma addresses proprioception and balance, not just pain, for complete sprain recovery",
+    "Experience treating ankle, knee, and wrist ligament sprains across all severities",
+    "Structured rehabilitation designed specifically to prevent recurring sprains",
+    "Sport-specific return-to-play guidance for athletes",
+    "Home visit availability for early recovery patients",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "How do I know if I've sprained a ligament or broken a bone?", answer: "Signs like inability to bear weight, severe deformity, or point tenderness directly over bone may indicate a fracture and should be assessed promptly; your physiotherapist can help guide whether imaging is needed." },
+    { question: "How long does a ligament sprain take to heal?", answer: "Mild sprains often improve within 1 to 2 weeks, while more significant sprains can take 4 to 6 weeks of structured rehabilitation for full stability to return." },
+    { question: "Why does my joint still feel weak even though the pain is gone?", answer: "This is usually due to disrupted proprioception, or the joint's sense of position, which needs specific balance and stability training to fully restore, even after pain has resolved." },
+    { question: "Should I use ice or heat for a fresh sprain?", answer: "Ice is generally recommended in the first 24 to 48 hours to control swelling, after which your physiotherapist may introduce heat therapy to aid mobility and healing." },
+    { question: "Can I prevent my sprain from happening again?", answer: "Yes, targeted strengthening and balance training significantly reduce the risk of re-spraining the same joint, which is why we emphasise this stage of rehabilitation strongly." },
+    { question: "When can I return to sport after a sprain?", answer: "Return to sport depends on regaining full strength, balance, and confidence in the joint, which your physiotherapist will assess through specific functional tests before clearing you." },
+  ],
+},
 
-  // ── 70. SPRAIN LIGAMENT ──────────────────────────────────────────────────────
-  {
-    id: 74,
-    title: "Sprain Ligament Treatment",
-    slug: "sprain-ligament",
-    category: "Joint Conditions",
-    image: sprainLigament,
-    seo: {
-      title: `Sprain Ligament Treatment in Delhi | ${BRAND}`,
-      description: `Expert Ligament Sprain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat ankle, knee & wrist ligament sprains with pain relief & rehabilitation. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "sprain ligament treatment in delhi, ligament sprain treatment kalkaji, ankle sprain physiotherapy south delhi, ligament sprain specialist delhi, knee ligament sprain treatment delhi, wrist sprain treatment delhi, best ligament sprain physiotherapist delhi, sprain recovery kalkaji, joint sprain treatment delhi, ligament sprain rehabilitation delhi",
-      canonical: `${BASE_URL}/services/sprain-ligament`,
-    },
-    description: "Ligament sprains occur due to overstretching or tearing, causing pain, swelling, and limited mobility. Physiotherapy focuses on reducing inflammation, restoring strength, and improving joint stability.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Pain, swelling, and tenderness\n• Reduced range of motion\n• Joint instability" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of affected ligament\n• Targeted strengthening and stretching\n• Manual therapy\n• TENS, ice, and heat therapy\n• Education on prevention" },
-    ],
-    benefits: ["Reduces pain and swelling", "Restores joint stability", "Strengthens muscles", "Prevents recurrence", "Enhances function"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized ligament sprain care.",
+// ── 71. STRAIN INJURY ────────────────────────────────────────────────────────
+{
+  id: 75,
+  title: "Strain Injury Rehabilitation",
+  slug: "strain-injury",
+  category: "Muscle Conditions",
+  image: strainInjury,
+  seo: {
+    title: `Strain Injury Rehabilitation in Delhi | ${BRAND}`,
+    description: `Expert Strain Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat muscle strains, overuse injuries, sports strains & restore full muscle function. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
+    keywords: "strain injury rehabilitation delhi, muscle strain treatment kalkaji, overuse muscle injury south delhi, strain injury specialist delhi, sports muscle strain treatment delhi, muscle tear rehabilitation delhi, best strain injury physiotherapist delhi, muscle strain recovery kalkaji, sports strain injury delhi, muscle injury treatment delhi",
+    canonical: `${BASE_URL}/services/strain-injury`,
   },
+  hero: {
+    heading: "Strain Injury Rehabilitation",
+    subheading: "Physiotherapy for muscle strains and overuse injuries, restoring full strength and function, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "A muscle strain occurs when muscle fibres are overstretched or torn, and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees these injuries across a wide spectrum — from a sudden hamstring pull during sprinting to a gradually developing lower back strain from repeated poor lifting. The severity varies enormously, from mild overstretching that resolves in days to significant tears that take weeks of careful rehabilitation, and the biggest mistake patients make is treating all strains the same way, either resting too little and re-injuring the muscle, or resting too long and allowing it to weaken further. What's often overlooked is that a healed muscle strain doesn't automatically mean the muscle has regained its original strength and elasticity, which is precisely why strain injuries, particularly hamstring and calf strains, have such notoriously high recurrence rates in sport. At Advanced Pain Physiotherapy Centre, our approach follows a progressive, load-based rehabilitation process — protecting the muscle early, then systematically reintroducing strength and flexibility work in a way that actually rebuilds the tissue's capacity to handle the demands that caused the original injury.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Muscle Strain:\n\n• Sudden explosive movement, such as sprinting or jumping\n• Inadequate warm-up before activity\n• Muscle fatigue from overuse\n• Poor lifting technique\n• Previous strains left incompletely rehabilitated\n\nConditions We Treat:\n\n• Hamstring, calf, and quadriceps strains\n• Lower back muscle strains\n• Overuse-related muscle injuries\n• Sports-related muscle tears\n• Recurrent muscle strain injuries" },
+    { title: "Why It Matters", content: "Muscle strains are often treated with a one-size-fits-all approach of rest, but pain resolving doesn't mean the muscle has regained its original strength and elasticity. This gap is exactly why strain injuries, particularly hamstring and calf strains, have such high recurrence rates in sport.\n\nA progressive, load-based rehabilitation approach specifically rebuilds the muscle's ability to handle the demands that caused the original injury, significantly reducing the risk of re-strain." },
+    { title: "Who Needs This", content: "• Athletes recovering from a hamstring, calf, or quadriceps strain\n• People with a lower back strain from lifting or overuse\n• Patients with a history of recurring muscle strains\n• Anyone whose strain hasn't fully improved with rest alone\n• People preparing for a safe return to sport or physical activity\n• Anyone wanting to reduce future strain injury risk" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of the injured muscle and strain severity\n• Targeted stretching and progressive strengthening\n• Manual therapy to ease tension and support healing\n• Heat, ice, and TENS for pain relief\n• Safe activity and return-to-sport guidance" },
+    { title: "Our Process", content: "1. Assessment — Grading strain severity and identifying the affected muscle\n2. Protection and Pain Control — Ice, heat, and electrotherapy in the early phase\n3. Mobility Restoration — Gentle stretching to prevent stiffness without overloading the healing muscle\n4. Progressive Strengthening — Rebuilding muscle capacity through graded loading\n5. Functional and Sport-Specific Training — Reintroducing explosive and sport-specific movements\n6. Return-to-Activity Plan — Staged progression back to full training or competition" },
+  ],
+  benefits: ["Reduces pain and inflammation", "Restores muscle strength", "Improves movement", "Prevents recurrence", "Enhances performance"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma uses progressive, load-based rehabilitation proven to reduce strain recurrence",
+    "Specific experience with high-recurrence injuries like hamstring and calf strains",
+    "Individualised strain grading to guide an appropriate recovery timeline",
+    "Sport-specific reintroduction of explosive movement before return to play",
+    "Home visit availability for early recovery patients",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "How do I know how severe my muscle strain is?", answer: "Strains are graded from mild overstretching to significant tears; a physiotherapy assessment can determine the grade and guide an appropriate recovery timeline for your specific injury." },
+    { question: "How long does a muscle strain take to heal?", answer: "Mild strains often improve within 1 to 2 weeks, while more significant tears can take 4 to 8 weeks of progressive rehabilitation to fully heal and regain strength." },
+    { question: "Why do hamstring strains keep coming back?", answer: "This usually happens when the muscle hasn't been progressively reloaded to its full strength capacity before returning to sport, leaving it vulnerable to re-injury under the same demands." },
+    { question: "Should I stretch a strained muscle right away?", answer: "Gentle stretching is generally introduced carefully at the right stage of healing; stretching too early or aggressively can actually delay recovery, so professional guidance is important." },
+    { question: "Can I keep training with a mild muscle strain?", answer: "Modified, lower-intensity activity may be possible depending on severity, but your physiotherapist will guide what's safe to avoid worsening the injury." },
+    { question: "How can I prevent muscle strains during sport?", answer: "Proper warm-up, adequate muscle strength and flexibility, and gradual increases in training intensity are the most effective ways to reduce the risk of muscle strain injuries." },
+  ],
+},
 
-  // ── 71. STRAIN INJURY ────────────────────────────────────────────────────────
-  {
-    id: 75,
-    title: "Strain Injury Rehabilitation",
-    slug: "strain-injury",
-    category: "Muscle Conditions",
-    image: strainInjury,
-    seo: {
-      title: `Strain Injury Rehabilitation in Delhi | ${BRAND}`,
-      description: `Expert Strain Injury Rehabilitation in Delhi by ${DOCTOR} at ${BRAND}. We treat muscle strains, overuse injuries, sports strains & restore full muscle function. ✅ Sports physiotherapy ✅ ${LOCATION}. Book now!`,
-      keywords: "strain injury rehabilitation delhi, muscle strain treatment kalkaji, overuse muscle injury south delhi, strain injury specialist delhi, sports muscle strain treatment delhi, muscle tear rehabilitation delhi, best strain injury physiotherapist delhi, muscle strain recovery kalkaji, sports strain injury delhi, muscle injury treatment delhi",
-      canonical: `${BASE_URL}/services/strain-injury`,
-    },
-    description: "Muscle strains occur due to overstretching or overuse, causing pain and reduced function. Physiotherapy focuses on relieving pain, restoring flexibility, and strengthening muscles.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Pain, tenderness, and swelling\n• Muscle weakness\n• Reduced mobility" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of injured muscle\n• Targeted stretching and strengthening\n• Manual therapy\n• Heat, ice, and TENS\n• Safe activity guidance" },
-    ],
-    benefits: ["Reduces pain and inflammation", "Restores muscle strength", "Improves movement", "Prevents recurrence", "Enhances performance"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized strain rehabilitation.",
+// ── 72. MUSCLE SPASM ─────────────────────────────────────────────────────────
+{
+  id: 76,
+  title: "Muscle Spasm Treatment",
+  slug: "muscle-spasm",
+  category: "Muscle Conditions",
+  image: muscleSpasm,
+  seo: {
+    title: `Muscle Spasm Treatment in Delhi | ${BRAND}`,
+    description: `Expert Muscle Spasm Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat sudden muscle cramps, involuntary contractions, back spasms & neck spasms. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "muscle spasm treatment in delhi, muscle cramp treatment kalkaji, back spasm treatment south delhi, muscle spasm specialist delhi, involuntary muscle contraction treatment delhi, neck spasm treatment delhi, best muscle spasm physiotherapist delhi, muscle spasm relief kalkaji, muscle tightness treatment delhi, spasm relaxation therapy delhi",
+    canonical: `${BASE_URL}/services/muscle-spasm`,
   },
+  hero: {
+    heading: "Muscle Spasm Treatment",
+    subheading: "Physiotherapy for sudden muscle cramps, back spasms, and neck spasms, focused on relief and long-term prevention, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "A muscle spasm — a sudden, involuntary contraction that can feel intensely tight and sometimes genuinely alarming — is a complaint Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre hears frequently, especially involving the back and neck, where spasms often develop as the body's protective response to an underlying strain, disc issue, or postural stress. The muscle essentially locks up to guard an area it perceives as vulnerable, which explains why spasms can feel so sudden and severe, sometimes limiting movement almost entirely for a day or two. What many patients don't realise is that treating the spasm alone, without addressing the underlying trigger — often postural imbalance, dehydration, fatigue, or an unresolved strain — usually means the spasms keep returning. Some patients experience recurring spasms for months, cycling through temporary relief and repeat flare-ups, simply because the actual cause was never identified. At Advanced Pain Physiotherapy Centre, our approach doesn't just relax the acute spasm through manual therapy and heat — we investigate what's triggering it in the first place, whether postural, muscular, or activity-related, so the pattern of recurring spasms can actually be broken.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Muscle Spasm:\n\n• Underlying muscle strain or overuse\n• Postural stress, particularly in the back and neck\n• Dehydration or muscle fatigue\n• Nerve irritation or disc-related issues\n• Sudden, unaccustomed physical activity\n\nConditions We Treat:\n\n• Back and neck muscle spasms\n• Calf and leg cramps\n• Recurring spasm episodes\n• Postural muscle tension\n• Spasm related to underlying disc or nerve irritation" },
+    { title: "Why It Matters", content: "Muscle spasms are often treated in isolation, with heat or rest providing temporary relief, but without identifying the underlying trigger, the spasms tend to return repeatedly. This cycle of temporary relief followed by flare-ups can persist for months if the actual cause isn't addressed.\n\nUnderstanding whether the spasm is linked to posture, an underlying strain, or nerve irritation is key to genuinely resolving the pattern, not just calming each individual episode." },
+    { title: "Who Needs This", content: "• People experiencing sudden, severe back or neck spasms\n• Patients with recurring muscle spasm episodes\n• Anyone whose spasms limit movement or daily activity\n• People with spasms linked to an underlying strain or disc issue\n• Patients wanting to identify and address the root cause\n• Anyone seeking relief beyond temporary heat or rest" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of muscle tension and underlying triggers\n• Stretching and relaxation exercises\n• Manual therapy to release the acute spasm\n• Heat and electrotherapy for pain relief\n• Posture and ergonomic guidance to prevent recurrence" },
+    { title: "Our Process", content: "1. Assessment — Identifying the trigger behind the spasm, whether postural, muscular, or nerve-related\n2. Acute Relief — Manual therapy and heat therapy to release the spasm\n3. Mobility Restoration — Gentle movement to prevent further guarding and stiffness\n4. Strengthening — Building resilience in the muscles prone to spasming\n5. Postural Correction — Addressing habits contributing to recurring spasms\n6. Prevention Plan — Guidance on hydration, activity pacing, and posture for long-term relief" },
+  ],
+  benefits: ["Relieves muscle spasms", "Improves flexibility", "Strengthens muscles", "Prevents recurrence", "Enhances daily function"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma investigates the underlying trigger, not just the acute spasm episode",
+    "Effective manual therapy techniques for fast relief of acute spasms",
+    "Postural and ergonomic guidance specifically aimed at preventing recurrence",
+    "Experience with spasms linked to disc and nerve-related conditions",
+    "Home visit availability for patients in acute discomfort",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why did my back suddenly go into spasm?", answer: "Sudden back spasms are often the body's protective response to an underlying strain, disc issue, or postural stress, and a proper assessment can identify the specific trigger in your case." },
+    { question: "How long does a muscle spasm episode last?", answer: "Acute spasms typically ease within a few days with proper treatment, though the underlying cause needs to be addressed to prevent the pattern from repeating." },
+    { question: "Should I keep moving or rest during a muscle spasm?", answer: "Complete rest is rarely helpful beyond the first day or two; gentle, guided movement usually helps recovery more than prolonged inactivity, but your physiotherapist will advise based on severity." },
+    { question: "Why do my spasms keep coming back?", answer: "Recurring spasms usually indicate an unresolved underlying trigger, such as postural imbalance or an underlying strain, which is why identifying and treating the root cause is essential." },
+    { question: "Can dehydration cause muscle spasms?", answer: "Yes, dehydration and muscle fatigue are common contributors to spasms, particularly leg and calf cramps, alongside postural and muscular factors." },
+    { question: "Is heat or ice better for a muscle spasm?", answer: "Heat is generally more effective for relaxing an acute muscle spasm, though your physiotherapist may recommend a combination approach depending on your specific presentation." },
+  ],
+},
 
-  // ── 72. MUSCLE SPASM ─────────────────────────────────────────────────────────
-  {
-    id: 76,
-    title: "Muscle Spasm Treatment",
-    slug: "muscle-spasm",
-    category: "Muscle Conditions",
-    image: muscleSpasm,
-    seo: {
-      title: `Muscle Spasm Treatment in Delhi | ${BRAND}`,
-      description: `Expert Muscle Spasm Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat sudden muscle cramps, involuntary contractions, back spasms & neck spasms. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "muscle spasm treatment in delhi, muscle cramp treatment kalkaji, back spasm treatment south delhi, muscle spasm specialist delhi, involuntary muscle contraction treatment delhi, neck spasm treatment delhi, best muscle spasm physiotherapist delhi, muscle spasm relief kalkaji, muscle tightness treatment delhi, spasm relaxation therapy delhi",
-      canonical: `${BASE_URL}/services/muscle-spasm`,
-    },
-    description: "Muscle spasms are sudden involuntary contractions causing pain and stiffness. Physiotherapy focuses on relieving spasms, improving flexibility, and restoring function.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Sudden pain and tightness\n• Restricted movement\n• Muscle fatigue" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of muscle tension\n• Stretching and relaxation exercises\n• Manual therapy\n• Heat and electrotherapy\n• Posture and ergonomic guidance" },
-    ],
-    benefits: ["Relieves muscle spasms", "Improves flexibility", "Strengthens muscles", "Prevents recurrence", "Enhances daily function"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide specialized muscle spasm treatment.",
+// ── 73. MUSCLE STIFFNESS ─────────────────────────────────────────────────────
+{
+  id: 77,
+  title: "Muscle Stiffness Treatment",
+  slug: "muscle-stiffness",
+  category: "Muscle Conditions",
+  image: muscleStiffness,
+  seo: {
+    title: `Muscle Stiffness Treatment in Delhi | ${BRAND}`,
+    description: `Expert Muscle Stiffness Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat muscle tightness, restricted movement, morning stiffness & chronic muscle tension. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "muscle stiffness treatment in delhi, muscle tightness treatment kalkaji, chronic muscle stiffness south delhi, muscle stiffness specialist delhi, morning stiffness treatment delhi, muscle tension physiotherapy delhi, best muscle stiffness physiotherapist delhi, muscle stiffness relief kalkaji, body stiffness treatment delhi, muscle tightness physiotherapy delhi",
+    canonical: `${BASE_URL}/services/muscle-stiffness`,
   },
+  hero: {
+    heading: "Muscle Stiffness Treatment",
+    subheading: "Physiotherapy for muscle tightness, morning stiffness, and chronic muscle tension, restoring comfortable, flexible movement, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Chronic muscle stiffness is a subtle but persistent complaint Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre often hears described as 'just how my body is now,' particularly from patients who wake up feeling tight every morning or notice their movement has gradually become more restricted over months or years. Unlike an acute injury with a clear starting point, this kind of stiffness usually builds slowly, from a combination of sedentary habits, poor posture, reduced activity levels, or unresolved minor strains that never fully resolved. What patients often don't realise is that stiffness, left unaddressed, tends to reinforce itself — tight muscles restrict movement, restricted movement leads to less activity, and less activity allows muscles to tighten further, creating a slow, gradual cycle. Chronic stiffness can also mask early signs of joint or postural problems that would benefit from earlier intervention. At Advanced Pain Physiotherapy Centre, our approach breaks this cycle through a combination of hands-on therapy to release existing tightness and a progressive movement programme designed to restore and then maintain genuine, lasting flexibility.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Muscle Stiffness:\n\n• Sedentary lifestyle and prolonged sitting\n• Poor posture over extended periods\n• Reduced overall physical activity\n• Unresolved minor strains or old injuries\n• Age-related reduction in muscle and joint flexibility\n\nConditions We Treat:\n\n• Chronic muscle tightness and stiffness\n• Morning stiffness affecting daily movement\n• Postural muscle tension\n• Stiffness following prolonged inactivity or illness\n• Age-related flexibility decline" },
+    { title: "Why It Matters", content: "Muscle stiffness is often accepted as an unavoidable part of ageing or a busy lifestyle, but left unaddressed, it tends to reinforce itself — tight muscles restrict movement, which leads to reduced activity, which allows further tightening over time.\n\nBreaking this cycle early, through a combination of manual therapy and a progressive movement plan, restores flexibility more effectively than passive stretching alone." },
+    { title: "Who Needs This", content: "• People experiencing morning stiffness that limits early movement\n• Anyone with gradually reduced flexibility over recent months or years\n• Desk workers with prolonged, sedentary postures\n• Patients recovering from prolonged inactivity or illness\n• People with stiffness affecting exercise or daily tasks\n• Anyone wanting to restore and maintain long-term flexibility" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of muscle function and movement restrictions\n• Stretching and strengthening exercises\n• Manual therapy to release chronic tightness\n• Heat and electrotherapy for deeper relief\n• Posture and activity guidance to prevent recurrence" },
+    { title: "Our Process", content: "1. Assessment — Identifying the specific muscle groups and movement patterns affected\n2. Manual Release — Hands-on therapy and heat to reduce existing tightness\n3. Mobility Restoration — Progressive stretching to rebuild flexibility safely\n4. Strengthening — Building muscle balance to support new range of motion\n5. Activity Integration — Incorporating movement into daily routines to prevent regression\n6. Maintenance Plan — Ongoing exercises to sustain long-term flexibility" },
+  ],
+  benefits: ["Reduces muscle stiffness", "Improves flexibility", "Strengthens muscles", "Enhances daily performance", "Prevents recurrence"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma addresses the underlying cycle of stiffness and inactivity, not just symptoms",
+    "Combined manual therapy and progressive movement approach for lasting flexibility",
+    "Practical guidance suited to sedentary and desk-based lifestyles",
+    "Experience helping patients recover flexibility after prolonged inactivity",
+    "Home visit availability for patients with significant mobility restriction",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why do I feel stiff every morning even without an injury?", answer: "Morning stiffness is often linked to prolonged inactivity overnight combined with underlying muscle tightness, and a structured stretching and movement routine typically helps significantly." },
+    { question: "Is muscle stiffness just a normal part of getting older?", answer: "While some flexibility decline can occur with age, significant stiffness is often manageable and improvable with targeted physiotherapy, rather than something that must simply be accepted." },
+    { question: "Can sitting all day cause muscle stiffness?", answer: "Yes, prolonged sitting is one of the most common contributors to chronic muscle stiffness, particularly in the hips, back, and neck, and posture correction is an important part of treatment." },
+    { question: "How long does it take to improve chronic stiffness?", answer: "Many patients notice improved flexibility within 3 to 4 weeks of consistent treatment, though building lasting change often benefits from an ongoing maintenance routine." },
+    { question: "Will stretching alone fix my stiffness?", answer: "Stretching helps, but combining it with manual therapy and strengthening addresses the stiffness more thoroughly and helps prevent it from returning as quickly." },
+    { question: "Can stiffness be a sign of something more serious?", answer: "Occasionally, persistent stiffness can be linked to an underlying joint or postural issue, which is why a proper physiotherapy assessment is useful to rule out anything requiring specific attention." },
+  ],
+},
 
-  // ── 73. MUSCLE STIFFNESS ─────────────────────────────────────────────────────
-  {
-    id: 77,
-    title: "Muscle Stiffness Treatment",
-    slug: "muscle-stiffness",
-    category: "Muscle Conditions",
-    image: muscleStiffness,
-    seo: {
-      title: `Muscle Stiffness Treatment in Delhi | ${BRAND}`,
-      description: `Expert Muscle Stiffness Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat muscle tightness, restricted movement, morning stiffness & chronic muscle tension. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "muscle stiffness treatment in delhi, muscle tightness treatment kalkaji, chronic muscle stiffness south delhi, muscle stiffness specialist delhi, morning stiffness treatment delhi, muscle tension physiotherapy delhi, best muscle stiffness physiotherapist delhi, muscle stiffness relief kalkaji, body stiffness treatment delhi, muscle tightness physiotherapy delhi",
-      canonical: `${BASE_URL}/services/muscle-stiffness`,
-    },
-    description: "Muscle stiffness leads to restricted movement and discomfort. Physiotherapy focuses on improving flexibility, reducing tension, and restoring normal function.",
-    sections: [
-      { title: "Overview", content: "Common Symptoms:\n\n• Tightness and discomfort\n• Reduced range of motion\n• Difficulty with daily activities" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Assessment of muscle function\n• Stretching and strengthening exercises\n• Manual therapy\n• Heat and electrotherapy\n• Posture and activity guidance" },
-    ],
-    benefits: ["Reduces muscle stiffness", "Improves flexibility", "Strengthens muscles", "Enhances daily performance", "Prevents recurrence"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized muscle stiffness treatment.",
+// ── 74. AFTER ACCIDENT PAIN ──────────────────────────────────────────────────
+{
+  id: 69,
+  title: "After Accident Pain Treatment",
+  slug: "after-accident-pain",
+  category: "Pain Conditions",
+  image: afteraccident,
+  seo: {
+    title: `After Accident Pain Treatment in Delhi | ${BRAND}`,
+    description: `Expert After Accident Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat post-accident muscle pain, joint injuries, whiplash & trauma recovery. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "after accident pain treatment delhi, post accident physiotherapy kalkaji, accident injury treatment south delhi, accident pain specialist delhi, whiplash treatment delhi, trauma injury physiotherapy delhi, best accident pain physiotherapist delhi, accident recovery treatment kalkaji, post-accident rehabilitation delhi, road accident pain treatment delhi",
+    canonical: `${BASE_URL}/services/after-accident-pain`,
   },
+  hero: {
+    heading: "After Accident Pain Treatment",
+    subheading: "Physiotherapy for post-accident muscle pain, joint injuries, and whiplash, guiding patients through complete trauma recovery, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "The aftermath of an accident, whether a road traffic incident, fall, or other trauma, often brings a complex mix of injuries that don't always show up immediately, which is something Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre pays close attention to when assessing patients in the days and weeks following an accident. Whiplash, joint sprains, muscle strains, and soft tissue trauma can all coexist, and the adrenaline and shock of the event itself often mask the true extent of pain until it settles in over the following days. What many patients don't realise is that early, gentle movement, guided appropriately, generally leads to better long-term outcomes than prolonged rest or immobilisation, which can allow stiffness and muscle guarding to set in and become a chronic problem in themselves. Emotional stress following an accident can also heighten muscle tension, adding another layer to physical recovery that's easy to overlook. At Advanced Pain Physiotherapy Centre, our approach involves a thorough assessment of every affected area, followed by a carefully paced rehabilitation plan that addresses pain, restores mobility, and rebuilds strength, so patients recover as completely as possible rather than being left with lingering, unresolved trauma-related pain.",
+  sections: [
+    { title: "Overview", content: "Physiotherapy for after-accident pain focuses on reducing pain, inflammation, and restoring mobility through stretching, strengthening, and pain-relief techniques.\n\nCommon Post-Accident Issues:\n\n• Whiplash and neck trauma\n• Joint sprains and ligament injuries\n• Muscle strains and soft tissue trauma\n• Post-traumatic stiffness and muscle guarding\n• Delayed-onset pain following the initial shock of the accident" },
+    { title: "Treatment", content: `${DOCTOR} designs a personalized treatment plan including stretching, Core Strengthening, Mobilization along with advanced electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Dry-Needling, IFT, TENS, heat/cold therapy.` },
+    { title: "Why It Matters", content: "Accident-related pain often doesn't reflect its full extent immediately, as shock and adrenaline can mask symptoms in the initial hours and days. Without proper assessment and rehabilitation, minor injuries can develop into chronic stiffness or ongoing pain.\n\nEarly, appropriately guided movement generally leads to better outcomes than prolonged rest, which can allow muscle guarding and stiffness to become entrenched problems of their own." },
+    { title: "Who Needs This", content: "• Patients recovering from a road traffic accident\n• People experiencing whiplash or neck trauma\n• Anyone with joint or muscle pain following a fall or collision\n• Patients with delayed-onset pain after an accident\n• People wanting a thorough, structured recovery plan\n• Anyone seeking to avoid long-term stiffness or chronic pain after trauma" },
+  ],
+  benefits: ["Reduces post-accident pain and inflammation", "Restores mobility and function", "Prevents chronic stiffness", "Supports complete trauma recovery", "Rebuilds strength and confidence in movement"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma conducts thorough assessments to catch injuries that may not be immediately obvious",
+    "Advanced modalities including LASER, Shockwave, and Ultrasound Therapy for effective recovery",
+    "Carefully paced rehabilitation that respects the body's healing timeline after trauma",
+    "Experience managing whiplash, joint, and soft tissue injuries together",
+    "Home visit availability for patients unable to travel after an accident",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does my pain feel worse days after the accident?", answer: "This is common, as shock and adrenaline can initially mask the full extent of pain, with symptoms often becoming more noticeable once the body's stress response settles in the following days." },
+    { question: "Is it safe to start physiotherapy soon after an accident?", answer: "Yes, gentle, guided movement started appropriately soon after an accident generally supports better recovery than prolonged rest, though your physiotherapist will assess what's safe based on your specific injuries." },
+    { question: "How long does recovery from whiplash typically take?", answer: "Mild whiplash often improves within a few weeks with physiotherapy, while more significant cases can take several months of structured treatment for full recovery." },
+    { question: "Do I need a doctor's clearance before starting physiotherapy after an accident?", answer: "It's generally advisable to have any serious injuries ruled out by a doctor first, after which physiotherapy can play a central role in your ongoing recovery." },
+    { question: "Can stress from the accident affect my physical recovery?", answer: "Yes, emotional stress following an accident can heighten muscle tension and guarding, which is why a comprehensive approach addressing both physical and tension-related factors is helpful." },
+    { question: "Will I fully recover from my accident-related injuries?", answer: "Most patients achieve excellent recovery with appropriate, timely physiotherapy, though the exact outcome depends on the nature and severity of the specific injuries sustained." },
+  ],
+  customTreatmentText: `If you are looking for the Best Post-Accident Physiotherapy in Delhi-NCR, visit ${BRAND} in ${LOCATION}. We focus on accurate diagnosis, personalized care, and evidence-based treatment.`,
+},
 
-  // ── 74. AFTER ACCIDENT PAIN ──────────────────────────────────────────────────
-  {
-    id: 69,
-    title: "After Accident Pain Treatment",
-    slug: "after-accident-pain",
-    category: "Pain Conditions",
-    image: afteraccident,
-    seo: {
-      title: `After Accident Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert After Accident Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat post-accident muscle pain, joint injuries, whiplash & trauma recovery. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "after accident pain treatment delhi, post accident physiotherapy kalkaji, accident injury treatment south delhi, accident pain specialist delhi, whiplash treatment delhi, trauma injury physiotherapy delhi, best accident pain physiotherapist delhi, accident recovery treatment kalkaji, post-accident rehabilitation delhi, road accident pain treatment delhi",
-      canonical: `${BASE_URL}/services/after-accident-pain`,
-    },
-    description: "After accident pain treatment focuses on reducing pain, inflammation, and promoting healing of affected muscles and joints. Physiotherapy restores movement and prevents long-term complications.",
-    sections: [
-      { title: "Overview", content: "Physiotherapy for after-accident pain focuses on reducing pain, inflammation, and restoring mobility through stretching, strengthening, and pain-relief techniques." },
-      { title: "Treatment", content: `${DOCTOR} designs a personalized treatment plan including stretching, Core Strengthening, Mobilization along with advanced electrotherapy modalities like LASER Therapy, Shockwave Therapy, Ultrasound Therapy, Dry-Needling, IFT, TENS, heat/cold therapy.` },
-    ],
-    customTreatmentText: `If you are looking for the Best Post-Accident Physiotherapy in Delhi-NCR, visit ${BRAND} in ${LOCATION}. We focus on accurate diagnosis, personalized care, and evidence-based treatment.`,
+// ── 75. MUSCLES PAIN (alternate slug) ───────────────────────────────────────
+{
+  id: 78,
+  title: "Muscle Pain Treatment",
+  slug: "muscles-pain",
+  category: "Muscle Conditions",
+  image: musclePain,
+  seo: {
+    title: `Muscle Pain Treatment in Delhi | ${BRAND}`,
+    description: `Expert Muscle Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat acute & chronic muscle pain, overuse injuries, sports muscle pain & myalgia. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
+    keywords: "muscle pain treatment in delhi, muscles pain physiotherapy kalkaji, myalgia treatment south delhi, muscle pain specialist delhi, chronic muscle pain treatment delhi, acute muscle pain physiotherapy delhi, best muscle pain physiotherapist delhi, muscle pain relief kalkaji, overuse muscle pain treatment delhi, muscles pain rehabilitation delhi",
+    canonical: `${BASE_URL}/services/muscles-pain`,
   },
+  hero: {
+    heading: "Muscle Pain Treatment",
+    subheading: "Physiotherapy for acute and chronic muscle pain, overuse injuries, and myalgia, restoring strength and comfortable movement, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Assessment Today",
+  },
+  description: "Muscle pain is a broad complaint that Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre approaches with real specificity, because 'muscle pain' can mean vastly different things depending on the cause — a sudden strain from overexertion, a slow-building ache from repetitive work postures, generalised fatigue-related soreness, or myalgia linked to an underlying condition. What's often missed in generic pain-relief approaches is that treating muscle pain effectively requires first understanding exactly why the muscle is hurting, since the treatment for an overuse injury looks quite different from the treatment for postural muscle pain or fatigue-related soreness. Many patients arrive after trying generic painkillers or rest, which may dull the discomfort temporarily but leaves the underlying issue — whether it's a muscle imbalance, poor movement pattern, or unaddressed overuse — completely untouched, meaning the pain simply returns. At Advanced Pain Physiotherapy Centre, our approach begins with a comprehensive assessment to identify the true source and nature of the muscle pain, followed by a treatment plan combining manual therapy, targeted exercise, and posture correction that addresses the actual cause, not just the discomfort.",
+  sections: [
+    { title: "Overview", content: "Common Causes of Muscle Pain:\n\n• Muscle strain or overuse\n• Sports or work-related injuries\n• Poor posture sustained over time\n• Muscle fatigue or spasms\n• Underlying conditions contributing to generalised muscle soreness\n\nConditions We Treat:\n\n• Acute and chronic muscle pain\n• Overuse-related muscle soreness\n• Sports-related muscle pain\n• Postural muscle discomfort\n• Generalised myalgia" },
+    { title: "Why It Matters", content: "Muscle pain is often managed generically with painkillers or rest, which may dull discomfort temporarily but leaves the actual cause, whether a muscle imbalance, poor movement pattern, or unresolved overuse, completely unaddressed.\n\nUnderstanding the specific source of muscle pain is essential, since the right treatment approach differs significantly depending on whether the pain stems from overuse, posture, or an underlying muscular imbalance." },
+    { title: "Who Needs This", content: "• People with persistent or recurring muscle pain\n• Patients whose pain hasn't improved with rest or painkillers alone\n• Desk workers with postural muscle discomfort\n• Athletes with overuse-related muscle soreness\n• Anyone with generalised muscle aches affecting daily life\n• People wanting a proper diagnosis rather than generic pain relief" },
+    { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment to identify the true source of pain\n• Targeted stretching and strengthening exercises\n• Manual therapy to relieve tension and support healing\n• TENS, heat, or electrotherapy for pain relief\n• Posture correction to prevent recurrence" },
+    { title: "Our Process", content: "1. Assessment — Identifying the specific cause and pattern of muscle pain\n2. Pain Relief — Manual therapy, heat, and electrotherapy to ease acute discomfort\n3. Mobility Restoration — Gentle stretching to release tension safely\n4. Progressive Strengthening — Addressing any underlying muscle imbalance\n5. Postural Correction — Correcting habits contributing to ongoing pain\n6. Maintenance Plan — Home exercises to sustain pain-free movement" },
+  ],
+  benefits: ["Reduces acute and chronic muscle pain", "Improves flexibility and strength", "Enhances functional movement", "Prevents recurrence", "Supports physical well-being"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma identifies the true source of muscle pain rather than offering generic relief",
+    "Individualised treatment plans based on whether pain is overuse, postural, or fatigue-related",
+    "Combined manual therapy and electrotherapy for effective, lasting relief",
+    "Postural correction guidance to prevent recurring muscle pain",
+    "Home visit availability for patients in significant discomfort",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does my muscle pain keep coming back even after rest?", answer: "This usually means the underlying cause, such as a muscle imbalance or postural habit, hasn't been addressed; rest alone relieves symptoms temporarily but doesn't fix the root issue." },
+    { question: "How is chronic muscle pain different from an acute strain?", answer: "Acute strain pain usually has a clear onset from a specific movement, while chronic muscle pain tends to build gradually from posture, overuse, or ongoing muscle imbalance, and requires a different treatment approach." },
+    { question: "Can poor posture really cause ongoing muscle pain?", answer: "Yes, sustained poor posture places continuous strain on certain muscle groups, leading to chronic discomfort that often won't resolve without specific postural correction." },
+    { question: "How long does treatment take for chronic muscle pain?", answer: "Many patients notice improvement within 3 to 5 weeks, though the timeline depends on how long the pain has been present and its underlying cause." },
+    { question: "Is it normal to have muscle pain without any specific injury?", answer: "Yes, muscle pain can develop gradually from overuse, fatigue, or postural strain without a distinct injury event, which is why a thorough assessment is helpful to identify the actual cause." },
+    { question: "Will exercise make my muscle pain worse?", answer: "The right kind of guided, targeted exercise generally helps resolve muscle pain rather than worsening it, though your physiotherapist will tailor the intensity and type appropriately to your condition." },
+  ],
+},
 
-  // ── 75. MUSCLES PAIN (alternate slug) ───────────────────────────────────────
-  {
-    id: 78,
-    title: "Muscle Pain Treatment",
-    slug: "muscles-pain",
-    category: "Muscle Conditions",
-    image: musclePain,
-    seo: {
-      title: `Muscle Pain Treatment in Delhi | ${BRAND}`,
-      description: `Expert Muscle Pain Treatment in Delhi by ${DOCTOR} at ${BRAND}. We treat acute & chronic muscle pain, overuse injuries, sports muscle pain & myalgia. ✅ Certified physiotherapists ✅ ${LOCATION}. Book now!`,
-      keywords: "muscle pain treatment in delhi, muscles pain physiotherapy kalkaji, myalgia treatment south delhi, muscle pain specialist delhi, chronic muscle pain treatment delhi, acute muscle pain physiotherapy delhi, best muscle pain physiotherapist delhi, muscle pain relief kalkaji, overuse muscle pain treatment delhi, muscles pain rehabilitation delhi",
-      canonical: `${BASE_URL}/services/muscles-pain`,
-    },
-    description: "Muscle pain can result from overuse, injury, strain, or underlying medical conditions. Physiotherapy focuses on relieving pain, restoring strength, and improving movement.",
-    sections: [
-      { title: "Overview", content: "Common Causes:\n\n• Muscle strain or overuse\n• Sports or work-related injuries\n• Poor posture\n• Muscle fatigue or spasms" },
-      { title: "Treatment", content: "Our Physiotherapy Approach:\n\n• Comprehensive assessment\n• Targeted stretching and strengthening\n• Manual therapy\n• TENS, heat, or electrotherapy\n• Posture correction" },
-    ],
-    benefits: ["Reduces acute and chronic muscle pain", "Improves flexibility and strength", "Enhances functional movement", "Prevents recurrence", "Supports physical well-being"],
-    customTreatmentText: "At Advanced Pain Physiotherapy Centre, we provide personalized care for muscle pain.",
+// ── LYMPHATIC MASSAGES (76-83) ───────────────────────────────────────────────
+{
+  id: 79,
+  title: "Lymphatic Massage after Liposuction",
+  slug: "lymphatic-massage-after-liposuction",
+  category: "Post-Surgery Care",
+  image: lymphaticLipo,
+  seo: {
+    title: `Lymphatic Massage after Liposuction in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Liposuction in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling, bruising & promote faster healing after liposuction. ✅ 10 years experience ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after liposuction delhi, post liposuction massage kalkaji, liposuction recovery massage south delhi, lymphatic drainage liposuction delhi, post lipo swelling treatment delhi, liposuction recovery specialist delhi, best lymphatic massage therapist delhi, post liposuction physiotherapy kalkaji, lipo recovery massage delhi, lymphatic drainage therapy delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-liposuction`,
   },
+  hero: {
+    heading: "Lymphatic Massage after Liposuction",
+    subheading: "Gentle, specialised lymphatic drainage massage to reduce swelling and accelerate healing after liposuction, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
+  },
+  description: "The days and weeks after liposuction are often more physically uncomfortable than patients expect, and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has spent years helping post-surgical patients navigate this recovery through specialised lymphatic massage. Liposuction disrupts the body's normal lymphatic drainage in the treated area, causing fluid to accumulate as swelling, bruising, and firmness that can persist for weeks if not properly managed. Gentle, rhythmic lymphatic massage works by manually encouraging this trapped fluid to move back into the lymphatic vessels, which not only reduces visible swelling but also helps prevent complications like fibrosis, where the tissue can become hardened, or seromas, where fluid pockets form under the skin. What many patients don't realise going in is just how significantly proper lymphatic drainage affects the final aesthetic outcome — poorly managed swelling can lead to uneven contours and prolonged discomfort, while consistent, correctly timed massage supports smoother healing and better results. At Advanced Pain Physiotherapy Centre, our approach combines gentle manual lymphatic drainage with compression garment guidance and safe movement education, giving patients a structured, comfortable path through the entire recovery period.",
+  sections: [
+    { title: "Overview", content: "Lymphatic massages aid recovery after liposuction by gently pushing fluid back into lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage, inflammation can progress to fibrosis or seroma.\n\nBenefits:\n\n• Reduced Swelling and Inflammation\n• Enhanced Healing and Tissue Regeneration\n• Prevention of Hematomas and Seromas\n• Alleviation of Pain and Discomfort\n• Improved Skin Appearance and Texture" },
+    { title: "Why It Matters", content: "Liposuction disrupts the body's normal lymphatic drainage in the treated area, and without proper management, this can lead to prolonged swelling, hardened tissue, or fluid pockets under the skin.\n\nHow well swelling is managed in the weeks following surgery significantly affects the final aesthetic outcome, making structured, correctly timed lymphatic massage an important part of the recovery process, not just an optional comfort measure." },
+    { title: "Who Needs This", content: "• Patients recovering from liposuction in any body area\n• People experiencing swelling, bruising, or firmness post-surgery\n• Patients wanting to reduce the risk of fibrosis or seroma formation\n• Anyone seeking a smoother, more comfortable recovery\n• Patients wanting guidance on compression garment use\n• People wanting to support the best possible aesthetic outcome" },
+    { title: "Treatment", content: `${DOCTOR} provides gentle lymphatic drainage massage, compression garment guidance, personalized post-operative rehabilitation, and education on safe exercises.` },
+    { title: "Our Process", content: "1. Assessment — Evaluating the surgical area, swelling, and healing stage\n2. Gentle Lymphatic Drainage — Manual techniques to guide fluid back into lymphatic vessels\n3. Compression Guidance — Ensuring garments are supporting healing correctly\n4. Progressive Sessions — Adjusting massage intensity as healing progresses\n5. Movement Education — Safe activity guidance appropriate to your recovery stage\n6. Final Recovery Support — Continued care through to full resolution of swelling" },
+  ],
+  benefits: ["Reduces post-surgical swelling", "Improves lymphatic circulation", "Promotes faster healing", "Enhances mobility and comfort", "Supports overall recovery"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma brings 10 years of experience in specialised post-surgical lymphatic massage",
+    "Gentle, correctly timed techniques suited to each stage of healing",
+    "Focus on preventing fibrosis and seroma complications, not just comfort",
+    "Compression garment guidance included as part of recovery care",
+    "Home visit availability for patients in early post-surgical recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "When should I start lymphatic massage after liposuction?", answer: "This depends on your surgeon's specific guidance, but massage typically begins within the first week or two after surgery once initial healing allows for gentle manual techniques." },
+    { question: "How many sessions of lymphatic massage will I need?", answer: "This varies based on the extent of the procedure and individual healing, but most patients benefit from multiple sessions over several weeks for optimal swelling reduction." },
+    { question: "Is lymphatic massage painful after liposuction?", answer: "No, lymphatic massage uses gentle, light-pressure techniques and should not be painful; some tenderness in the surgical area is normal but the massage itself is designed to be soothing." },
+    { question: "Can lymphatic massage improve my final liposuction results?", answer: "Yes, properly managed swelling through lymphatic massage can support smoother skin contours and reduce the risk of uneven results or hardened tissue during healing." },
+    { question: "Do I still need to wear my compression garment if I get massages?", answer: "Yes, compression garments and lymphatic massage work together, and your physiotherapist will guide you on how to use both appropriately throughout your recovery." },
+    { question: "What happens if I skip lymphatic massage after liposuction?", answer: "Without proper lymphatic drainage support, swelling can progress to complications like fibrosis or seromas, and recovery may take longer with less predictable aesthetic results." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 
-  // ── LYMPHATIC MASSAGES (76-83) ───────────────────────────────────────────────
-  {
-    id: 79,
-    title: "Lymphatic Massage after Liposuction",
-    slug: "lymphatic-massage-after-liposuction",
-    category: "Post-Surgery Care",
-    image: lymphaticLipo,
-    seo: {
-      title: `Lymphatic Massage after Liposuction in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Liposuction in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling, bruising & promote faster healing after liposuction. ✅ 10 years experience ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after liposuction delhi, post liposuction massage kalkaji, liposuction recovery massage south delhi, lymphatic drainage liposuction delhi, post lipo swelling treatment delhi, liposuction recovery specialist delhi, best lymphatic massage therapist delhi, post liposuction physiotherapy kalkaji, lipo recovery massage delhi, lymphatic drainage therapy delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-liposuction`,
-    },
-    description: "Lymphatic massage after liposuction helps reduce swelling, improve blood circulation, and promote faster recovery. Gentle massage techniques stimulate lymph flow, reduce fluid retention, and enhance healing.",
-    sections: [
-      { title: "Overview", content: "Lymphatic massages aid recovery after liposuction by gently pushing fluid back into lymph arteries, decreasing edema, fluid retention, and discomfort. Without lymphatic massage, inflammation can progress to fibrosis or seroma.\n\nBenefits:\n\n• Reduced Swelling and Inflammation\n• Enhanced Healing and Tissue Regeneration\n• Prevention of Hematomas and Seromas\n• Alleviation of Pain and Discomfort\n• Improved Skin Appearance and Texture" },
-      { title: "Treatment", content: `${DOCTOR} provides gentle lymphatic drainage massage, compression garment guidance, personalized post-operative rehabilitation, and education on safe exercises.` },
-    ],
-    benefits: ["Reduces post-surgical swelling", "Improves lymphatic circulation", "Promotes faster healing", "Enhances mobility and comfort", "Supports overall recovery"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage Therapist after Liposuction in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+{
+  id: 80,
+  title: "Lymphatic Massage after Tummy Tuck",
+  slug: "lymphatic-massage-after-tummy-tuck",
+  category: "Post-Surgery Care",
+  image: lymphaticTummyTuck,
+  seo: {
+    title: `Lymphatic Massage after Tummy Tuck in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Tummy Tuck in Delhi by ${DOCTOR} at ${BRAND}. Reduce abdominal swelling, promote scar healing & faster tummy tuck recovery. ✅ Expert massage therapist ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after tummy tuck delhi, post tummy tuck massage kalkaji, tummy tuck recovery massage south delhi, abdominoplasty lymphatic drainage delhi, tummy tuck swelling treatment delhi, tummy tuck recovery specialist delhi, best tummy tuck massage therapist delhi, post tummy tuck physiotherapy kalkaji, abdominoplasty recovery massage delhi, tummy tuck scar healing delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-tummy-tuck`,
   },
+  hero: {
+    heading: "Lymphatic Massage after Tummy Tuck",
+    subheading: "Specialised lymphatic drainage massage to reduce abdominal swelling and support scar healing after a tummy tuck, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
+  },
+  description: "A tummy tuck, or abdominoplasty, is a more extensive surgical procedure than many patients anticipate, and the recovery process reflects that — Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre works closely with post-tummy-tuck patients to manage the significant abdominal swelling and fluid accumulation that follows this surgery. Because the procedure involves removing excess skin and tightening abdominal muscles, the lymphatic pathways in the area are considerably disrupted, often leading to more pronounced swelling than other cosmetic procedures, along with firmness and discomfort that can make even simple movements like standing upright feel restricted in the early days. Specialised lymphatic massage helps manually redirect this trapped fluid, easing swelling and discomfort while also supporting the healing of the surgical scar itself, which benefits from healthy circulation and tissue mobility in the surrounding area. What surprises many patients is how much the psychological experience of recovery improves alongside the physical one — reduced swelling and discomfort make the early weeks far more manageable, both physically and emotionally. At Advanced Pain Physiotherapy Centre, our approach combines gentle lymphatic drainage, scar mobility techniques, and safe movement guidance tailored specifically to the demands of abdominoplasty recovery.",
+  sections: [
+    { title: "Overview", content: "Tummy tuck recovery involves significant swelling and fluid accumulation due to the extensive nature of the procedure. Lymphatic massage helps:\n\n• Reduce post-surgical swelling\n• Improve lymphatic drainage\n• Promote tissue and scar healing\n• Enhance mobility and comfort" },
+    { title: "Why It Matters", content: "Because a tummy tuck involves significant tissue disruption, swelling in the abdominal area tends to be more pronounced and longer-lasting than after many other cosmetic procedures.\n\nManaging this swelling properly not only eases discomfort in the early weeks but also supports better scar healing and a smoother overall recovery, both physically and in terms of the patient's day-to-day comfort." },
+    { title: "Who Needs This", content: "• Patients recovering from a tummy tuck or abdominoplasty\n• People experiencing abdominal swelling, firmness, or discomfort post-surgery\n• Patients wanting support for scar healing and tissue mobility\n• Anyone seeking guidance on safe movement during recovery\n• Patients wanting a smoother, more comfortable healing process\n• People wanting to support the best possible surgical outcome" },
+    { title: "Treatment", content: "Gentle lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
+    { title: "Our Process", content: "1. Assessment — Evaluating swelling, scar healing, and abdominal mobility\n2. Gentle Lymphatic Drainage — Manual techniques to ease abdominal fluid accumulation\n3. Scar Mobility Work — Supporting healthy healing of the surgical scar\n4. Compression Guidance — Ensuring garments support the healing process correctly\n5. Progressive Movement — Guided, safe return to normal activity and posture\n6. Continued Recovery Support — Ongoing care through to full resolution of swelling" },
+  ],
+  benefits: ["Reduces swelling", "Promotes faster healing", "Improves circulation", "Enhances mobility", "Supports optimal recovery"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma has specific experience managing the more extensive swelling seen after abdominoplasty",
+    "Scar mobility techniques included alongside lymphatic drainage",
+    "Gentle, structured approach suited to the demands of tummy tuck recovery",
+    "Guidance on safe posture and movement during early healing",
+    "Home visit availability for patients in early post-surgical recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "When can I start lymphatic massage after a tummy tuck?", answer: "This depends on your surgeon's guidance, but massage typically begins a week or two after surgery once your surgeon confirms it's safe to begin gentle manual therapy." },
+    { question: "Why is swelling more significant after a tummy tuck than other procedures?", answer: "Because abdominoplasty involves more extensive tissue disruption and muscle tightening, the lymphatic pathways in the area are more significantly affected, leading to more pronounced swelling." },
+    { question: "Can lymphatic massage help my tummy tuck scar heal better?", answer: "Yes, healthy circulation and tissue mobility support better scar healing, and our sessions include specific techniques to support the scar alongside general swelling reduction." },
+    { question: "How soon can I stand upright comfortably after a tummy tuck?", answer: "This varies by patient, but gentle guided movement and swelling management through lymphatic massage generally help patients regain comfortable posture more quickly." },
+    { question: "How many sessions will I need after my tummy tuck?", answer: "Most patients benefit from multiple sessions over several weeks, with frequency guided by your specific healing progress and surgeon's recommendations." },
+    { question: "Is it normal to feel firmness in my abdomen after surgery?", answer: "Some firmness is common during healing due to fluid and tissue changes, and lymphatic massage specifically helps address this as part of a comprehensive recovery plan." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage after Tummy Tuck in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 
-  {
-    id: 80,
-    title: "Lymphatic Massage after Tummy Tuck",
-    slug: "lymphatic-massage-after-tummy-tuck",
-    category: "Post-Surgery Care",
-    image: lymphaticTummyTuck,
-    seo: {
-      title: `Lymphatic Massage after Tummy Tuck in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Tummy Tuck in Delhi by ${DOCTOR} at ${BRAND}. Reduce abdominal swelling, promote scar healing & faster tummy tuck recovery. ✅ Expert massage therapist ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after tummy tuck delhi, post tummy tuck massage kalkaji, tummy tuck recovery massage south delhi, abdominoplasty lymphatic drainage delhi, tummy tuck swelling treatment delhi, tummy tuck recovery specialist delhi, best tummy tuck massage therapist delhi, post tummy tuck physiotherapy kalkaji, abdominoplasty recovery massage delhi, tummy tuck scar healing delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-tummy-tuck`,
-    },
-    description: "Lymphatic massage after tummy tuck reduces swelling, aids scar healing, and accelerates recovery. Expert massage supports proper lymphatic drainage and faster healing.",
-    sections: [
-      { title: "Overview", content: "Tummy tuck recovery involves swelling and fluid accumulation. Lymphatic massage helps:\n\n• Reduce post-surgical swelling\n• Improve lymphatic drainage\n• Promote tissue and scar healing\n• Enhance mobility and comfort" },
-      { title: "Treatment", content: "Gentle lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
-    ],
-    benefits: ["Reduces swelling", "Promotes faster healing", "Improves circulation", "Enhances mobility", "Supports optimal recovery"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage after Tummy Tuck in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+ {
+  id: 81,
+  title: "Lymphatic Massage after Gynaecomastia",
+  slug: "lymphatic-massage-after-gynaecomastia",
+  category: "Post-Surgery Care",
+  image: lymphaticGynaecomastia,
+  seo: {
+    title: `Lymphatic Massage after Gynaecomastia in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Gynaecomastia Surgery in Delhi by ${DOCTOR} at ${BRAND}. Reduce chest swelling & accelerate healing after gynaecomastia. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after gynaecomastia delhi, post gynaecomastia massage kalkaji, gynaecomastia recovery massage south delhi, male breast reduction massage delhi, gynaecomastia swelling treatment delhi, chest lymphatic drainage delhi, best gynaecomastia massage therapist delhi, post gynaecomastia physiotherapy kalkaji, male chest surgery massage delhi, gynaecomastia recovery specialist delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-gynaecomastia`,
   },
+  hero: {
+    heading: "Lymphatic Massage after Gynaecomastia",
+    subheading: "Specialised lymphatic drainage massage to reduce chest swelling and accelerate healing after gynaecomastia surgery, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
+  },
+  description: "Gynaecomastia surgery, while typically less extensive than other body-contouring procedures, still disrupts the chest's normal lymphatic drainage, and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre sees patients who are often surprised by how much swelling and firmness can persist in the chest area during the weeks following surgery. Because the chest is a highly visible area, patients are often particularly anxious about how their results are progressing, and unmanaged swelling can create the appearance of asymmetry or uneven contours that are actually just temporary fluid accumulation rather than a surgical issue. Gentle, targeted lymphatic massage helps redirect this trapped fluid, easing the tightness and discomfort many patients feel in the chest and under the arms, while also reducing the risk of the tissue becoming hardened if fluid is left to sit for too long. What patients often don't anticipate is how much more comfortable simple activities like raising their arms or lying on their side become once swelling starts to resolve properly. At Advanced Pain Physiotherapy Centre, our approach combines gentle chest-specific lymphatic drainage with compression guidance and safe movement education, helping patients feel more comfortable and see clearer, more even results throughout recovery.",
+  sections: [
+    { title: "Overview", content: "Gynaecomastia surgery can cause fluid retention and chest swelling. Lymphatic massage helps reduce swelling, improve drainage, and promote healing.\n\nBenefits:\n\n• Reduced chest swelling and tightness\n• Prevention of tissue hardening\n• More even, predictable healing\n• Improved comfort with arm and chest movement" },
+    { title: "Why It Matters", content: "Because the chest is such a visible area, unmanaged post-surgical swelling can create a temporary appearance of asymmetry that often worries patients unnecessarily. Proper lymphatic massage helps resolve this fluid accumulation, revealing the true surgical result more clearly and comfortably.\n\nLeft unaddressed, prolonged swelling can also contribute to tissue firmness, making structured lymphatic care an important part of a smooth gynaecomastia recovery." },
+    { title: "Who Needs This", content: "• Patients recovering from gynaecomastia (male breast reduction) surgery\n• People experiencing chest swelling, tightness, or firmness post-surgery\n• Patients concerned about temporary asymmetry during healing\n• Anyone wanting more comfortable arm and chest movement during recovery\n• Patients wanting guidance on compression garment use\n• People wanting to support the clearest possible surgical outcome" },
+    { title: "Treatment", content: "Targeted chest lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
+    { title: "Our Process", content: "1. Assessment — Evaluating chest swelling, firmness, and healing stage\n2. Gentle Lymphatic Drainage — Targeted techniques to ease chest and underarm fluid accumulation\n3. Compression Guidance — Ensuring garments support healing correctly\n4. Progressive Sessions — Adjusting massage intensity as healing progresses\n5. Movement Education — Safe guidance for arm and chest mobility during recovery\n6. Final Recovery Support — Continued care through to full resolution of swelling" },
+  ],
+  benefits: ["Reduces post-surgical swelling", "Improves circulation", "Enhances mobility", "Supports chest recovery", "Accelerates healing"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma provides targeted, chest-specific lymphatic drainage techniques",
+    "Focus on reducing temporary asymmetry caused by uneven swelling",
+    "Gentle approach suited to the sensitivity of the chest area post-surgery",
+    "Compression garment guidance included as part of recovery care",
+    "Home visit availability for patients in early post-surgical recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "When can I start lymphatic massage after gynaecomastia surgery?", answer: "This depends on your surgeon's guidance, but massage typically begins within one to two weeks after surgery once initial healing allows for gentle manual techniques." },
+    { question: "Is it normal for one side of my chest to look more swollen than the other?", answer: "Yes, uneven swelling between sides is common in early recovery and doesn't necessarily indicate an uneven surgical result; lymphatic massage helps resolve this as healing progresses." },
+    { question: "How many sessions will I need after gynaecomastia surgery?", answer: "Most patients benefit from several sessions over a few weeks, with the exact number depending on individual swelling and healing progress." },
+    { question: "Will lymphatic massage help my chest feel less tight?", answer: "Yes, easing the trapped fluid causing tightness is one of the main benefits patients notice fairly early in the massage series." },
+    { question: "Can I raise my arms normally during recovery?", answer: "Arm movement is often restricted in the first days after surgery, and your physiotherapist will guide safe, progressive movement as swelling reduces and healing advances." },
+    { question: "What happens if I don't get lymphatic massage after gynaecomastia surgery?", answer: "Without proper drainage support, swelling can take longer to resolve and may contribute to firmer tissue texture, potentially affecting the smoothness of your final results." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage after Gynaecomastia in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 
-  {
-    id: 81,
-    title: "Lymphatic Massage after Gynaecomastia",
-    slug: "lymphatic-massage-after-gynaecomastia",
-    category: "Post-Surgery Care",
-    image: lymphaticGynaecomastia,
-    seo: {
-      title: `Lymphatic Massage after Gynaecomastia in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Gynaecomastia Surgery in Delhi by ${DOCTOR} at ${BRAND}. Reduce chest swelling & accelerate healing after gynaecomastia. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after gynaecomastia delhi, post gynaecomastia massage kalkaji, gynaecomastia recovery massage south delhi, male breast reduction massage delhi, gynaecomastia swelling treatment delhi, chest lymphatic drainage delhi, best gynaecomastia massage therapist delhi, post gynaecomastia physiotherapy kalkaji, male chest surgery massage delhi, gynaecomastia recovery specialist delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-gynaecomastia`,
-    },
-    description: "Post-gynaecomastia lymphatic massage helps reduce chest swelling, improve circulation, and accelerate healing after surgery.",
-    sections: [
-      { title: "Overview", content: "Gynaecomastia surgery can cause fluid retention and chest swelling. Lymphatic massage helps reduce swelling, improve drainage, and promote healing." },
-      { title: "Treatment", content: "Targeted chest lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
-    ],
-    benefits: ["Reduces post-surgical swelling", "Improves circulation", "Enhances mobility", "Supports chest recovery", "Accelerates healing"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage after Gynaecomastia in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+{
+  id: 82,
+  title: "Lymphatic Massage after Fat Grafting",
+  slug: "lymphatic-massage-after-fat-grafting",
+  category: "Post-Surgery Care",
+  image: lymphaticFatGrafting,
+  seo: {
+    title: `Lymphatic Massage after Fat Grafting in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Fat Grafting in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling & support fat retention for optimal fat grafting results. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after fat grafting delhi, post fat grafting massage kalkaji, fat transfer recovery massage south delhi, fat grafting lymphatic drainage delhi, fat grafting swelling treatment delhi, fat grafting recovery specialist delhi, best fat grafting massage therapist delhi, fat transfer massage physiotherapy kalkaji, fat grafting healing massage delhi, fat retention lymphatic massage delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-fat-grafting`,
   },
+  hero: {
+    heading: "Lymphatic Massage after Fat Grafting",
+    subheading: "Gentle, technique-specific lymphatic massage to reduce swelling while protecting fat graft survival, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
+  },
+  description: "Fat grafting recovery requires a genuinely different approach compared to most other post-surgical lymphatic care, something Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre is careful to explain to every patient before starting sessions, because the treatment involves both the donor site, where fat was harvested via liposuction, and the recipient site, where the fat was transferred and needs to survive and establish its own blood supply. Both areas swell considerably after surgery, but the recipient site demands much gentler, more cautious handling, since overly vigorous massage in the early healing period can actually disrupt the delicate grafted fat cells before they've had a chance to properly integrate. What many patients don't realise is that this is precisely why generic post-surgical massage protocols aren't appropriate for fat grafting — the technique needs to be adapted specifically to protect fat retention while still helping manage swelling at the donor site. At Advanced Pain Physiotherapy Centre, our approach uses a carefully staged protocol, addressing the donor site more actively for swelling reduction while treating the grafted area with the gentleness needed to protect your results, ensuring both comfort and optimal fat survival.",
+  sections: [
+    { title: "Overview", content: "Fat grafting recovery involves swelling. Lymphatic massage helps:\n\n• Reduce swelling and discomfort\n• Improve lymphatic drainage\n• Promote tissue healing and fat retention\n• Enhance recovery speed" },
+    { title: "Why It Matters", content: "Fat grafting recovery is unique because it involves two areas needing very different care — the donor site, which benefits from more active swelling reduction, and the recipient site, which needs a much gentler approach to protect the newly transferred fat cells while they establish blood supply.\n\nUsing a generic massage protocol without this distinction can risk disrupting fat retention at the graft site, which is why technique-specific expertise matters significantly for this procedure." },
+    { title: "Who Needs This", content: "• Patients recovering from fat grafting or fat transfer procedures\n• People experiencing swelling at both donor and recipient sites\n• Patients wanting to protect and support fat graft survival\n• Anyone wanting expert, technique-specific post-surgical care\n• Patients wanting guidance on safe movement during recovery\n• People wanting to support the best possible aesthetic outcome" },
+    { title: "Treatment", content: "Gentle drainage massage for grafted areas, compression guidance, personalized recovery plan, and safe exercise education." },
+    { title: "Our Process", content: "1. Assessment — Evaluating both donor and recipient sites and their distinct healing needs\n2. Donor Site Drainage — More active lymphatic techniques to reduce liposuction-related swelling\n3. Gentle Graft Site Care — Cautious, protective handling to support fat cell survival\n4. Compression Guidance — Supporting healing at the donor site appropriately\n5. Progressive Sessions — Adjusting technique as healing and fat integration progress\n6. Final Recovery Support — Continued care through to full resolution of swelling" },
+  ],
+  benefits: ["Reduces swelling", "Supports fat retention", "Enhances mobility", "Promotes faster recovery", "Improves surgical results"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma uses technique-specific protocols that protect fat graft survival",
+    "Distinct care approach for donor and recipient sites",
+    "Careful, gentle handling of grafted areas to support optimal results",
+    "Experience with the unique demands of fat transfer recovery",
+    "Home visit availability for patients in early post-surgical recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does fat grafting need different massage than other procedures?", answer: "Fat grafting involves a delicate recipient site where transferred fat cells need to establish blood supply, requiring much gentler handling than the donor site, unlike standard liposuction recovery alone." },
+    { question: "Will massage reduce the amount of fat that survives after grafting?", answer: "Overly vigorous massage on the recipient site could theoretically affect fat retention, which is why we use a specifically gentle, protective technique in that area while being more active at the donor site." },
+    { question: "When can I start lymphatic massage after fat grafting?", answer: "This depends on your surgeon's guidance, but typically begins one to two weeks after surgery, with technique carefully adapted to protect the grafted area during this period." },
+    { question: "How is the donor site treated differently from the graft site?", answer: "The donor site, similar to standard liposuction, can be treated with more active lymphatic drainage, while the graft site requires cautious, gentle handling to protect the newly transferred fat cells." },
+    { question: "How many sessions will I need after fat grafting?", answer: "Most patients benefit from several sessions over a few weeks, with the exact plan tailored to your specific donor and recipient site healing progress." },
+    { question: "Can lymphatic massage improve my final fat grafting results?", answer: "Yes, properly managed swelling and correctly protected fat retention both contribute to smoother, more predictable final results from your fat grafting procedure." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage after Fat Grafting in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 
-  {
-    id: 82,
-    title: "Lymphatic Massage after Fat Grafting",
-    slug: "lymphatic-massage-after-fat-grafting",
-    category: "Post-Surgery Care",
-    image: lymphaticFatGrafting,
-    seo: {
-      title: `Lymphatic Massage after Fat Grafting in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Fat Grafting in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling & support fat retention for optimal fat grafting results. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after fat grafting delhi, post fat grafting massage kalkaji, fat transfer recovery massage south delhi, fat grafting lymphatic drainage delhi, fat grafting swelling treatment delhi, fat grafting recovery specialist delhi, best fat grafting massage therapist delhi, fat transfer massage physiotherapy kalkaji, fat grafting healing massage delhi, fat retention lymphatic massage delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-fat-grafting`,
-    },
-    description: "Lymphatic massage after fat grafting helps reduce swelling, improve circulation, and support tissue healing and fat retention.",
-    sections: [
-      { title: "Overview", content: "Fat grafting recovery involves swelling. Lymphatic massage helps:\n\n• Reduce swelling and discomfort\n• Improve lymphatic drainage\n• Promote tissue healing and fat retention\n• Enhance recovery speed" },
-      { title: "Treatment", content: "Gentle drainage massage for grafted areas, compression guidance, personalized recovery plan, and safe exercise education." },
-    ],
-    benefits: ["Reduces swelling", "Supports fat retention", "Enhances mobility", "Promotes faster recovery", "Improves surgical results"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage after Fat Grafting in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+{
+  id: 83,
+  title: "Lymphatic Massage after BBL",
+  slug: "lymphatic-massage-after-bbl",
+  category: "Post-Surgery Care",
+  image: lymphaticBBL,
+  seo: {
+    title: `Lymphatic Massage after BBL in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Brazilian Butt Lift (BBL) in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling & maintain BBL results through expert massage. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after BBL delhi, post BBL massage kalkaji, brazilian butt lift massage south delhi, BBL recovery massage delhi, BBL swelling treatment delhi, BBL recovery specialist delhi, best BBL massage therapist delhi, post BBL physiotherapy kalkaji, buttock augmentation massage delhi, BBL lymphatic drainage delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-bbl`,
   },
+  hero: {
+    heading: "Lymphatic Massage after BBL",
+    subheading: "Careful, positioning-aware lymphatic massage to reduce swelling and support long-term Brazilian Butt Lift results, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
+  },
+  description: "A Brazilian Butt Lift comes with one of the more demanding recovery protocols in cosmetic surgery, and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre pays particularly close attention to how post-BBL patients move and sit during their recovery, since the transferred fat, much like with fat grafting elsewhere, needs to establish its blood supply without being compressed too early or too aggressively. Patients are typically advised to avoid sitting directly on the treated area for weeks, and swelling combined with these positioning restrictions can make the recovery period genuinely uncomfortable without proper support. Lymphatic massage plays a dual role here — reducing the swelling and fluid retention that builds up both at the donor liposuction sites and around the buttock area, while being performed with careful attention to protecting the newly transferred fat and respecting the positioning restrictions your surgeon has set. What many patients appreciate most is how much this structured support eases the practical challenges of recovery, like finding comfortable ways to sit, stand, and sleep during the restricted weeks. At Advanced Pain Physiotherapy Centre, our approach is built specifically around these BBL-specific precautions, helping patients recover as comfortably as possible while protecting their results.",
+  sections: [
+    { title: "Overview", content: "BBL surgery can cause swelling and fluid retention. Lymphatic massage helps reduce swelling, improve drainage, and support long-term cosmetic results.\n\nWhy BBL Recovery Is Different:\n\n• Positioning restrictions to protect fat graft survival\n• Swelling at both donor liposuction sites and the buttock area\n• Extended avoidance of direct sitting pressure\n• Need for gentle, technique-specific massage around the grafted area" },
+    { title: "Why It Matters", content: "BBL recovery is uniquely demanding because the transferred fat needs to establish blood supply while patients must avoid sitting directly on the area for an extended period, all while managing swelling from both donor and recipient sites.\n\nProperly managed lymphatic support during this period makes the practical challenges of recovery, like sitting, sleeping, and moving comfortably, significantly more manageable while still protecting the surgical results." },
+    { title: "Who Needs This", content: "• Patients recovering from a Brazilian Butt Lift (BBL)\n• People experiencing swelling at donor or recipient sites\n• Patients navigating positioning restrictions during recovery\n• Anyone wanting expert, BBL-specific post-surgical care\n• Patients wanting guidance on comfortable sitting and sleeping positions\n• People wanting to protect long-term fat graft survival" },
+    { title: "Treatment", content: "Gentle drainage massage for buttocks, compression and positioning guidance, personalized recovery plan, and safe mobility education." },
+    { title: "Our Process", content: "1. Assessment — Evaluating swelling at donor and recipient sites and reviewing surgeon's positioning restrictions\n2. Gentle Lymphatic Drainage — Careful techniques respecting fat graft protection\n3. Positioning Guidance — Practical support for comfortable sitting and sleeping during restricted weeks\n4. Compression Guidance — Ensuring garments support healing correctly at donor sites\n5. Progressive Sessions — Adjusting technique as healing and fat integration progress\n6. Final Recovery Support — Continued care through to full resolution of swelling" },
+  ],
+  benefits: ["Reduces swelling", "Promotes faster healing", "Enhances mobility", "Supports long-term results", "Improves circulation"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma understands the specific positioning restrictions unique to BBL recovery",
+    "Careful, fat-graft-protective massage technique around the buttock area",
+    "Practical guidance for comfortable sitting, sleeping, and moving during recovery",
+    "Combined donor and recipient site care in one integrated plan",
+    "Home visit availability for patients navigating strict positioning restrictions",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Can I sit normally during BBL recovery if I get lymphatic massage?", answer: "No, sitting restrictions set by your surgeon still need to be followed regardless of massage; our sessions are designed to work within these restrictions, not replace them." },
+    { question: "When can lymphatic massage start after a BBL?", answer: "This depends on your surgeon's specific guidance, but typically begins one to two weeks post-surgery, with technique carefully adapted to protect the grafted area." },
+    { question: "Will massage affect how much fat survives after my BBL?", answer: "Our technique is specifically gentle around the recipient area to protect fat retention, while being more active at the donor liposuction sites to manage swelling there." },
+    { question: "How do I sleep comfortably during BBL recovery?", answer: "Your physiotherapist can guide specific positioning strategies, often involving specialised pillows or sleeping on your stomach or side, to avoid pressure on the treated area." },
+    { question: "How many massage sessions will I need after a BBL?", answer: "Most patients benefit from multiple sessions over several weeks, with the plan tailored to your specific swelling and healing progress at both donor and recipient sites." },
+    { question: "What happens if swelling isn't managed properly after a BBL?", answer: "Poorly managed swelling can prolong discomfort and potentially affect how smoothly your final results settle, making structured lymphatic support a valuable part of BBL recovery." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage after BBL in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 
-  {
-    id: 83,
-    title: "Lymphatic Massage after BBL",
-    slug: "lymphatic-massage-after-bbl",
-    category: "Post-Surgery Care",
-    image: lymphaticBBL,
-    seo: {
-      title: `Lymphatic Massage after BBL in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Brazilian Butt Lift (BBL) in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling & maintain BBL results through expert massage. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after BBL delhi, post BBL massage kalkaji, brazilian butt lift massage south delhi, BBL recovery massage delhi, BBL swelling treatment delhi, BBL recovery specialist delhi, best BBL massage therapist delhi, post BBL physiotherapy kalkaji, buttock augmentation massage delhi, BBL lymphatic drainage delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-bbl`,
-    },
-    description: "Post-BBL lymphatic massage helps reduce swelling, improve circulation, and maintain surgical results through expert massage therapy.",
-    sections: [
-      { title: "Overview", content: "BBL surgery can cause swelling and fluid retention. Lymphatic massage helps reduce swelling, improve drainage, and support long-term cosmetic results." },
-      { title: "Treatment", content: "Gentle drainage massage for buttocks, compression and positioning guidance, personalized recovery plan, and safe mobility education." },
-    ],
-    benefits: ["Reduces swelling", "Promotes faster healing", "Enhances mobility", "Supports long-term results", "Improves circulation"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage after BBL in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+{
+  id: 84,
+  title: "Lymphatic Massage after Mummy Makeover",
+  slug: "lymphatic-massage-after-mummy-makeover",
+  category: "Post-Surgery Care",
+  image: lymphaticMummy,
+  seo: {
+    title: `Lymphatic Massage after Mummy Makeover in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Mummy Makeover in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling & promote healing across all surgical sites. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after mummy makeover delhi, post mummy makeover massage kalkaji, mummy makeover recovery massage south delhi, mummy makeover lymphatic drainage delhi, mummy makeover swelling treatment delhi, mummy makeover recovery specialist delhi, best mummy makeover massage therapist delhi, post mummy makeover physiotherapy kalkaji, mummy makeover healing massage delhi, cosmetic surgery recovery massage delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-mummy-makeover`,
   },
+  hero: {
+    heading: "Lymphatic Massage after Mummy Makeover",
+    subheading: "Comprehensive lymphatic drainage massage addressing multiple surgical sites at once, supporting complete post-mummy-makeover recovery, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
+  },
+  description: "A mummy makeover typically combines several procedures in a single surgery — often a tummy tuck alongside liposuction and sometimes breast surgery — and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre approaches recovery from this combination surgery with a genuinely comprehensive plan, because each treated area heals on a slightly different timeline and requires its own specific attention. Because multiple areas of the body are affected simultaneously, the overall swelling burden on the lymphatic system tends to be greater than with any single procedure alone, and patients often find the combined recovery more physically demanding than they anticipated. What many patients don't realise going into a mummy makeover is just how much more manageable this combined recovery becomes with coordinated lymphatic support addressing every treated area together, rather than trying to manage abdominal, hip, and possibly chest swelling separately or not at all. Left unaddressed across such an extensive procedure, swelling can also linger longer and make it harder to gauge how the results are actually settling. At Advanced Pain Physiotherapy Centre, our approach maps out a coordinated plan across all treated areas, helping patients move through this bigger recovery journey with far more comfort and confidence.",
+  sections: [
+    { title: "Overview", content: "Mummy makeover involves multiple areas. Lymphatic massage helps:\n\n• Reduce swelling and bruising\n• Improve lymphatic drainage\n• Promote faster healing\n• Enhance comfort and mobility" },
+    { title: "Why It Matters", content: "Because a mummy makeover combines multiple procedures in one surgery, the overall swelling burden on the body's lymphatic system is greater than with any single procedure alone, often making recovery more physically demanding than patients expect.\n\nCoordinated lymphatic support across all treated areas together, rather than addressing each site separately, leads to a smoother, more comfortable, and more predictable overall recovery." },
+    { title: "Who Needs This", content: "• Patients recovering from a combined mummy makeover procedure\n• People experiencing swelling across multiple surgical sites\n• Patients wanting a coordinated, comprehensive recovery plan\n• Anyone wanting to manage a more physically demanding combined recovery\n• Patients wanting guidance on compression and movement across all areas\n• People wanting to support the clearest possible overall results" },
+    { title: "Treatment", content: "Gentle drainage for all treated areas, compression guidance, personalized recovery plan, and safe exercise education." },
+    { title: "Our Process", content: "1. Assessment — Evaluating swelling and healing progress across all treated areas\n2. Coordinated Lymphatic Drainage — Addressing abdominal, hip, and other treated sites together\n3. Compression Guidance — Ensuring garments support healing across the full surgical area\n4. Progressive Sessions — Adjusting technique as different sites heal at their own pace\n5. Movement Education — Safe, whole-body guidance appropriate to your combined recovery\n6. Final Recovery Support — Continued care through to full resolution of swelling across all areas" },
+  ],
+  benefits: ["Reduces swelling", "Enhances healing across multiple sites", "Improves circulation", "Supports mobility", "Optimizes recovery"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma coordinates care across all treated areas in one comprehensive plan",
+    "Experience managing the greater swelling burden of combined procedures",
+    "Individualised timing that respects each area's distinct healing pace",
+    "Whole-body movement guidance suited to a more extensive recovery",
+    "Home visit availability for patients managing a demanding combined recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does mummy makeover recovery feel more demanding than a single procedure?", answer: "Because multiple areas are treated simultaneously, the overall swelling and healing burden on your body is greater, which is why a coordinated recovery plan across all sites makes a meaningful difference." },
+    { question: "When can I start lymphatic massage after a mummy makeover?", answer: "This depends on your surgeon's guidance across all the procedures performed, but typically begins one to two weeks post-surgery once initial healing allows for gentle manual techniques." },
+    { question: "Do different areas of my mummy makeover heal at different speeds?", answer: "Yes, areas like liposuction sites often show swelling reduction sooner than a tummy tuck incision, which is why your recovery plan is coordinated but tailored to each area's individual pace." },
+    { question: "How many sessions will I need after a mummy makeover?", answer: "Given the combined nature of the surgery, most patients benefit from a more extended series of sessions compared to a single procedure, tailored to your specific combination of treatments." },
+    { question: "Can lymphatic massage help me judge my results sooner?", answer: "Yes, properly managed swelling helps reveal your actual surgical results more clearly and sooner than if swelling is left to resolve on its own over a longer period." },
+    { question: "Is it normal to feel more fatigued during mummy makeover recovery?", answer: "Some fatigue is expected given the more extensive nature of combined procedures, and structured lymphatic and movement support can help make this recovery period more manageable overall." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage after Mummy Makeover in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 
-  {
-    id: 84,
-    title: "Lymphatic Massage after Mummy Makeover",
-    slug: "lymphatic-massage-after-mummy-makeover",
-    category: "Post-Surgery Care",
-    image: lymphaticMummy,
-    seo: {
-      title: `Lymphatic Massage after Mummy Makeover in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Mummy Makeover in Delhi by ${DOCTOR} at ${BRAND}. Reduce swelling & promote healing across all surgical sites. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after mummy makeover delhi, post mummy makeover massage kalkaji, mummy makeover recovery massage south delhi, mummy makeover lymphatic drainage delhi, mummy makeover swelling treatment delhi, mummy makeover recovery specialist delhi, best mummy makeover massage therapist delhi, post mummy makeover physiotherapy kalkaji, mummy makeover healing massage delhi, cosmetic surgery recovery massage delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-mummy-makeover`,
-    },
-    description: "After a mummy makeover, lymphatic massage reduces swelling, promotes healing, and enhances recovery across all treated areas.",
-    sections: [
-      { title: "Overview", content: "Mummy makeover involves multiple areas. Lymphatic massage helps:\n\n• Reduce swelling and bruising\n• Improve lymphatic drainage\n• Promote faster healing\n• Enhance comfort and mobility" },
-      { title: "Treatment", content: "Gentle drainage for all treated areas, compression guidance, personalized recovery plan, and safe exercise education." },
-    ],
-    benefits: ["Reduces swelling", "Enhances healing across multiple sites", "Improves circulation", "Supports mobility", "Optimizes recovery"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage after Mummy Makeover in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+{
+  id: 85,
+  title: "Lymphatic Massage after Arm's Liposuction",
+  slug: "lymphatic-massage-after-arm-liposuction",
+  category: "Post-Surgery Care",
+  image: lymphaticArm,
+  seo: {
+    title: `Lymphatic Massage after Arm Liposuction in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Arm Liposuction in Delhi by ${DOCTOR} at ${BRAND}. Reduce arm swelling & accelerate healing after arm lipo. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after arm liposuction delhi, post arm lipo massage kalkaji, arm liposuction recovery massage south delhi, arm lipo lymphatic drainage delhi, arm lipo swelling treatment delhi, arm liposuction recovery specialist delhi, best arm lipo massage therapist delhi, arm liposuction massage kalkaji, arm fat removal massage delhi, arm liposuction healing delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-arm-liposuction`,
   },
+  hero: {
+    heading: "Lymphatic Massage after Arm Liposuction",
+    subheading: "Targeted lymphatic drainage massage to reduce arm swelling and support smooth, even contouring after arm liposuction, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
+  },
+  description: "Arm liposuction presents its own specific recovery challenges, and Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre has noticed that patients are often caught off guard by how much swelling can extend down toward the hands, sometimes causing puffiness in the fingers that has nothing to do with the treated area directly, but everything to do with how fluid moves through the arm's lymphatic pathways. Because the arms are used constantly throughout the day, for everything from typing to carrying bags to simply resting by your sides, swelling in this area can feel particularly restrictive and uncomfortable compared to more static body regions. Targeted lymphatic massage along the length of the arm helps redirect this fluid more efficiently, easing tightness and reducing the risk of the tissue becoming firm or fibrous, while also addressing any secondary swelling that has settled toward the wrists and hands. What many patients appreciate is how much more comfortable everyday tasks become once this swelling is properly managed, since even simple things like buttoning a shirt or holding a phone can feel oddly difficult with significant post-lipo arm swelling. At Advanced Pain Physiotherapy Centre, our approach addresses the entire arm's lymphatic pathway, not just the directly treated area, for more complete, comfortable recovery.",
+  sections: [
+    { title: "Overview", content: "Arm liposuction can cause swelling. Lymphatic massage reduces swelling, improves drainage, and promotes faster tissue healing.\n\nWhy Arm Swelling Feels Different:\n\n• Fluid can travel down toward the wrists and hands\n• Arms are used constantly, making swelling feel more restrictive\n• Everyday tasks like gripping or typing can become uncomfortable\n• Targeted drainage along the full arm length speeds relief" },
+    { title: "Why It Matters", content: "Swelling after arm liposuction doesn't always stay contained to the treated area — it can extend down toward the wrists and hands, causing discomfort that patients often don't expect. Because the arms are used constantly throughout the day, this swelling can feel particularly restrictive.\n\nAddressing the entire lymphatic pathway along the arm, rather than just the directly treated section, leads to more complete and comfortable relief." },
+    { title: "Who Needs This", content: "• Patients recovering from arm liposuction\n• People experiencing swelling extending toward the wrists or hands\n• Patients finding everyday arm movements uncomfortable during recovery\n• Anyone wanting to reduce the risk of firm or fibrous tissue post-surgery\n• Patients wanting guidance on compression sleeve use\n• People wanting smoother, more even arm contouring results" },
+    { title: "Treatment", content: "Gentle arm lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
+    { title: "Our Process", content: "1. Assessment — Evaluating swelling along the full length of the arm, including hands and wrists\n2. Gentle Lymphatic Drainage — Techniques addressing the entire arm's lymphatic pathway\n3. Compression Guidance — Ensuring sleeves or garments support healing correctly\n4. Progressive Sessions — Adjusting massage intensity as healing progresses\n5. Functional Movement Education — Guidance for comfortable daily arm use during recovery\n6. Final Recovery Support — Continued care through to full resolution of swelling" },
+  ],
+  benefits: ["Reduces swelling", "Promotes faster healing", "Enhances mobility", "Supports cosmetic results", "Improves circulation"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma addresses the full arm lymphatic pathway, including hands and wrists",
+    "Understanding of how swelling affects everyday arm use and function",
+    "Gentle, targeted techniques suited to arm liposuction recovery",
+    "Compression sleeve guidance included as part of recovery care",
+    "Home visit availability for patients in early post-surgical recovery",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why are my fingers swollen after arm liposuction?", answer: "Fluid from the treated area can travel down the arm's lymphatic pathway toward the hands, causing secondary swelling in the fingers, which properly targeted lymphatic massage helps resolve." },
+    { question: "When can I start lymphatic massage after arm liposuction?", answer: "This depends on your surgeon's guidance, but typically begins within the first one to two weeks after surgery once initial healing allows for gentle manual therapy." },
+    { question: "How long until I can use my arms normally again?", answer: "Most patients regain comfortable use of their arms for everyday tasks within a few weeks, with lymphatic massage often helping to speed up this return to comfort." },
+    { question: "Will compression sleeves help alongside massage?", answer: "Yes, compression sleeves and lymphatic massage work together, and your physiotherapist will guide you on how to use both appropriately throughout your recovery." },
+    { question: "How many sessions will I need after arm liposuction?", answer: "Most patients benefit from several sessions over a few weeks, with the exact number depending on the extent of the procedure and your individual healing progress." },
+    { question: "Can arm swelling affect my final liposuction results?", answer: "Yes, poorly managed swelling can affect how smoothly your final contours settle, making structured lymphatic massage a valuable part of achieving even, predictable results." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage after Arm Liposuction in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 
-  {
-    id: 85,
-    title: "Lymphatic Massage after Arm's Liposuction",
-    slug: "lymphatic-massage-after-arm-liposuction",
-    category: "Post-Surgery Care",
-    image: lymphaticArm,
-    seo: {
-      title: `Lymphatic Massage after Arm Liposuction in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Arm Liposuction in Delhi by ${DOCTOR} at ${BRAND}. Reduce arm swelling & accelerate healing after arm lipo. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after arm liposuction delhi, post arm lipo massage kalkaji, arm liposuction recovery massage south delhi, arm lipo lymphatic drainage delhi, arm lipo swelling treatment delhi, arm liposuction recovery specialist delhi, best arm lipo massage therapist delhi, arm liposuction massage kalkaji, arm fat removal massage delhi, arm liposuction healing delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-arm-liposuction`,
-    },
-    description: "After arm liposuction, lymphatic massage reduces swelling, improves circulation, and accelerates recovery for optimal arm contouring results.",
-    sections: [
-      { title: "Overview", content: "Arm liposuction can cause swelling. Lymphatic massage reduces swelling, improves drainage, and promotes faster tissue healing." },
-      { title: "Treatment", content: "Gentle arm lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
-    ],
-    benefits: ["Reduces swelling", "Promotes faster healing", "Enhances mobility", "Supports cosmetic results", "Improves circulation"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage after Arm Liposuction in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+{
+  id: 86,
+  title: "Lymphatic Massage after Thigh Liposuction",
+  slug: "lymphatic-massage-after-thigh-liposuction",
+  category: "Post-Surgery Care",
+  image: lymphaticThigh,
+  seo: {
+    title: `Lymphatic Massage after Thigh Liposuction in Delhi | ${BRAND}`,
+    description: `Expert Lymphatic Massage after Thigh Liposuction in Delhi by ${DOCTOR} at ${BRAND}. Reduce thigh swelling & accelerate recovery after thigh lipo. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
+    keywords: "lymphatic massage after thigh liposuction delhi, post thigh lipo massage kalkaji, thigh liposuction recovery massage south delhi, thigh lipo lymphatic drainage delhi, thigh lipo swelling treatment delhi, thigh liposuction recovery specialist delhi, best thigh lipo massage therapist delhi, thigh liposuction massage kalkaji, thigh fat removal massage delhi, thigh liposuction healing delhi",
+    canonical: `${BASE_URL}/services/lymphatic-massage-after-thigh-liposuction`,
   },
-
-  {
-    id: 86,
-    title: "Lymphatic Massage after Thigh Liposuction",
-    slug: "lymphatic-massage-after-thigh-liposuction",
-    category: "Post-Surgery Care",
-    image: lymphaticThigh,
-    seo: {
-      title: `Lymphatic Massage after Thigh Liposuction in Delhi | ${BRAND}`,
-      description: `Expert Lymphatic Massage after Thigh Liposuction in Delhi by ${DOCTOR} at ${BRAND}. Reduce thigh swelling & accelerate recovery after thigh lipo. ✅ Expert massage ✅ ${LOCATION}. Book now!`,
-      keywords: "lymphatic massage after thigh liposuction delhi, post thigh lipo massage kalkaji, thigh liposuction recovery massage south delhi, thigh lipo lymphatic drainage delhi, thigh lipo swelling treatment delhi, thigh liposuction recovery specialist delhi, best thigh lipo massage therapist delhi, thigh liposuction massage kalkaji, thigh fat removal massage delhi, thigh liposuction healing delhi",
-      canonical: `${BASE_URL}/services/lymphatic-massage-after-thigh-liposuction`,
-    },
-    description: "After thigh liposuction, lymphatic massage reduces swelling, improves circulation, and accelerates recovery for optimal thigh contouring.",
-    sections: [
-      { title: "Overview", content: "Thigh liposuction causes swelling. Lymphatic massage reduces swelling, improves drainage, and promotes faster tissue healing." },
-      { title: "Treatment", content: "Gentle thigh lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
-    ],
-    benefits: ["Reduces swelling", "Promotes faster healing", "Enhances mobility", "Supports cosmetic results", "Improves circulation"],
-    customTreatmentText: `If you are looking for Best Lymphatic Massage after Thigh Liposuction in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+  hero: {
+    heading: "Lymphatic Massage after Thigh Liposuction",
+    subheading: "Targeted lymphatic drainage massage to reduce thigh swelling and support smooth, even contouring after thigh liposuction, by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre.",
+    cta: "Book Your Recovery Session Today",
   },
+  description: "Thigh liposuction recovery brings a particular practical challenge that Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre discusses with nearly every patient beforehand — because the thighs bear weight with every step, swelling in this area can genuinely affect how comfortably a patient walks in the early weeks of recovery, unlike swelling in less weight-bearing areas. The inner and outer thighs also tend to hold onto post-surgical fluid differently depending on the specific technique and areas treated, which means the massage approach often needs to be adjusted across different parts of the same leg rather than treated uniformly. Left unmanaged, this swelling can also contribute to firmness that makes the treated area feel uneven compared to how the final results are meant to look. Targeted lymphatic massage helps move this trapped fluid more efficiently through the thigh and down toward the knee and lower leg's natural drainage pathways, easing discomfort and helping patients regain a more normal walking pattern sooner. What many patients don't anticipate is just how much smoother and more comfortable simply sitting, walking, and climbing stairs feels once thigh swelling is properly addressed. At Advanced Pain Physiotherapy Centre, our approach is tailored to the specific areas of the thigh treated, supporting both comfort and the clearest possible final contouring result.",
+  sections: [
+    { title: "Overview", content: "Thigh liposuction causes swelling. Lymphatic massage reduces swelling, improves drainage, and promotes faster tissue healing.\n\nWhy Thigh Swelling Needs Specific Care:\n\n• The thighs are weight-bearing, so swelling affects walking comfort\n• Inner and outer thigh areas can retain fluid differently\n• Fluid needs guidance toward natural drainage pathways near the knee\n• Uneven swelling can temporarily mask final contouring results" },
+    { title: "Why It Matters", content: "Because the thighs bear weight with every step, swelling here can genuinely affect how comfortably patients walk during early recovery, unlike swelling in less weight-bearing areas of the body. Left unmanaged, this can also contribute to firmness that temporarily masks the true contouring results.\n\nTargeted lymphatic massage tailored to the specific areas treated helps patients regain comfortable movement sooner while supporting smoother, more even final results." },
+    { title: "Who Needs This", content: "• Patients recovering from thigh liposuction\n• People experiencing swelling affecting walking comfort\n• Patients with uneven swelling between inner and outer thigh areas\n• Anyone wanting to reduce the risk of firm or uneven tissue post-surgery\n• Patients wanting guidance on compression garment use\n• People wanting smoother, more even thigh contouring results" },
+    { title: "Treatment", content: "Gentle thigh lymphatic drainage, compression guidance, personalized recovery plan, and safe exercise education." },
+    { title: "Our Process", content: "1. Assessment — Evaluating swelling patterns across the inner and outer thigh\n2. Gentle Lymphatic Drainage — Techniques guiding fluid toward natural drainage pathways near the knee\n3. Compression Guidance — Ensuring garments support healing correctly\n4. Progressive Sessions — Adjusting massage intensity as healing progresses\n5. Walking and Movement Education — Guidance for comfortable mobility during recovery\n6. Final Recovery Support — Continued care through to full resolution of swelling" },
+  ],
+  benefits: ["Reduces swelling", "Promotes faster healing", "Enhances mobility", "Supports cosmetic results", "Improves circulation"],
+  whyChooseUs: [
+    "Dr. Ashish Sharma tailors technique to the specific areas of the thigh treated",
+    "Understanding of how weight-bearing swelling affects walking comfort",
+    "Guidance toward natural lymphatic drainage pathways near the knee",
+    "Focus on smooth, even results across inner and outer thigh areas",
+    "Home visit availability for patients with reduced walking comfort",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+  faqs: [
+    { question: "Why does walking feel uncomfortable after thigh liposuction?", answer: "Because the thighs are weight-bearing, swelling here directly affects walking comfort in a way that swelling in other areas may not, and targeted lymphatic massage helps ease this discomfort." },
+    { question: "When can I start lymphatic massage after thigh liposuction?", answer: "This depends on your surgeon's guidance, but typically begins within one to two weeks after surgery once initial healing allows for gentle manual therapy." },
+    { question: "Why does one part of my thigh feel more swollen than another?", answer: "Inner and outer thigh areas can retain fluid differently depending on the specific technique and areas treated, which is why massage technique is often adjusted across different parts of the same leg." },
+    { question: "How long until I can walk comfortably after thigh liposuction?", answer: "Most patients regain comfortable walking within a few weeks, and structured lymphatic massage often helps speed up this return to normal movement." },
+    { question: "How many sessions will I need after thigh liposuction?", answer: "Most patients benefit from several sessions over a few weeks, with the exact number depending on the extent of the procedure and your individual healing progress." },
+    { question: "Can thigh swelling affect my final contouring results?", answer: "Yes, poorly managed swelling can create temporary firmness or unevenness that masks your true results, making structured lymphatic massage valuable for achieving the smoothest possible outcome." },
+  ],
+  customTreatmentText: `If you are looking for Best Lymphatic Massage after Thigh Liposuction in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
