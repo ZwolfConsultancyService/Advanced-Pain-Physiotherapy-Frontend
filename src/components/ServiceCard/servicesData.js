@@ -12,7 +12,7 @@ import neck from "../../assets/services/9.png";
 import musclePain from "../../assets/services/75.jpeg";
 import afteraccident from "../../assets/services/10.png";
 import FrozenShoulder from "../../assets/services/11.png";
-import footpain from "../../assets/services/footpain.jpg"
+import footpain from "../../assets/services/footpain.jpeg"
 import arthritis from "../../assets/services/12.png";
 import orthopedic from "../../assets/services/13.png";
 import carpal from "../../assets/services/14.png";
