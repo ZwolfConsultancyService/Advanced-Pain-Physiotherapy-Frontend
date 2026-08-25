@@ -12,6 +12,7 @@ import neck from "../../assets/services/9.png";
 import musclePain from "../../assets/services/75.jpeg";
 import afteraccident from "../../assets/services/10.png";
 import FrozenShoulder from "../../assets/services/11.png";
+import footpain from "../../assets/services/footpain.jpg"
 import arthritis from "../../assets/services/12.png";
 import orthopedic from "../../assets/services/13.png";
 import carpal from "../../assets/services/14.png";
@@ -4260,6 +4261,199 @@ export const servicesData = [
     { question: "Can thigh swelling affect my final contouring results?", answer: "Yes, poorly managed swelling can create temporary firmness or unevenness that masks your true results, making structured lymphatic massage valuable for achieving the smoothest possible outcome." },
   ],
   customTreatmentText: `If you are looking for Best Lymphatic Massage after Thigh Liposuction in Delhi-NCR, visit ${BRAND} in ${LOCATION}.`,
+},
+{
+  id: 87,
+  title: "Foot Pain Treatment",
+  slug: "foot-pain",
+  category: "Pain Conditions",
+  image: footpain,
+
+  seo: {
+    title:
+      "Foot Pain Treatment in Delhi | Advanced Pain Physiotherapy Centre",
+
+    description:
+      "Get expert Foot Pain Treatment in Delhi by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre. We treat heel pain, plantar fasciitis, arch pain, flat feet, ankle-related foot pain & sports injuries. BPT/MPT certified physiotherapists, same-day appointments, Kalkaji, South Delhi. Book now!",
+
+    keywords:
+      "foot pain treatment in delhi, foot pain physiotherapy delhi, heel pain treatment delhi, plantar fasciitis treatment delhi, plantar fasciitis physiotherapy kalkaji, foot pain specialist south delhi, arch pain treatment delhi, flat feet physiotherapy delhi, foot injury physiotherapy delhi, heel pain physiotherapy kalkaji, sports foot injury treatment delhi, chronic foot pain treatment delhi, best foot pain physiotherapist delhi",
+
+    canonical:
+      "https://advancepainphysiotherapy.com/services/foot-pain",
+  },
+
+  hero: {
+    heading: "Foot Pain Treatment",
+    subheading:
+      "Expert physiotherapy for foot pain, heel pain, plantar fasciitis, arch pain, flat feet, and sports-related foot injuries by Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre, Kalkaji, South Delhi.",
+
+    cta: "Book Your Assessment Today",
+  },
+
+  description:
+    "Foot pain can make even the simplest activities difficult. Walking to work, standing for long hours, climbing stairs, exercising, or simply getting out of bed in the morning can become uncomfortable when your feet are not functioning properly. At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma and his team regularly treat patients whose foot pain has gradually affected their daily routine, work, exercise, and overall mobility. Foot pain can develop due to plantar fasciitis, excessive standing or walking, poor footwear, flat feet, high arches, muscle weakness, ankle instability, sports injuries, overuse, or changes in the way you walk. Heel pain, especially pain that is worse with the first few steps in the morning, is commonly associated with plantar fascia irritation. Ignoring persistent foot pain can lead to changes in your walking pattern, which may place additional stress on the ankle, knee, hip, and lower back. The good news is that many common foot pain conditions respond well to physiotherapy when the underlying cause is correctly identified. Our approach focuses on reducing pain, improving foot and ankle mobility, strengthening the muscles that support the foot, correcting movement patterns, and helping you return safely to your normal activities.",
+
+  sections: [
+    {
+      title: "Overview",
+
+      content:
+        "Common Causes of Foot Pain:\n\n• Plantar fasciitis and plantar fascia irritation\n• Excessive standing, walking, or running\n• Poorly fitting or unsupportive footwear\n• Flat feet or fallen arches\n• High arches and altered foot mechanics\n• Muscle weakness or imbalance\n• Ankle instability and previous injuries\n• Sports-related injuries and overuse\n\nConditions We Treat:\n\n• General foot pain\n• Heel pain\n• Plantar fasciitis\n• Arch pain\n• Pain related to flat feet\n• Foot and ankle stiffness\n• Sports-related foot injuries\n• Overuse-related foot pain\n• Postural and gait-related foot problems",
+    },
+
+    {
+      title: "Why It Matters",
+
+      content:
+        "Foot pain should not be ignored when it becomes persistent or starts affecting the way you walk. A person who continues working or exercising despite ongoing heel pain may gradually change their walking pattern to avoid discomfort. Over time, these compensations can place additional stress on the ankle, knee, hip, and lower back.\n\nPersistent foot pain can also reduce physical activity, weaken supporting muscles, and make everyday tasks increasingly difficult. Early physiotherapy assessment helps identify the mechanical or muscular factors contributing to the problem and provides a structured plan to restore comfortable movement.",
+    },
+
+    {
+      title: "Who Needs This",
+
+      content:
+        "• People experiencing persistent heel or foot pain\n• Patients with plantar fasciitis\n• Individuals who stand or walk for long hours at work\n• Runners and athletes with repetitive foot or ankle pain\n• People with flat feet or altered foot mechanics\n• Patients recovering from foot or ankle injuries\n• Individuals experiencing arch pain or foot stiffness\n• People whose footwear contributes to recurring foot discomfort\n• Patients with foot pain that changes their walking pattern\n• Anyone experiencing recurring foot pain that has not improved with rest alone",
+    },
+
+    {
+      title: "Treatment",
+
+      content:
+        "Our Physiotherapy Approach:\n\n• Comprehensive assessment of the foot, ankle, and lower-limb mechanics\n• Manual therapy to improve foot and ankle mobility\n• Soft tissue techniques for tight muscles and irritated tissues\n• Plantar fascia and calf stretching exercises\n• Foot and ankle strengthening exercises\n• Balance and proprioception training\n• Gait and movement assessment\n• Posture and footwear guidance\n• Pain-relief modalities such as TENS, heat therapy, and other electrotherapy techniques when appropriate\n• Progressive return-to-walking, running, or sports activities\n• Home exercises to maintain improvements and reduce recurrence",
+    },
+
+    {
+      title: "Our Process",
+
+      content:
+        "1. Detailed Assessment — Understanding your pain location, duration, triggers, footwear, activity level, and previous injuries\n2. Physical Examination — Assessing foot structure, ankle mobility, muscle strength, flexibility, balance, and walking pattern\n3. Identifying the Cause — Determining the mechanical, muscular, or activity-related factors contributing to your pain\n4. Personalised Treatment Plan — Creating a treatment programme based on your specific condition and goals\n5. Hands-On Treatment — Using manual therapy, soft tissue techniques, mobility work, and pain-relief techniques as required\n6. Strengthening & Rehabilitation — Progressively strengthening the foot, ankle, calf, and supporting muscles\n7. Prevention Guidance — Providing advice on exercises, footwear, activity modification, and movement habits to reduce future problems",
+    },
+  ],
+
+  benefits: [
+    "Reduces foot and heel pain",
+    "Improves foot and ankle mobility",
+    "Strengthens foot and ankle supporting muscles",
+    "Improves balance and walking mechanics",
+    "Helps manage plantar fasciitis",
+    "Supports safe return to sports and physical activity",
+    "Reduces the risk of recurring foot pain",
+    "Improves overall walking comfort and mobility",
+  ],
+
+  whyChooseUs: [
+    "Led by Dr. Ashish Sharma, an experienced physiotherapist with a strong focus on musculoskeletal and pain conditions",
+    "BPT/MPT certified physiotherapists with experience in treating foot and lower-limb conditions",
+    "Assessment-led treatment plans based on the underlying cause of pain",
+    "Personalised exercises rather than generic treatment protocols",
+    "Same-day appointments for patients experiencing acute pain",
+    "Home visit options for patients who find travelling difficult",
+    "Conveniently located in Kalkaji, South Delhi",
+  ],
+
+  faqs: [
+    {
+      question:
+        "How do I know if my foot pain needs physiotherapy?",
+
+      answer:
+        "If your foot pain persists for several days, keeps returning, affects your walking, limits your activities, or does not improve with simple rest and activity modification, a physiotherapy assessment can help identify the underlying cause.",
+    },
+
+    {
+      question:
+        "Can physiotherapy help with plantar fasciitis?",
+
+      answer:
+        "Yes. Physiotherapy is commonly used to manage plantar fasciitis through a combination of mobility work, stretching, strengthening, manual therapy, activity modification, and a progressive home exercise programme.",
+    },
+
+    {
+      question:
+        "Why does my heel hurt when I take the first steps in the morning?",
+
+      answer:
+        "Morning heel pain can be associated with plantar fasciitis, although other conditions can also cause similar symptoms. A proper assessment is important to determine the actual cause of your pain.",
+    },
+
+    {
+      question:
+        "Can flat feet cause foot pain?",
+
+      answer:
+        "Flat feet can contribute to altered foot and lower-limb mechanics in some people and may be associated with foot, ankle, knee, or other discomfort. Physiotherapy can help improve strength, mobility, balance, and movement patterns where appropriate.",
+    },
+
+    {
+      question:
+        "Can physiotherapy help with sports-related foot injuries?",
+
+      answer:
+        "Yes. Physiotherapy can help athletes recover from many common foot and ankle injuries by reducing pain, restoring mobility and strength, improving balance, and gradually returning the athlete to their normal sporting activities.",
+    },
+
+    {
+      question:
+        "How many physiotherapy sessions will I need for foot pain?",
+
+      answer:
+        "The number of sessions varies depending on the cause, severity, duration of symptoms, activity level, and response to treatment. Some mild conditions may improve relatively quickly, while chronic or recurring problems may require a longer rehabilitation programme.",
+    },
+
+    {
+      question:
+        "Should I stop walking or exercising if I have foot pain?",
+
+      answer:
+        "Not necessarily. Complete rest is not always required. Your physiotherapist can help determine which activities should be temporarily modified and how you can gradually return to normal walking, exercise, or sports without unnecessarily aggravating the condition.",
+    },
+
+    {
+      question:
+        "Do you provide home physiotherapy for foot pain?",
+
+      answer:
+        "Yes, home visit options may be available for patients who have difficulty travelling because of pain, mobility limitations, age, or other practical reasons.",
+    },
+
+    {
+      question:
+        "Can poor footwear cause foot pain?",
+
+      answer:
+        "Yes. Footwear that does not provide appropriate comfort or support may contribute to foot discomfort in some individuals, particularly when combined with prolonged standing, walking, running, or other repetitive activities.",
+    },
+
+    {
+      question:
+        "Can physiotherapy prevent foot pain from coming back?",
+
+      answer:
+        "Physiotherapy can help reduce recurrence by addressing contributing factors such as muscle weakness, restricted mobility, poor movement patterns, training errors, and inadequate strength or balance. Long-term results also depend on following the recommended exercises and activity guidance.",
+    },
+  ],
+
+  customTreatmentText:
+    "At Advanced Pain Physiotherapy Centre, Dr. Ashish Sharma and his team provide personalised treatment plans for patients experiencing foot and heel pain. Our approach combines detailed assessment, hands-on physiotherapy, targeted strengthening, mobility exercises, movement correction, and practical guidance to help reduce pain, restore comfortable walking, and support a safe return to daily activities and sports.",
+
+  cta: {
+    heading:
+      "Don't let foot pain limit where you can go.",
+
+    subtext:
+      "Book a physiotherapy assessment with Dr. Ashish Sharma at Advanced Pain Physiotherapy Centre today — same-day appointments available in Kalkaji, South Delhi.",
+
+    buttonText:
+      "Book Your Appointment Now",
+  },
+
+  imageAltText: [
+    "Dr. Ashish Sharma assessing foot pain patient at Advanced Pain Physiotherapy Centre Delhi",
+    "Physiotherapy treatment for plantar fasciitis and heel pain in Kalkaji",
+    "Foot and ankle strengthening exercises for foot pain relief at Advanced Pain Physiotherapy Centre",
+    "Manual therapy for foot and ankle pain treatment in South Delhi",
+  ],
 },
 ];
 
