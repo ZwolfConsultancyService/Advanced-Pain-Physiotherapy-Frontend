@@ -121,6 +121,7 @@ export default function Navbar() {
     { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Blogs", path: "/blogs" },
+    { name: "CaseStudies", path: "/case-studies" },
   ];
 
   const googleMapsUrl =
