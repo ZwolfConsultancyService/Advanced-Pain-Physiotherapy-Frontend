@@ -1,4 +1,5 @@
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001/api";
+const API_URL =
+  import.meta.env.VITE_API_BASE_URL || "https://api.advancepainphysiotherapy.com/api";
 
 const request = async (path) => {
   const res = await fetch(`${API_URL}${path}`);
