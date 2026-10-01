@@ -7,6 +7,37 @@ import { getCaseStudyBySlug } from "../../data/caseStudyApi";
 
 const SITE_URL = "https://advancepainphysiotherapy.com";
 
+/* Tailwind reset ke baad heading, para, list sahi dikhane ke liye */
+const contentStyles = `
+  .cs-content { font-size: 1.0625rem; line-height: 1.8; color: #374151; word-wrap: break-word; }
+  .cs-content > *:first-child { margin-top: 0; }
+  .cs-content p { margin: 0 0 1.1rem; }
+  .cs-content h1 {
+    font-size: 2rem; font-weight: 700; line-height: 1.25;
+    margin: 2rem 0 0.85rem; color: #111827;
+  }
+  .cs-content h2 {
+    font-size: 1.6rem; font-weight: 600; line-height: 1.3;
+    margin: 1.75rem 0 0.75rem; color: #111827;
+  }
+  .cs-content h3 {
+    font-size: 1.3rem; font-weight: 600; line-height: 1.35;
+    margin: 1.5rem 0 0.6rem; color: #111827;
+  }
+  .cs-content ul { list-style: disc; padding-left: 1.6rem; margin: 0 0 1.1rem; }
+  .cs-content ol { list-style: decimal; padding-left: 1.6rem; margin: 0 0 1.1rem; }
+  .cs-content li { margin-bottom: 0.4rem; }
+  .cs-content strong, .cs-content b { font-weight: 700; color: #111827; }
+  .cs-content em, .cs-content i { font-style: italic; }
+  .cs-content a { color: #8ab72e; text-decoration: underline; }
+  .cs-content a:hover { color: #7aa625; }
+  .cs-content img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 1rem 0; }
+  .cs-content blockquote {
+    border-left: 4px solid #8ab72e; padding-left: 1rem;
+    margin: 1.25rem 0; color: #4b5563; font-style: italic;
+  }
+`;
+
 // HTML se plain text (meta description ke liye)
 const stripHtml = (html = "") =>
   new DOMParser()
@@ -98,6 +129,8 @@ const CaseStudyDetail = () => {
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
+      <style>{contentStyles}</style>
+
       <article className="bg-white py-10 sm:py-14">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <Link
@@ -133,13 +166,13 @@ const CaseStudyDetail = () => {
           {/* Description: heading, bold, bullets, links sab sahi dikhenge */}
           {isHtml(study.description) ? (
             <div
-              className="rich-content mt-8 text-gray-700"
+              className="cs-content mt-8"
               dangerouslySetInnerHTML={{
                 __html: DOMPurify.sanitize(study.description, { ADD_ATTR: ["target"] }),
               }}
             />
           ) : (
-            <div className="mt-8 text-gray-700 leading-relaxed whitespace-pre-line">
+            <div className="cs-content mt-8 whitespace-pre-line">
               {study.description}
             </div>
           )}
